@@ -40,8 +40,24 @@
           "b02-page-lead"
         ],
         "screenshot": ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b02-page-lead.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers.html",
+        "instanceId": "b02-page-lead",
+        "instanceIds": [
+          "b02-page-lead"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_en_get-involved_Press-centre_fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers_html--04c94c56/blocks/b02-page-lead.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry.html",
+        "instanceId": "b02-page-lead",
+        "instanceIds": [
+          "b02-page-lead"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_en_get-involved_news_from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry_html--1a850576/blocks/b02-page-lead.jpg"
       }
     ],
-    "reuseCount": 3
+    "reuseCount": 5
   }
 }

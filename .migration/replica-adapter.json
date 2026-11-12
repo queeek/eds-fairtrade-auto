@@ -45,67 +45,79 @@
     }
   },
   "screenshots": {
-    "capturedAt": "2026-11-12T11:02:02.121Z",
+    "capturedAt": "2026-11-12T14:02:08.050Z",
     "pages": [
       {
         "slug": "www_fairtrade_net_ch-fr_html--d5faee46",
         "captured": 0,
         "total": 0,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/ch-fr"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/ch-fr"
+      },
+      {
+        "slug": "www_fairtrade_net_en_get-involved_Press-centre_fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers_html--04c94c56",
+        "captured": 2,
+        "total": 2,
+        "url": "http://localhost:3000/content/en/get-involved/press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers"
+      },
+      {
+        "slug": "www_fairtrade_net_en_get-involved_news_from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry_html--1a850576",
+        "captured": 0,
+        "total": 2,
+        "url": "http://localhost:3000/content/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry"
       },
       {
         "slug": "www_fairtrade_net_en_html--2b94fb8f",
         "captured": 5,
         "total": 5,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/en"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/en"
       },
       {
         "slug": "www_fairtrade_net_us-en_about_html--60b695b7",
-        "captured": 2,
+        "captured": 1,
         "total": 3,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/about"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/about"
       },
       {
         "slug": "www_fairtrade_net_us-en_contact_html--c0deb13c",
         "captured": 0,
         "total": 0,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/contact"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/contact"
       },
       {
         "slug": "www_fairtrade_net_us-en_html--9000a891",
         "captured": 0,
         "total": 0,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en"
       },
       {
         "slug": "www_fairtrade_net_us-en_news_html--d00aee76",
         "captured": 1,
         "total": 2,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/news"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/news"
       },
       {
         "slug": "www_fairtrade_net_us-en_why-fairtrade_how-we-do-it_assuring-integrity-in-checking-compliance_html--6016dfd2",
         "captured": 0,
         "total": 0,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance"
       },
       {
         "slug": "www_fairtrade_net_us-en_why-fairtrade_html--b72b18fe",
         "captured": 0,
         "total": 0,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade"
       },
       {
         "slug": "www_fairtrade_net_us-en_why-fairtrade_what-we-do_theory-of-change_html--6a8b287a",
         "captured": 0,
         "total": 0,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change"
       },
       {
         "slug": "www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90",
-        "captured": 1,
+        "captured": 0,
         "total": 5,
-        "url": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection"
+        "url": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection"
       }
     ],
     "variants": {

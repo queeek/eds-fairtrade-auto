@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.fairtrade.net/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry.html",
+  "title": "From Casual Worker to Supervisor: Jacqueline Chepsergon’s 25-year journey in Kenya’s flower Industry",
+  "timestamp": "2026-11-12T13:49:28.282Z",
+  "duration": "8.9s",
+  "cleanup": {
+    "elementsRemoved": 2,
+    "types": [
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#usercentrics-root",
+        "type": "cookie-banner",
+        "rule": "[id*=\"usercentrics\"]"
+      },
+      {
+        "selector": "#locale-selector",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/global/logo/fairtrade-international.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Thumbnail.png/_jcr_content/renditions/4x3_375w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Thumbnail.png/_jcr_content/renditions/4x3_640w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Thumbnail.png/_jcr_content/renditions/4x3_768w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Thumbnail.png/_jcr_content/renditions/4x3_1280w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Jebichii.png/_jcr_content/renditions/21x9_375w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Jebichii.png/_jcr_content/renditions/21x9_640w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Jebichii.png/_jcr_content/renditions/21x9_768w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Jebichii.png/_jcr_content/renditions/21x9_1280w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Jebichii.png/_jcr_content/renditions/21x9_1440w.webp",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/news/Jacqueline_Jebichii.png/_jcr_content/renditions/21x9_1920w.webp",
+      "type": "srcset"
+    }
+  ],
+  "skeleton": {
+    "signature": "s(s(3x1,s),s(s(sB,sB),s))",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.breadcrumb",
+      "rc1c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar",
+      "rc2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12",
+      "rc2c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible",
+      "rc2c1c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content",
+      "rc2c1c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--image",
+      "rc2c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 104,
+      "height": 5318.046875
+    },
+    "splits": [],
+    "start": {
+      "kind": "heading",
+      "look": {
+        "font": "\"Alegreya Sans\", system-ui",
+        "color": "rgb(30, 30, 30)",
+        "align": "center"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "b01-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_0de49b56b328",
+      "selector": "div.breadcrumb nav.Breadcrumbs",
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 56
+      },
+      "description": "Article pages, above the page lead. Used on 1 page (topic-article template).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-page-lead",
+      "type": "hero",
+      "name": "page-lead",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": "div.page-lead div.PageLead",
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 1304
+      },
+      "description": "Page title band for static, listing and article pages. Used on 3 pages (about, news-listing and topic-article templates).",
+      "visualChars": {
+        "purpose": "Page lead",
+        "structure": "Page lead block"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "globalElements": {
+    "header": {
+      "selector": "div.Topbar"
+    },
+    "footer": {
+      "selector": "footer.experiencefragment.aem-GridColumn"
+    },
+    "isFirstCapture": true
+  },
+  "replicaAdapter": {
+    "source": "excat-site-migration",
+    "template": "get-involved",
+    "path": "/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "http://localhost:3000/content/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry",
+    "screenshotCapturedAt": "2026-11-12T14:01:29.322Z"
+  }
+}

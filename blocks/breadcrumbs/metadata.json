@@ -12,7 +12,14 @@
       "label": "Dark (light text)"
     }
   ],
-  "usage": "Article pages, above the page lead.",
+  "usage": {
+    "description": "Article pages, above the page lead.",
+    "pagesUsing": [
+      "/en/get-involved/press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-12"
+  },
   "reuseGuidance": "Use on deep pages; dark applies automatically on a nightsky page-lead page.",
   "memberVariantIds": []
 }
