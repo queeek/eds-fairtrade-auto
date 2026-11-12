@@ -13,6 +13,7 @@ Repeating rows — one row per item. Each item: image, optional date tag paragra
 | Variation | Option class |
 | --- | --- |
 | Small (3-up) | `small` |
+| Listing (Load more) | `listing` |
 
 ## Universal Editor fields
 

@@ -9,8 +9,16 @@
  *   <h3><strong>pretitle</strong> title</h3> · <p> text · <p><a href>label</a></p> (card link)
  * The flattened single-cell shape is segmented on the card heading (#52).
  *
- * @variants block: small (3-up ≥1024) | (default 2/3-up)
+ * listing option (news/article listing pages, ported from filtered-teaser-grid): the first
+ * 18 cards show, "Load more" reveals the next 6 authored rows per click (inside a root view
+ * transition when supported) and hides itself when none are left. Optional last row without
+ * heading/picture/link: its text is the "Load more" label (EW5).
+ *
+ * @variants block: small (3-up ≥1024) | listing (Load more) | (default 2/3-up)
  */
+
+const LISTING_INITIAL = 18;
+const LISTING_PAGE = 6;
 
 function el(tag, className, attrs = {}) {
   const n = document.createElement(tag);
@@ -56,8 +64,8 @@ function cellNodes(cell) {
   return kids;
 }
 
-function collectCards(block) {
-  const perRow = [...block.children].map((row) => [...row.children].flatMap(cellNodes));
+function collectCards(rows) {
+  const perRow = rows.map((row) => [...row.children].flatMap(cellNodes));
   if (perRow.length !== 1 || perRow[0].filter(isHeading).length < 2) {
     return perRow.filter((n) => n.length);
   }
@@ -142,11 +150,65 @@ function buildCard(nodes) {
   return li;
 }
 
+/* listing: the trailing label row — no heading, no media, no link; its text is the button label */
+function takeLabelRow(rows) {
+  const last = rows[rows.length - 1];
+  if (!last || rows.length < 2) return null;
+  if (last.querySelector('h1, h2, h3, h4, h5, h6, picture, img, a')) return null;
+  if (!last.textContent.trim()) return null;
+  rows.pop();
+  return last;
+}
+
+/* listing: hide cards past the first page and build the "Load more" CTASection */
+function buildLoadMore(items, labelRow) {
+  items.forEach((li, i) => {
+    if (i >= LISTING_INITIAL) li.classList.add('is-hidden');
+  });
+  if (items.length <= LISTING_INITIAL) return null;
+
+  const section = el('div', 'cta-section');
+  const btn = el('button', 'btn variant-secondary color-skyblue', { type: 'button' });
+  const label = el('span', 'btn-inner');
+  // EW1: MOVE the authored label paragraph into the button (bare cell text → wrapped)
+  let labelNode = labelRow && labelRow.querySelector('p');
+  const labelCell = labelRow && labelRow.querySelector(':scope > div');
+  if (!labelNode && labelCell) {
+    // HARNESS-ONLY fallback (EW5)
+    labelNode = document.createElement('p');
+    labelNode.append(...labelCell.childNodes);
+  }
+  if (labelNode) label.append(labelNode);
+  else label.textContent = 'Load more';
+  btn.append(label);
+  section.append(btn);
+
+  let next = LISTING_INITIAL;
+  const sync = () => section.classList.toggle('is-hidden', next >= items.length);
+  const reveal = () => {
+    items.slice(next, next + LISTING_PAGE).forEach((li) => li.classList.remove('is-hidden'));
+    next = Math.min(next + LISTING_PAGE, items.length);
+    sync();
+  };
+  btn.addEventListener('click', () => {
+    if (document.startViewTransition) document.startViewTransition(reveal);
+    else reveal();
+  });
+  sync();
+  return section;
+}
+
 export default async function decorate(block) {
-  const cards = collectCards(block);
+  const listing = block.classList.contains('listing');
+  const rows = [...block.children];
+  const labelRow = listing ? takeLabelRow(rows) : null;
+  const cards = collectCards(rows);
   const wrap = el('div', 'teaser-grid-inner');
   const list = el('ul', 'teaser-grid-grid');
-  cards.forEach((nodes) => list.append(buildCard(nodes)));
+  const items = cards.map(buildCard);
+  list.append(...items);
   wrap.append(list);
-  block.replaceChildren(wrap);
+  const loadMore = listing ? buildLoadMore(items, labelRow) : null;
+  if (loadMore) block.replaceChildren(wrap, loadMore);
+  else block.replaceChildren(wrap);
 }

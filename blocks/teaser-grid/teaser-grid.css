@@ -196,6 +196,32 @@
   }
 }
 
+/* listing option: cards revealed by "Load more" (canon .TeaserGrid--item.is-hidden) */
+.teaser-grid.listing .teaser-grid-item.is-hidden {
+  display: none;
+}
+
+/* listing option: CTASection with the "Load more" button (canon CTASection, us-en-news.css) */
+.teaser-grid.listing .cta-section {
+  display: grid;
+  padding-block: 32px;
+  place-items: center;
+}
+
+.teaser-grid.listing .cta-section.is-hidden {
+  display: none;
+}
+
+.teaser-grid.listing .cta-section .btn-inner p {
+  margin: 0;
+}
+
+@media (width >= 1024px) {
+  .teaser-grid.listing .cta-section {
+    padding-block: 40px;
+  }
+}
+
 /*
  * Section head before the grid (canon RichtextSection, centred title) and the CTA after
  * it (canon CTASection: centred large primary button). Foundation request filed

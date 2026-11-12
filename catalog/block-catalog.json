@@ -140,7 +140,9 @@
       },
       "v_7b81c3ec50ef": {
         "id": "v_7b81c3ec50ef",
-        "name": "filtered-teaser-grid",
+        "name": "teaser-grid",
+        "variant": "listing",
+        "placedBy": "person",
         "type": "cards",
         "canonicalModel": "standalone",
         "pagesFound": 1,
@@ -154,7 +156,8 @@
           "stardustKind": "module"
         },
         "confidenceLevel": "high",
-        "confidenceReason": "Built and gated by the auto migration (stardust)"
+        "confidenceReason": "Made filtered-teaser-grid a variant of teaser-grid (.listing)",
+        "confidenceSource": "user"
       },
       "v_0de49b56b328": {
         "id": "v_0de49b56b328",

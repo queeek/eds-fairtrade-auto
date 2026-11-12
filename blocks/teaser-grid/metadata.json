@@ -10,9 +10,16 @@
     {
       "class": "small",
       "label": "Small (3-up)"
+    },
+    {
+      "class": "listing",
+      "label": "Listing (Load more)"
     }
   ],
   "usage": "Related articles, news or story teasers.",
   "reuseGuidance": "Use for a static set of linked cards; for a long news list with Load more use filtered-teaser-grid.",
-  "memberVariantIds": []
+  "memberVariantIds": [
+    "v_07499b44ec61",
+    "v_7b81c3ec50ef"
+  ]
 }
