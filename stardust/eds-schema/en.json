@@ -1,0 +1,522 @@
+{
+ "source": "http://localhost:8795/en-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageHeroCarousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What is Fairtrade?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "For more than three decades, Fairtrade has been making an impact on the way trade works."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Find out more",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Fairtrade International Annual Report 2025"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Learn about our collective progress alongside farmers, workers, businesses, and partners worldwide in advancing fairer trade."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read more",
+     "href": "https://www.fairtrade.net/en/get-involved/library/2025-annual-report.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Catalyst for resilience"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fairtrade's Global Strategy for 2026-2028 is here. Accelerating action today that drives resilience for tomorrow."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Find out more",
+     "href": "https://www.fairtrade.net/en/about/our-strategy.html"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.PageHeroSlide",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "NumberFactTeaser",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "1,824"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "producer organisations in 68 countries"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "+37,000"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "products sold with the Fairtrade MARK in more than 140 countries"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Go to the previous fact"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Go to the next fact"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Good for people and planet"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Benefits of Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Sustainable consumption and production has become the expectation rather than the exception. Fairtrade offers solutions for companies and producers to put fairness at the heart of their operations."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Key benefits",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Latest News"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "TeaserGrid",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "15.10.26"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "From Casual Worker to Supervisor: Jacqueline Chepsergon’s 25-year journey in Kenya’s flower Industry"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Today is the International Day of Rural Women, and it’s a moment to celebrate the critical role and contributions of women in agriculture. This year, Fairtrade is shining a light on Jacqueline Chepsergon, a supervisor at certified flower farm Maji Mazuri Flowers in Kenya."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "05.10.26"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fairtrade raises Minimum Price for bananas amid soaring costs for farmers"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fairtrade International has increased its Minimum Prices for bananas in direct response to a combination of external pressures negatively impacting producers, including geopolitical instability, climate change, and rising input and logistics costs."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "01.10.26"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "“Coffee is like raising a child,\" how Mrs. Rizkani nurtures her crops and her community"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "For Mrs. Rizkani tending a coffee farm is like raising a child, it requires love, patience, and an unwavering commitment to watch something grow."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Read more"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade Products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "What if purchases could drive sustainable growth, support communities, and protect resources? From cocoa to sugar and coffee, there is a wide array Fairtrade products creating measurable impact."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://www.fairtrade.net/en/products.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Areas of focus"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We want to build a world where everyone benefits from quality products, and enjoys quality of life. But this cannot be done in silo. You cannot separate human rights from environmental rights, child protection from living incomes and gender equity from worker’s rights."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Key issues",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "NumberFactTeaser",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "€ 1+ billion"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade Premium earned in the last 5 years alone"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "+150"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "externally funded projects implemented since 2021"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Go to the previous fact"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Go to the next fact"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Driven by results"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Our impact"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Achieving meaningful change requires significant systemic shifts. We track our progress through various metrics, so our approach is well-informed and can continuously be improved."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "\"Fairtrade has changed my life. Indeed, in a crisis situation, I have an inflow of money for my needs instead of going into debt. And Fairtrade has made me a woman leader.”"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Affoué Angèle Kouassi has farmed cocoa on her own land for 14 years. She participated in Fairtrade’s Women’s School of Leadership in 2021."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "AccordionSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Find what you are looking for"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Do you want to know the basics?"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Do you want to know the basics?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Our what is Fairtrade section covers what we do and why we do it. You can watch a short video about us, learn how many Fairtrade organisations are there, and what areas are critical to our work."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "What is Fairtrade",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/what-we-do.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Do you want to dive deep into how Fairtrade works?"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Do you want to dive deep into how Fairtrade works?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Our how we work section covers the Fairtrade standards that are available, our different types of labels and a detailed list of our projects and programmes across the world."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Read more",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it.html"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Do you want to become Fairtrade certified?"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Do you want to become Fairtrade certified?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Our For Business section gives you a summary of the reasons why to get certified and all the steps you must follow."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Read more",
+     "href": "https://www.fairtrade.net/en/for-business.html"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Do you want to read the latest news?"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Do you want to read the latest news?"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Visit our news section to stay informed"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Read more",
+     "href": "https://www.fairtrade.net/en/get-involved/news.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

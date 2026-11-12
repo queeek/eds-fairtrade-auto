@@ -1,0 +1,305 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "article"
+      ],
+      "startedAt": "2026-11-05T11:44:00Z",
+      "pages": 0,
+      "blocks": 2,
+      "endedAt": "2026-11-05T12:32:28.004Z",
+      "gates": {
+        "360": {
+          "headerBand": "0.00%",
+          "footerBand": "0.55%"
+        },
+        "1440": {
+          "headerBand": "0.00%",
+          "footerBand": "0.77%"
+        },
+        "crop": "header 0.00/0.00, footer 0.77/0.55 (shell vs live en, ≤2% bar)",
+        "chrome": "chrome-compare exit 2: 1 delta — Search[click] 200ms opacity on source is the hero carousel controls fading (no hero on shell); deferred to archetype-landing via body.header-open"
+      },
+      "verdict": "foundation: chrome docs 6/6 live, shell preview /drafts/foundation-shell, chrome-compare exit 2 (1 hero-dependent delta, deferred), lint clean, header 0.00%/0.00%, footer 0.77%/0.55%"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "archetype": "en",
+      "startedAt": "2026-11-05T12:32:36.703Z",
+      "blocks": 5,
+      "endedAt": "2026-11-05T13:51:39.795Z",
+      "gates": {
+        "360": {
+          "archetype": "1.16%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "0.25%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "crop": "header 0.00/0.00, footer 0.34/0.55",
+        "chrome": "chrome-compare (.topbar root) exit 0, 0 errors, 3 warnings"
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 5, gate 1440 0.25 % / 360 1.16 %, requests 2"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "archetype": "us-en-about",
+      "startedAt": "2026-11-05T13:52:52Z",
+      "endedAt": "2026-11-05T14:26:21Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "archetype": "1.61%",
+          "dh": -138,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "0.44%",
+          "dh": -42,
+          "clip": 0,
+          "missing": 0
+        },
+        "crop": "header 0.05/0.01, footer 0.97/6.16 (us-en footer doc title links — foundation request, re-gate at C-final)",
+        "chrome": "chrome-compare inconclusive (build record timed out); header band 0.05%"
+      },
+      "verdict": "archetype-static: pages 1/1 live, blocks 2, gate 1440 0.44% / 360 1.61%, requests 1 — FAIL us-en-about elements (footer-link-row 6 missing, foundation: us-en footer doc; queued for C-final)"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "archetype": "us-en-news",
+      "startedAt": "2026-11-05T14:26:39Z",
+      "endedAt": "2026-11-05T14:42:05Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "archetype": "2.54%",
+          "dh": -138,
+          "clip": 0,
+          "missing": 0,
+          "bodyDh": 0
+        },
+        "1440": {
+          "archetype": "1.45%",
+          "dh": -42,
+          "clip": 0,
+          "missing": 0,
+          "bodyDh": 0
+        },
+        "crop": "header 0.05/0.01, footer 0.97/6.16 (us-en footer request, re-gate at C-final)",
+        "chrome": "not re-run (header band 0.05%)"
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 1, gate 1440 1.45% / 360 2.54%, requests 0 FAIL us-en-news elements (footer-link-row 8 missing — known us-en footer request)"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "archetype": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "startedAt": "2026-11-05T14:26:39Z",
+      "endedAt": "2026-11-05T15:04:20Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "archetype": "1.06%",
+          "dh": -138,
+          "bodyDh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "0.06%",
+          "dh": -42,
+          "bodyDh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "crop": "header 0.05/0.01; footer = us-en footer request",
+        "chrome": "not re-run"
+      },
+      "verdict": "archetype-article: pages 1/1 live, blocks 1, gate 1440 0.06% / 360 1.06%, requests 0 — FAIL elements (us-en footer-link-row only, queued footer request); page-lead gained optional lead image slot, about/news re-gated unchanged"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-05T14:02:49Z",
+      "endedAt": "2026-11-05T14:51:55Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "us-en": "7.32%",
+          "ch-fr": "1.21%",
+          "dh": "us-en 43, ch-fr 0",
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "us-en": "5.74%",
+          "ch-fr": "0.87%",
+          "dh": "us-en 214 (3.4%), ch-fr 0",
+          "clip": 0,
+          "missing": 0
+        },
+        "crop": "us-en header 0.05/0.01 footer 0.97/6.16 (us-en footer request); ch-fr header 0.00/0.00 footer 0.50/0.40",
+        "chrome": "not re-run (header bands ≤0.05%)"
+      },
+      "verdict": "landing: pages 2/2 live, blocks 1, gate 1440 5.74% / 360 7.32%, requests 4"
+    },
+    "static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-05T15:04:20Z",
+      "endedAt": "2026-11-05T15:42:28Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "us-en-contact": "1.07%",
+          "us-en-why-fairtrade": "2.32%",
+          "dh": -138,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "us-en-contact": "0.14%",
+          "us-en-why-fairtrade": "0.37%",
+          "dh": -42,
+          "bodyDh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "crop": "header 0.05, footer 0.97 (us-en footer request)",
+        "chrome": "not re-run"
+      },
+      "verdict": "static: pages 2/2 live, blocks 2, gate 1440 0.37% / 360 2.32%, requests 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-05T14:42:19Z",
+      "endedAt": "2026-11-05T14:42:19Z",
+      "blocks": 0,
+      "verdict": "listing: pages 0/0 (template has no siblings in scope; archetype us-en-news delivered in archetype-listing)"
+    },
+    "article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-05T15:08:27Z",
+      "endedAt": "2026-11-05T15:21:27Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "theory-of-change": "2.60%",
+          "assuring-integrity": "1.19%",
+          "dh": -138,
+          "bodyDh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "theory-of-change": "0.20%",
+          "assuring-integrity": "0.14%",
+          "dh": -42,
+          "bodyDh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "crop": "header 0.05/0.01, footer 0.97 (us-en footer request)",
+        "chrome": "not re-run"
+      },
+      "verdict": "article: pages 2/2 live, blocks 1, gate 1440 0.20% / 360 2.60%, requests 0 — FAIL theory-of-change height @360 (footer-only Δh −138, queued us-en footer request)"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-05T16:10:51Z",
+      "endedAt": "2026-11-05T16:38:37Z",
+      "pages": 10,
+      "gates": {
+        "360": {
+          "pass": "10/10",
+          "worst": "us-en 6.73%",
+          "dh": "us-en 181 (<5%), rest 0",
+          "clip": 0,
+          "missing": 0,
+          "units": 0
+        },
+        "1440": {
+          "pass": "10/10",
+          "worst": "us-en 5.55%",
+          "dh": "us-en 256 (<5%), rest 0",
+          "clip": 0,
+          "missing": 0,
+          "units": 0
+        },
+        "edsHost": "main--a1eef8ec--aemcoder.aem.page (aem.live edge served pre-change CSS from cache, max-age 7200; same published content)"
+      },
+      "verdict": "gate-all: 10/10 PASS at 1440 and 360 (worst us-en 5.55% / 6.73%), coverage updated"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-05T15:47:35Z",
+      "endedAt": "2026-11-05T16:39:01Z",
+      "gates": {
+        "360": {
+          "us-en-about": "0.53%",
+          "us-en-news": "1.97%",
+          "child-protection": "0.1%",
+          "dh": 0
+        },
+        "1440": {
+          "us-en-about": "0.34%",
+          "us-en-news": "1.37%",
+          "child-protection": "0%",
+          "dh": 0
+        },
+        "crop": "us-en footer Δh closed (was +42/+138)"
+      },
+      "verdict": "final: freeze check (footer changes = applied requests, re-frozen), 4 requests applied (us-en footer title links, leafgreen hero skyblue CTA/arrows, page-lead no-gap native, units.json already updated), 2 kept block-scoped (RichtextSection treatments); archetypes re-gated, roster 10/10"
+    }
+  }
+}

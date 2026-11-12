@@ -1,0 +1,692 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 10,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/favicon.svg",
+    "file": "assets/favicon.svg"
+  },
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 10,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 10,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "pages": 10,
+        "examples": [
+          "en",
+          "us-en",
+          "ch-fr"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "ch-fr",
+          "us-en-about"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/799581251/",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws/events",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 7,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-contact"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 3,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-contact"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "q.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://q.clarity.ms/collect",
+        "pages": 3,
+        "examples": [
+          "us-en",
+          "us-en-news",
+          "us-en-why-fairtrade-what-we-do-theory-of-change"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "f.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://f.clarity.ms/collect",
+        "pages": 3,
+        "examples": [
+          "us-en-about",
+          "us-en-why-fairtrade",
+          "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "k.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://k.clarity.ms/collect",
+        "pages": 2,
+        "examples": [
+          "us-en-contact",
+          "us-en-why-fairtrade-why-we-do-it-child-protection"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-en.json",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/en",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/en",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/BCmQKjBD8EQikM",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/BCmQKjBD8EQikM",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/24.2.41/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/24.2.41/en.json",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.43/37.1.43",
+        "query": [
+          "isOutsideRegion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.43/37.1.43",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws/events",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "did",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "en",
+          "us-en",
+          "ch-fr"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 9,
+        "examples": [
+          "us-en",
+          "ch-fr",
+          "us-en-about"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "www.clarity.ms",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "extend.vimeocdn.com",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 8,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "www2.fairtradeamerica.org",
+        "pages": 7,
+        "examples": [
+          "us-en",
+          "us-en-about",
+          "us-en-news"
+        ]
+      },
+      {
+        "host": "app.usercentrics.eu",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "pages": 1,
+        "examples": [
+          "ch-fr"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 10,
+        "examples": [
+          "en",
+          "us-en",
+          "ch-fr"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "en",
+          "us-en",
+          "ch-fr"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "en",
+      "verdict": "suspect",
+      "notes": "renders; mid-page scroll-reveal sections blank in the static full-page shot (content present in DOM)"
+    },
+    {
+      "slug": "us-en",
+      "verdict": "suspect",
+      "notes": "scroll-reveal band blank between stats and Products (content present in DOM)"
+    },
+    {
+      "slug": "ch-fr",
+      "verdict": "suspect",
+      "notes": "consent dialog over the h1 in the screenshot; rest rendered"
+    },
+    {
+      "slug": "us-en-about",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-news",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-contact",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-why-fairtrade",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+      "verdict": "suspect",
+      "notes": "iframe embed blank in screenshot"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "verdict": "suspect",
+      "notes": "scroll-reveal band blank (content present in DOM)"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "verdict": "ok",
+      "notes": ""
+    }
+  ],
+  "siblingCandidates": []
+}

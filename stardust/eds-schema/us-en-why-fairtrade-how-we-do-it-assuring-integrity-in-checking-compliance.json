@@ -1,0 +1,486 @@
+{
+ "source": "http://localhost:8793/us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Assuring integrity in checking compliance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Consumers have high confidence in Fairtrade and the integrity of our system. In addition to maintaining the Fairtrade Standards for producers and traders, we have a rigorous system for checking that our certifiers and licensing bodies meet certain criteria."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "If the Fairtrade Standards are organizations and companies are checked for, the Fairtrade assurance system defines these entities are checked. You can read more about our"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "what"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "how"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "certification processes.",
+     "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Maintaining the independence, consistency and impartiality of the certification and licensing processes on a global scale is part of our commitment to transparency and the integrity of Fairtrade."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Our assurance system includes a set of rules for how certification and licensing must be done, a way to check compliance with the rules, and a committee with representation of all our stakeholders that decides if the certifiers and licensing bodies continue to meet Fairtrade’s expectations."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Our assurance system was designed following and builds on the requirements of . Additionally FLOCERT, the main independent certifier for Fairtrade, is accredited against ISO17065 by the German national Accreditation Body DAkkS."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "the requirements of ISEAL’s Assurance Code",
+     "href": "https://www.isealalliance.org/get-involved/resources/iseal-assurance-code-good-practice"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "ISO17065",
+     "href": "http://www.iso.org/iso/catalogue_detail?csnumber=46568"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "If you have a complaint or comment to submit to our assurance system please contact us by sending an email to assurance(at)fairtrade.net"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "AccordionSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The following documents outline the process and protocol of our assurance system."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Public system report"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Public system report"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "This is a summarized overview of our assurance system, developed as part of our compliance with ISEAL's Code, that will help readers have a quick understanding of the programme as well as compare it to other schemes"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Global Impact Public systems report",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/global/impact/how-we-measure-impact/Fairtrade-Public-System-Report-Dec-2024.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Assurance and Licensing public system report",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_PublicSystemReport_v2.0_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Fairtrade International Oversight Procedure"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Fairtrade International Oversight Procedure"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "This document explains how Fairtrade International verifies and ensures that all assurance providers and licensing bodies comply with the assurance system."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Download",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_OversightProcedure_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Fairtrade International Exceptions Policy"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Fairtrade International Exceptions Policy"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Fairtrade International Exceptions Policy: This document defines Fairtrade International's policy regarding exceptions to the Fairtrade Standards and standards-related policies and guidelines."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "EN |"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Fairtrade International Exceptions Policy",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_ExceptionsPolicy_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "ES |"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Política de Excepciones de Fairtrade International",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_ExceptionsPolicy_SP.pdf"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "FR |"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Fairtrade International Politique pour les Exceptions",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_ExceptionsPolicy_FR.pdf"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "PT |"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Política de Exceções da Fairtrade International",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_ExceptionsPolicy_PT.pdf"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Annual exceptions report"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Annual exceptions report"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Aggregated annual summary of exceptions from Fairtrade Standards granted by our assurance provider and licensing bodies."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "EN |"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Annual exceptions report 2022",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/standards-documents-as-of-14-11/Public%20Exceptions%20report%202022.pdf"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Fairtrade International Requirements for Assurance Providers"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Fairtrade International Requirements for Assurance Providers"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "This document defines the rules that all Fairtrade certifiers must follow when auditing for compliance with the Fairtrade Standards."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Download",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_ReqAssuranceProviders_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Fairtrade International Requirements for Licensing Bodies"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Fairtrade International Requirements for Licensing Bodies"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "This document defines the rules that all Fairtrade licensing bodies must follow to ensure that the Fairtrade Marks and claims are adequately and appropriately used."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Download",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_ReqLicensingBodies_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Fairtrade Pilots SOP"
+    },
+    {
+     "role": "heading",
+     "order": 35,
+     "text": "Fairtrade Pilots SOP"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "This document defines Fairtrade International’s approach to testing and innovating within the scope of the Fairtrade Scheme."
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Download",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_Fairtrade%20Pilots%20SOP_v2.0_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Fairtrade Recognition SOP"
+    },
+    {
+     "role": "heading",
+     "order": 39,
+     "text": "Fairtrade Recognition SOP"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "This document regulates how Fairtrade International will engage with other sustainability schemes, either voluntary or regulatory, in recognition agreements."
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Downloads",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/ASSU_Recognition%20SOP_v1.0_EN.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Oversight committee"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The Oversight Committee is a multi-stakeholder group that meets regularly to define the assurance system and oversee the performance of certifiers and licensing bodies. of the Oversight Committee are appointed by the Standards Committee at Fairtrade International."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Members",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/ASSU_OversightCommittee_Roster_April%202026.pdf"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "This document defines the responsibilities and regulates the composition and the work of the multi-stakeholder body."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Terms of Reference for Fairtrade International Oversight Committee:",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/ASSU_OC-ToR_EN.pdf"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The Oversight Committee meetings in 2026 will take place on"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "March 23"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "July 6 - 7"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "September 21 - 22"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "November 30 - December 1"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Oversight committee minutes"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "For the minutes of the latest Oversight Committee meetings, please see below:"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "March 2025, 41st Oversight Committee Minutes",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/2025-03-24_OC41_meeting%20minutes.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "June 2025, 42nd Oversight Committee Minutes",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/42_OC_meeting_minutes_30062025_01072025.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "July 2025, 43rd Oversight Committee Minutes",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/43_OC_meeting_minutes_29072025.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "September 2025, 44th Oversight Committee Minutes",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/OC44_meeting%20minutes_for%20OC_22%20September%202025.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "December 2025, 45th Oversight Committee Minutes",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/assurance/oversight-committee/OC45_meeting%20minutes_for%20OC_02%20December%202025.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "UL.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.fairtrade.net/" target="_blank" rel="noopener">https://www.fairtrade.net/</a><br>Preview site: <a href="https://main--a1eef8ec--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--a1eef8ec--aemcoder.aem.page/</a><br>Finished: 2026-11-05 16:49 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>Your migration is complete: all ten pages are live on the new platform, verified, and closely matching your current site on desktop and mobile. Analytics, tags and consent from your current site have been carried over switched off, ready for your team to turn on.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>Over to you: review the pages and decide on the few open choices (which regions the country selector lists, search results, how the news list is fed, and when to switch on analytics).</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--a1eef8ec--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 10 pages. 10 of 10 are published on the preview site; 10 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>10 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.fairtrade.net/en.html" target="_blank" rel="noopener">https://www.fairtrade.net/en.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ch-fr.html" target="_blank" rel="noopener">https://www.fairtrade.net/ch-fr.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/about.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/about.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/news.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/news.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/news" target="_blank" rel="noopener">News</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/contact.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/contact.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html</a></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Topic articles</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Home pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>News listing</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>About and information pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>11 blocks in 18 variants across 10 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="4">page-lead<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">nightsky</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></td></tr>
+          <tr><td><span class="variant">white</span><span class="variant">no-gap</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td></tr>
+          <tr><td><span class="variant">skyblue</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">text-image<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">reverse</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">grey</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block">accordion<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block">breadcrumbs<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">number-fact-teaser<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td></tr>
+          <tr><td><span class="variant">eggplant</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="2">page-hero-carousel<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></td></tr>
+          <tr><td><span class="variant">skyblue</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td></tr>
+          <tr class="group"><td class="block">single-image<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></td></tr>
+          <tr class="group"><td class="block">teaser-grid<span class="block-pages">2 pages</span></td><td><span class="variant">small</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a>, <a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td></tr>
+          <tr class="group"><td class="block">filtered-teaser-grid<span class="block-pages">1 page</span></td><td><span class="variant">small</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/news" target="_blank" rel="noopener">News</a></td></tr>
+          <tr class="group"><td class="block">iframe-section<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block">product-teaser-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 11</span><span class="bp-range bp-range-2">Blocks 6–10 of 11</span><span class="bp-range bp-range-3">Block 11 of 11</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">page-lead <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/news" target="_blank" rel="noopener">News</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">text-image <span class="variant-inline">reverse</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">accordion <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">breadcrumbs <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></li>
+          <li><a href="https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 2 tags, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.fairtrade.net</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>GTM-MTCXFW4G</code>, <code>GTM-P8D4TL3</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>Usercentrics, Google Analytics / Ads, session replay, ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

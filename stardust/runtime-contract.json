@@ -1,0 +1,14 @@
+{
+  "runtime": "vanilla-eds",
+  "source": "scripts/scripts.js decorateButtons() + scripts/aem.js decorateBlock()/wrapTextNodes() at commit 2391d33",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper around div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "cellNormalization": "wrapTextNodes folds non-P/PRE/UL/OL/PICTURE/TABLE/H* first child (or picture-led mixed cell) into one <p>",
+  "chrome": "loadHeader/loadFooter in loadLazy; header/footer blocks load fragments (nav/footer metadata overrides path)",
+  "fonts": "styles/fonts.css via loadFonts() (eager >=900px or fonts-loaded session flag; always in loadLazy)",
+  "martechHook": "scripts/martech.js loadConsent() in loadEager, loadTags() in loadDelayed"
+}

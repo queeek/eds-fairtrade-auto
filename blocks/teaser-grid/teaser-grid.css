@@ -1,0 +1,243 @@
+/* teaser-grid — canon TeaserGrid + InfoTeaser (stardust/prototypes/canon.css) */
+.teaser-grid {
+  --teaser-grid-item-size: 6;
+
+  padding-block: 64px;
+}
+
+.teaser-grid .teaser-grid-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto;
+  padding-inline: var(--page-pad);
+  width: min(100%, var(--page-max));
+}
+
+.teaser-grid .teaser-grid-item {
+  grid-column: span var(--teaser-grid-item-size);
+}
+
+.teaser-grid .info-teaser {
+  --text-color: var(--c-ink);
+
+  color: var(--text-color);
+  display: block;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) {
+  --text-color: var(--c-ocean);
+}
+
+.teaser-grid .info-teaser-inner {
+  display: grid;
+  gap: 16px;
+  grid-template: repeat(2, auto) / 1fr;
+  margin-bottom: 12px;
+}
+
+.teaser-grid .info-teaser-image,
+.teaser-grid .info-teaser-tags {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.teaser-grid .info-teaser-image .ft-image {
+  border: 1px solid var(--c-grey-300);
+}
+
+.teaser-grid .ft-image picture {
+  inset: 0;
+  position: absolute;
+}
+
+.teaser-grid .ft-image img {
+  height: 100%;
+  object-fit: cover;
+  transition: scale .3s ease-in-out;
+  width: 100%;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) .ft-image img {
+  scale: 1.05;
+}
+
+.teaser-grid .info-teaser-tags {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-self: end;
+  padding: 8px;
+  z-index: 1;
+}
+
+.teaser-grid .info-teaser-tags .tag {
+  /* source: .InfoTeaser:not(.landscape) .InfoTeaser--inner .Tag — dark translucent pill */
+  background: rgb(30 30 30 / 75%);
+  color: #fff;
+  padding: 0;
+}
+
+/* the authored date paragraph carries the tag padding so its box is the tag's */
+.teaser-grid .info-teaser-tags .tag p {
+  padding: 4px 12px;
+}
+
+.teaser-grid .info-teaser-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  grid-area: 2 / 1 / 3 / 2;
+  place-items: flex-start;
+  transition: color .2s ease-in-out;
+}
+
+/* heading = pretitle (<strong>) + title text */
+.teaser-grid .info-teaser-header {
+  font-family: var(--font-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+  overflow: hidden;
+}
+
+.teaser-grid .info-teaser-header :is(h2, h3, h4) {
+  font: inherit;
+}
+
+.teaser-grid .info-teaser-header strong {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.teaser-grid .info-teaser-text {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  font-size: 17px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.teaser-grid .info-teaser-header .info-teaser-title {
+  display: block;
+}
+
+/* tertiary underline drawn on the authored label paragraph (canon Button--inner::after) */
+.teaser-grid .info-teaser-cta .btn-inner::after {
+  content: none;
+}
+
+.teaser-grid .info-teaser-cta p::after {
+  background-color: var(--c-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) .info-teaser-cta p::after {
+  background-color: var(--text-color);
+  scale: 1;
+}
+
+@media (width >= 768px) {
+  .teaser-grid.small {
+    --teaser-grid-item-size: 3;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser-grid {
+    --teaser-grid-item-size: 3;
+
+    padding-block: 80px;
+  }
+
+  .teaser-grid.small {
+    --teaser-grid-item-size: 2;
+  }
+
+  .teaser-grid .teaser-grid-grid {
+    gap: 40px;
+  }
+
+  .teaser-grid .info-teaser-inner {
+    gap: 16px 24px;
+  }
+
+  .teaser-grid .info-teaser-content {
+    gap: 16px;
+  }
+
+  .teaser-grid .info-teaser-header {
+    font-size: 32px;
+    margin-bottom: -4px;
+  }
+
+  .teaser-grid .info-teaser-header strong {
+    margin-bottom: 16px;
+  }
+
+  .teaser-grid .info-teaser-tags .tag p {
+    padding: 4px 16px;
+  }
+
+  .teaser-grid .info-teaser-text {
+    font-size: 18px;
+    margin-top: -4px;
+  }
+}
+
+/*
+ * Section head before the grid (canon RichtextSection, centred title) and the CTA after
+ * it (canon CTASection: centred large primary button). Foundation request filed
+ * (default content carries no richtext treatment yet).
+ */
+main > .section.teaser-grid-container > .default-content-wrapper {
+  --richtext-offset: 0px;
+
+  padding-block: 32px;
+  padding-inline: calc(var(--page-pad) + var(--richtext-offset));
+}
+
+main > .section.teaser-grid-container > .default-content-wrapper h2 {
+  font-family: var(--font-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+main > .section.teaser-grid-container > .default-content-wrapper p.button-wrapper {
+  justify-content: center;
+}
+
+main > .section.teaser-grid-container > .default-content-wrapper a.button {
+  height: 60px;
+}
+
+@media (width >= 768px) {
+  main > .section.teaser-grid-container > .default-content-wrapper {
+    --richtext-offset: calc((min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.teaser-grid-container > .default-content-wrapper {
+    --richtext-offset: calc(3 * (min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+
+    padding-block: 40px;
+  }
+
+  main > .section.teaser-grid-container > .default-content-wrapper h2 {
+    font-size: 48px;
+  }
+}

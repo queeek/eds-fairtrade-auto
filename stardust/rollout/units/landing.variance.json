@@ -1,0 +1,548 @@
+{
+  "archetype": "https://www.fairtrade.net/en.html",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".PageHeroCarousel",
+    "numberfact": ".NumberFactTeaser",
+    "teasergrid": ".TeaserGrid",
+    "textimage": ".TextImage",
+    "richtext": ".RichtextSection",
+    "accordion": ".AccordionSection",
+    "cta": ".CTASection"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".PageHeroCarousel",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 824
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(15, 192, 252)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 64px/70.4px 900 rgb(255, 255, 255)",
+          "image": {
+            "w": 0,
+            "h": 0
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "> What is Fairtrade? For more than three decades, Fairtrade "
+      },
+      "numberfact": {
+        "sel": ".NumberFactTeaser",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 1502
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 48px 80px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "1,824 producer organisations in 68 countries +37,000 product"
+      },
+      "teasergrid": {
+        "sel": ".TeaserGrid",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 875
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h3 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+          "image": {
+            "w": 419,
+            "h": 314
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "15.10.26 Fairtrade news From Casual Worker to Supervisor: Ja"
+      },
+      "textimage": {
+        "sel": ".TextImage",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 698
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(244, 244, 244)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": {
+            "w": 538,
+            "h": 538
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Fairtrade Products What if purchases could drive sustainable"
+      },
+      "richtext": {
+        "sel": ".RichtextSection",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 133
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "40px 48px 40px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Latest News"
+      },
+      "accordion": {
+        "sel": ".AccordionSection",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 483
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 48px 80px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 32px/35.2px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Find what you are looking for Do you want to know the basics"
+      },
+      "cta": {
+        "sel": ".CTASection",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 140
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "40px 0px 40px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "To all news"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.fairtrade.net/us-en.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "backgroundColor rgb(15, 192, 252) → rgb(212, 255, 71)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "numberfact",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "numberfact",
+          "msg": "rect{h 1502 → 2233}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "teasergrid",
+          "msg": "\".TeaserGrid\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textimage",
+          "msg": "backgroundColor rgb(244, 244, 244) → rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "richtext",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "richtext",
+          "msg": "rect{h 133 → 486}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "accordion",
+          "msg": "rect{h 483 → 419}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cta",
+          "msg": "\".CTASection\" matches 2 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".PageHeroCarousel",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 824
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(212, 255, 71)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 64px/70.4px 900 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "> Fairtrade Farmers and their Stories More than two million "
+          },
+          "numberfact": {
+            "sel": ".NumberFactTeaser",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 2233
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 48px 80px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "+37,000 products sold with the Fairtrade Mark in more than 1"
+          },
+          "teasergrid": {
+            "sel": ".TeaserGrid",
+            "count": 0
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 698
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Better for People and Planet We’re more than just a label. Y"
+          },
+          "richtext": {
+            "sel": ".RichtextSection",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 486
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "40px 48px 40px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "\"Fairtrade has changed my life. Indeed, in a crisis situatio"
+          },
+          "accordion": {
+            "sel": ".AccordionSection",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 419
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 48px 80px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 32px/35.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Find what you are looking for Do you want to know the basics"
+          },
+          "cta": {
+            "sel": ".CTASection",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/ch-fr.html",
+      "findings": [
+        {
+          "kind": "COUNT",
+          "probe": "numberfact",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textimage",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textimage",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textimage",
+          "msg": "backgroundColor rgb(244, 244, 244) → rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "richtext",
+          "msg": "\".RichtextSection\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "accordion",
+          "msg": "\".AccordionSection\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cta",
+          "msg": "2 → 1 matches"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".PageHeroCarousel",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 824
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(15, 192, 252)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 64px/70.4px 900 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "> Ton engagement pour le commerce équitable compte. Il exist"
+          },
+          "numberfact": {
+            "sel": ".NumberFactTeaser",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1502
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 48px 80px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "1'930 organisations de producteur dans 70 pays >37'000 produ"
+          },
+          "teasergrid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 875
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h3 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "11.09.26 News Chute du prix du cacao en Côte d’Ivoire : la b"
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 698
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Pourquoi acheter des produits Fairtrade ? Nous voulons créer"
+          },
+          "richtext": {
+            "sel": ".RichtextSection",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".AccordionSection",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".CTASection",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 140
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "40px 0px 40px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Toutes les actualités"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "hero",
+      "numberfact",
+      "teasergrid",
+      "textimage",
+      "richtext",
+      "accordion",
+      "cta"
+    ]
+  }
+}

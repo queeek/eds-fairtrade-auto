@@ -1,0 +1,63 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "article"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-05T11:41:42Z",
+      "endedAt": "2026-11-05T11:41:58Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0 (archetypes en, us-en-about, us-en-news, child-protection)"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "slugs": [
+        "us-en",
+        "ch-fr"
+      ],
+      "startedAt": "2026-11-05T13:52:52Z",
+      "endedAt": "2026-11-05T14:02:38Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 (us-en, ch-fr from en; variant theme-leafgreen on us-en; ch-fr adds page-lead + product-teaser-carousel)"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "slugs": [
+        "us-en-contact",
+        "us-en-why-fairtrade"
+      ],
+      "startedAt": "2026-11-05T14:42:19Z",
+      "endedAt": "2026-11-05T14:47:25Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 (us-en-contact, us-en-why-fairtrade from us-en-about; variants page-lead:cta/image/theme-skyblue, richtext:align-center, text-image:theme-grey+wave)"
+    },
+    "article": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "pages": 2,
+      "slugs": [
+        "us-en-why-fairtrade-what-we-do-theory-of-change",
+        "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance"
+      ],
+      "startedAt": "2026-11-05T15:04:20Z",
+      "endedAt": "2026-11-05T15:08:19Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 (theory-of-change variant page-lead.theme-leafgreen + new iframe-section; assuring-integrity no variant)"
+    }
+  }
+}

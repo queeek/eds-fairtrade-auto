@@ -1,0 +1,243 @@
+{
+  "live": "stardust/replica/motion/en.json",
+  "build": "stardust/replica/motion/en-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 10,
+  "counts": {
+    "behaviors": 32,
+    "parity": 15,
+    "missing": 10,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 5,
+    "advisory": 2
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".PageHeroCarousel--control-next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .PageHeroCarousel--control-next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".Accordion--toggle",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .Accordion--toggle: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".TopbarMainNavigation--button",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .TopbarMainNavigation--button: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".InfoTeaser",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .InfoTeaser: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".TopbarMainNavigation--button",
+      "state": "parity",
+      "note": "self.color; 200ms",
+      "line": "motion hover .TopbarMainNavigation--button: parity (self.color; 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 200ms",
+      "line": "motion transition background-color: parity (1 event(s) on live, 1 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 200ms",
+      "line": "motion transition color: parity (2 event(s) on live, 2 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "grid-template-rows",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition grid-template-rows: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "26 event(s) on live, 22 on build, 500ms",
+      "line": "motion transition opacity: parity (26 event(s) on live, 22 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "rotate",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition rotate: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "scale",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 200ms",
+      "line": "motion transition scale: parity (1 event(s) on live, 1 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "3 event(s) on live, 13 on build, 600ms",
+      "line": "motion transition transform: parity (3 event(s) on live, 13 on build, 600ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "translate",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 300ms",
+      "line": "motion transition translate: parity (4 event(s) on live, 4 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "parity",
+      "note": "5 event(s) on live, 5 on build, 300ms",
+      "line": "motion transition visibility: parity (5 event(s) on live, 5 on build, 300ms)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "parity",
+      "note": "added 1× on live, 3× on build",
+      "line": "motion class is-active: parity (added 1× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-darkened",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class is-darkened: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-hidden",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class is-hidden: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-open",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class is-open: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-visible",
+      "state": "parity",
+      "note": "added 10× on live, 20× on build",
+      "line": "motion class is-visible: parity (added 10× on live, 20× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyautosizes",
+      "state": "missing",
+      "note": "trigger class added 5× on live, never on build",
+      "line": "motion class lazyautosizes: MISSING on build (trigger class added 5× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyloaded",
+      "state": "missing",
+      "note": "trigger class added 7× on live, never on build",
+      "line": "motion class lazyloaded: MISSING on build (trigger class added 7× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyloading",
+      "state": "missing",
+      "note": "trigger class added 10× on live, never on build",
+      "line": "motion class lazyloading: MISSING on build (trigger class added 10× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "ls-is-cached",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class ls-is-cached: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-pagination-bullet-active",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class swiper-pagination-bullet-active: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-active",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class swiper-slide-active: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-fully-visible",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class swiper-slide-fully-visible: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-next",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class swiper-slide-next: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-prev",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class swiper-slide-prev: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-visible",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class swiper-slide-visible: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-before",
+      "state": "advisory",
+      "note": "added 2× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-before: extra on build — advisory (added 2× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-next",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-next: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

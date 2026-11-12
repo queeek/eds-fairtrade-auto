@@ -1,0 +1,222 @@
+{
+  "live": "stardust/replica/motion/us-en-news.json",
+  "build": "stardust/replica/motion/us-en-news-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 4,
+  "counts": {
+    "behaviors": 29,
+    "parity": 13,
+    "missing": 4,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 5,
+    "advisory": 7
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": "[data-teaser-grid=\"load-more\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget [data-teaser-grid=\"load-more\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".TopbarMainNavigation--button",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .TopbarMainNavigation--button: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".Topbar--searchTrigger",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .Topbar--searchTrigger: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".TopbarMetaMenu--openButton",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .TopbarMetaMenu--openButton: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".InfoTeaser",
+      "state": "advisory",
+      "note": "no hover diff on live; build changes h3.color, img.color, self.color — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented",
+      "line": "motion hover .InfoTeaser: extra on build — advisory (no hover diff on live; build changes h3.color, img.color, self.color — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented)"
+    },
+    {
+      "cls": "hover",
+      "name": ".CTASection .Button",
+      "state": "advisory",
+      "note": "no hover diff on live; build changes self.background — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented",
+      "line": "motion hover .CTASection .Button: extra on build — advisory (no hover diff on live; build changes self.background — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented)"
+    },
+    {
+      "cls": "entrance",
+      "name": "-ua-mix-blend-mode-plus-lighter",
+      "state": "parity",
+      "note": "fired on 2 element(s)",
+      "line": "motion entrance -ua-mix-blend-mode-plus-lighter: parity (fired on 2 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "-ua-view-transition-fade-in",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance -ua-view-transition-fade-in: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "-ua-view-transition-fade-out",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance -ua-view-transition-fade-out: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "-ua-view-transition-group-anim-root",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance -ua-view-transition-group-anim-root: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "parity",
+      "note": "1 event(s) on live, 3 on build, 200ms",
+      "line": "motion transition color: parity (1 event(s) on live, 3 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "10 event(s) on live, 11 on build, 300ms",
+      "line": "motion transition opacity: parity (10 event(s) on live, 11 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "scale",
+      "state": "parity",
+      "note": "2 event(s) on live, 6 on build, 200ms",
+      "line": "motion transition scale: parity (2 event(s) on live, 6 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "translate",
+      "state": "parity",
+      "note": "8 event(s) on live, 6 on build, 300ms",
+      "line": "motion transition translate: parity (8 event(s) on live, 6 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "parity",
+      "note": "4 event(s) on live, 5 on build, 300ms",
+      "line": "motion transition visibility: parity (4 event(s) on live, 5 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "advisory",
+      "note": "3 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition background-color: extra on build — advisory (3 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-color",
+      "state": "advisory",
+      "note": "1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-bottom-color: extra on build — advisory (1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-left-color",
+      "state": "advisory",
+      "note": "1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-left-color: extra on build — advisory (1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-right-color",
+      "state": "advisory",
+      "note": "1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-right-color: extra on build — advisory (1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-color",
+      "state": "advisory",
+      "note": "1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-top-color: extra on build — advisory (1 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class is-active: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-darkened",
+      "state": "parity",
+      "note": "added 2× on live, 1× on build",
+      "line": "motion class is-darkened: parity (added 2× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-hidden",
+      "state": "parity",
+      "note": "added 4× on live, 3× on build",
+      "line": "motion class is-hidden: parity (added 4× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-open",
+      "state": "parity",
+      "note": "added 3× on live, 3× on build",
+      "line": "motion class is-open: parity (added 3× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyautosizes",
+      "state": "missing",
+      "note": "trigger class added 15× on live, never on build",
+      "line": "motion class lazyautosizes: MISSING on build (trigger class added 15× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyloaded",
+      "state": "missing",
+      "note": "trigger class added 21× on live, never on build",
+      "line": "motion class lazyloaded: MISSING on build (trigger class added 21× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyloading",
+      "state": "missing",
+      "note": "trigger class added 30× on live, never on build",
+      "line": "motion class lazyloading: MISSING on build (trigger class added 30× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "ls-is-cached",
+      "state": "missing",
+      "note": "trigger class added 6× on live, never on build",
+      "line": "motion class ls-is-cached: MISSING on build (trigger class added 6× on live, never on build)"
+    }
+  ]
+}

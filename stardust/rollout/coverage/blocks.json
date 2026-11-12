@@ -1,0 +1,205 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-05T11:42:23.243Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-05T15:22:35.269Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "usedByPages": [
+        "en",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T12:46:57.825Z"
+      }
+    },
+    {
+      "id": "breadcrumbs",
+      "label": "breadcrumbs",
+      "kind": "module",
+      "signature": "module:breadcrumbs",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "usedByPages": [
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "breadcrumbs",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T14:32:18.770Z"
+      }
+    },
+    {
+      "id": "filtered-teaser-grid",
+      "label": "filtered-teaser-grid",
+      "kind": "module",
+      "signature": "module:filtered-teaser-grid",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-news"
+      ],
+      "usedByPages": [
+        "us-en-news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "filtered-teaser-grid",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T14:31:40.976Z"
+      }
+    },
+    {
+      "id": "number-fact-teaser",
+      "label": "number-fact-teaser",
+      "kind": "module",
+      "signature": "module:number-fact-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "usedByPages": [
+        "en",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "number-fact-teaser",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T12:46:57.695Z"
+      }
+    },
+    {
+      "id": "page-hero-carousel",
+      "label": "page-hero-carousel",
+      "kind": "module",
+      "signature": "module:page-hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "page-hero-carousel",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T12:46:57.654Z"
+      }
+    },
+    {
+      "id": "page-lead",
+      "label": "page-lead",
+      "kind": "module",
+      "signature": "module:page-lead",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-about",
+        "us-en-news",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "usedByPages": [
+        "us-en-about",
+        "us-en-news",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "page-lead",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T15:22:35.202Z"
+      }
+    },
+    {
+      "id": "single-image",
+      "label": "single-image",
+      "kind": "module",
+      "signature": "module:single-image",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-about",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "usedByPages": [
+        "us-en-about",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "single-image",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T13:58:39.523Z"
+      }
+    },
+    {
+      "id": "teaser-grid",
+      "label": "teaser-grid",
+      "kind": "module",
+      "signature": "module:teaser-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "teaser-grid",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T12:46:57.737Z"
+      }
+    },
+    {
+      "id": "text-image",
+      "label": "text-image",
+      "kind": "module",
+      "signature": "module:text-image",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "us-en-about"
+      ],
+      "usedByPages": [
+        "en",
+        "us-en-about"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "text-image",
+        "blockPath": null,
+        "convertedAt": "2026-11-05T15:22:35.269Z"
+      }
+    }
+  ]
+}

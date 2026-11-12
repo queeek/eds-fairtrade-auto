@@ -1,0 +1,192 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics",
+  "writtenAt": "2026-11-05T16:41:02.665Z"
+ },
+ "method": "features rebuilt as blocks/header runtime on the delivered tree; checks replay on the published origin",
+ "features": [
+  {
+   "id": "chrome-menu",
+   "feature": "header flyout menus",
+   "class": "M",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/us-en",
+     "selector": "header button.main-nav-button",
+     "min": 4
+    }
+   ]
+  },
+  {
+   "id": "chrome-locale",
+   "feature": "locale selector dialog",
+   "class": "I18N",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "owner": "which locales the switcher lists (interim: full source list; out-of-scope locales link to the source site)",
+   "checks": [
+    {
+     "type": "click-dialog",
+     "path": "/us-en",
+     "trigger": "button.locale-selector-trigger"
+    }
+   ],
+   "verifiedBy": "dialog 1440px, heading \"Go to a local website\", filter field; Escape closes (probe at +600 ms: is-open removed, visibility hidden, focus back on the trigger). click-dialog samples inside the source-matched 200 ms opacity/visibility fade and reads Escape closes:false — probe timing, not a defect"
+  },
+  {
+   "id": "chrome-search",
+   "feature": "header search overlay",
+   "class": "S",
+   "pages": 10,
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "interim",
+   "owner": "a search results page is out of this run's scope; queries submit to the source site search",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/us-en",
+     "selector": "header button.topbar-search-trigger",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "hero-carousel",
+   "feature": "PageHeroCarousel",
+   "class": "M",
+   "pages": 3,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/us-en",
+     "selector": ".page-hero-carousel .page-hero-slide",
+     "min": 2
+    },
+    {
+     "type": "dom-count",
+     "path": "/ch-fr",
+     "selector": ".page-hero-carousel .page-hero-slide",
+     "min": 2
+    }
+   ]
+  },
+  {
+   "id": "accordion",
+   "feature": "AccordionSection",
+   "class": "M",
+   "pages": 5,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/us-en",
+     "selector": ".accordion .accordion-item",
+     "min": 2
+    }
+   ]
+  },
+  {
+   "id": "product-carousel",
+   "feature": "ProductTeaserCarousel",
+   "class": "M",
+   "pages": 1,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/ch-fr",
+     "selector": ".product-teaser-carousel .product-teaser-carousel-item",
+     "min": 2
+    }
+   ]
+  },
+  {
+   "id": "news-listing",
+   "feature": "news cards + Load more",
+   "class": "L",
+   "pages": 3,
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "owner": "index-driven or curated news listing (interim: authored rows)",
+   "snapshot": "2026-11-05",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/us-en/news",
+     "selector": ".filtered-teaser-grid .teaser-grid-item",
+     "min": 6
+    }
+   ]
+  },
+  {
+   "id": "toc-iframe",
+   "feature": "Theory of Change embed",
+   "class": "V",
+   "pages": 1,
+   "disposition": "embed-passthrough",
+   "reproducibility": "self",
+   "status": "done",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+     "selector": "iframe[src*=\"toc.fairtrade.net\"]",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "video",
+   "feature": "YouTube / Vimeo links",
+   "class": "V",
+   "pages": 1,
+   "disposition": "embed-passthrough",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "in-scope pages carry video links only (no embedded player); links preserved verbatim",
+   "checks": []
+  },
+  {
+   "id": "pages",
+   "feature": "page runtime",
+   "class": "A",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "checks": [
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/en",
+      "/us-en",
+      "/ch-fr",
+      "/us-en/about",
+      "/us-en/news",
+      "/us-en/contact",
+      "/us-en/why-fairtrade",
+      "/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance"
+     ]
+    }
+   ]
+  }
+ ]
+}

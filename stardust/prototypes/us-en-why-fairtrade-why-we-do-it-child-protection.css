@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Article template (us-en child-protection; reused by theory-of-change and
+   assuring-integrity): Breadcrumbs, PageLead, SingleImage + us-en footer
+   title links. Values lifted from stardust/current/assets/css/clientlib-site.css.
+   Imports canon.css unchanged; mobile-first, steps 640/768/1024/1280/1440.
+   ========================================================================== */
+
+/* --- Breadcrumbs (lives in <header>, absolute under the fixed Topbar) --- */
+.Breadcrumbs {
+  --link-color: #1e1e1e; --link-color-hover: rgba(30, 30, 30, .5); --span-color: rgba(30, 30, 30, .5);
+  --icon-color: var(--c-eggplant); --background-color: transparent;
+  background-color: var(--background-color); font-size: 14px; inset: 100% 0 auto; line-height: 1.4;
+  padding: 16px 0; position: absolute; z-index: 1;
+}
+.Breadcrumbs.theme-dark, body:has(.PageLead.theme-nightsky) .Breadcrumbs, body:has(.PageHeroCarousel.theme-nightsky) .Breadcrumbs {
+  --link-color: #fff; --link-color-hover: hsla(0, 0%, 100%, .5); --span-color: hsla(0, 0%, 100%, .5);
+  --icon-color: var(--c-mint); --background-color: var(--c-nightsky);
+}
+.Breadcrumbs--desktop, .Breadcrumbs--mobile { margin-inline: auto; padding-inline: var(--page-pad); width: min(100%, var(--page-max)); }
+.Breadcrumbs--desktop { display: none; }
+.Breadcrumbs--mobile { align-items: center; display: flex; gap: 4px; }
+.Breadcrumbs--list { display: flex; gap: 8px; }
+.Breadcrumbs--breadcrumb { align-items: center; display: inline-flex; gap: 8px; min-width: 0; }
+.Breadcrumbs--breadcrumb:first-child, .Breadcrumbs--breadcrumb:last-child { flex: 0 0 auto; }
+.Breadcrumbs--breadcrumb--link, .Breadcrumbs--breadcrumb--title {
+  font-size: 14px; line-height: 1.4; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.Breadcrumbs--breadcrumb--title { color: var(--span-color); }
+.Breadcrumbs--breadcrumb--link { color: var(--link-color); transition: color .2s ease-in-out; }
+.Breadcrumbs--mobile .Breadcrumbs--breadcrumb--link { max-width: none; }
+.Breadcrumbs--breadcrumb--icon { color: var(--icon-color); flex: 0 0 auto; }
+@media (hover: hover) { .Breadcrumbs--breadcrumb--link:is(:hover, :focus-visible, :active) { color: var(--link-color-hover); } }
+@media (width >= 1024px) {
+  .Breadcrumbs--desktop { display: block; }
+  .Breadcrumbs--mobile { display: none; }
+}
+
+/* --- PageLead --- */
+.PageLead { --background-color: var(--c-leafgreen); --color: var(--c-ink); }
+.PageLead:not(.no-gap) { padding-bottom: 64px; }
+.PageLead.theme-skyblue { --background-color: var(--c-skyblue); }
+.PageLead.theme-nightsky { --background-color: var(--c-nightsky); --color: #fff; }
+.PageLead.theme-white { --background-color: #fff; }
+.PageLead--content { background-color: var(--background-color); }
+.PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail {
+  column-gap: var(--col-gap); display: grid; grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto; padding-inline: var(--page-pad); width: min(100%, var(--page-max));
+}
+.PageLead--contentGrid > *, .PageLead--imageGrid > *, .SingleImage.size-content > *, .SingleImage.size-thumbnail > * { grid-column: 1 / -1; min-width: 0; }
+.PageLead--contentGrid { color: var(--color); padding-bottom: 48px; padding-top: 80px; place-items: center; }
+.no-gap .PageLead--contentGrid { padding-bottom: 64px; }
+.PageLead--title { font-family: var(--font-head); font-size: 48px; font-weight: 900; line-height: 1.1; text-align: center; }
+.PageLead--tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 28px; }
+.PageLead--lead { font-size: 20px; font-weight: 600; line-height: 1.6; margin-top: 28px; }
+.PageLead--cta { margin-top: 32px; }
+.PageLead--image { background-image: linear-gradient(to bottom, var(--background-color) 33.3333333333%, #fff 33.3333333333%); }
+.PageLead--imageDesktop { display: none; }
+@media (width >= 768px) {
+  .PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail { grid-template-columns: repeat(12, 1fr); }
+  .PageLead--contentGrid > * { grid-column: 2 / -2; }
+  .PageLead--lead { text-align: center; }
+  .PageLead--imageMobile { display: none; }
+  .PageLead--imageDesktop { display: block; }
+}
+@media (width >= 1024px) {
+  .PageLead:not(.no-gap) { padding-bottom: 80px; }
+  .PageLead--contentGrid { padding-bottom: 64px; padding-top: 120px; }
+  .no-gap .PageLead--contentGrid { padding-bottom: 80px; }
+  .PageLead--contentGrid > * { grid-column: 3 / -3; }
+  .PageLead--title { font-size: 72px; }
+  .PageLead--tags { margin-top: 32px; }
+  .PageLead--lead { font-size: 24px; margin-top: 32px; }
+  .PageLead--cta { margin-top: 40px; }
+}
+
+/* --- SingleImage --- */
+.SingleImage { padding-block: 64px; }
+.SingleImage.size-thumbnail { padding-block: 12px; }
+.SingleImage--image.desktop { display: none; }
+.SingleImage--image.mobile { display: block; }
+.size-full-bleed .SingleImage--image { border-radius: 0; }
+.size-thumbnail .SingleImage--image, .size-thumbnail .SingleImage--image img { max-height: 240px; }
+@media (width >= 768px) {
+  .SingleImage--image.desktop { display: block; }
+  .SingleImage--image.mobile { display: none; }
+  .size-thumbnail .SingleImage--figure { grid-column: 2 / -2; }
+}
+@media (width >= 1024px) {
+  .SingleImage { padding-block: 80px; }
+  .SingleImage.size-thumbnail { padding-block: 16px; }
+  .size-content .SingleImage--figure { grid-column: 2 / -2; }
+  .size-thumbnail .SingleImage--figure { grid-column: 4 / -4; }
+}
+
+/* --- us-en footer: list titles are links with a chevron (canon request logged) --- */
+.FooterLinkList--title:has(a) { column-gap: 4px; display: grid; grid-template-columns: auto 1fr; place-items: start; transition: color .2s ease-in-out; }
+.FooterLinkList--title:has(a):is(:hover, :focus-within) { color: hsla(0, 0%, 100%, .75); }

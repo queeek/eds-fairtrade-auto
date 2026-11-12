@@ -1,0 +1,295 @@
+/* number-fact-teaser — canon NumberFactTeaser / NumberFact / Bubble (stardust/prototypes/canon.css) */
+.number-fact-teaser .number-fact-teaser-grid {
+  padding-block: 64px;
+  row-gap: 48px;
+}
+
+.number-fact-teaser .number-fact-teaser-slider {
+  display: grid;
+  position: relative;
+}
+
+.number-fact-teaser .number-fact-teaser-slider-prev,
+.number-fact-teaser .number-fact-teaser-slider-next {
+  position: absolute;
+}
+
+.number-fact-teaser .number-fact-teaser-slider-prev {
+  left: -12px;
+  place-self: center start;
+}
+
+.number-fact-teaser .number-fact-teaser-slider-next {
+  place-self: center end;
+  right: -12px;
+}
+
+.number-fact-teaser .number-fact-teaser-items {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.number-fact-teaser .number-fact-teaser-items::-webkit-scrollbar {
+  display: none;
+}
+
+.number-fact-teaser .number-fact-teaser-item {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
+.number-fact-teaser .number-fact-teaser-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.number-fact-teaser .number-fact-teaser-label {
+  color: var(--c-grey-500);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.number-fact-teaser .number-fact-teaser-title {
+  font-family: var(--font-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.number-fact-teaser .number-fact-teaser-title :is(h1, h2, h3) {
+  font: inherit;
+}
+
+.number-fact-teaser .number-fact-teaser-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.number-fact-teaser .number-fact-teaser-cta {
+  margin-top: 8px;
+}
+
+.number-fact-teaser .number-fact {
+  display: grid;
+  margin: 0 auto;
+  max-width: 612px;
+  position: relative;
+}
+
+.number-fact-teaser .number-fact.color-eggplant {
+  color: #fff;
+}
+
+.number-fact-teaser .number-fact-content {
+  display: grid;
+  gap: 12px;
+  inset: 0;
+  padding: 16px 32px;
+  place-content: center;
+  position: absolute;
+  text-align: center;
+}
+
+.number-fact-teaser .number-fact-number {
+  font-family: var(--font-head);
+  font-size: clamp(72px, 20.61vw, 136px);
+  font-weight: 900;
+  line-height: .875;
+  margin-bottom: .15em;
+}
+
+.number-fact-teaser .number-fact-fact {
+  font-family: var(--font-head);
+  font-size: clamp(24px, 4.85vw, 32px);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+/* the authored fact paragraph carries the inline padding (its box = canon NumberFact--fact) */
+.number-fact-teaser .number-fact-fact p {
+  padding-inline: 12px;
+}
+
+.number-fact-teaser .bubble.color-flower {
+  color: var(--c-flower);
+}
+
+.number-fact-teaser .bubble.color-eggplant {
+  color: var(--c-eggplant);
+}
+
+.number-fact-teaser .bubble.color-skyblue {
+  color: var(--c-skyblue);
+}
+
+.number-fact-teaser .bubble.color-leafgreen {
+  color: var(--c-leafgreen);
+}
+
+.number-fact-teaser .bubble > svg {
+  aspect-ratio: 613 / 612;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .number-fact-teaser-grid {
+    column-gap: 24px;
+  }
+
+  .number-fact-teaser .number-fact-teaser-grid > .number-fact-teaser-slider {
+    grid-column: span 6;
+  }
+
+  .number-fact-teaser .number-fact-teaser-slider-prev,
+  .number-fact-teaser .number-fact-teaser-slider-next {
+    display: none;
+  }
+
+  .number-fact-teaser .number-fact-teaser-items {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 120px;
+    overflow: visible;
+  }
+
+  .number-fact-teaser .number-fact-teaser-grid > .number-fact-teaser-content {
+    align-items: start;
+    aspect-ratio: 5 / 7;
+    grid-column: span 6;
+    justify-content: center;
+    max-height: 612px;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+  }
+
+  .number-fact-teaser .number-fact-teaser-title {
+    text-align: left;
+  }
+
+  .number-fact-teaser .number-fact-number {
+    font-size: clamp(72px, 11.93vw, 136px);
+  }
+
+  .number-fact-teaser .number-fact-fact {
+    font-size: clamp(24px, 2.81vw, 32px);
+  }
+}
+
+@media (width >= 1024px) {
+  .number-fact-teaser .number-fact-teaser-grid {
+    column-gap: 20px;
+    padding-block: 80px;
+  }
+
+  .number-fact-teaser .number-fact-teaser-grid > .number-fact-teaser-slider {
+    grid-column: span 7;
+  }
+
+  .number-fact-teaser .number-fact-teaser-grid > .number-fact-teaser-content {
+    grid-column: span 5;
+    padding: 16px;
+  }
+
+  .number-fact-teaser .number-fact-teaser-label,
+  .number-fact-teaser .number-fact-teaser-text {
+    font-size: 18px;
+  }
+
+  .number-fact-teaser .number-fact-teaser-title {
+    font-size: 48px;
+  }
+
+  .number-fact-teaser .number-fact-content {
+    gap: 24px;
+    padding: 24px 64px;
+  }
+}
+
+@media (width >= 1280px) {
+  .number-fact-teaser .number-fact-teaser-grid {
+    column-gap: 24px;
+  }
+}
+
+/*
+ * Default content that follows the block in its section (canon RichtextSection +
+ * CTASection: a narrow richtext column, then a centred large primary button).
+ * Foundation request filed (default content carries no richtext treatment yet).
+ */
+main > .section.number-fact-teaser-container > .default-content-wrapper {
+  --richtext-offset: 0px;
+
+  padding-block: 32px;
+  padding-inline: calc(var(--page-pad) + var(--richtext-offset));
+}
+
+main > .section.number-fact-teaser-container > .default-content-wrapper :is(h2, h3) {
+  font-family: var(--font-head);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+main > .section.number-fact-teaser-container > .default-content-wrapper h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+main > .section.number-fact-teaser-container > .default-content-wrapper p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+main > .section.number-fact-teaser-container > .default-content-wrapper em {
+  font-style: italic;
+}
+
+main > .section.number-fact-teaser-container > .default-content-wrapper p.button-wrapper {
+  justify-content: center;
+  margin-top: 64px;
+}
+
+main > .section.number-fact-teaser-container > .default-content-wrapper a.button {
+  height: 60px;
+}
+
+@media (width >= 768px) {
+  main > .section.number-fact-teaser-container > .default-content-wrapper {
+    /* grid-column 2 / -2 of the 12-column page grid */
+    --richtext-offset: calc((min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.number-fact-teaser-container > .default-content-wrapper {
+    /* grid-column 4 / -4 */
+    --richtext-offset: calc(3 * (min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+
+    padding-block: 40px;
+  }
+
+  main > .section.number-fact-teaser-container > .default-content-wrapper h2 {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+
+  main > .section.number-fact-teaser-container > .default-content-wrapper p {
+    font-size: 18px;
+  }
+
+  main > .section.number-fact-teaser-container > .default-content-wrapper p.button-wrapper {
+    margin-top: 80px;
+  }
+}

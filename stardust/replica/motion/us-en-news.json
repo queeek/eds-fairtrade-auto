@@ -1,0 +1,1098 @@
+{
+  "url": "https://www.fairtrade.net/us-en/news.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3053,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1553,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment aem-GridColumn aem-GridColumn--default--12",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[data-teaser-grid=\"load-more\"]",
+      "frames": [
+        {
+          "t": 18018,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18223.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18425.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18629.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".TopbarMainNavigation--button",
+      "frames": [
+        {
+          "t": 19660.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19863.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20066.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20269.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".Topbar--searchTrigger",
+      "frames": [
+        {
+          "t": 21300.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 21504.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 21708,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 21912.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".TopbarMetaMenu--openButton",
+      "frames": [
+        {
+          "t": 22930.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23132.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23335.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23538.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".InfoTeaser",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.lazyautosizes.ls-is-cached",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "scale 0.3s ease-in-out"
+          },
+          {
+            "el": "h3.InfoTeaser--header",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.lazyautosizes.ls-is-cached",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "scale 0.3s ease-in-out"
+          },
+          {
+            "el": "h3.InfoTeaser--header",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".CTASection .Button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "-ua-view-transition-group-anim-root",
+        "el": "html",
+        "txt": "News\n    \n    \n    \n\n\n\n    \n    \n    \n\n    \n    \n\n",
+        "y": 4045
+      },
+      {
+        "name": "-ua-view-transition-fade-in",
+        "el": "html",
+        "txt": "News\n    \n    \n    \n\n\n\n    \n    \n    \n\n    \n    \n\n",
+        "y": 4045
+      },
+      {
+        "name": "-ua-mix-blend-mode-plus-lighter",
+        "el": "html",
+        "txt": "News\n    \n    \n    \n\n\n\n    \n    \n    \n\n    \n    \n\n",
+        "y": 4045
+      },
+      {
+        "name": "-ua-view-transition-fade-out",
+        "el": "html",
+        "txt": "News\n    \n    \n    \n\n\n\n    \n    \n    \n\n    \n    \n\n",
+        "y": 4045
+      },
+      {
+        "name": "-ua-mix-blend-mode-plus-lighter",
+        "el": "html",
+        "txt": "News\n    \n    \n    \n\n\n\n    \n    \n    \n\n    \n    \n\n",
+        "y": 4045
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar",
+        "y": 3053,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 2400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar",
+        "y": 1200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-darkened",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-darkened",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar.is-hidden > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch.is-open",
+        "y": 4045,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar.is-hidden > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch.is-open",
+        "y": 4045,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-darkened",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--search > div.TopbarSearch.is-open > form > div.Input.TopbarSearch--input.icon > div.Input--fieldWrapper",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--barWrapper > div.Topbar--content > div.Topbar--meta > div.TopbarMetaMenu.is-open > div.TopbarMetaMenu--menu",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--barWrapper > div.Topbar--content > div.Topbar--meta > div.TopbarMetaMenu.is-open > div.TopbarMetaMenu--menu",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--search > div.TopbarSearch.is-open > form > div.Input.TopbarSearch--input.icon > div.Input--fieldWrapper",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "color",
+        "el": "div.Topbar--meta > div.TopbarMetaMenu.is-open > div.TopbarMetaMenu--menu > div.TopbarMetaMenu--menuHeader > button.TopbarMetaMenu--closeButton",
+        "y": 0,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1200
+      },
+      {
+        "added": [
+          "ls-is-cached",
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "ls-is-cached",
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "ls-is-cached",
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 1600
+      },
+      {
+        "added": [
+          "ls-is-cached",
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "ls-is-cached",
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "ls-is-cached",
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached.lazyloaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyautosizes",
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloading",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 4045
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-darkened"
+        ],
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden.is-darkened",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch.is-open",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-darkened"
+        ],
+        "el": "header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar > div.Topbar.is-hidden.is-darkened",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar.is-darkened > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--meta > div.TopbarMetaMenu.is-open",
+        "y": 0
+      }
+    ]
+  }
+}

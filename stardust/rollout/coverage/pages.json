@@ -1,0 +1,445 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-05T11:42:09.041Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-05T16:47:18.335Z",
+  "pages": [
+    {
+      "slug": "ch-fr",
+      "path": "/ch-fr",
+      "title": "Fairtrade Max Havelaar Suisse",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fe80f6c805499f38b66b177aff75a00086f86b793f0e498fc74b378e69961e51",
+        "currentStatePath": "stardust/current/pages/ch-fr.json",
+        "sourceUrl": "https://www.fairtrade.net/ch-fr.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/ch-fr",
+        "deployedAt": "2026-11-05T14:35:04.723Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.21,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "title": "English",
+      "templateId": "en",
+      "source": {
+        "migratedHtml": "stardust/migrated/en.html",
+        "metaJson": "stardust/migrated/en._meta.json",
+        "sourceHash": "sha256:00acf7383c8779b4591944570e8ab3bade834cc2917d08b315252ad6a0ad1fc4",
+        "sourceUrl": "https://www.fairtrade.net/en.html"
+      },
+      "blocks": [
+        "page-hero-carousel",
+        "number-fact-teaser",
+        "teaser-grid",
+        "text-image",
+        "accordion"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/en",
+        "deployedAt": "2026-11-05T12:46:50.244Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en",
+      "path": "/us-en",
+      "title": "Fairtrade America - the Future is Fair",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f91875dce6aba108d5f75f8702ee7aebc9bdef273cbf938f380d1c32ee96bba6",
+        "currentStatePath": "stardust/current/pages/us-en.json",
+        "sourceUrl": "https://www.fairtrade.net/us-en.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en",
+        "deployedAt": "2026-11-05T14:12:21.471Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.73,
+          "heightDelta": 181,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-about",
+      "path": "/us-en/about",
+      "title": "About",
+      "templateId": "us-en-about",
+      "source": {
+        "migratedHtml": "stardust/migrated/us-en/about.html",
+        "metaJson": "stardust/migrated/us-en/about._meta.json",
+        "sourceHash": "sha256:ce120f546c5d7cde72c11d42c2166131cf19120627e34731252972c1a535fb22",
+        "sourceUrl": "https://www.fairtrade.net/us-en/about.html"
+      },
+      "blocks": [
+        "page-lead",
+        "single-image",
+        "text-image"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/about",
+        "deployedAt": "2026-11-05T13:59:32.453Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.53,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-contact",
+      "path": "/us-en/contact",
+      "title": "Contact",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cee70b3d7fb8d06a58dc3bb8a72ee333e4eba76cc6b9d3e15097ef5288cc1b19",
+        "currentStatePath": "stardust/current/pages/us-en-contact.json",
+        "sourceUrl": "https://www.fairtrade.net/us-en/contact.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/contact",
+        "deployedAt": "2026-11-05T15:10:14.054Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-news",
+      "path": "/us-en/news",
+      "title": "News",
+      "templateId": "us-en-news",
+      "source": {
+        "migratedHtml": "stardust/migrated/us-en/news.html",
+        "metaJson": "stardust/migrated/us-en/news._meta.json",
+        "sourceHash": "sha256:845af6ca1dd2bfecb51d8e29e2799375a79f4d564b8acabc14df581bbc2e25e5",
+        "sourceUrl": "https://www.fairtrade.net/us-en/news.html"
+      },
+      "blocks": [
+        "page-lead",
+        "filtered-teaser-grid"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/news",
+        "deployedAt": "2026-11-05T16:44:12.297Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.97,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-why-fairtrade",
+      "path": "/us-en/why-fairtrade",
+      "title": "Why Fairtrade",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1f4adcd928ffae4c3bf1c6dd357a6b8af4aba2c52b32f677ad6381edc24d0c44",
+        "currentStatePath": "stardust/current/pages/us-en-why-fairtrade.json",
+        "sourceUrl": "https://www.fairtrade.net/us-en/why-fairtrade.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade",
+        "deployedAt": "2026-11-05T15:10:14.112Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.21,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "path": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+      "title": "Assuring integrity in checking compliance",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:260d5f682509b78248706916d64bb4393e245f358f5481f77e0ca9571aed1b68",
+        "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance.json",
+        "sourceUrl": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+        "deployedAt": "2026-11-05T15:15:30.108Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.04,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+      "path": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "title": "Theory of Change",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ece3d482b50c5dbaa85457e3822d655d3789b318570672c7092f776abe7fef0b",
+        "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-theory-of-change.json",
+        "sourceUrl": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change",
+        "deployedAt": "2026-11-05T15:15:30.026Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "path": "/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "title": "Child Protection",
+      "templateId": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "source": {
+        "migratedHtml": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "metaJson": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/child-protection._meta.json",
+        "sourceHash": "sha256:f44079be093fccadfed3157a488214719bb56118e68e843a20d69ecb8c4e7a1d",
+        "sourceUrl": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "page-lead",
+        "number-fact-teaser",
+        "accordion",
+        "single-image"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection",
+        "deployedAt": "2026-11-05T14:36:51.634Z",
+        "verifiedAt": "2026-11-05T16:47:18.335Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-05T16:38:29.070Z"
+        }
+      }
+    }
+  ]
+}

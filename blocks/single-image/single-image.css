@@ -1,0 +1,88 @@
+/* single-image — SingleImage (stardust/prototypes/us-en-about.css, clientlib SingleImage) */
+.single-image {
+  padding-block: 64px;
+}
+
+.single-image.thumbnail {
+  padding-block: 12px;
+}
+
+.single-image .ft-image picture {
+  inset: 0;
+  position: absolute;
+}
+
+.single-image .ft-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.single-image.full-bleed .single-image-image {
+  border-radius: 0;
+}
+
+.single-image .single-image-image.desktop {
+  display: none;
+}
+
+.single-image .single-image-image.mobile {
+  display: block;
+}
+
+.single-image.thumbnail .single-image-image {
+  max-height: 240px;
+}
+
+.single-image .single-image-caption {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.single-image .single-image-caption p {
+  font: inherit;
+  margin: 0;
+}
+
+.single-image.full-bleed .single-image-caption {
+  margin-inline: auto;
+  padding-inline: var(--page-pad);
+  width: min(100%, var(--page-max));
+}
+
+@media (width >= 768px) {
+  .single-image .single-image-image.desktop {
+    display: block;
+  }
+
+  .single-image .single-image-image.mobile {
+    display: none;
+  }
+
+  .single-image.thumbnail .single-image-figure {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1024px) {
+  .single-image {
+    padding-block: 80px;
+  }
+
+  .single-image.thumbnail {
+    padding-block: 16px;
+  }
+
+  .single-image .single-image-grid > .single-image-figure {
+    grid-column: 2 / -2;
+  }
+
+  .single-image.thumbnail .single-image-grid > .single-image-figure {
+    grid-column: 4 / -4;
+  }
+
+  .single-image .single-image-caption {
+    font-size: 14px;
+  }
+}

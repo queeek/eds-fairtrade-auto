@@ -1,0 +1,664 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-05T10:22:13.615Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "us-en-about",
+  "url": "https://www.fairtrade.net/us-en/about.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-05T10:22:13.615Z",
+  "finalUrl": "https://www.fairtrade.net/us-en/about.html",
+  "title": "About",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "About Us"
+    },
+    {
+      "tag": "h2",
+      "text": "Fairtrade Brings People Together"
+    },
+    {
+      "tag": "h2",
+      "text": "Fairtrade is Complex, the Solution is Simple"
+    },
+    {
+      "tag": "h2",
+      "text": "Our People"
+    }
+  ],
+  "body": [
+    "Fairtrade is a global movement reshaping the way the world does business. We challenge the status quo of exploitative trade and support a system rooted in dignity, equity and shared prosperity so that the people who grow our food and goods have a voice, receive a fairer price and have the power to shape their own futures.",
+    "Many of the products we enjoy every day – coffee, chocolate, bananas – have traveled over thousands of miles of oceans and through countless hands to land in stores in the United States. Fairtrade brings together all of these people - the farmers and the brands, the schools and the champions of advocacy, the retailers and the shoppers - to create a more equitable world through trade.",
+    "Over 2 million farmers and workers worldwide are Fairtrade certified",
+    "50% of the voting members at our General Assembly are Fairtrade farmers and workers.",
+    "2,500+ brands offer 36,000 Fairtrade certified products globally.",
+    "We are an independent non-profit 501(c)3 organization."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Back to Homepage",
+      "href": "https://www.fairtrade.net/us-en.html"
+    },
+    {
+      "label": "Why Fairtrade",
+      "href": null
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "For Business",
+      "href": null
+    },
+    {
+      "label": "Get Involved",
+      "href": null
+    },
+    {
+      "label": "Search Open the search box",
+      "href": null
+    },
+    {
+      "label": "US • EN Open or close the locale selector. The currently selected locale is US-EN.",
+      "href": null
+    },
+    {
+      "label": "Open Open the meta menu",
+      "href": null
+    },
+    {
+      "label": "coffee",
+      "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/coffee/"
+    },
+    {
+      "label": "chocolate",
+      "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/chocolate/"
+    },
+    {
+      "label": "bananas",
+      "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/bananas-produce/"
+    },
+    {
+      "label": "Read Stories from Fairtrade Farmers and Brands",
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html"
+    },
+    {
+      "label": "Read about Our Holistic Approach",
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html"
+    },
+    {
+      "label": "Learn about Our Incredible Team",
+      "href": "https://www.fairtrade.net/us-en/about/fairtrade-america-staff.html"
+    },
+    {
+      "label": "Read our financials",
+      "href": "https://www.fairtrade.net/us-en/about/financials.html"
+    },
+    {
+      "label": "US • EN Open or close the locale selector. The currently selected locale is US-EN.",
+      "href": null
+    },
+    {
+      "label": "About",
+      "href": "https://www.fairtrade.net/us-en/about.html"
+    },
+    {
+      "label": "How Fairtrade Works",
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://www.fairtrade.net/us-en/about/careers.html"
+    },
+    {
+      "label": "How to Get Involved",
+      "href": "https://www.fairtrade.net/us-en/get-involved/get-involved.html"
+    },
+    {
+      "label": "For Businesses",
+      "href": "https://www.fairtrade.net/us-en/for-business.html"
+    },
+    {
+      "label": "For Media",
+      "href": "https://www.fairtrade.net/us-en/for-media.html"
+    },
+    {
+      "label": "For Retailers",
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+    },
+    {
+      "label": "For Partners",
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+    },
+    {
+      "label": "Contact",
+      "href": "https://www.fairtrade.net/us-en/contact.html"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "https://www.fairtrade.net/us-en/terms-of-use.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.fairtrade.net/us-en/privacy-policy.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/FairtradeMarkUS"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/FairtradeMarkUS"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/fairtrade-america"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@FairtradeMarkus"
+    },
+    {
+      "label": "Click to sign up",
+      "href": "https://fairtrade.net/us-en/fairtrade-newsletter.html"
+    }
+  ],
+  "links": [
+    "https://www.fairtrade.net/us-en.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/impact.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+    "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html",
+    "https://www.fairtrade.net/us-en/products/all-products.html",
+    "https://www.fairtrade.net/us-en/products/all-products/bananas.html",
+    "https://www.fairtrade.net/us-en/products/all-products/cocoa.html",
+    "https://www.fairtrade.net/us-en/products/all-products/chocolate.html",
+    "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+    "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+    "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+    "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+    "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+    "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+    "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+    "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+    "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+    "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html",
+    "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+    "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+    "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+    "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+    "https://www.fairtrade.net/us-en/for-business/get-certified.html",
+    "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+    "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+    "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+    "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+    "https://www.fairtrade.net/us-en/for-business/for-partners.html",
+    "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+    "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+    "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+    "https://www.fairtrade.net/us-en/for-business/for-retailers.html",
+    "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+    "https://www.fairtrade.net/us-en/get-involved/get-involved.html",
+    "https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html",
+    "https://www.fairtrade.net/us-en/get-involved/where-to-buy.html",
+    "https://www.fairtrade.net/us-en/get-involved/activism.html",
+    "https://www.fairtrade.net/us-en/about.html",
+    "https://www.fairtrade.net/us-en/about/careers.html",
+    "https://www.fairtrade.net/us-en/news.html",
+    "https://www.fairtrade.net/us-en/contact.html",
+    "https://www.fairtrade.net/en.html",
+    "https://www.fairtrade.net/en/about.html",
+    "https://www.fairtrade.net/africa-en/about.html",
+    "https://www.fairtrade.net/at-de.html",
+    "https://www.fairtrade.net/be-fr.html",
+    "https://www.fairtrade.net/be-nl.html",
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ca-en/about.html",
+    "https://www.fairtrade.net/ca-fr.html",
+    "https://clac-comerciojusto.org/",
+    "https://www.fairtrade.net/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+    "https://www.fairtrade.net/maxhavelaarfrance-fr.html",
+    "https://www.fairtrade.net/de-de.html",
+    "https://www.fairtrade.net/gr-el/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/hu-hu/hozza-el-a-fairtrade-et-az-on-piacara.html",
+    "https://www.fairtrade.net/iberica-es.html",
+    "https://www.fairtrade.net/iberica-pt.html",
+    "https://www.fairtrade.net/ie-en.html",
+    "https://www.fairtrade.net/it-it.html",
+    "https://www.fairtrade.net/jp-jp/about.html",
+    "https://www.fairtrade.net/kr-ko.html",
+    "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/mt-mt/iggib-fairtrade-fis-suq-tieg-ek.html",
+    "https://www.fairtrade.net/napp-en/about.html",
+    "https://www.fairtrade.net/nl-nl.html",
+    "https://www.fairtrade.net/no-no.html",
+    "https://www.fairtrade.net/pl-pl.html",
+    "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+    "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+    "https://www.fairtrade.net/se-sv.html",
+    "https://www.fairtrade.net/ch-de.html",
+    "https://www.fairtrade.net/ch-fr.html",
+    "https://www.fairtrade.net/uk-en.html",
+    "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/coffee/",
+    "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/chocolate/",
+    "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/bananas-produce/",
+    "https://www.fairtrade.net/us-en/about/fairtrade-america-staff.html",
+    "https://www.fairtrade.net/us-en/about/financials.html",
+    "https://www.fairtrade.net/us-en/for-business.html",
+    "https://www.fairtrade.net/us-en/for-media.html",
+    "https://www.fairtrade.net/us-en/terms-of-use.html",
+    "https://www.fairtrade.net/us-en/privacy-policy.html",
+    "https://www.facebook.com/FairtradeMarkUS",
+    "https://www.instagram.com/FairtradeMarkUS",
+    "https://www.linkedin.com/company/fairtrade-america",
+    "https://www.youtube.com/@FairtradeMarkus",
+    "https://fairtrade.net/us-en/fairtrade-newsletter.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/fairtrade-brand/Fairtrade_America_Logo_Vert_80x80.png",
+        "alt": "",
+        "w": 80,
+        "h": 80
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/MissionVisionValues_Desktop_%2016x9.png/_jcr_content/renditions/16x9_1280w.webp",
+        "alt": "fairtradevalues",
+        "w": 1115,
+        "h": 627
+      }
+    ],
+    "allImgCount": 6,
+    "cssBackgrounds": [],
+    "modals": [
+      "Close the locale selector. Go to a local website Choose a country or region and a language Fairtrade International Search for a country, region or language Clear the value of the input Africa English Austria Deutsch Belgium Français Nederlands Bulgaria Bulgarian Canada English French CLAC Spanish Croatia Croatian France Français Germany Deutsch Greece Greek Hungary Hungarian Iberica Español Português Ireland Fairtrade Ireland Italy Italiano Japan 日本語 Korea 한국어 Malta English Maltese NAPP English Netherlands Dutch Norway Norsk Poland Polski Romania Romanian Slovenia Slovenian Sweden Svensk Switzerland Deutsch Français United Kingdom English United States english Cyprus Sorry, no match found!"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--topbar-height": "104px",
+    "--swiper-theme-color": "#007aff"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 4,
+    "mainTextLen": 2631,
+    "realImageCount": 2,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/799581251/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "f.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://f.clarity.ms/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 4
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 2
+      },
+      {
+        "host": "www2.fairtradeamerica.org",
+        "count": 2
+      },
+      {
+        "host": "extend.vimeocdn.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 8,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/us-en-about.png",
+  "renderedHtml": "pages/us-en-about.html"
+}

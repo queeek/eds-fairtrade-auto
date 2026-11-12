@@ -1,0 +1,10 @@
+{
+ "cache-control": "max-age=300,stale-while-revalidate=3600,public",
+ "strict-transport-security": "max-age=31557600",
+ "x-cache": "HIT",
+ "x-content-type-options": "nosniff",
+ "x-frame-options": "SAMEORIGIN",
+ "x-served-by": "cache-sjc1000139-SJC",
+ "x-timer": "S1793875088.237888,VS0,VS0,VE1",
+ "x-vhost": "publish"
+}

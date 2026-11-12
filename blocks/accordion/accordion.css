@@ -1,0 +1,191 @@
+/* accordion — canon AccordionSection / Accordion (stardust/prototypes/canon.css) */
+.accordion .accordion-grid {
+  padding-bottom: 64px;
+}
+
+.accordion .accordion-entry {
+  --header-gap: 12px;
+  --header-padding: 16px 8px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.accordion .accordion-header {
+  align-items: center;
+  box-shadow: 0 4px 8px rgb(30 30 30 / 10%);
+  display: flex;
+  flex-direction: row;
+  gap: var(--header-gap);
+  padding: var(--header-padding);
+  position: relative;
+  width: 100%;
+}
+
+.accordion .accordion-toggle {
+  height: 100%;
+  inset: 0 auto auto 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.accordion .btn.accordion-button {
+  align-self: start;
+  flex: 0 0 auto;
+  transform-origin: center;
+  transition: rotate .3s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.accordion .accordion-toggle:is(:hover, :focus-visible) ~ .btn.accordion-button {
+  background-color: var(--c-skyblue-hover);
+  border-color: var(--c-ocean);
+}
+
+.accordion .accordion-entry.is-open .btn.accordion-button {
+  rotate: .5turn;
+}
+
+.accordion .accordion-title {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  transition: color .2s ease-in-out;
+}
+
+.accordion .accordion-title :is(h2, h3, h4) {
+  font: inherit;
+}
+
+.accordion .accordion-toggle:is(:hover, :focus-visible) ~ .accordion-title {
+  color: var(--c-ocean);
+}
+
+.accordion .accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .3s ease-in-out;
+}
+
+.accordion .accordion-entry.is-open .accordion-content {
+  grid-template-rows: 1fr;
+}
+
+.accordion .accordion-content-wrapper {
+  overflow: hidden;
+  transition: visibility .3s ease-in-out;
+  visibility: hidden;
+}
+
+.accordion .accordion-entry.is-open .accordion-content-wrapper {
+  visibility: visible;
+}
+
+.accordion .accordion-content-padding-box {
+  padding: 16px 16px 32px;
+}
+
+/* answer text = canon Richtext */
+.accordion .accordion-text p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.accordion .accordion-text p + p {
+  margin-top: 24px;
+}
+
+.accordion .accordion-text a {
+  color: var(--c-eggplant);
+  text-decoration: underline;
+  transition: color .2s ease-in-out;
+}
+
+/* link-only paragraphs = canon Button.variant-tertiary */
+.accordion .accordion-links a {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.accordion .accordion-links a::after {
+  background-color: var(--c-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+}
+
+.accordion .accordion-links a:is(:hover, :focus-visible) {
+  color: var(--c-ocean);
+}
+
+.accordion .accordion-links a:is(:hover, :focus-visible)::after {
+  background-color: var(--c-ocean);
+  scale: 1;
+}
+
+/* section title: default content before the block (canon AccordionSection--title) */
+main > .section.accordion-container > .default-content-wrapper {
+  --richtext-offset: 0px;
+
+  padding-inline: calc(var(--page-pad) + var(--richtext-offset));
+  padding-top: 64px;
+}
+
+main > .section.accordion-container > .default-content-wrapper h2 {
+  font-family: var(--font-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+@media (width >= 768px) {
+  .accordion .accordion-grid > .accordion-list {
+    grid-column: 2 / -2;
+  }
+
+  main > .section.accordion-container > .default-content-wrapper {
+    --richtext-offset: calc((min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+  }
+}
+
+@media (width >= 1024px) {
+  .accordion .accordion-grid {
+    padding-bottom: 80px;
+  }
+
+  .accordion .accordion-grid > .accordion-list {
+    grid-column: 4 / -4;
+  }
+
+  .accordion .accordion-content-padding-box {
+    padding: 24px 16px 40px;
+  }
+
+  .accordion .accordion-text p {
+    font-size: 18px;
+  }
+
+  .accordion .accordion-text p + p {
+    margin-top: 32px;
+  }
+
+  main > .section.accordion-container > .default-content-wrapper {
+    --richtext-offset: calc(3 * (min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+
+    padding-top: 80px;
+  }
+
+  main > .section.accordion-container > .default-content-wrapper h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}

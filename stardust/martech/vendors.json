@@ -1,0 +1,18 @@
+{
+ "pages": 4,
+ "vendors": [
+  {
+   "host": "www.fairtrade.net",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "adobeDataLayer": 4,
+  "dataLayer": 4
+ },
+ "cspHosts": []
+}

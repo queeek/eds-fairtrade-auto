@@ -1,0 +1,223 @@
+/* filtered-teaser-grid — canon TeaserGrid + InfoTeaser + CTASection */
+.filtered-teaser-grid {
+  --teaser-grid-item-size: 6;
+
+  padding-block: 64px;
+}
+
+.filtered-teaser-grid .teaser-grid-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto;
+  padding-inline: var(--page-pad);
+  width: min(100%, var(--page-max));
+}
+
+.filtered-teaser-grid .teaser-grid-item {
+  grid-column: span var(--teaser-grid-item-size);
+}
+
+.filtered-teaser-grid .info-teaser {
+  --text-color: var(--c-ink);
+
+  color: var(--text-color);
+  display: block;
+}
+
+.filtered-teaser-grid .info-teaser:is(:hover, :focus-visible) {
+  --text-color: var(--c-ocean);
+}
+
+.filtered-teaser-grid .info-teaser-inner {
+  display: grid;
+  gap: 16px;
+  grid-template: repeat(2, auto) / 1fr;
+  margin-bottom: 12px;
+}
+
+.filtered-teaser-grid .info-teaser-image,
+.filtered-teaser-grid .info-teaser-tags {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.filtered-teaser-grid .info-teaser-image .ft-image {
+  border: 1px solid var(--c-grey-300);
+}
+
+.filtered-teaser-grid .ft-image picture {
+  inset: 0;
+  position: absolute;
+}
+
+.filtered-teaser-grid .ft-image img {
+  height: 100%;
+  object-fit: cover;
+  transition: scale .3s ease-in-out;
+  width: 100%;
+}
+
+.filtered-teaser-grid .info-teaser:is(:hover, :focus-visible) .ft-image img {
+  scale: 1.05;
+}
+
+.filtered-teaser-grid .info-teaser-tags {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-self: end;
+  padding: 8px;
+  z-index: 1;
+}
+
+.filtered-teaser-grid .info-teaser-tags .tag {
+  /* source: .InfoTeaser:not(.landscape) .InfoTeaser--inner .Tag — dark translucent pill */
+  background: rgb(30 30 30 / 75%);
+  color: #fff;
+  padding: 0;
+}
+
+/* the authored date paragraph carries the tag padding so its box is the tag's */
+.filtered-teaser-grid .info-teaser-tags .tag p {
+  padding: 4px 12px;
+}
+
+.filtered-teaser-grid .info-teaser-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  grid-area: 2 / 1 / 3 / 2;
+  place-items: flex-start;
+  transition: color .2s ease-in-out;
+}
+
+/* heading = pretitle (<strong>) + title text */
+.filtered-teaser-grid .info-teaser-header {
+  font-family: var(--font-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+  overflow: hidden;
+}
+
+.filtered-teaser-grid .info-teaser-header :is(h2, h3, h4) {
+  font: inherit;
+}
+
+.filtered-teaser-grid .info-teaser-header strong {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.filtered-teaser-grid .info-teaser-text {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  font-size: 17px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.filtered-teaser-grid .info-teaser-header .info-teaser-title {
+  display: block;
+}
+
+/* tertiary underline drawn on the authored label paragraph (canon Button--inner::after) */
+.filtered-teaser-grid .info-teaser-cta .btn-inner::after {
+  content: none;
+}
+
+.filtered-teaser-grid .info-teaser-cta p::after {
+  background-color: var(--c-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+}
+
+.filtered-teaser-grid .info-teaser:is(:hover, :focus-visible) .info-teaser-cta p::after {
+  background-color: var(--text-color);
+  scale: 1;
+}
+
+@media (width >= 768px) {
+  .filtered-teaser-grid.small {
+    --teaser-grid-item-size: 3;
+  }
+}
+
+@media (width >= 1024px) {
+  .filtered-teaser-grid {
+    --teaser-grid-item-size: 3;
+
+    padding-block: 80px;
+  }
+
+  .filtered-teaser-grid.small {
+    --teaser-grid-item-size: 2;
+  }
+
+  .filtered-teaser-grid .teaser-grid-grid {
+    gap: 40px;
+  }
+
+  .filtered-teaser-grid .info-teaser-inner {
+    gap: 16px 24px;
+  }
+
+  .filtered-teaser-grid .info-teaser-content {
+    gap: 16px;
+  }
+
+  .filtered-teaser-grid .info-teaser-header {
+    font-size: 32px;
+    margin-bottom: -4px;
+  }
+
+  .filtered-teaser-grid .info-teaser-header strong {
+    margin-bottom: 16px;
+  }
+
+  .filtered-teaser-grid .info-teaser-tags .tag p {
+    padding: 4px 16px;
+  }
+
+  .filtered-teaser-grid .info-teaser-text {
+    font-size: 18px;
+    margin-top: -4px;
+  }
+}
+
+/* revealed by "Load more" (canon .TeaserGrid--item.is-hidden) */
+.filtered-teaser-grid .teaser-grid-item.is-hidden {
+  display: none;
+}
+
+/* CTASection with the "Load more" button (canon CTASection, us-en-news.css) */
+.filtered-teaser-grid .cta-section {
+  display: grid;
+  padding-block: 32px;
+  place-items: center;
+}
+
+.filtered-teaser-grid .cta-section.is-hidden {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .filtered-teaser-grid .cta-section {
+    padding-block: 40px;
+  }
+}
+
+.filtered-teaser-grid .cta-section .btn-inner p {
+  margin: 0;
+}

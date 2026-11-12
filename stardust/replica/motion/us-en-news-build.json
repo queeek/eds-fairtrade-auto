@@ -1,0 +1,790 @@
+{
+  "url": "http://localhost:8791/us-en-news-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3053,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1553,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[data-teaser-grid=\"load-more\"]",
+      "frames": [
+        {
+          "t": 10299.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10503.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10707.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10911.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".TopbarMainNavigation--button",
+      "frames": [
+        {
+          "t": 11922.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12127.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12331.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12534.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".Topbar--searchTrigger",
+      "frames": [
+        {
+          "t": 13545,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13747.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13951.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14154.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".TopbarMetaMenu--openButton",
+      "frames": [
+        {
+          "t": 15165.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15368,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15571.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15774.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".InfoTeaser",
+      "changed": [
+        "self.color",
+        "img..color",
+        "h3.InfoTeaser--header.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "scale 0.3s ease-in-out"
+          },
+          {
+            "el": "h3.InfoTeaser--header",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(3, 94, 124)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(3, 94, 124)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "scale 0.3s ease-in-out"
+          },
+          {
+            "el": "h3.InfoTeaser--header",
+            "transform": "none",
+            "color": "rgb(3, 94, 124)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".CTASection .Button",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(15, 192, 252, 0.25)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "-ua-view-transition-group-anim-root",
+        "el": "html",
+        "txt": "News\n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n    \n      \n   ",
+        "y": 4045
+      },
+      {
+        "name": "-ua-view-transition-fade-in",
+        "el": "html",
+        "txt": "News\n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n    \n      \n   ",
+        "y": 4045
+      },
+      {
+        "name": "-ua-mix-blend-mode-plus-lighter",
+        "el": "html",
+        "txt": "News\n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n    \n      \n   ",
+        "y": 4045
+      },
+      {
+        "name": "-ua-view-transition-fade-out",
+        "el": "html",
+        "txt": "News\n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n    \n      \n   ",
+        "y": 4045
+      },
+      {
+        "name": "-ua-mix-blend-mode-plus-lighter",
+        "el": "html",
+        "txt": "News\n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n    \n      \n   ",
+        "y": 4045
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar",
+        "y": 3053,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 2400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar",
+        "y": 1200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > header.site-header > div.Topbar.is-darkened",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-darkened",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch.is-open",
+        "y": 4045,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch.is-open",
+        "y": 4045,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > header.site-header > div.Topbar",
+        "y": 4045,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--search > div.TopbarSearch.is-open > form > div.Input.TopbarSearch--input > div.Input--fieldWrapper",
+        "y": 4045,
+        "dur": "0s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--barWrapper > div.Topbar--content > div.Topbar--meta > div.TopbarMetaMenu.is-open > div.TopbarMetaMenu--menu",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--barWrapper > div.Topbar--content > div.Topbar--meta > div.TopbarMetaMenu.is-open > div.TopbarMetaMenu--menu",
+        "y": 4045,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch",
+        "y": 4045,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch",
+        "y": 4045,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.Topbar--meta > div.TopbarMetaMenu.is-open > div.TopbarMetaMenu--menu > div.TopbarMetaMenu--menuHeader > button.TopbarMetaMenu--closeButton",
+        "y": 4045,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--search > div.TopbarSearch > form > div.Input.TopbarSearch--input > div.Input--fieldWrapper",
+        "y": 4045,
+        "dur": "0s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.TeaserGrid--grid > li.TeaserGrid--item > a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--content",
+        "y": 442,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--content > span.Button.InfoTeaser--cta.variant-tertiary > span.Button--inner",
+        "y": 442,
+        "dur": "0s"
+      },
+      {
+        "prop": "scale",
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--content > span.Button.InfoTeaser--cta.variant-tertiary > span.Button--inner",
+        "y": 442,
+        "dur": "0s"
+      },
+      {
+        "prop": "scale",
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img",
+        "y": 442,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.TeaserGrid--grid > li.TeaserGrid--item > a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--content",
+        "y": 5236,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--content > span.Button.InfoTeaser--cta.variant-tertiary > span.Button--inner",
+        "y": 5236,
+        "dur": "0s"
+      },
+      {
+        "prop": "scale",
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--content > span.Button.InfoTeaser--cta.variant-tertiary > span.Button--inner",
+        "y": 5236,
+        "dur": "0s"
+      },
+      {
+        "prop": "scale",
+        "el": "a.InfoTeaser > div.InfoTeaser--inner > div.InfoTeaser--image.rectangular > div.Image.rectangular > img",
+        "y": 5236,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "body > main.maincontainer > section.FilteredTeaserGrid.is-visible > div.CTASection > button.Button.variant-secondary.color-skyblue",
+        "y": 5236,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > main.maincontainer > section.FilteredTeaserGrid.is-visible > div.CTASection > button.Button.variant-secondary.color-skyblue",
+        "y": 5236,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "body > main.maincontainer > section.FilteredTeaserGrid.is-visible > div.CTASection > button.Button.variant-secondary.color-skyblue",
+        "y": 5236,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "body > main.maincontainer > section.FilteredTeaserGrid.is-visible > div.CTASection > button.Button.variant-secondary.color-skyblue",
+        "y": 5236,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "body > main.maincontainer > section.FilteredTeaserGrid.is-visible > div.CTASection > button.Button.variant-secondary.color-skyblue",
+        "y": 5236,
+        "dur": "0.2s, 0.2s, 0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-darkened"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-darkened",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--search > div.TopbarSearch.is-open",
+        "y": 4045
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar > div.Topbar--barWrapper > div.Topbar--content > div.Topbar--meta > div.TopbarMetaMenu.is-open",
+        "y": 4045
+      }
+    ]
+  }
+}

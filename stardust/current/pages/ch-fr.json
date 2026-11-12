@@ -1,0 +1,818 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-05T10:22:09.688Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ch-fr",
+  "url": "https://www.fairtrade.net/ch-fr.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-05T10:22:09.688Z",
+  "finalUrl": "https://www.fairtrade.net/ch-fr.html",
+  "title": "Fairtrade Max Havelaar Suisse",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Fairtrade relie"
+    },
+    {
+      "tag": "h2",
+      "text": "Nouveau standard Fairtrade usine textile"
+    },
+    {
+      "tag": "h2",
+      "text": "Pourquoi équitable."
+    },
+    {
+      "tag": "h2",
+      "text": "Chute de prix du cacao en Côte d'Ivoire"
+    },
+    {
+      "tag": "h2",
+      "text": "Les avantages du commerce équitable Fairtrade"
+    },
+    {
+      "tag": "h3",
+      "text": "News Chute du prix du cacao en Côte d’Ivoire : la branche suisse du chocolat doit prendre ses responsabilités"
+    },
+    {
+      "tag": "h3",
+      "text": "News Nouveau Standard Fairtrade Textile : des salaires plus élevés et une participation renforcée des travailleuses et travailleurs"
+    },
+    {
+      "tag": "h3",
+      "text": "News Le programme Fairtrade de prévention et de remédiation du travail des enfants touche 5000 enfants"
+    },
+    {
+      "tag": "h2",
+      "text": "Produits du commerce équitable Fairtrade"
+    },
+    {
+      "tag": "h2",
+      "text": "Pourquoi acheter des produits Fairtrade ?"
+    }
+  ],
+  "body": [
+    "Fairtrade relie le commerce équitable, de meilleurs prix et des conditions de travail dignes. Nous nous engageons pour un avenir juste – pour les productrices et producteurs, les travailleuses et travailleurs et pour toi.",
+    "des salaires plus élevés et une participation renforcée des travailleuses et travailleurs",
+    "Un travail équitable mérite des conditions équitables. Le commerce équitable garantit de meilleurs revenus, une plus grande participation aux décision",
+    "Suite à une chute de 57% par rapport à l’année précédente Fairtrade appelle l'industrie suisse du chocolat de prendre responsabilité.",
+    "1'930 organisations de producteur dans 70 pays",
+    ">37'000 produits vendus avec le label Fairtrade dans plus de 140 pays",
+    "La consommation et la production durables sont devenues une exigence plutôt qu’une exception. Le mouvement Fairtrade propose des solutions aux entreprises et aux producteurs pour mettre l’équité au cœur de leurs activités.",
+    "11.09.26 News Chute du prix du cacao en Côte d’Ivoire : la branche suisse du chocolat doit prendre ses responsabilités Le prix du cacao fixé par l’État en Côte d’Ivoire chute de 57% par rapport à l’année précédente au début de la nouvelle campagne principale de récolte. Pour de nombreuses familles de cacaoculteurs et cacaocultrices, cette baisse menace les moyens de subsistance. Fairtrade appelle donc la branche suisse du chocolat à prendre ses responsabilités et à payer volontairement davantage pour le cacao. Lire la suite",
+    "Le prix du cacao fixé par l’État en Côte d’Ivoire chute de 57% par rapport à l’année précédente au début de la nouvelle campagne principale de récolte. Pour de nombreuses familles de cacaoculteurs et cacaocultrices, cette baisse menace les moyens de subsistance. Fairtrade appelle donc la branche suisse du chocolat à prendre ses responsabilités et à payer volontairement davantage pour le cacao.",
+    "02.09.26 Système Fairtrade News Nouveau Standard Fairtrade Textile : des salaires plus élevés et une participation renforcée des travailleuses et travailleurs Fairtrade a profondément remanié son précédent Standard Textile. Désormais, l’accent est mis sur la phase dite de coupe, confection et finition/couture, ainsi que sur un nouveau mécanisme visant à augmenter les salaires. Lire la suite",
+    "Fairtrade a profondément remanié son précédent Standard Textile. Désormais, l’accent est mis sur la phase dite de coupe, confection et finition/couture, ainsi que sur un nouveau mécanisme visant à augmenter les salaires.",
+    "31.08.26 Travail des enfants News Le programme Fairtrade de prévention et de remédiation du travail des enfants touche 5000 enfants Le programme Fairtrade de prévention et de remédiation du travail des enfants et du travail forcé poursuit son développement. Pour sa troisième année, il accompagne douze coopératives cacaoyères en Afrique de l’Ouest dans la mise en œuvre de leurs propres projets, qui touchent environ 5000 enfants. Lire la suite",
+    "Le programme Fairtrade de prévention et de remédiation du travail des enfants et du travail forcé poursuit son développement. Pour sa troisième année, il accompagne douze coopératives cacaoyères en Afrique de l’Ouest dans la mise en œuvre de leurs propres projets, qui touchent environ 5000 enfants.",
+    "Coop Barista Bohnen En savoir plus",
+    "Coop Crema Classico Bohnen, Honduras En savoir plus",
+    "Minor Merry Christmas Box En savoir plus",
+    "Adobe Reserva Adobe Sauvignon Blanc 2026 En savoir plus",
+    "Adobe Reserva Adobe Chardonnay 2026 En savoir plus",
+    "Minor Himbeere (5 x 22g) En savoir plus",
+    "Munz Munz Glückskäfer Bottle 150g En savoir plus",
+    "Minor Original Bottle 150g En savoir plus",
+    "Halba Napolitains, assortiert En savoir plus",
+    "Fair Squared FAIR SQUARED Hand Cream Sensitive Almond En savoir plus",
+    "Fair Squared FAIR SQUARED Shampoo Apricot En savoir plus",
+    "Fair Squared FAIR SQUARED Hand Cream Intensive Olive En savoir plus",
+    "Fair Squared FAIR SQUARED Body Butter Shea En savoir plus",
+    "Fair Squared FAIR SQUARED Body Lotion Lime En savoir plus",
+    "Fair Squared FAIR SQUARED After Care Tattoo Cream En savoir plus",
+    "Fair Squared FAIR SQUARED Shower Gel Lime En savoir plus"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Retour à la page d'accueil",
+      "href": "https://www.fairtrade.net/ch-fr.html"
+    },
+    {
+      "label": "Commerce équitable Fairtrade",
+      "href": null
+    },
+    {
+      "label": "Produits et fillières",
+      "href": null
+    },
+    {
+      "label": "Pour les entreprises",
+      "href": null
+    },
+    {
+      "label": "Participe",
+      "href": null
+    },
+    {
+      "label": "Recherche Ouvrir la boîte de recherche",
+      "href": null
+    },
+    {
+      "label": "CH • FR Ouvrir ou fermer le sélecteur de langue. La langue actuellement sélectionnée est CH-FR.",
+      "href": null
+    },
+    {
+      "label": "Ouvrir Ouvrir le menu méta",
+      "href": null
+    },
+    {
+      "label": "En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/nouveau-standard-fairtrade-textile-factory.html"
+    },
+    {
+      "label": "En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/campagnes/pourquoi-equitable.html"
+    },
+    {
+      "label": "Lire cet article",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/chute-du-prix-du-cacao-en-cdi.html"
+    },
+    {
+      "label": "Principaux avantages",
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz.html"
+    },
+    {
+      "label": "11.09.26 News Chute du prix du cacao en Côte d’Ivoire : la branche suisse du chocolat doit prendre ses responsabilités Le prix du cacao fixé par l’État en Côte d’Ivoire chute de 57% par rapport à l’année précédente au début de la nouvelle campagne principale de récolte. Pour de nombreuses familles de cacaoculteurs et cacaocultrices, cette baisse menace les moyens de subsistance. Fairtrade appelle donc la branche suisse du chocolat à prendre ses responsabilités et à payer volontairement davantage pour le cacao. Lire la suite",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/chute-du-prix-du-cacao-en-cdi.html"
+    },
+    {
+      "label": "02.09.26 Système Fairtrade News Nouveau Standard Fairtrade Textile : des salaires plus élevés et une participation renforcée des travailleuses et travailleurs Fairtrade a profondément remanié son précédent Standard Textile. Désormais, l’accent est mis sur la phase dite de coupe, confection et finition/couture, ainsi que sur un nouveau mécanisme visant à augmenter les salaires. Lire la suite",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/nouveau-standard-fairtrade-textile-factory.html"
+    },
+    {
+      "label": "31.08.26 Travail des enfants News Le programme Fairtrade de prévention et de remédiation du travail des enfants touche 5000 enfants Le programme Fairtrade de prévention et de remédiation du travail des enfants et du travail forcé poursuit son développement. Pour sa troisième année, il accompagne douze coopératives cacaoyères en Afrique de l’Ouest dans la mise en œuvre de leurs propres projets, qui touchent environ 5000 enfants. Lire la suite",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/remediation-du-travail-des-enfants.html"
+    },
+    {
+      "label": "Toutes les actualités",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html"
+    },
+    {
+      "label": "Coop Barista Bohnen En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.165507.html"
+    },
+    {
+      "label": "Coop Crema Classico Bohnen, Honduras En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.165509.html"
+    },
+    {
+      "label": "Minor Merry Christmas Box En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.168515.html"
+    },
+    {
+      "label": "Adobe Reserva Adobe Sauvignon Blanc 2026 En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170493.html"
+    },
+    {
+      "label": "Adobe Reserva Adobe Chardonnay 2026 En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170494.html"
+    },
+    {
+      "label": "Minor Himbeere (5 x 22g) En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.167149.html"
+    },
+    {
+      "label": "Munz Munz Glückskäfer Bottle 150g En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170318.html"
+    },
+    {
+      "label": "Minor Original Bottle 150g En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170320.html"
+    },
+    {
+      "label": "Halba Napolitains, assortiert En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.167911.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED Hand Cream Sensitive Almond En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169784.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED Shampoo Apricot En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169761.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED Hand Cream Intensive Olive En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169813.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED Body Butter Shea En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169814.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED Body Lotion Lime En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169815.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED After Care Tattoo Cream En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169816.html"
+    },
+    {
+      "label": "Fair Squared FAIR SQUARED Shower Gel Lime En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169817.html"
+    },
+    {
+      "label": "Découvrir tous les produits",
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits.html"
+    },
+    {
+      "label": "En savoir plus",
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous.html"
+    },
+    {
+      "label": "CH • FR Ouvrir ou fermer le sélecteur de langue. La langue actuellement sélectionnée est CH-FR.",
+      "href": null
+    },
+    {
+      "label": "Nous en Suisse",
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse.html"
+    },
+    {
+      "label": "Actualités",
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html"
+    },
+    {
+      "label": "Carrière",
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse/carriere.html"
+    },
+    {
+      "label": "FAQ",
+      "href": "https://www.fairtrade.net/ch-fr/faq.html"
+    },
+    {
+      "label": "Médiathèque",
+      "href": "https://www.fairtrade.net/ch-fr/mediatheque.html"
+    },
+    {
+      "label": "Mentions légales",
+      "href": "https://www.fairtrade.net/ch-fr/impressum.html"
+    },
+    {
+      "label": "Protection des données",
+      "href": "https://www.fairtrade.net/ch-fr/protection-des-donnees.html"
+    },
+    {
+      "label": "Code of conduct",
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse/objectifs-valeurs.html"
+    },
+    {
+      "label": "Social Links",
+      "href": "https://www.facebook.com/Fairtrademaxhavelaar"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/fairtrademaxhavelaar/"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://ch.linkedin.com/company/fairtrademaxhavelaar"
+    },
+    {
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@fairtrademaxhavelaar"
+    },
+    {
+      "label": "Youtube",
+      "href": "https://www.youtube.com/user/FairtradeSwitzerland"
+    },
+    {
+      "label": "s'abonner à la Newsletter",
+      "href": "https://www.fairtrade.net/ch-fr/participe/newsletter.html"
+    }
+  ],
+  "links": [
+    "https://www.fairtrade.net/ch-fr.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/quest-ce-que-le-fairtrade.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/comment-fairtrade-fonctionne.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/benefices-du-commerce-equitable-fairtrade.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/theorie-du-changement.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/piliers-du-commerce-equitable.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-droits-des-travailleurs.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-droits-des-femmes.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/lutter-contre-le-travail-des-enfants.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/hredd.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-petits-exploitants-agricoles.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/des-revenus-et-salaires-vitaux.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/climat-et-environnement.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/fairtrade-et-les-sdg.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/projets-et-programmes.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/fairtrade-label.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/les-standards-fairtrade.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/temoignages-producteurs.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/chiffres-cles.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/comment-mesurer-impact.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/impact-map.html",
+    "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/etudes-d-impact.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/bananes-equitables.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cacao-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cafe-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/coton-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/fleurs-equitables.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/fruits-et-jus-de-fruits-equitables.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/or-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/herbes-et-epices-equitables.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/miel-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/noix-et-oleagineux-equitables.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/quinoa-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/riz-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/ballons-de-sport-equitables.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/sucre-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/the-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/vin-equitable.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits.html",
+    "https://www.fairtrade.net/ch-de/produkte/fairtrade-code.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/les-avantages.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-consommateurs.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-entrepreneurs.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-producteurs.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/certification.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/devenir-licencie.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/au-dela-de-certification.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/inscriptions-fleuristes-orf-vres-restaurateurs.html",
+    "https://www.fairtrade.net/ch-fr/entreprises/b2b-newsletter.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites/prix-par-mois.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites/campagnes.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites/fair-trade-towns-marches-publics.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites/fairtrade-schools-materiel-educatif.html",
+    "https://www.fairtrade.net/ch-fr/participe/newsletter.html",
+    "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+    "https://www.fairtrade.net/ch-fr/participe/actualite/remediation-du-travail-des-enfants.html",
+    "https://www.fairtrade.net/ch-fr/participe/actualite/chute-du-prix-du-cacao-en-cdi.html",
+    "https://www.fairtrade.net/ch-fr/participe/actualite/nouveau-standard-fairtrade-textile-factory.html",
+    "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse.html",
+    "https://www.fairtrade.net/ch-fr/mediatheque.html",
+    "https://www.fairtrade.net/ch-fr/la-presse.html",
+    "https://www.fairtrade.net/ch-fr/contact.html",
+    "https://www.fairtrade.net/en.html",
+    "https://www.fairtrade.net/africa-en.html",
+    "https://www.fairtrade.net/at-de.html",
+    "https://www.fairtrade.net/be-fr.html",
+    "https://www.fairtrade.net/be-nl.html",
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ca-en.html",
+    "https://www.fairtrade.net/ca-fr.html",
+    "https://clac-comerciojusto.org/",
+    "https://www.fairtrade.net/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+    "https://www.fairtrade.net/maxhavelaarfrance-fr.html",
+    "https://www.fairtrade.net/de-de.html",
+    "https://www.fairtrade.net/gr-el/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/hu-hu/hozza-el-a-fairtrade-et-az-on-piacara.html",
+    "https://www.fairtrade.net/iberica-es.html",
+    "https://www.fairtrade.net/iberica-pt.html",
+    "https://www.fairtrade.net/ie-en.html",
+    "https://www.fairtrade.net/it-it.html",
+    "https://www.fairtrade.net/jp-jp.html",
+    "https://www.fairtrade.net/kr-ko.html",
+    "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/mt-mt/iggib-fairtrade-fis-suq-tieg-ek.html",
+    "https://www.fairtrade.net/napp-en.html",
+    "https://www.fairtrade.net/nl-nl.html",
+    "https://www.fairtrade.net/no-no.html",
+    "https://www.fairtrade.net/pl-pl.html",
+    "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+    "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+    "https://www.fairtrade.net/se-sv.html",
+    "https://www.fairtrade.net/ch-de.html",
+    "https://www.fairtrade.net/uk-en.html",
+    "https://www.fairtrade.net/us-en.html",
+    "https://www.fairtrade.net/ch-fr/participe.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites/campagnes/pourquoi-equitable.html",
+    "https://www.fairtrade.net/ch-fr/participe/activites/campagnes/fair-vibes-merch.html",
+    "https://www.fairtrade.net/ch-fr/participe/actualite/rapport-annuel-2025-fairtrade-max-havelaar-continue-sa-progression.html",
+    "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.168781.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.163185.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.165238.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.164906.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.165162.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.168116.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.168354.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170736.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.165507.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.165509.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.168515.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170493.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170494.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.167149.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170318.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.170320.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.167911.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169784.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169761.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169813.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169814.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169815.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169816.html",
+    "https://www.fairtrade.net/ch-fr/produits/index-des-produits/pdp.169817.html",
+    "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse/carriere.html",
+    "https://www.fairtrade.net/ch-fr/faq.html",
+    "https://www.fairtrade.net/ch-fr/impressum.html",
+    "https://www.fairtrade.net/ch-fr/protection-des-donnees.html",
+    "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse/objectifs-valeurs.html",
+    "https://www.facebook.com/Fairtrademaxhavelaar",
+    "https://www.instagram.com/fairtrademaxhavelaar/",
+    "https://ch.linkedin.com/company/fairtrademaxhavelaar",
+    "https://www.tiktok.com/@fairtrademaxhavelaar",
+    "https://www.youtube.com/user/FairtradeSwitzerland"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/logo---labels/ftmh/FTMHCH_CorpLogo_662x740.jpg",
+        "alt": "",
+        "w": 662,
+        "h": 740
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-germany/aktiv-werden/21x9_Fairtrade%20deutschland_mach-mit.png/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "",
+        "w": 1115,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/news/2026/News%20New%20Textile%20Factory%201400x600.png/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "",
+        "w": 1115,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/mach-mit%21/kampagnen/darum-fair/WebSlider_Desktop.jpg/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "",
+        "w": 851,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/news/2026/Kakaobauern%20CDI%201400x600.png/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "",
+        "w": 1115,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/mach-mit%21/kampagnen/merch/IMG_20260624_102641_00_049_B.jpg/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "",
+        "w": 761,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/mediathek/jahresberichte/Coffee%20Sol%20y%20Caf%C3%A9%20Peru%20%282%29.jpg/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "",
+        "w": 718,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/global/what-is-fairtrade/Karen%20Roses%2C%20Ravine%20Roses%20Kenya%202020_edited.jpg/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "Fleuriste du commerce équitable dans une plantation de fleurs",
+        "w": 719,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/global/for-business/consumer-trends/VV_Fairtrade%20Sweden_2024_Consumer%20Photo2.jpg/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "Consommateur Fairtrade au supermarché",
+        "w": 717,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/global/products/coffee/Untitled%20design%20%2823%29.png/_jcr_content/renditions/21x9_1280w.webp",
+        "alt": "Des grains de café dans la main",
+        "w": 624,
+        "h": 478
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/news/2026/Cocoa%20ECAKOOG%20Ivory%20Coast%202020-lpr.jpg/_jcr_content/renditions/4x3_640w.webp",
+        "alt": "cacaoculteurs au travail",
+        "w": 419,
+        "h": 271
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/news/2026/News%20New%20Textile%20Factory%204x3.png/_jcr_content/renditions/4x3_640w.webp",
+        "alt": "Näherin ",
+        "w": 419,
+        "h": 314
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/news/2026/2.png/_jcr_content/renditions/4x3_640w.webp",
+        "alt": "Kind schreibt etwas an die Wandtafel in der Schule",
+        "w": 419,
+        "h": 314
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170494_270360.png",
+        "alt": "",
+        "w": 1232,
+        "h": 3631
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_167149_225043.png",
+        "alt": "",
+        "w": 854,
+        "h": 746
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170318_550150.png",
+        "alt": "",
+        "w": 835,
+        "h": 1580
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170320_369041.png",
+        "alt": "",
+        "w": 835,
+        "h": 1580
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_167911_414583.png",
+        "alt": "",
+        "w": 271,
+        "h": 517
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_169784_470577.jpg",
+        "alt": "",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_169761_86751.jpg",
+        "alt": "",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_169813_120190.jpg",
+        "alt": "",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_169814_541779.jpg",
+        "alt": "",
+        "w": 1710,
+        "h": 1772
+      }
+    ],
+    "allImgCount": 49,
+    "cssBackgrounds": [
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAYAAADrIbPPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAFvJSURBVHgB7N2LdtvGsi1QbceJH/n/P40tObF97l3O7h1G1oPsbgAFYM4xMOQ8LJEgCKmXqqr/88cff/zfHQAAAAAU9eYOAAAAAAoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAO6AygRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAASnt7BwAAcGDfv3+/+/bt248/v3nz5u6XX365A2BfBFgAAMAh/fXXX3d//vnn3f/93//969//5z//ufvtt9/ufv311zsA9kELIQAAcDgJrr58+fJTeBX5d/lvOQDYBxVYAACUl8ChHWkHe07aw9rHVNlwTq3y6pr/L9eKSiyA+gRYAACU0WYV5WPCqvz5qQqaayXESkDx+BBuHds14dXl//v27VvXBEBxAiwAADaTgKodLbSaqYVgbYB30wZ5t0N4cRxfv3696TrK/5u/owoLoDYBFgAAq2ktgAkMbg0aZspjyJEWskiIlSoclTj791KL6XMEWAD1CbAAAFhcKqC2Dq1e0qq0MtS7hVkCjfNo1X/CS4C6BFgAACyitWalyqmnKmYrLcxqs5F+++03wcbBtcrAhJcA1CTAAgBgqoQBCa1yVKy2utbl80g1liDr2BK2CrAA6hJgAQAwxVGCq6cIso5vT1WCAGckwAIAYFja7Y4YXD0myDqutI2agwVQlwALAIBuWfQ/PDwcPrh6rAVZCbFycAx2IwSoS4AFAMDNEli1qqsza+fg48ePKncOQBshQF1v7gAA4Aapuvr8+fPpw6smYd6nT59+hFlsb6QaMBVYANSkAgsAgKuounqZaqz9yzVuDhZATQIsAABelUX9/f395i1WLVjIx8chQwsftpzHla+d6rTMxTJLaZ9SYfj2rWUSQDXuzAAAvGiLQe0JpxIivHnz5seff/nll//9+2vksSZsuzzyPNaQr/3ly5cfHw14X99oyCrAAqjJnRkAgGelJS5hzNIuA6t8HG3haqFXC76ahBOXx5LSUthCLC1p+7FW0AnAbQRYAAA8KQHMkoPJW2iV43HQtJTLUCvhUoZ2J6RbqjUynzuByIcPH4RYKxmtFMy1YA4WQD0CLAAAfrJkeJUAKVVJa4VWz0lAkTlVORJaJGxaYkB9PnfmYhnuvo4Zra55zba+PgH4tzd3AABwYanwKoFAKpFyVAsH0rr47t27u99//32Rlr823H3LAfNnMSvAAqAWFVgAAPzPEuFVlYqrayS4ajsIphpr5rloIZZKrOXMCggFWAD1qMACAOCH2eFVQpqqFVevaUFWKrISZs2iEmsfMhsNgFoEWAAATA+vEv6k0mjvc4QSZKW1MMesqqmEVw8PD3fMN6tyKq+RkBGgFgEWAMDJZZe8WeFVQp4EV0vMkdpSqrDyvGZVY+Wcf/ny5Y65ZoZOeY0AqMMMLACAE5tZDZRw52jB1aVWjZWB7wn8RsOSzNjK55rZonh2MwMsFVgAtajAAgA4qZnzmGa32VXWqrFmPNdUYan0mWfm8HWD3AFqEWABAJzUjCqiNqj9bFVErVUyFVSjUgGn2meOmefRIHeAWgRYAAAnlPa1HCNaiLP3Qe292vMfDe8MdZ9nZtWUQe4AtQiwAABOJovy0aHtLbw5Q8vga9I6ORpipY1wNFBk/twqARZAHQIsAICTGW0dFF79bEaINaOl88yWqJgynwygDgEWAMCJjLYOCq+elxBrpJ1SK+GYJYauG+QOUIcACwDgJGa0DmZgu/Dqee/fvx8a7J6KH1U/fZYIm1TEAdQhwAIAOIlUXo0syFNhNGPXvSNruzKOhHyqsPosEWAJEwHq8BMIAMAJjFZfZb7T6Iyns0h4lUqsXjMq5c5IBRbAsQmwAABOYCQQSSCT6iuul1lYI+dstFrujJaaV+V1AKhBgAUAcHBZgI8Mbs/Qdm6XirXeoe6jr9nZLLEDYaONEKAGARYAwMGNVF/99ttvhrYPSCth7/lThXW9JXcL9BoA1CDAAgA4sJFKngQvCbDoN3IOVWFdb8kAa8nPDcD1BFgAAAc2Un2ldXCOtBL27t4owLrOkm1+KrAAahBgAQAc2NevX+96JHTROjhP70D3hCdmML1OBRbA8QmwAAAOamSGktbBuTLMvXeg+0gV3RnkGjcDC+D4BFgAAAel+qqW3lAwFVhClOctXSG15A6HAFxPgAUAcEAjrWeqr5YxUoXVG0aegXMDcA4CLACAA1J9VVNvOCiked4aM6rMwQLYngALAOCAegOPt2/f3rGcVGD1BITaCJ+3xpB7ARbA9gRYAAAH09s+mGClt8WN66XKrYcqrJ/ZoRHgPARYAAAHY/ZVbQKsedYKsFS/AWxPgAUAcDC9i3rtg+vorXTTxvYzARbAeQiwAAAOpqdSp3c2E316wsKRnSWPaM3zIcAC2J4ACwDgQLLQ7llsq75aV+/5VoX1j97wqqf6TYAFsD0BFgDAgfQu6t+88WPhmlLt1lPxJsD6x5qtss47wPb8pAIAcCA9C227D26jJ0gxyP0fWmUBzkWABQBwID0BluqrbfSc994W0aPJdd5zHnoDLOccYHt+WgEAOJCeAEv11TZ652AJU+7u/vrrr7seudYFtgD75O4NAHAgKrD2o3cOlp0I+87BaKus4BBgW35aAQAW19qeLACX1Xt+BVjb0c52uzz/nqDWTpsA++YuDgAsJm0+GbR8WS2RsOTXX3/9cTBX705pAqztpCLo1tft7AFW7yD7Vn1liDvAPgmwAIDpssB+eHh4ss0ni/UvX778CLc+fPhgMTlRT7Dh/O/P2QOskflXI3LvMi8OYDt+3QYATPfnn3++OqMmi8H7+/s75ukJNlRfbat3J8Kz6m0ffLz7oOAWYH/8xAIATJXqiGsrJFo1FnOYMXYOva2iR5BwvIf5VwD7J8ACAKa6dT7NLYEX86nA2pZKoNv0zr8SYAHsn59YAICpera3TxVWz9/j31Rg7Y8A63q5R/Rc44/bB3t5fwFsS4AFAJSQoe8WiMBztq6+cn8C2JYACwCYqrfSoe1cCPBY7g+9rcbaBwGOQYAFAEw1MlMpLUKGuvfTjsZR9VZf/frrr94XAAchwAIApvrtt9/uRqTKonexChxT7+6DmX8FwDEIsACAqbJgHG3ZSRWWeTPr+P79+x3b6Tn/Z6so6h3envOkfRDgOARYAMB07969G1pkZ7F6f39/x216zrmgcFu9wcyZbD28HYAaBFgAwHRZYL9///5uRCpTzMO6jQBrfwRYLxsZ3j7azvyYWVoA2xJgAQCLSCvhjHlYaR/iOj0D9BMQCLG2I8B62cjsq9nnSYAFsC0BFgCwmARYo0OUHx4eBCxX6l1gO7/b6ZmBNbLT557kutQ+CEAjwAIAFpVWwtF5WAmxeF3Oc8+5VuW2HUPcn5fwqrdC7ddff70D4FgEWADAombMw0rAYh7WdXrCDTsRbqM3ODxLBVZv++A11VeqDgH2R4AFACwubYTZmXBE5mH1LmjPpKdlUwXWNnqDwzMEWHm/94ZMs4e3N2ZgAWxLgAUArCItPaNzaRJg9e5IdhY94UaCFBUp6+sJDlVfvSz3maWCJgEWwLYEWADAalKFNboIzMJWy9vzegMO53R9PQHW6KYIe7B09ZWwFmCfBFgAwGoSXn38+HF4qPv9/b1F6DN6A6ze3d7ok/Cq5xo+QwVWb/VVwr0lq6RUYAFsS4AFAKwqi8DRGTVZ+H/+/FmI9YSc354qHQHWunrP99ErsNaYfaXaEGCfBFgAwOoyp2ZGiKUS62k9VTo5j4a5r6cnwEo4eeQKrFyDvdVXOS9LhnuqrwC2J8ACADaRAGt0wZlKCjsT/qx3WL4qrHX0tg+OboJQ3Uj1VULxawm9AfZJgAUAbOb9+/fDlQ1Z9H758uWOf/TOAkqAZXG/PO2DPxupvsq1vnSAdZbdHwEqcycGADYzYx5WJMRSifVvPdU6WdirwlrWyDk+coA18v699R4ipAXYJwEWALCpVE7MaI3KAliI9Q9thDX1Vrnl9TzqHKacj4TQPW6tvmpf71YqsAC2504MAGzu3bt3UxbnQqx/ZMHdc04zn8kw9+X0Xp9Hrr7KjqK90oZ8KxVYAPskwAIANpegJSHWDAkIeqs5jiTntLcKSwi4jN4h5T1VRnsxMrg9oV5PsNf7GgCwLQEWAFBCwpZZu6xlqLsQq7+NUBXWMnqDwaPuPjgyuD16qq/a172VAAtgewIsAKCMWa2EIcTqr1AJVVhz5Xz2VhrN2OigopFzkoq03nvF9+/f725lBhbA9tyJAYAyZu1K2AixxqqwVLHNMTKkPAHkEat/cj5Grq/e+0RvYKYCC2B7AiwAoJRUVswcWH32EGtk97qRChn+MVppdDSjrYMJr3qvaQEWwH4JsACAcnpn2zznzCHWyADwLPZz7ug3Umk0Moi/spFAb3SgfU/7YL6mAAtgewIsAKCc2a2EceYQa2Re0NevX38c3G5GpdHR5FoabR0cCZMMcAfYLwEWAFDSSOjynIRYZxxOPlq1kvOmlfB2I+dt9DWraLSiL9Voo+ektwILgO0JsACAkrJonN1KGAmwzhhijQSCCR7u7++FWDfINTZSubbEtb+10Zlq2aV0lB0IAfbL3RgAKCvD3GcOdG/OGGKNtmVm4X/G4K9HgquRczV7I4MKZuw6OKMSqidAE2AB1OBuDACUtlQlSgKGsw0oHw1GEkAIsV42Y/D90WZfjc4CmzkTTwshwH4JsACA0pYY6N4kkDnbfKfRQDBBxFmH4b8m19Hnz5+HrqdZlUZVzDgnHz9+vJuhJ7wKFVgANbgbAwDlLTHQvUkYc6b5TjMCwTPv6PicGUHNkmHtVkbnXs0M9HofhwALoAZ3YwCgvKUX9qnMGA0f9iTncnRRLsT6x4zwKmZVGlUxOvdq9vveAHeAfXNHBgB2YckqrGghRG+b0d58+PBh+HwmxDr7TKxZ4dXRWgfzPhqdBTY70Pv27dvdrcy/AqhDgAUA7MZSA92bhBBpJzxDZdGs6pYz7ujYJBCZEV5lsP6RWgfb+2jEEoGeCiyAfXNHBgB2Iwv9kV30rtF2kTtDKJOqthyjcq4eHh5ONQx/1uy0hDRLB7NrqjwLrCfAWvp+A8D1BFgAwK6sVamSUGa0BWoPZszDiq9fv55ijlgLOGddG2mTO1Kb2ujQ9pyLJWaB9bYGayEEqEOABQDsyhpVWE2qbI4eymSBPmMeVuQ8ffr06bDVa61lcFaL6bt37w4XXo2em6VmgfUGWCqwAOoQYAEAu7PmvKAz7FA4M8SKBBkJso5yzlrV1YyWwSbX8Iz2zSpmzEKb1dL6lJ4B7uZfAdTirgwA7M6aVVjRKouOPNw9i/WZIVY7Zwl+9hxktSq8ma99wqsjDW3PuRkNr3LdpSJtKQa4A+yfuzIAsEtbBAAzZx9VlAX77PPaAqDR2UhrS8VOKq5mB3CpMDpSeJVgaPQ9sdTcq0sGuAPs39s7AIAdalVYPa1BIxLIZGD50YZvN62Fa2ZQlwCozUd6+/btYnOOZshrm8e5xHWVc7tkldHaEgol5BuVXRiXvB7yOHtCSBVYALUIsACA3UoQMmMBfasshlNVlDAigczRJGhJoDC7+iifK+FQjnyNnLsKVS6Xj2upKrGjtQ3mPM2YCZZzsvQ10BtGCrAAahFgAQC7tVUVVmTh/vDwcLhgokm4lAX8zMHll1pglKAsX2vtMCvPKdVWOZa+fo4YXs3Y2GCtdsre+VdHrLAE2DMBFgCwa1tVYTVpjUsIMnMAehVZxKdVcsldGC+rn1qYla+bMGtmBUy+ToKqdvSEGj1SpXek3QZnhVd5bddqp7QDIcAxCLAAgF3bsgqrSRiSRX3CtCOFFdEGbKedMEHdklqYdfm1EyS0apj2sR1PafOOcrQ/59pYe4B8Hl9mOx1pEHibeTV6LnNuEviuoV0HtzLAHaAeARYAsHtbV2FFFsoJebJYrjykvEcLY1JtlmMtl1VTe5LwY+nB5GubGV6tuQFCb6WdCiyAetyZAYDda1VYPWYvpFNBtGTL3ZYSzB2xVXKmVOAd7RwlQJxZebXmuemtGlSBBVCPAAsAOISR3QBnD5LOQv/Tp0+rViutJQv7VNAcrVVyVAtn1prrtJYEsrMG+efcrF3ZpH0Q4DgEWADAISTA6qnsyMJ8qZavBFgJso5WjZXzlDAih2qsv6uuEuodLfjI9Zu22BlyrYyEzD1aC+qtBFgANQmwAIBDSJDSWxWUhXoW10vM5jlyNVYLbs5ajZWgo1VdHS3ImznvbKvNDXpnpwmwAGoSYAEAh9G7SG671LUB00ssto9ejfX777+fJshqQ+0TXh0t7GibEcwMr2a36F6rN8AywB2gJndnAOAwEiz0till1k/7HK09brYjV2NdBllHrWC5fI5rt8OtIddn5l2198KoLcOr6G0f1BYLUNPxvvMCAKeWKqCenceyaL9cbOfzJKRYYkfBBFj5eqniOVrY04aZ55y157l3eY1yLRy5wizDzmcNa4+tw6s8j54B7qqvAOoSYAEAh5KwIcet1Rdt4PNloNRaCpcIYlq1S0KRLPSPVvXRqpXy3HL+EirurX0y10Ie/9FnIuXazmt0lPAqekLsOGJlHcBRuEMDAIeTRWhP+1AWvY/DihbEpDJj5iK/SXiQr7vVoOulXbZk5nnmdalcldWqrXp3tdybmcPao0J4FQa4AxzPf/74449jTRIFAE4vIVNP61+ruHouuOj9vLO+/lG0arccW1dm5VwnnDxTaBU55w8PD91Bz1OqhFfRs2FC21USgJoEWADAIWVx3tNGlEqh1yqhZletPHbUtsLnZFZRC7Ty557ZRddqgVVrNc2fzza0e/a8q7jmfbOWXEd5freq9BwA+JkWQgDgkHqHuefvvLaIbXOREpItUT109LbCxxIi5WjPtQ3gbkf+uf27a853AqkWVF1+tMPc39fWly9f7mbJ+ay2GUHv/CvtgwC1CbAAgENqYcWtAVOqN/J3Xgs68vmXGvAeeQwJGvL5UxlypuHSLWx6KVB46nU9ezj1kiVaBtuOk9V27usJsFrQCUBd7tIAwGH1Vi9duwC+HFC+VHjSgoeEWXvbxW9Jrcrq8uBpCa0yu212eJUAt1roc22V3mN2HwSoT4AFABzW0gHW5dfJYn7Jdr9UeWUw9RI7IXJMrYpv9ryrhFZVNxvoDekEWAD1uVMDAIfVWtFuXdRe20b4+GulEiuL+yVDptayeJb5WPTJNbzEjLbqGwz0tPO2+wQAtanAAgAOrbeyoncQ9BrVWK2yJhVZM9vC2L+lqq4iwdWS7bKj2qD/WwmvAPZBgAUAHNraAVa0aqzszrbkYj8L9gQV5mMRbdbV7E0F2vWcAKsyuw8CHJsWQgBKaItvg5iZbc02wscSnuVI21+OpSSwyFG9vYtltKqrkdD1OW1Y+x6uqd7nb/4VwD64WwOwuSy+UjWQj1lIpGoFZsp11dNqlwXxjFbANq9qqZChSYjVHnP1ahnmaDPRlqjAS/C7dBXhLHn+Pe/xPEeBL8A+aCEEYHOXA6+z+DbTh9l6KyxmXotZJCcMWHqGUN5LeU9lPtbsVjLqyLW55K6UCUA/fPiwm3BH9RXA8bljA7C5xwuP/LOZJMw00kY4W6qjsmhOuLRkW2FrK8vXsGPhcWRIeV7XpYL+FrTu7R7cG9YKsAD2QwUWAJt6qvUlAZaB1MzWsyDvbUt6TUKChEq///774sHS5Y6FKrL2q72OabdeKrzKeyTzrvYWXo3sPqh9EGA//MoBgE09tRBrixFVWMyUoKin4mnJisC2u9ubN28WawVrVGTtU163NqR/yesj1+Fer4neSkbVVwD74q4NwGayGHtubkkWJJm/ArMkLMpxawiwxky2BActYFs6qBBk7cNawVXeE7nXJkTdK/OvAM7BXRuAzby06EgFVhZt2juYqc2eusWa12ILlFqQtaTHQVbOjffb9tYKrqLtVrnn1z0Bc8950j4IsD8CLAA281KA1aqzVIcwU0+AFWtei62tMMHC/f1912yfW1wGWTk/ew809ipBTK7N3mqiW+x1UPtTVF8BnIc7NwCbuGY4tgCL2dIm1dNGuHSI9JQ8zgzUbrsVLl2Nc1n503ZKNIduebnP5Zyv0aoaR6i6uiTAAjgPd24ANnHNoqO1hqgGYZZcSwmxbg0Lcr2mKmoLa87HalqQ1XZL1F4415ptgs2Rqq6a3vOX95PrGWB/BFgAbOLaNq78f1lAwywJY24NsLJI3jpMXXM+VtPaC3OoyhrT2qJzrFVtFblmW9XV0fRWX7mGAfZJgAXA6tKOdW1L1poLPc6hd/FaoaX1cj7WmkFWXFZlJcgSZl0n97AWXK1VbdXk9UnV1RGrja5pQ39Ku34B2B93bwBWd8uiOwuUHBbKzLKnOVjPaUFWArVUR60Z9F62vwmzfpbzk2tlq9Aqjtgu+FgC3B7CK4D9cgcHYHW3tn0IsJitZzfCLedgPSdh3IcPH1Yb9P7YU2FW3qs5zjRj6LI9MOHVFqFVHLld8LHe9kEbgwDslwALgFW1wey3MAeL2RL83KrCHKzntEHvWwVZcRlmRUKsBFo510cLoFtg1SqttgqsmhZcnWU4ee85z7XY894HoAYBFgCrSXj18PBwd6ssVLIot3MUsyRYSevdrSrMwXpJhSCrae2/TUKsFmbtqUKrBZd5LlUCq0ut4upM90bVVwDnJMACYHFZ+GUxPTKnpw2sTvBwtsUa8+X62fscrJdUCrKaFmi1Cq2c/1YR0wKtNp9sC+0ctSrRimHVpSMPaH9Jq37rYf4VwL65iwOwmCxUZ24Zf9mi1Bbo2kHolQDg1oXwXgKspmKQ1bSqpstQK1q42MKsy3++/O/tz699jabNpmr/rr2WLbCqGlQ9lus2If5Z5wL2Dm9XwQuwfwIsAKa6DJmWXBC2r9Hm7GgN4VZnCLCaFmTNqIZcWguT9nqul9AG5Ks+vVN9BXBi7uQATLFWcPVYq+DIojyLO0EW1+od5J5gZa+Vfwntsmthmyt3606MrOtsw9lf0/v9JefOTrYA+yfAAmBIa//p/a34LFnUZCh3G/ZuwcdrekOoXPN7b13Ne+Pdu3c/Qt+8d6u1F55dqyzN4T72j97A1S62AMcgwAKg2/39fblWpFZZkiMLdBVZPOfog9yvcVnhM3tmHbdpVUJ5LVQL/aztAtlD+yDAMbibA9BlDwvdVo0Fz8nC9taqjqPOZmpBVguBK+/AdyQJq1pwpdrqeb1Vvs4rwHEIsADosoeFrcU3r+lpBTz6cPHWXpgjIXWCA2HWXG0oew7VVq9rMxZ7qL4COA53dAC6ZFFQfW6O6ite0zvIPccZqjpadVDCrAQILdDidkKrfvle08PwdoBjEWAB0CULg48fP5ZsNWoDkAVYvGZkkPvZKjsuWwzb7p8qs14mtBqX66s3NDW8HeBYBFgAdKu2k1kWiHksFopcq3eQ+5lDm8tQ5rLNcGTI9lHk3CQUtYPgPL0hadugAIDjEGABMOzxTmZrB1n5uioc6JXr5tYKj7MHNZdam2FcVmedIdBqgVU7B+5B8/W2D5p9BXA87uwATNWCrFaV0Tt49zWXoZkqB0b0XD/Vd+DcymV1ViTQSoh1GWjtuXqthVWXH1lOvn/0Xi/aBwGOR4AFwCJaNUIWEfkN+qwgS3DFbL2D3HldG6J9WZnUQq0WbLV/rnRO2+O+rLBq7aasp7f6yvcHgGMSYAGwqMs5Wa29cOTzaAthtp62rzPtRDjbZah1OaPoMsh6/OfLY/RrR0KpFly2YKr9O69pDSMbBKi+AjgmqwAAVpFFYVtU9IRY2fHQwpIl9F5XAqy5WrB1jVuDDa/T/vRW7bZqOQCOR4AFwKraoPdbFqDaQVhS706EaX8zA2kb7gfH1mam9VClC3BcfuoCYFVtyPMt7OzF0noCEXOwYBkjreaXbakAHIsAC4DV3RJg9QRecKveOVjAXHlf9VZfmX0FcGwCLABWd8uMEuEVVQmwYD7VVwA8R4AFwCauDaYEWKyhZ5ZVb5UI8LSEwr3D21VfARyfAAuATVwTTN2yKxmMMBQctqf6CoCXCLAA2MQ1bYSqr1hL7wwsbYQwx0j1lfAK4BwEWABs5rVFh5YQgHP48uXLXQ/VVwDnIcACYDMvVVhlJpG2LtbSe619//79DhiTeXJfv36965HwyvcKgHMQYAGwmYRUz7Vu+Y06a+tZBAuwYJzZVwBcw3ARADaVKqyndnMz/2r/2oyo9vq2sOep2VFZiD4+EnD27A7YK1/TTCtYV+Ze9e7oqfoK4FysDgDYVIKqx7NPrhnwTj0JqLIQzce0A80Kg1qlXj7melnq2sjnv7WiSuAFY1RfAXAtARYAm8oiJOHE5W/gVV/tQ8KbBFWzA6vH8vlbsJSwM9dMrpEcPbsHPqcnGBNgQb9UX/W+h1RfAZyPFQIAm8tCpAVYLZygrjZwecnQ6iX5mln45mjXS3astJiFfVF9BcAtrBAA2FwCiHfv3v0IJvxWvabL0KhS1dHl40o1Vq6l3oWtCixYj+orAG4lwAKgBL9Nr6lqcPWUVIblSFVHKrJuvaYEWLCOvG9Gqq/y/gbgfARYAMBP9hRcPZbHm1lZvUHWLW4d+g6MVV8JrwDOS4AFAPxLqpgeHh52X13UgqzM6nr//v2rFVZakmB5o9VXqnUBzkuABQD8cBn4HEkCuU+fPv2o3HipekOABcvrDa9C9RXAuQmwAIAfoVXCqyPPdMrCOa1LHz9+nBZWmYEF10vLbd6DPVRfAfDmDgA4tQRXR2gZvEaeY6qxnlpEq8CCZd3f39/1Un0FgAosADiphDlZUJ5xEHlCuzzvd+/e/e/fCbBgOSOD29++fav6CgAVWABwRllIfv78+dS76GVBnXOgDRCWNTK4PS6DZgDOSwUWAJxMQqtUXq0V3KSyKccvv/zyr39u2uPIxzy29nEN+ToJsTIXq1cer+oteF7Cq977TSqvvL8ACAEWAJxIqo5GFpPXyGIzLT9v3rz58bF38ZndAxMw5WOOpR5zq0Z7//79HTBX3l8jg9vNvgKgEWABwEm0nQaX0HYIS5VVq7Qa1T5Xm32TECvPIcfsMCufL4PsgblGBrervgLgkgALAE4glUxLhFcJmFIhMSu0eu1rta+XEGt2JZlZWDBXKq9624FVXwHwmAALAA6u7TY4M6BZM7h6rFV75VijJRK43ejgduEVAI8JsADgwNp8p1kBT+ZaZUewLYKrpwiyoKaR92PuM611GAAaARYAHFjmOs0IdVrVU9WqiDy2DIzPorl3YDQwx8jg9vjw4cMdADwmwAKAg0qYk8HnoxJeZUGZqojK8jhTHZbHuWY1liHT8G+p+uxlcDsAzxFgAcABJbgamT/TtKqrPS0oWzXWzNZJ4DqpvOp93xncDsBLav8qFQC4WRaPaR0clYVkKpr2WA2Rx/zx48cfQRawjhmD21VfAfAcARYAHMyM9rkEV3uvhMhC+P379yo6YCUj9542Zw8AniPAAoADGR2eHAmvjrSQTIC1VIilWgT+lvvOyL0nFZMA8BIBFgAcyMjw5EjQc8QqiKM+L6hgtHXQ4HYAriHAAoCDGBmeHEtWKlWQyrJffvnlDphrtHVQmy8A1xBgAcBBjFRAZNj5GRaRmYk1s9LjzRs/SnFuo62DBrcDcC0/dQHAAYxuXZ/qpDPIc/3w4YMFM0wwo3VQay8A1xJgAcABjCwiMzz5TIFOqqZmVZsJwjgzrYMArEmABQA7N1J9ddb2nVR9zJiHJcDirLQOArA2ARYA7NzXr1/vemTxeOb2nczDAm432jp49nsPAH0EWACwY1lIfvv27a7H2SsgZiyiVZBwRiOtg5G2ZQC4lQALAHastwpCBcTfRkM8ARZno3UQgK0IsABgx3rbBw1P/ttokGchzpnMaB107wGglwALAHYqrYM9bTyqr/4t56I3iMqOhnAWWgcB2JKfugBgp1RfzZHw6u3bt3c9RhbzsCdaBwHYmgALAHaqd3h7b1hzZL3npDdEhD3ROghABQIsANihLCi/f/9+d6uRdrkj++WXX7rOiwCLM/j8+bPWQQA2J8ACgB3qrb5KUMPTeqqwsqjXRsiRjc690joIwCwCLADYIQHWfL1thL2vBVSXKk+tgwBUYQgGAOxQT/tgb5vcWWRHwZyfW6tN9laBddl+2p4zPJbr5P7+/m6E1kEAZhJgAcAO9QZYPC9BTgKdWyuqel6LLbRd5B4/3lwX79+/F2TxL1oHAahGCyEA7Ezv3CUB1usSYN1qD4Pcv3z58uN4KmxLYPfp06cf4RZECzt75V6jdRCA2QRYALAzvVURPeHM2RzxHKWS5powIgGXeV7k/jI69yoVfQAwm59kAWBnelrWsqjUzvO6niq1yjsR3hpGjAQXHMPnz5+1DgJQkgALAHamZ3FpQXmdo52nW9sbU4G1l5lezDc69+rXX3/9cQDAEgRYALAzAqzl9FaqVQ19euZzaSM8p7SZjrYOmnsFwJIEWABwAuZfLatqC2FPsFb1ubCc0blXYSdLAJbmp1kA2BkBQz0VX5OEVz2PS9h5Pvf398Nzr+xyCsDS/IQCAHBAva2AAqxzSeXVSAus1kEA1uInFACAA+rdrVKAdR6ZkTY69+rjx493ALAGP6EAwM6YM1NPxdekZ4C7NrDzSMvgly9f7kak8sr9CIC1CLAA4ATMzVpWtUV87/wrAdZ5jM69+vXXX38cALAWARYA7ExPWDIy4+ZsjhD2mX/FS8y9AmCP/JQCACegAus6veepWvDTG06owDq+v/76a2juVWTuldZBANYmwAKAnekJSxLMCLFe1xv8VFvMm3/FU3IPGA2v3r17J7wCYBMCLADYmd5qHwHW63p37qukN6wUYB3f58+fzb0CYLcEWACwMwlMekKT3rlIZ9Jzjqq1D/ZUX4UA69iy4+BIeGXuFQBbE2ABwA4Z5L4MARZHlLlXOUaYewXA1gRYALBDPWFDb7BxFr2td5UCrDz+nhBOeHVc5l4BcBQCLADYod5B7toIn3eEyqXe5/D27ds7jifveXOvADgKARYA7FBvaCLAel5P+JOqlEoVWL2vb7U2SOZI5ZW5VwAchZ9WAGCHEjj0tPSMzsE5qiO03uU5mH9Fk/Bq5P2e+4u5VwBUIsACgJ3qafvSRvi0M7cPCq+OJ+/x0blXqbwSXgFQiQALAHaqt+1LFdbPehf7lWZH9QZY2gePJSH1w8PD3QhzrwCoyE8sALBTCU96KiQSdIzMxTmaBHq9uw9WqVAZqaxTgXUso0Pbc01n10EAqEaABQA7NTJAXBXWP3qrrypVqIy0iwmwjuPLly/D4VXmXgFARQIsANix3h3CequOjmbkPByhfTCBhTlHx5BreTSYNvcKgMoEWACwY71tbAltUq1xdiOzr6os9EdCONVXx5DXf8bQdnOvAKhMgAUAO5YQpXfRmaqdM+9ImAX/EaqvtA+eW67h0blXuQ56qzkBYC0CLAD4rywA27EnI1UT2a3sjK2EIxUrCQ2rBFijA/ntQLh/M+ZevX///g4Aqqvz60MA2EhCgLRhXVYjZVG3l5aaVoXVM/+mBTln23UsFSu9KlWqjM48EmDtW967vfPPmg8fPph7BcAu+KkFgFNL9UKqkB630rUZUZ8+fdpFhdJIqDJj+POejFSsjLRszpZrdqQFtHd+GjUkuJox90qICcBe+I4FwGklyHgtuJkxX2YNo8FKFsLfv3+/O7rRsK5S9dVoeCG42K8ZmzDkfmHuFQB74icXAE4plSvXBhkzdvhaQxajvRU1eY739/eHnoeV13xk0X+k6qswwH2/RkP11iINAHsiwALglG6dG/N4RlZFowHLXqrNeqS6LK2iIzIrqIoZgaoKrH2aMbT948eP2kcB2B0/uQBwSj1h1B527EuANbIwPWKIlfBqtLos57VK4DMrTBVg7c+MeXXZsEF4BcAe+ckFgFPqmfe0h1bCLEzfv39/N+JIIVaCntHwqlq71YxrMM9JiLEvM+Ze5Tp++9Ym5ADskwALgFPqXbyn+qH6sPPMNhqd1dRCrD0Pds9rNWOu18hssdnynGYEi6qv9qW9H0ckuDL3CoA989MLAKc0UoUwWgWxhixUR0OKtmjewwD7S61SZcbrlCCwyuD2mRWAAqx9mTH3Kq2DALBnfnoB4JRGAqxbdjDcShasGTo+o3IoocledijMa5PQbcbrU7F1cNZrYAfC/cjrfuumE48Z2g7AEQiwADilLOBHFvEzw4SlzKy6mBkMLaFVXc0K2qrt1JbnNPPcq8Dah7zvRqvuDG0H4Cj89ALAaY0MO58dKCxl5tybFhJ9+vSp1HPPY5kdrs2qXptldP7RYwKs+vJ+y86nIyq1wALAKNuQAHBaCSiyuOsNPvL38verVzckwJoZuLUgK5Uh+dxbLJDb85k11PxSKlYqBTyzq/2EV/swY/dMc68AOBIBFgCnlgAm82V6FoptqPYeFontMc6sUnocZKXaa+kwLy1Veb16X7PXbBXIPWfm4PZGO1l9ec1HdgBtLbAAcCQCLABOrQ3q7t2xLoFQgps9DMVeIsSKy13/ch7a+ZhR6ZPPnYX8kqFVk+ug0tD2mN06GCqwasv709wrAPiZAAuA02tthL0VD5lTs5ddvpYKsZpUSOWInI+EJY+P9t8utWAqf7eFVu3PawzLrxheLbVRgACrrhkVd60aEgCOxnc3ALj7O9jJzJkerQJpZCj8mlp1xuzWtMdyXi4DrapyPqoNuk6At9TrI8CqKxV3I6HlzE0bAKAaP8EAwP+XlreRECPtbXvYlbCpWHG0tjYnqFp4lQCjN0y9hgCrptGKO0PbATg6P8EAwH8l0BlpA0wVVvVqo0t5vntpfZwtIU6ee8UwJ9fRUm2Tea3NRqpnxtyrs76XATgPARYA/FcWf6NtgJmHtcbMpllakHOmmTmpuPrw4UPJxX5CjFTzLUXAUc+MuVeGtgNwBgIsALgw2krY2r/2FGK14O7oi+A8twRXVZ9ngqul55JpH6xn9H6R+1W1NlgAWIKfYgDgkdFWwiUHcC8pi+CKM6FmaM8tAWVFbSOApanSqSX3id7dTyOvp6HtAJyFAAsAHsmicDTEmTHTZgttEPRRqrESWFWuuoqEV6O7z11LBVYdo0F324RAKAnAWZxn4AUA3CAB1mgAlb8/IwzbQmtLakHcnloiI8FVKlOqVlw1a4ZXIcCqYcZOk6OVogCwNwIsAHhCC54S4IxobWF7bcvbW5C1l+CqWXLHwacIPGoYfS+ZewXAGQmwAOAZ2ZlvNMCKLFYTqOy5+qUtmDNovB1VJJTJa5VjL8FVJLxa+zwKsLaXe8rIfcXcKwDOSoAFAM9IGJLj27dvdyNau1BmMe29hasFRXlOLcgaPT89sojPuWyPZ2/BTELNGeHoLXKOBFjbyvtmtDXZ3CsAzkqABQAvSKXD6KyaOFKIFa3FMkcLszKUOh+XaonLeUugmMAqf97rIj4BxhYD/oUe23t4eBh6fxxlcwUA6CHAAoAXJDDJgnFGKHO0EKu5HFSfBXaeZ8KsVGblY/vna85hW5y3857z1I4jLNxnhFetZfLWCi7Bx7byuo9UK5p7BcDZCbAA4BUzdiRsjhpiXUpQ0tovH3stxDpyyDKr8ipVgQkEb2UHwu2Mtg6aewUA//9nmTsA4EWzqx6ymP38+fPqM5AqaHOYnjuOKgPbZ4VXuR57AiwVWNvJ+33E+/fvvX4AnJ4ACwBe0SqKZpsValBXwsrMPZoRVia4alU4PS2tApBt5D0+0oKc13xPu2sCwFIEWABwhcwcWsJWA71ZXmsXzWD7UWn/y3yxy899KwHW+rQOAsA8AiwAuEICrKUCgCxwR3cno5bWJtrT6vdYrrvMTHv8+Xs+D+vK+7pXXq+PHz/eAQB/E2ABwBXajnhLSZVOAg8h1v7NfC1biHEZPvV+XkPc15W20ZFdB1N5JXQEgH/4SQYArrRUG2HTqnZmtJyxjZnVdE+FV+zDaOtg5p3N3jwCAPZOgAUAV1o6wIo29NtcrH1p865mvW4vhVe9bYmCsPWMDG439woAnibAAoArLbUb4VOyANZSuA9pE8trNdIudmmJyivh1XrSOjiy66TWQQB4mgALAG6wRhVWk0qbBCMji2GW9eXLlx+VV7OCxmvCq54KLIHIerQOAsAy1vspHAAOYO1B2AlGEpIktFCZUUdrGZyxy2Cz5Mwr1806tA4CwHIEWABwg7QQZqG5dmtfqrAy3D0LXBUa20pIkddj5jVwS3ilrbSm0cHtAmoAeJkACwBulBBri50CWzVWZi29e/fOYndlOe+tGm6mVPV9+PBh0ddz7crBMxoJr3JPEUwDwMsEWABwo60CrCZf+7IaS5C1rFZZs8Qssrx+CSNvfTzUklBz5Pp4//79HQDwMgEWANxorZ0IX9NCFW2Fy0hQ1HaUWyI0yuu21swjIeeyMg+tl9ZBALiOAAsAbpR2rJ45WEvMzmpthQmzBFnzJLQaGcj9kjasu/e1UoFVy0jAaXA7AFxPgAUAHXrCqLdv3/4IvxI4zdaCrCym05JWpUpsbzLnKsFVPi4h103mXY3MpBJg1TIy++rW9lEAODMBFgB0SEB06zDvNnw9Qdbnz58XCSLymNLONFrlczZtl8elgqvINZNZR1u0i2lRW8ZI9VXem7kXAADX8V0TADr0VNC0hW7ChI8fPy42GLx9rcvWwiyUhRj/tvSMq0sJLoWJxzNSfaV1EABuI8ACgA49LXoJSXIkSMqRUGOplsLLr9mCrIRYBkb/XQnXdnJcOrjKuU7V1cyWTi2ENYwEn96HAHA7ARYAdOhdfLYAq2ltREu1FF5+3VZtlDAlX/NMVVl5/i20WrJN8FJe2yWCCgFWDb3VVwa3A0AfARYAdGhVVLeGCQlPHrcf5vP8/vvvPxbEIy1JtzyGHKnMSojVAq2jhVmXoVVmg60V/LTqukrzjUaGxvOz0eorAOB2AiwA6NQTYL2kDV1fuhrrUgt4EmYdoTJrq9CqyblLeKU97NhGqq/MQgOAPgIsAOjUsxPha/9/q8ZKhUcWyWsGMJeVWXkcCWNSuVM50GqBVc7rGjOtnrPErCtqUn0FANsQYAHAiq5d+LbZWEvuVPiSNjMrWqCVcCaB1uWx9mNKwNY+tj9vrVXOqbo6h97qq7x/VF8BQD8BFgB06glwbqnYarOUsui9v7/fNKxplU6PtSArj7V9bH+Oa0Od9txa21+Odq5aUFVteHkCiVRdCa7OQ/UVAGxHgAUAK+pZ/CYM2qqt8DUJma4J5Z4Lefa4o16Cq4QR2gXP56kQ9xq5VlwvP3u8KysAvESABQCd1m6hSyVWjopB1mv2GFQ9loV2axfkfFrrag/VVz9La3LuZXlfffz4UZAFwKsEWADQqSfAmhHk7DnI2iPBFTGy86Dqq39LJVubsdfm7Qn5AHiNAAsAVjarbUaQtayEDhmkL7jiuRlw1xDM/OxxJZsAC4BrCLAAYOcug6wssnvbnPjbEWdcZU6ZKqB+eV/1BMQJqgWg//ZUGNjaM12jALxEgAUAnarNbGlBVhaDqcjqXXSfUV7LVFvlsIjmMdVX8zx3X8q/994D4CUCLAA4mIQx7969+7F4zqJQVdbzWptgjr0Mkc7jFEyup3d4ewtF+bfnwsD8+9yzDHMH4Dm+qwLAytZq52rtS60qKy2GOc4eflyelz0uli3w19VbfbWnUHQtL4WB+W9aXQF4iQALAE6g7aSXI4vEVpmVP59BFsWXB1yrd/dB7YM/ey0MzLn+8OHDHQA8RYAFACfz5s2b/4VZbaByqiJyHKU6K4Fdnufe2gOv0fNctBz2ScDbc+5y7am++tlrAVY7384dAE8RYAHAiV2200UWkC3M2lOglefRqqsSHhy5ysrifj29s+PsPPiza2aJtUDd+QPgKQIsAFhZ5QAi4U+OtoBsi84WbLU5NVtqYdVllZVQ52UqsPpkZlwPw9t/du0sMQEWAM/x3RUAVransOWpndQShrQgq31soVZvy9Xjr9nCqfbny9Dq7GGVsG4dvWGtQPVp184Sa0G5cwjAYwIsAOAmlwHTS1qQ9VII8DiQsmhdxlmG9c/Uu/ugTQJ+dmuwrQoLgKcIsACgk7asl7UwyoJ+LkPc19E7/0r74M9ubcUUYAHwlDd3AECX3lBAlRFrE2DdrifAam2u/Nut1Wxt7h4AXBJgAUAnoQBbeK11k3G9s9xUX/1bzuGXL1+6zuXDw4N7LAD/4rssAHTqWVypzmBUbwuhwdjX620f1C77t1xraRvM0RtCJUT89OnTj1bC3377zbULgAALAHr1LMxUzzDKQn55PQHWNRsbHF1Cp4RWaRmcVT3VgrBUtyXMEhICnJcACwA6aW9hC70Blgqs6/UEWGduH8z5+vPPP7sr166RUCxHruFUZBnyDnA+AiwA6NQzZFgFFjNkEX9rgJpwwfX3utZueaszntsESqmOWjK4eqzN1UpgliArwaFgFuAcBFgA0MkMLLbSE2Bxnd7d787S2jZjvtWsx9GCrIRY5mQBHJ8ACwA69Sx0LbCYIdU+t15/vcHM2fS+r89QgZXQKoFRpfD0MlBLiJUDgGNSRw4AHbQZsSVB6HJ62uHO8r6uFl49tvQcLgC25adoAOjQW80iwGKGnuvIwv46gumn9Yb2a9NaC3BcfooGgA69869UzrAVC/vr9ITTZ5h/lXtX9ee5h8cIQD8BFgB00GbElnoW6XupoNlS7zk6SzD9/v37ksPS83h+/fXXu48fP/olAcCBGeIOAB0McGdLvddSwhnX4fO0Br8s104blF5hoHsLrnK4rgGOT4AFAB20GbGl1o56a3iQykGVgM/TGny9Fhx9/fr1R5i15oy1FqS9fftWcAVwIgIsALhRwiuDntlaT4DVW2F0FtoHb5cQKUfOXSqyEmYtJb8ESHDllwEA5yTAAoAb9VYaCLCYKYv4WwMpM7BeJsDql/Pw7t27HwFTgqxUZs263hKQpdpLcAVwbgIsALhRTxVLwisLXWbqCUTXbPPaI5WV4y6DrIRYI3Oy8jnMtwKg8R0XAG6URdmtLHKZrWdRbyfC+YQrT7vcGbBHC8GcXwAaP00DwA16519pfWG23mvKHKznOTfzJYC69Vpt4RcAXBJgAcANeluwBFjM1rv7nZBmLhVCr8sMqyX/fwDOQYAFADfoCbCywNVCyBIEWOxBAqlbrlUBFgBP8dM0ANygZ/6V6iuW0nNt9VzDZ2E+2DJuCfF7Wg4BOAcBFgBcqXfhbzHGUnoq+wxyf57zspwMZL+G6isAniPAAoAr9c6/siBjKb3haO+1DL0Stl7TRmh4OwDPEWABwJV6KrCuXbRBj97rS4DF2nKdvhbmmxcIwEt8hwCAKyS86mkv0j7I0noW/Aa5P014sqzXAqxr2wwBOCffpQHgCtoHqao3wDLvibUl0H+pYtD9EoCXCLAA4BVZ6P/11193t7KbFmvoucZyTavCYgvPzbh6LdwCAAEWALyid/dB1QSsoTck7b2uj6x3V0eu99z16n4JwGsEWADwij///POuhwUZa+gdfK0Caw4B1m0SYD0VYrlfAvAaARYAvCCzr3oWqNoHWVPPtdZ7bcOox9er9kEAriHAAoAXaB9kD3qvN22E/6aSbR2Zg3UZWLlfAnANARYAPKN3eHvYDp419QQv0bu7Jv8QYN0u4dXHjx9/BFnv3r17drA7AFzy6w4AeEbv7CvtMKyttazeGki1NkLX6996g0Bul2su4RUAXMt3aQB4Qhb12gfZk57rLte5CqJ/9O5CaJYYACxPgAUAT0jrYO/wdu0wbKF30wBzsMYJsABgeQIsAHhkZPaV6iu2kuqhnlbABFgCmL/l/PWcQ7PEAGB5AiwAeKS3+ioMb2dL2gjH9QRYAkAAWJ4ACwAujFRfPd4aHtbWWwHYe80fUU8rpgALAJYnwAKAC9l5UPUVe9W7A2bbjZC77jZMAGBZAiwA+C/VVxxBbxuhEOZvvS2EAkAAWJYACwD+K9VXvVRfUUVvG6EA62+950+ABQDLEmABwN3fM4BUX3EEI22EdtO7634vO3cAsCwBFgDcqb7iWBKq9lCF9bc3b27/EdlOjgCwLAEWAKc3Mrhd9RUVjbQRaoXr24lQ+AcAyxJgAXBqWayrvuJoUkHUE8KMbGRwJD0VWAa5A8CyBFgAnNrnz5/veqm+orLeKiwBVl8FVqjCAoDlCLAAOK2R1sEEV6qvqCwBVk/Aqgrr7wqsnnNnDhYALEeABcApzWgdVH1FZbk+R2ZhnV1PG6HzBgDLEWABcDoJr0ZaBxMM9O7yBmvqvU6/ffv24ziznvDPHCwAWI4AC4DTGWkdjA8fPtzBHvQOc4+RCsUj6KnACjPEAGAZAiwATiWLy5EFZipaehe2sIXeWW1nr8JK8NfTJnz2yjUAWIqfwAE4jQxY/vLly10vg9vZowQxvVVYDw8Pd2fW00aYAEsbIQDMJ8AC4BSyoLy/v78bYXA7e9U7zP3sOxL2Vlsa5g4A8wmwADiFhFcjVRFpHTS4nb3Ktdsbvo7OjNszuzgCQB0CLAAOL22DaR/spXWQI+i9hs9chZX3fk/7pTZCAJiv79dKALATqR4ZXXy/f/9e6yC7lyqs3mqqvIdGqrj2LFVYPYPZc84E33XlffB4o4Jc32kb7a28A2BZ7s4AHFYW6zlGZAHaOwAbqsn13LORQRb7Gej+4cOHu7NJmNFzzgRYNbWKwhzPhbkJshLYev0AatFCCMAhZXEyGl7lN/EWMBzJSBVVKlXOONupt42wVfhQR16Tz58/v1qJmP+W/+fTp09aQQEKEWABcDgJr3oqJi5l0XrGahOOLy2xvfK+OuOCvrelbDREZ54WXt1y/fb8HQCWI8AC4FBmhFdh7hVHlWqi3rbYVplyNgmweu4Hj2cssZ3eIKq1zwKwPQEWAIcxK7wy94qjG2mNzfvsbK2EvW2Ecca2y2pemnd1DUEkQA0CLAAOYVZ4ZXAvZ5AwJtd6rzO2EvaerwRYWtC2NaNqUDsowPYEWADsXhYWM8KrDG1/9+7dHZxBgtreNtkztlUl9Ms94lZt1zu28f379ykBYiqwBJEA2xJgAbBrCa9m/Gbc0HbOJtf8SLVhFvRnC2Z6h7mPtrDRLwHWLF5DgG0JsADYrVRdzQqvPn78aGg7p5O2uJF5b3kPzgwIqsv56rlPqMLazszQyRwsgG0JsADYnba1+YwFYau8El5xVqNts/f396epTMl9oncWliqs/etpIQVgHndhAHYl1R4Jr2ZVfSS8sijhzHL9j7QSnm0eVm+AlfNkEPj6Zu4o6xcdANvyEzsAu5EKhpnVHqk8EV7B3wPdR94Laa2asZHCHoxWYWlDW1derxnBUz6H7xcA23IXBqC8BFZZHOeYGV71LkLhiN6/f383IuHMWeY89Q5zD1VY60rwNPJ6Nb5fAGxPgAVAaTPnXTXCK/hZqktG52ElZD5DhVHa0npb0864e+PWUmE4UoU1UnUHwDwCLADKyiIv4dXMwcfCK3je6K6EkXlYZ9iZcGRuWKqwDHRfTwKokdcr3zfMvwLYngALgHKysMusq5ktg223QeEVvCythCOL9fb+PXpAk6DPQPf9yGvVE2IlvJrRggjAOAEWAKW0qquZbUgtvJq5GxUcVd4vo/OwWuvv0UOskdY0A93Xl9fr2moqv/QAqOc/f/zxh/plADaXhVwqEmYv6LII+fjxo/YPuFHej6NVQmd4/42cJ/en7SRA/Pr164921xa0tp0GU3EluAKoR4AFwKZaK80SQ42zEMlv0C0OoU/mWWWRP+LoIc1otVnCktGKN8ZcBlgA1KWFEIBNtOBq9g6DTX57LryCMTOGVx+9nXB0QHgCQrsSbiuvoe8VAPUJsABYXZtztdROXLfMOQGeN6t66ugh1ujujXYlBIDXCbAAWE2Cq0+fPk3dXfBSGz49Ug0B/FsbZj3q6CFWQvNeZxl6DwAjBFgALCoLsqWDq8i8q1SK2O4c5sv7aySgaY4c1OQcjYTnOSe5RwIATxNgAbCIyxlXSwZXYd4VLC/vsxnVjS3Eyu5vR5NzNHIfyjys0Z0fAeCo7EIIwFTfvn37sQDLx6VloZiqEFVXsJ68v2eFLHn/JvQ5ktz77u/v70Yc8bwAwCg/8QMwrLUJ5lirNSgDkzPvStUVrCtVWO09P6pVZx5pbl3uTXk+IyFfzktaEkcGwwPA0QiwAOiSRWfaXXKsUW3VtC3rVSfAdto8rBkhVtuBL+/rowTSeS65L47cGx8eHn60RifIAgC0EAJwg7YgG12Y9VJ1BbWkUmhGiBV5X2cjhqO8v2cMrD/aOQGAEQIsAJ7VqqwybDkft9o5zKwrqGt2iHWk93rum6mkGiHEAoC/CbAA+CHhVKqq2sf25621dkGLN6hrZogVed8fZS7WjHMjxAIAARZAOQmN2pHZJzMXLO3ztva/VFa1oKpCWHVJuyDsy+wQ60ihTXYlHG27znkwEwuAMxNgARSRACnDjJ9q1WsLuLZwyT+/tqhLOHX5sVpA9Zy2g5fdt2B/cg8b2X3vsaNs2jBjHlZopwbgzARYAAUkZMpv6PcSMi1BcAXHMDvEigRYe9+lcFaIFQmx7MQKwNkIsAA2NnNRs0cJrLIQU1EAx5FWwrQUznSEaqz8siL3+xmONCcMAK5htQCwsVQqnDG8UnEFx9U2XkiINev+ls+Tz5cQaK/VWGkDT/XUjHAv3ztyLvL5zAoE4AxUYAFsKAuyT58+3Z2J4ArOY6kK071XY81ss7RDIQBnIcAC2FAGtj88PNwdXRZWWWi2qgzgPBJeZcZf21Bipj3vVjo7xDrCsHsAeIkAC2BDS8yJqUS1FdDkXpd73hL2OuR99sD7Iwy7B4DnmIEFsKHMQzmahFUZyJ7DIgpoMqsp97wlQvsEY6lo3VsVUhvCPivEauchVWl+cQDA0ajAAtjQUXYgFFoB11r6vrfHdrrZlVihGguAoxFgAWxsiYXL0rIgSliVagqhFXCrhFe57y3VUhh7m4+1xPcCs7EAOBIBFsDG9lCFJbAClpAAK6HNkve/PVUiLTUXUTUWAEcgwAIoYMldum6VBU4qF/JRYAUsba0Qfy8hTr4P5PvBEuejVWO5pwOwRwIsgELy2/dv3779OJZczGXx0oKqSFDVDgsbYAtrtVMnwEkwX3nI+ZKhnrZCAPZKgAVQWBYvTx2P/59LlwFU+3OrpmrBFUBFa7ZUt80nqgY5OQcPDw8/fqGxBEEWAHsjwAIAoJQ1N7doQU7Vdumlz4UgC4C9EGABAFDO2htctM0qKs7JWmPYffUgDwAEWAAAlLVGePNYxfbCtQK9ykEeAOcmwAIAoLSENgmxEmatqYU5lYa+r9le2YI8VVkAVCDAAgBgFxJk3d/f333//v1ubS3MSlVWNsXY0lbtldV3bwTg2ARYAADsyhZthZcqhFmq0gA4GwEWAAC7tHWQFVsHOmtXY13Kc89zbq2G2gwBWJIACwCA3UpwkyArx5ZBViTASUVWC7PWrM6qEObl+V4GWgAwkwALAIDd26ql7iUt0GqhTv68ZJVSpXOQ55mdDCvt5AjAvgmwAAA4jBbifP36dfOKrKe0UKsFW+2fZwZbed4PDw933759u9taQqwcADBKgAUAwOFUai28xmWQ9fjPl8ctKrQVxocPHwx8B2CYAAsAgEOrEuTMchlkPTdn6/v37//789bPO+FVQiwAGGG6IgAAh5Y5TDkSZKW1sEJr3YjLQGoPzyWPMY/ZLoUAjBBgAQBwCi3Iqj4n64gSYtmZEIARvosAAHAqqQR69+7dj+HiCbFSmXXZcsd8qq8AGCXAAgDglBKqtKqsBFitxVBV1nwCLABGCbAAADi9DENPVVaOhFjtYFzbVREARgiwAADgQmY15UglVguy9j74fUtp1QSAUQIsAAB4wmWLYQuzEmS1XfV4XcKrnD8AGCXAAgCAV1yGWZEQqwVaBsD/LOdLeAXATAIsAAC40S+//PLjiFadlSDrrEPg25yrnJP8OS2YBrcDMNN//vjjD/XPAAAwSQKs1mqYUCvHkUKtBFM5ElYltBJWAbAGFVgAADBRq0DK0bQg6zLQqh5sXQZV7c/CKgC2IsACAICFpVIpx2OXQVb72I4lA64WQrXWv/YxLgMrAKhCgAUAABtpFU6vaUHW5cD4a4bHXwZRLaASTAGwRwIsAAAoroVOl2HXNcEXABzFmzsAAAAAKEyABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAAAApQmwAAAAAChNgAUAAABAaQIsAAAAAEoTYAEAAABQmgALAAAAgNIEWAAAAACUJsACAAAAoDQBFgAAAAClCbAAAAAAKE2ABQAAAEBpAiwAAAAAShNgAQAAAFCaAAsAAACA0gRYAAAAAJQmwAIAAACgNAEWAAAAAKUJsAAAAAAoTYAFAAAAQGkCLAAAAABKE2ABAAAAUJoACwAAAIDSBFgAAAAAlCbAAgAAAKA0ARYAAP+vHTsWAAAAABjkbz2NHYURAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgLW6HPkPfnVMWAAAAAElFTkSuQmCC"
+    ],
+    "modals": [
+      "Fermer le sélecteur de langue. Aller à un site local Choisissez un pays ou une région et une langue Fairtrade International Rechercher un pays, une région ou une langue Effacer la valeur de l'entrée Africa English Austria Deutsch Belgium Français Nederlands Bulgaria Bulgarian Canada English French CLAC Spanish Croatia Croatian France Français Germany Deutsch Greece Greek Hungary Hungarian Iberica Español Português Ireland Fairtrade Ireland Italy Italiano Japan 日本語 Korea 한국어 Malta English Maltese NAPP English Netherlands Dutch Norway Norsk Poland Polski Romania Romanian Slovenia Slovenian Sweden Svensk Switzerland Deutsch Français United Kingdom English United States english Cyprus Désolé, aucun résultat trouvé!"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--topbar-height": "104px",
+    "--swiper-theme-color": "#007aff"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 10,
+    "mainTextLen": 9697,
+    "realImageCount": 22,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/BCmQKjBD8EQikM",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 170,
+        "hits": 1,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/BCmQKjBD8EQikM",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/24.2.41/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 8601,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/24.2.41/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.43/37.1.43",
+        "query": [
+          "isOutsideRegion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.43/37.1.43",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "did",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "count": 8
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 7,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ch-fr.png",
+  "renderedHtml": "pages/ch-fr.html"
+}

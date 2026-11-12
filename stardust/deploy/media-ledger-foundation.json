@@ -1,0 +1,26 @@
+{
+  "media/chrome/fairtrade-america-logo.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/chrome/media/fairtrade-america-logo.png",
+    "size": 7920,
+    "sha256": "340a3fbea0483f588aacf8ba7d62a03e0d6b2516eff078b6b936084170dda716",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/a1eef8ec/media/chrome/fairtrade-america-logo.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-05T11:48:04.814Z"
+  },
+  "media/chrome/fairtrade-ch-logo.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/chrome/media/fairtrade-ch-logo.jpg",
+    "size": 90061,
+    "sha256": "04069fe4f2e061bf1abdfd25a9806ded622c14d9957c71cbdd026e0413647e36",
+    "contentType": "image/jpeg",
+    "source": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-switzerland/logo---labels/ftmh/FTMHCH_CorpLogo_662x740.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/a1eef8ec/media/chrome/fairtrade-ch-logo.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-05T11:48:05.785Z"
+  }
+}

@@ -1,0 +1,84 @@
+{
+ "pages": [
+  {
+   "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+   "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/why-fairtrade/why-we-do-it/child-protection",
+   "template": "article",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "en",
+   "url": "https://www.fairtrade.net/en.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/en",
+   "template": "landing",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "us-en-news",
+   "url": "https://www.fairtrade.net/us-en/news.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/news",
+   "template": "listing",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "us-en-about",
+   "url": "https://www.fairtrade.net/us-en/about.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/about",
+   "template": "static",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+   "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/why-fairtrade/what-we-do/theory-of-change",
+   "template": "us-en-why-fairtrade-why-we-do-it-child-protection",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+   "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+   "template": "us-en-why-fairtrade-why-we-do-it-child-protection",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "us-en",
+   "url": "https://www.fairtrade.net/us-en.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en",
+   "template": "en",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "ch-fr",
+   "url": "https://www.fairtrade.net/ch-fr.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/ch-fr",
+   "template": "en",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "us-en-contact",
+   "url": "https://www.fairtrade.net/us-en/contact.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/contact",
+   "template": "us-en-about",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "us-en-why-fairtrade",
+   "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+   "status": "deployed",
+   "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/why-fairtrade",
+   "template": "us-en-about",
+   "fidelityTier": "sibling"
+  }
+ ]
+}

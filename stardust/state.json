@@ -1,0 +1,505 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-11-05T16:48:08Z",
+    "stardustVersion": "0.36.6"
+  },
+  "site": {
+    "originUrl": "https://www.fairtrade.net",
+    "deployUrl": "https://main--a1eef8ec--aemcoder.aem.page/",
+    "extractedAt": "2026-11-05T10:27:22.646Z",
+    "pageCap": null,
+    "totalDiscovered": 10,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-11-05T10:37:12.139Z",
+    "phrase": "replica (keep the design)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-05T10:27:22.646Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "en",
+      "url": "https://www.fairtrade.net/en.html",
+      "title": "English",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-05T11:09:05Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T11:09:05Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en.json",
+      "prototypePath": "stardust/prototypes/en-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en",
+      "url": "https://www.fairtrade.net/us-en.html",
+      "title": "Fairtrade America - the Future is Fair",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ch-fr",
+      "url": "https://www.fairtrade.net/ch-fr.html",
+      "title": "Fairtrade Max Havelaar Suisse",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ch-fr.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-about",
+      "url": "https://www.fairtrade.net/us-en/about.html",
+      "title": "About",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-05T11:17:38Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T11:17:38Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about.json",
+      "prototypePath": "stardust/prototypes/us-en-about-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-news",
+      "url": "https://www.fairtrade.net/us-en/news.html",
+      "title": "News",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-05T11:21:35Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T11:21:35Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-news.json",
+      "prototypePath": "stardust/prototypes/us-en-news-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-contact",
+      "url": "https://www.fairtrade.net/us-en/contact.html",
+      "title": "Contact",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-contact.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+      "title": "Why Fairtrade",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+      "title": "Theory of Change",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-theory-of-change.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "title": "Child Protection",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-05T11:20:03Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T11:20:03Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-child-protection.json",
+      "prototypePath": "stardust/prototypes/us-en-why-fairtrade-why-we-do-it-child-protection-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "title": "Assuring integrity in checking compliance",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T10:27:22.646Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T16:48:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-05T11:41:42Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/en.html",
+        "outputPath": "en.html",
+        "slug": "en",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en.html",
+        "outputPath": "us-en.html",
+        "slug": "us-en",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch-fr.html",
+        "outputPath": "ch-fr.html",
+        "slug": "ch-fr",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/about.html",
+        "outputPath": "us-en/about.html",
+        "slug": "us-en-about",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/news.html",
+        "outputPath": "us-en/news.html",
+        "slug": "us-en-news",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/contact.html",
+        "outputPath": "us-en/contact.html",
+        "slug": "us-en-contact",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade.html",
+        "outputPath": "us-en/why-fairtrade.html",
+        "slug": "us-en-why-fairtrade",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do/theory-of-change.html",
+        "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 115,
+    "bundledAssets": [
+      "canon.css",
+      "canon.js",
+      "en.css",
+      "fairtrade-international.svg",
+      "favicon.svg",
+      "fonts/alegreya-sans-latin-400-normal.woff2",
+      "fonts/alegreya-sans-latin-500-normal.woff2",
+      "fonts/alegreya-sans-latin-700-italic.woff2",
+      "fonts/alegreya-sans-latin-700-normal.woff2",
+      "fonts/alegreya-sans-latin-800-italic.woff2",
+      "fonts/alegreya-sans-latin-800-normal.woff2",
+      "fonts/alegreya-sans-latin-900-italic.woff2",
+      "fonts/alegreya-sans-latin-900-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-700-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-800-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-900-normal.woff2",
+      "fonts/exo-2-latin-ext-wght-normal.woff2",
+      "fonts/exo-2-latin-wght-italic.woff2",
+      "fonts/exo-2-latin-wght-normal.woff2",
+      "icons.svg",
+      "media/Fairtrade_America_Logo_Vert_80x80.png",
+      "media/about-cotton-1x1_375w.webp",
+      "media/about-cotton-1x1_640w.webp",
+      "media/about-cotton-1x1_768w.webp",
+      "media/about-mvv-16x9_1280w.webp",
+      "media/about-mvv-16x9_1440w.webp",
+      "media/about-mvv-16x9_1920w.webp",
+      "media/about-mvv-16x9_768w.webp",
+      "media/about-mvv-4x3_1280w.webp",
+      "media/about-mvv-4x3_375w.webp",
+      "media/about-mvv-4x3_640w.webp",
+      "media/about-mvv-4x3_768w.webp",
+      "media/about-staff-1x1_375w.webp",
+      "media/about-staff-1x1_640w.webp",
+      "media/about-staff-1x1_768w.webp",
+      "media/cp-lead-21x9_1280w.webp",
+      "media/cp-lead-21x9_1440w.webp",
+      "media/cp-lead-21x9_1920w.webp",
+      "media/cp-lead-21x9_768w.webp",
+      "media/cp-lead-4x3_1280w.webp",
+      "media/cp-lead-4x3_375w.webp",
+      "media/cp-lead-4x3_640w.webp",
+      "media/cp-lead-4x3_768w.webp",
+      "media/cp-single-16x9_1280w.webp",
+      "media/cp-single-16x9_1440w.webp",
+      "media/cp-single-16x9_1920w.webp",
+      "media/cp-single-16x9_768w.webp",
+      "media/cp-single-4x3_375w.webp",
+      "media/cp-single-4x3_640w.webp",
+      "media/cp-single-4x3_768w.webp",
+      "media/fairtrade-america-logo-80.png",
+      "media/hero1-16x9_768w.webp",
+      "media/hero1-21x9_1280w.webp",
+      "media/hero1-21x9_1920w.webp",
+      "media/hero1-21x9_640w.webp",
+      "media/hero2-16x9_768w.webp",
+      "media/hero2-21x9_1280w.webp",
+      "media/hero2-21x9_1920w.webp",
+      "media/hero2-21x9_640w.webp",
+      "media/hero3-16x9_768w.webp",
+      "media/hero3-21x9_1280w.webp",
+      "media/hero3-21x9_1920w.webp",
+      "media/hero3-21x9_640w.webp",
+      "media/teaser1-4x3_375w.webp",
+      "media/teaser1-4x3_640w.webp",
+      "media/teaser2-4x3_375w.webp",
+      "media/teaser2-4x3_640w.webp",
+      "media/teaser3-4x3_375w.webp",
+      "media/teaser3-4x3_640w.webp",
+      "media/ti1-1x1_375w.webp",
+      "media/ti1-1x1_640w.webp",
+      "media/ti1-1x1_768w.webp",
+      "media/ti2-1x1_375w.webp",
+      "media/ti2-1x1_640w.webp",
+      "media/ti2-1x1_768w.webp",
+      "media/usn1-4x3_375w.webp",
+      "media/usn1-4x3_640w.webp",
+      "media/usn10-4x3_375w.webp",
+      "media/usn10-4x3_640w.webp",
+      "media/usn11-4x3_375w.webp",
+      "media/usn11-4x3_640w.webp",
+      "media/usn12-4x3_375w.webp",
+      "media/usn12-4x3_640w.webp",
+      "media/usn13-4x3_375w.webp",
+      "media/usn13-4x3_640w.webp",
+      "media/usn14-4x3_375w.webp",
+      "media/usn14-4x3_640w.webp",
+      "media/usn15-4x3_375w.webp",
+      "media/usn15-4x3_640w.webp",
+      "media/usn16-4x3_375w.webp",
+      "media/usn16-4x3_640w.webp",
+      "media/usn17-4x3_375w.webp",
+      "media/usn17-4x3_640w.webp",
+      "media/usn18-4x3_375w.webp",
+      "media/usn18-4x3_640w.webp",
+      "media/usn2-4x3_375w.webp",
+      "media/usn2-4x3_640w.webp",
+      "media/usn3-4x3_375w.webp",
+      "media/usn3-4x3_640w.webp",
+      "media/usn4-4x3_375w.webp",
+      "media/usn4-4x3_640w.webp",
+      "media/usn5-4x3_375w.webp",
+      "media/usn5-4x3_640w.webp",
+      "media/usn6-4x3_375w.webp",
+      "media/usn6-4x3_640w.webp",
+      "media/usn7-4x3_375w.webp",
+      "media/usn7-4x3_640w.webp",
+      "media/usn8-4x3_375w.webp",
+      "media/usn8-4x3_640w.webp",
+      "media/usn9-4x3_375w.webp",
+      "media/usn9-4x3_640w.webp",
+      "us-en-about.css",
+      "us-en-news.css",
+      "us-en-news.js",
+      "us-en-why-fairtrade-why-we-do-it-child-protection.css"
+    ],
+    "pages": [
+      {
+        "slug": "en",
+        "file": "stardust/migrated/en.html",
+        "assetsBundled": 44
+      },
+      {
+        "slug": "us-en-about",
+        "file": "stardust/migrated/us-en/about.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "us-en-news",
+        "file": "stardust/migrated/us-en/news.html",
+        "assetsBundled": 45
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "assetsBundled": 23
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-05T11:41:42Z",
+      "rendered": [
+        "en",
+        "us-en-about",
+        "us-en-news",
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

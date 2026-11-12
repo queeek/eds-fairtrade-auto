@@ -1,0 +1,301 @@
+/* product-teaser-carousel — clientlib ProductTeaserCarousel + Carousel (contains-product-teasers)
+   + ProductTeaser; values from stardust/current/assets/css/clientlib-site.css */
+.product-teaser-carousel {
+  padding-block: 64px;
+}
+
+.product-teaser-carousel .product-teaser-carousel-content {
+  background-color: var(--c-skyblue);
+  padding: 64px 0;
+}
+
+.product-teaser-carousel .product-teaser-carousel-grid {
+  place-items: center;
+  row-gap: 32px;
+}
+
+.product-teaser-carousel .product-teaser-carousel-subtitle,
+.product-teaser-carousel .product-teaser-carousel-title {
+  text-align: center;
+  text-wrap: balance;
+}
+
+.product-teaser-carousel .product-teaser-carousel-subtitle {
+  color: rgb(30 30 30 / 50%);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.product-teaser-carousel .product-teaser-carousel-title {
+  color: var(--c-ink);
+  font-family: var(--font-head);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.product-teaser-carousel .product-teaser-carousel-subtitle p,
+.product-teaser-carousel .product-teaser-carousel-title :is(h1, h2, h3, h4) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.product-teaser-carousel .product-teaser-carousel-carousel {
+  padding: 48px 0;
+}
+
+/* Carousel */
+.product-teaser-carousel .product-teaser-carousel-slider {
+  --track-gap: 12px;
+  --horizontal-padding: 24px;
+
+  align-items: center;
+  display: grid;
+  position: relative;
+}
+
+.product-teaser-carousel .product-teaser-carousel-list {
+  display: flex;
+  gap: var(--track-gap);
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 0 var(--horizontal-padding);
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.product-teaser-carousel .product-teaser-carousel-list::-webkit-scrollbar {
+  display: none;
+}
+
+.product-teaser-carousel .is-initialized .product-teaser-carousel-list {
+  scroll-behavior: smooth;
+}
+
+.product-teaser-carousel .is-overflowing .product-teaser-carousel-list {
+  justify-content: unset;
+}
+
+.product-teaser-carousel .product-teaser-carousel-item {
+  flex: 0 0 auto;
+  min-width: 0;
+  scroll-snap-align: center;
+}
+
+.product-teaser-carousel .product-teaser-carousel-controls {
+  display: flex;
+  inset: auto 8px;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+}
+
+.product-teaser-carousel .is-overflowing .product-teaser-carousel-controls {
+  opacity: 1;
+}
+
+.product-teaser-carousel .is-overflowing .product-teaser-carousel-controls > * {
+  pointer-events: auto;
+}
+
+.product-teaser-carousel .product-teaser-carousel-controls .btn {
+  box-shadow: 0 4px 8px rgb(30 30 30 / 10%);
+}
+
+/* ProductTeaser */
+.product-teaser-carousel .product-teaser {
+  --image-size: 172px;
+  --teaser-padding: 24px;
+
+  background-color: #fff;
+  border: 1px solid var(--c-grey-300);
+  border-radius: 16px;
+  color: var(--c-ink);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: var(--teaser-padding);
+  row-gap: 12px;
+  width: min-content;
+}
+
+.product-teaser-carousel .product-teaser-image {
+  align-self: center;
+  height: var(--image-size);
+  scale: 85%;
+  transform-origin: center;
+  transition: scale .2s ease-in-out;
+  width: var(--image-size);
+}
+
+.product-teaser-carousel .product-teaser:is(:hover, :focus-visible) .product-teaser-image {
+  scale: 95%;
+}
+
+.product-teaser-carousel .product-teaser-image .ft-image {
+  background-color: transparent;
+}
+
+.product-teaser-carousel .product-teaser-image picture {
+  inset: 0;
+  position: absolute;
+}
+
+.product-teaser-carousel .product-teaser-image img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.product-teaser-carousel .product-teaser-merchant {
+  color: var(--c-grey-500);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.product-teaser-carousel .product-teaser-title {
+  font-family: var(--font-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.product-teaser-carousel .product-teaser-merchant p,
+.product-teaser-carousel .product-teaser-title p {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.product-teaser-carousel .product-teaser-fake-link {
+  display: inline-flex;
+}
+
+/* tertiary underline drawn on the authored label paragraph (canon Button--inner::after) */
+.product-teaser-carousel .product-teaser-fake-link .btn-inner::after {
+  content: none;
+}
+
+.product-teaser-carousel .product-teaser-fake-link p {
+  margin: 0;
+}
+
+.product-teaser-carousel .product-teaser-fake-link p::after {
+  background-color: var(--c-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+}
+
+.product-teaser-carousel .product-teaser:is(:hover, :focus-visible) .product-teaser-fake-link {
+  color: var(--c-ocean);
+}
+
+.product-teaser-carousel .product-teaser:is(:hover, :focus-visible) .product-teaser-fake-link p::after {
+  background-color: var(--c-ocean);
+  scale: 1;
+}
+
+/* CTA under the track: canon Button variant-secondary color-white */
+.product-teaser-carousel .product-teaser-carousel-actions p.button-wrapper {
+  justify-content: center;
+}
+
+.product-teaser-carousel .product-teaser-carousel-actions a.button {
+  --border-color: #fff;
+  --border-color-hover: #fff;
+  --border-color-active: hsl(0deg 0% 100% / 50%);
+  --background-color-hover: hsl(0deg 0% 100% / 25%);
+
+  background-color: transparent;
+  border-color: var(--border-color);
+}
+
+.product-teaser-carousel .product-teaser-carousel-actions a.button:is(:hover, :focus-visible) {
+  background-color: var(--background-color-hover);
+  border-color: var(--border-color-hover);
+}
+
+@media (width >= 768px) {
+  .product-teaser-carousel .product-teaser-carousel-grid > * {
+    grid-column: 3 / -3;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-slider {
+    --horizontal-padding: 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  .product-teaser-carousel {
+    padding-block: 80px;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-content {
+    padding: 80px 0;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-grid > * {
+    grid-column: 4 / -4;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-subtitle {
+    font-size: 18px;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-title {
+    font-size: 64px;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-carousel {
+    padding: 64px 0;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-slider {
+    --track-gap: 32px;
+  }
+
+  .product-teaser-carousel .product-teaser-carousel-controls {
+    inset: auto 32px;
+  }
+
+  .product-teaser-carousel .has-controls-on-hover.is-overflowing .product-teaser-carousel-controls {
+    opacity: 0;
+  }
+
+  .product-teaser-carousel .has-controls-on-hover.is-overflowing:hover .product-teaser-carousel-controls {
+    opacity: 1;
+  }
+
+  .product-teaser-carousel .product-teaser {
+    --image-size: 224px;
+    --teaser-padding: 24px 32px;
+  }
+
+  .product-teaser-carousel .product-teaser-merchant {
+    font-size: 18px;
+  }
+
+  .product-teaser-carousel .product-teaser-title {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 1440px) {
+  .product-teaser-carousel .product-teaser-carousel-controls {
+    inset: auto 48px;
+  }
+}
+

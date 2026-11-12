@@ -1,0 +1,64 @@
+{
+  "/ch-fr/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:08.490Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch-fr/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:08.490Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:08.490Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:08.490Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:13.626Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:13.626Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/drafts/foundation-shell": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-05T11:59:22.035Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

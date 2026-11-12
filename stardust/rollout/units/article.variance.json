@@ -1,0 +1,440 @@
+{
+  "archetype": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "pagelead": ".PageLead",
+    "richtext": ".RichtextSection",
+    "numberfact": ".NumberFactTeaser",
+    "accordion": ".AccordionSection",
+    "singleimage": ".SingleImage",
+    "breadcrumbs": ".Breadcrumbs"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "pagelead": {
+        "sel": ".PageLead",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 1107
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255)",
+          "image": {
+            "w": 0,
+            "h": 0
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Fairtrade’s approach to child protection At Fairtrade, we ar"
+      },
+      "richtext": {
+        "sel": ".RichtextSection",
+        "count": 4,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 550
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "40px 48px 40px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Child protection is a key issue for Fairtrade, as child labo"
+      },
+      "numberfact": {
+        "sel": ".NumberFactTeaser",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 1502
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 48px 80px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "9M additional working children after the Covid-19 pandemic a"
+      },
+      "accordion": {
+        "sel": ".AccordionSection",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 419
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 48px 80px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 32px/35.2px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "How Fairtrade supports child protection Strong Standards Str"
+      },
+      "singleimage": {
+        "sel": ".SingleImage",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 788
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 48px 80px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 1116,
+            "h": 628
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      },
+      "breadcrumbs": {
+        "sel": ".Breadcrumbs",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 56
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(0, 27, 110)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "16px 0px 16px 0px",
+          "font": "exo 2 14px/19.6px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Home Why Fairtrade Why we do it Child Protection Why we do i"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "pagelead",
+          "msg": "rect{h 1107 → 990}; heading h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255) → h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "richtext",
+          "msg": "4 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "richtext",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "richtext",
+          "msg": "rect{h 550 → 317}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "numberfact",
+          "msg": "\".NumberFactTeaser\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "accordion",
+          "msg": "\".AccordionSection\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "singleimage",
+          "msg": "\".SingleImage\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "breadcrumbs",
+          "msg": "backgroundColor rgb(0, 27, 110) → rgba(0, 0, 0, 0)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "pagelead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 990
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Theory of Change Fairtrade’s theory of change maps out what "
+          },
+          "richtext": {
+            "sel": ".RichtextSection",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 317
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "40px 48px 40px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Fairtrade’s theory of change maps out what we do and why. It"
+          },
+          "numberfact": {
+            "sel": ".NumberFactTeaser",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".AccordionSection",
+            "count": 0
+          },
+          "singleimage": {
+            "sel": ".SingleImage",
+            "count": 0
+          },
+          "breadcrumbs": {
+            "sel": ".Breadcrumbs",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 56
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "16px 0px 16px 0px",
+              "font": "exo 2 14px/19.6px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Why Fairtrade What we do Theory of Change What we do"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "pagelead",
+          "msg": "rect{h 1107 → 1184}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "richtext",
+          "msg": "4 → 2 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "richtext",
+          "msg": "rect{h 550 → 669}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "numberfact",
+          "msg": "\".NumberFactTeaser\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "accordion",
+          "msg": "rect{h 419 → 774}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "singleimage",
+          "msg": "\".SingleImage\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "pagelead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1184
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Assuring integrity in checking compliance Consumers have hig"
+          },
+          "richtext": {
+            "sel": ".RichtextSection",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 669
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "40px 48px 40px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "If the Fairtrade Standards are what organizations and compan"
+          },
+          "numberfact": {
+            "sel": ".NumberFactTeaser",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".AccordionSection",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 774
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 48px 80px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 32px/35.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "The following documents outline the process and protocol of "
+          },
+          "singleimage": {
+            "sel": ".SingleImage",
+            "count": 0
+          },
+          "breadcrumbs": {
+            "sel": ".Breadcrumbs",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 56
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(0, 27, 110)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "16px 0px 16px 0px",
+              "font": "exo 2 14px/19.6px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Why Fairtrade How we do it Assuring integrity in checki"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "pagelead",
+      "richtext",
+      "numberfact",
+      "accordion",
+      "singleimage",
+      "breadcrumbs"
+    ]
+  }
+}

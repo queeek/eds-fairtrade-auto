@@ -1,0 +1,39 @@
+/* iframe-section — IframeSection (source clientlib `.IframeSection`, via the theory-of-change
+   render's inline style): 6 / 12-column page grid, bordered 16:9 frame, columns 2 / -2 from
+   1024px. */
+.iframe-section .iframe-section-grid {
+  column-gap: var(--col-gap);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto;
+  padding-block: 64px;
+  padding-inline: var(--page-pad);
+  width: min(100%, var(--page-max));
+}
+
+.iframe-section .iframe-section-frame {
+  aspect-ratio: 16 / 9;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  display: block;
+  grid-column: 1 / -1;
+  min-width: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .iframe-section .iframe-section-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+@media (width >= 1024px) {
+  .iframe-section .iframe-section-grid {
+    padding-block: 80px;
+  }
+
+  .iframe-section .iframe-section-frame {
+    grid-column: 2 / -2;
+  }
+}

@@ -1,0 +1,352 @@
+/* page-hero-carousel — canon PageHeroCarousel / PageHeroSlide (stardust/prototypes/canon.css) */
+.page-hero-carousel {
+  --background-color: var(--c-leafgreen);
+  --pagination-bullet-color: rgb(30 30 30 / 25%);
+
+  background-color: var(--background-color);
+  overflow: hidden;
+  padding-block: 64px;
+}
+
+.page-hero-carousel.skyblue {
+  --background-color: var(--c-skyblue);
+}
+
+.page-hero-carousel.nightsky {
+  --background-color: var(--c-nightsky);
+  --pagination-bullet-color: hsl(0deg 0% 100% / 25%);
+
+  color: #fff;
+}
+
+.page-hero-carousel .page-hero-carousel-grid {
+  position: relative;
+}
+
+.page-hero-carousel .page-hero-carousel-grid::before,
+.page-hero-carousel .page-hero-carousel-grid::after {
+  content: "";
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 50vw;
+  z-index: 2;
+}
+
+.page-hero-carousel .page-hero-carousel-grid::before {
+  background: linear-gradient(270deg, transparent 0, var(--background-color) 200px);
+  right: 100%;
+}
+
+.page-hero-carousel .page-hero-carousel-grid::after {
+  background: linear-gradient(90deg, transparent 0, var(--background-color) 200px);
+  left: 100%;
+}
+
+.page-hero-carousel .page-hero-carousel-carousel {
+  position: relative;
+}
+
+.page-hero-carousel .page-hero-carousel-track {
+  display: grid;
+}
+
+.page-hero-carousel .page-hero-slide {
+  align-self: start;
+  border-radius: var(--radius);
+  grid-area: 1 / 1;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+  transform-origin: left top;
+  transition: transform .4s ease-in-out;
+}
+
+.page-hero-carousel .page-hero-slide:not(.is-active) {
+  transform: translateX(calc(100% + 32px));
+}
+
+.page-hero-carousel .page-hero-slide.is-after {
+  transform: translateX(calc(200% + 64px));
+}
+
+.page-hero-carousel .page-hero-slide.is-before {
+  transform: translateX(calc(-100% - 32px));
+}
+
+.page-hero-carousel .page-hero-slide.is-next,
+.page-hero-carousel .page-hero-slide.is-after {
+  cursor: pointer;
+}
+
+.page-hero-carousel .page-hero-slide-media {
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+  transition: opacity .4s ease-in;
+}
+
+.page-hero-carousel .page-hero-slide-media::after {
+  content: "";
+}
+
+.page-hero-carousel .ft-image picture {
+  inset: 0;
+  position: absolute;
+}
+
+.page-hero-carousel .ft-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.page-hero-carousel .page-hero-slide-image-desktop {
+  display: none;
+}
+
+.page-hero-carousel .page-hero-slide-content {
+  transition: opacity .4s ease-in-out;
+}
+
+.page-hero-carousel .page-hero-slide-content-inner {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.page-hero-carousel .page-hero-slide-title {
+  font-family: var(--font-head);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.page-hero-carousel .page-hero-slide-title :is(h1, h2, h3) {
+  font: inherit;
+  margin: 0;
+}
+
+.page-hero-carousel .page-hero-slide-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.page-hero-carousel .page-hero-slide-text p {
+  margin: 0;
+}
+
+/* CTA: canon PageHeroSlide--button = leafgreen primary pill, size-large */
+.page-hero-carousel .page-hero-slide-actions a.button {
+  --background-color: var(--c-leafgreen);
+  --background-color-hover: var(--c-leafgreen-hover);
+  --background-color-active: var(--c-leafgreen-hover);
+  --border-color-hover: var(--c-leafgreen-dark);
+  --border-color-active: transparent;
+
+  background-color: var(--background-color);
+  height: 60px;
+}
+
+.page-hero-carousel .page-hero-carousel-pagination {
+  display: none;
+}
+
+.page-hero-carousel .page-hero-carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc(50vw - 24px);
+  transform: translateY(-50%);
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  z-index: 1;
+}
+
+.page-hero-carousel .page-hero-carousel-control-previous,
+.page-hero-carousel .page-hero-carousel-control-next {
+  pointer-events: auto;
+}
+
+.page-hero-carousel .page-hero-carousel-control-previous {
+  transform: translateX(-25%);
+}
+
+.page-hero-carousel .page-hero-carousel-control-next {
+  transform: translateX(25%);
+}
+
+@media (width >= 768px) {
+  .page-hero-carousel .page-hero-slide-media {
+    aspect-ratio: 16 / 9;
+  }
+
+  .page-hero-carousel .page-hero-slide-image-mobile {
+    display: none;
+  }
+
+  .page-hero-carousel .page-hero-slide-image-desktop {
+    display: block;
+  }
+
+  /* the source's desktop image box carries one extra text line under its 16:9 spacer */
+  .page-hero-carousel .page-hero-slide-image-desktop::after {
+    content: "";
+    display: block;
+    height: 1.6em;
+  }
+
+  .page-hero-carousel .page-hero-carousel-controls {
+    top: calc(28.125vw - 18px);
+  }
+
+  .page-hero-carousel .page-hero-carousel-control-previous {
+    transform: translateX(-50%);
+  }
+
+  .page-hero-carousel .page-hero-carousel-control-next {
+    transform: translateX(50%);
+  }
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel {
+    padding-block: 80px;
+  }
+
+  .page-hero-carousel .page-hero-carousel-grid > .page-hero-carousel-inner {
+    grid-column: 2 / -2;
+  }
+
+  .page-hero-carousel .page-hero-slide:not(.is-active) {
+    transform: translateX(calc(100% + 32px)) scale(.5);
+  }
+
+  .page-hero-carousel .page-hero-slide.is-after {
+    transform: translateX(calc(150% + 64px)) scale(.5);
+  }
+
+  .page-hero-carousel .page-hero-slide.is-before {
+    transform: translateX(calc(-50% - 32px)) scale(.5);
+  }
+
+  .page-hero-carousel .page-hero-slide-media::after {
+    background: linear-gradient(60deg, rgb(0 0 0 / 50%) 35%, transparent 75%);
+    inset: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .4s ease-in-out;
+  }
+
+  .page-hero-carousel .page-hero-slide.is-active .page-hero-slide-media::after {
+    opacity: 1;
+  }
+
+  .page-hero-carousel .page-hero-slide-content {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    padding: 32px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .page-hero-carousel .page-hero-slide.is-active .page-hero-slide-content {
+    opacity: 1;
+  }
+
+  .page-hero-carousel .page-hero-slide-title {
+    font-size: clamp(40px, 4vw, 64px);
+  }
+
+  .page-hero-carousel .page-hero-slide-text {
+    font-size: 18px;
+  }
+
+  .page-hero-carousel .page-hero-carousel-pagination {
+    display: flex;
+    gap: 16px;
+    margin: 32px auto 0;
+    max-width: 540px;
+  }
+
+  .page-hero-carousel .page-hero-carousel-bullet {
+    cursor: pointer;
+    flex: 1 1 auto;
+    margin-block: -16px;
+    padding-block: 16px;
+  }
+
+  .page-hero-carousel .page-hero-carousel-bullet::before {
+    background-color: var(--pagination-bullet-color);
+    border-radius: var(--radius-pill);
+    content: "";
+    display: block;
+    height: 4px;
+  }
+
+  .page-hero-carousel .page-hero-carousel-bullet.is-active::before {
+    background-color: var(--c-eggplant);
+  }
+
+  /* live: arrows appear on hover only */
+  .page-hero-carousel .page-hero-carousel-controls {
+    left: -5vw;
+    opacity: 0;
+    right: -5vw;
+    top: 50%;
+    visibility: hidden;
+  }
+
+  .page-hero-carousel:hover .page-hero-carousel-controls {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (width >= 1280px) {
+  .page-hero-carousel .page-hero-slide-content {
+    padding: 48px;
+  }
+
+  .page-hero-carousel .page-hero-slide-content-inner {
+    max-width: max(80%, 860px);
+  }
+
+  .page-hero-carousel .page-hero-slide-title {
+    font-size: 64px;
+  }
+}
+
+@media (width >= 1440px) {
+  .page-hero-carousel .page-hero-slide-content-inner {
+    max-width: max(50%, 612px);
+  }
+}
+
+/* C0 header-open hook: the source fades the hero controls while a header panel is open */
+body.header-open .page-hero-carousel .page-hero-carousel-controls,
+body.header-open .page-hero-carousel:hover .page-hero-carousel-controls {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* clientlib `.PageHeroCarousel.theme-leafgreen .PageHeroSlide--button` / `--control-*`
+   (@183365, @151505): on the leafgreen ground the CTA and arrows are skyblue */
+.page-hero-carousel:not(.skyblue, .nightsky) .page-hero-slide-actions a.button,
+.page-hero-carousel:not(.skyblue, .nightsky) .page-hero-carousel-control-previous,
+.page-hero-carousel:not(.skyblue, .nightsky) .page-hero-carousel-control-next {
+  --background-color: var(--c-skyblue);
+  --background-color-hover: var(--c-skyblue-hover);
+  --background-color-active: var(--c-skyblue-hover);
+  --background-color-disabled: rgb(15 192 252 / 25%);
+  --border-color-hover: #035e7c;
+  --border-color-active: transparent;
+}

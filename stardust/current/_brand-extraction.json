@@ -1,0 +1,782 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-05T10:29:54.568Z",
+    "stardustVersion": "0.36.6",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/clientlib-site.css"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://www.fairtrade.net",
+      "role": "primary",
+      "pages": 10
+    }
+  ],
+  "logo": {
+    "path": "stardust/current/assets/logo.svg",
+    "source": "img",
+    "url": "https://www.fairtrade.net/content/dam/fairtrade/global/logo/fairtrade-international.svg",
+    "selector": ".Topbar img"
+  },
+  "favicon": "stardust/current/assets/favicon.svg",
+  "palette": [
+    {
+      "hex": "#1e1e1e",
+      "roles": [
+        "text",
+        "heading"
+      ],
+      "weight": 1086,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "selector": "#main-nav > ul > li:nth-of-type(1) > button",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "selector": "main > div > div:nth-of-type(1) > div > div > div > h1",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(1) > div > div > div > h1",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#0fc0fc",
+      "roles": [
+        "primary"
+      ],
+      "weight": 185,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/contact.html",
+          "selector": "main > div > div:nth-of-type(1) > div > div > div > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#d4ff47",
+      "roles": [
+        "secondary"
+      ],
+      "weight": 166,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+          "prop": "button-background"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > a",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#7b1dab",
+      "roles": [
+        "accent"
+      ],
+      "weight": 104,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p:nth-of-type(1) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "selector": "#maincontainer-2c42df24e4 > div:nth-of-type(2) > div > div > p:nth-of-type(2) > u > a",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "hex": "#dadada",
+      "roles": [
+        "border"
+      ],
+      "weight": 88,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "#article-chute-du-prix-du-cacao-en-cdi > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#0fc0fc40",
+      "roles": [
+        "background"
+      ],
+      "weight": 68,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en.html",
+          "selector": "div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#001b6e",
+      "roles": [
+        "surface"
+      ],
+      "weight": 28,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "nav",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "selector": "nav",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#container-7f01f3bffb > div > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff",
+      "roles": [],
+      "weight": 522,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#1e1e1ebf",
+      "roles": [],
+      "weight": 52,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "#article-chute-du-prix-du-cacao-en-cdi > div > div:nth-of-type(2) > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#787878",
+      "roles": [],
+      "weight": 42,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(2) > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(2) > div > div:nth-of-type(2) > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > strong",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#1e1e1e80",
+      "roles": [],
+      "weight": 4,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(6) > div > div:nth-of-type(2) > div:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+          "selector": "nav > div:nth-of-type(1) > ol > li:nth-of-type(2) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+          "selector": "nav > div:nth-of-type(1) > ol > li:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff80",
+      "roles": [],
+      "weight": 2,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "nav > div:nth-of-type(1) > ol > li:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "selector": "nav > div:nth-of-type(1) > ol > li:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "Exo 2",
+        "count": 350,
+        "headings": 60,
+        "text": 189,
+        "buttons": 101
+      },
+      {
+        "family": "Alegreya Sans",
+        "count": 157,
+        "headings": 157,
+        "text": 0,
+        "buttons": 0
+      }
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 72,
+        "fontWeight": "900",
+        "count": 8,
+        "score": 458.21
+      },
+      "h2": {
+        "fontSize": 48,
+        "fontWeight": "900",
+        "count": 26,
+        "score": 550.69
+      },
+      "h3": {
+        "fontSize": 20,
+        "fontWeight": "800",
+        "count": 60,
+        "score": 309.84
+      }
+    },
+    "files": [
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-400-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-500-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-700-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-800-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-900-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-ext-700-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-ext-800-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/alegreya-sans-latin-ext-900-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/exo-2-latin-ext-wght-normal.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/exo-2-latin-wght-italic.woff2",
+        "licence": "OFL"
+      },
+      {
+        "path": "stardust/current/assets/fonts/exo-2-latin-wght-normal.woff2",
+        "licence": "OFL"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc"
+    }
+  },
+  "motifs": {
+    "radius": {
+      "mode": "12px",
+      "areaMode": "12px",
+      "pill": "100px",
+      "values": [
+        {
+          "value": "12px",
+          "count": 193,
+          "area": 32475813,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "100%",
+          "count": 150,
+          "area": 268800,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > ul > li:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > ul > li:nth-of-type(3) > a"
+            }
+          ]
+        },
+        {
+          "value": "100px",
+          "count": 97,
+          "area": 1110173,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/en.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 84,
+          "area": 4027625,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "#article-chute-du-prix-du-cacao-en-cdi > div > div:nth-of-type(2) > span"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a > div > div:nth-of-type(2) > span:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/ch-fr.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a > div > div:nth-of-type(2) > span:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.fairtrade.net/en.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span"
+            },
+            {
+              "url": "https://www.fairtrade.net/en.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a > div > div:nth-of-type(2) > span"
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 2,
+          "area": 759618,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+              "selector": "main > div > div:nth-of-type(3) > div > iframe"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(30, 30, 30, 0.1) 0px 4px 8px 0px",
+        "count": 60,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/en.html",
+            "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(11) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/en.html",
+            "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(11) > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/en.html",
+            "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(11) > div > ul > li:nth-of-type(3) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en.html",
+            "selector": "main > div > div:nth-of-type(6) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en.html",
+            "selector": "main > div > div:nth-of-type(6) > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1)"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(0, 27, 110) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 4,
+        "area": 1833840,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+            "selector": "#maincontainer-2c42df24e4 > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(15, 192, 252) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 2,
+        "area": 916920,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+            "selector": "#maincontainer-ade72fc8ff > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(212, 255, 71) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 2,
+        "area": 916920,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      }
+    ]
+  },
+  "hover": [
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(212, 255, 71)"
+      },
+      "to": {
+        "backgroundColor": "rgba(212, 255, 71, 0.25)",
+        "borderColor": "rgb(170, 204, 57)"
+      },
+      "count": 18,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#container-7f01f3bffb > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#container-7f01f3bffb > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en.html",
+          "selector": "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en.html",
+          "selector": "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "selector": "#experiencefragment-4dc4ebb92e > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(15, 192, 252)",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      "to": {
+        "backgroundColor": "rgb(14, 173, 227)",
+        "borderColor": "rgb(3, 94, 124)"
+      },
+      "count": 10,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(5) > div > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(5) > div > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(5) > div > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(5) > div > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "selector": "div > div:nth-of-type(5) > div > div > div > div > div:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(15, 192, 252)"
+      },
+      "to": {
+        "backgroundColor": "rgba(15, 192, 252, 0.25)",
+        "borderColor": "rgb(14, 173, 227)"
+      },
+      "count": 8,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(2) > div > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(2) > div > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(123, 29, 171)"
+      },
+      "to": {
+        "color": "rgb(3, 94, 124)"
+      },
+      "count": 8,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(30, 30, 30)"
+      },
+      "to": {
+        "color": "rgb(3, 94, 124)"
+      },
+      "count": 6,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "#article-chute-du-prix-du-cacao-en-cdi"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "#article-chute-du-prix-du-cacao-en-cdi"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "#maincontainer-0aa6dbea62 > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(212, 255, 71)",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      "to": {
+        "backgroundColor": "rgb(170, 204, 57)",
+        "borderColor": "rgb(79, 93, 24)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a"
+        }
+      ]
+    }
+  ],
+  "iconFont": null,
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "selector": ".Topbar",
+      "pages": 10
+    },
+    {
+      "name": "site-footer",
+      "selector": ".cmp-experiencefragment--footer",
+      "pages": 10
+    }
+  ]
+}

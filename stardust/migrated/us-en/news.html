@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-05T11:41:42Z
+  page:             News
+  slug:             us-en-news
+  pagePath:         migrated/us-en/news.html
+  renderBranch:     A
+  sourceProposed:   stardust/prototypes/us-en-news-proposed.html
+  sourceCurrent:    stardust/current/pages/us-en-news.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: e24b404e86e3)
+  designJson:       DESIGN.json (sha: 92abea89167f)
+  canonShas:        header:ec7f90e96b99 footer:033dd6ebd6bb css:2f1fe1217762
+  decisionTrace:    news._meta.json
+  brokenInternalLinks: 191
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-body: "Exo 2", system-ui;
+  --font-head: "Alegreya Sans", system-ui;
+  --c-ink: #1e1e1e;
+  --c-white: #fff;
+  --c-skyblue: #0fc0fc;
+  --c-skyblue-hover: #0eade3;
+  --c-skyblue-light: #6fd9fd;
+  --c-ocean: #035e7c;
+  --c-leafgreen: #d4ff47;
+  --c-leafgreen-hover: #aacc39;
+  --c-leafgreen-dark: #4f5d18;
+  --c-nightsky: #001b6e;
+  --c-eggplant: #7b1dab;
+  --c-flower: #ff4571;
+  --c-mint: #09fbd3;
+  --c-grey-100: #f4f4f4;
+  --c-grey-200: #e8e8e8;
+  --c-grey-300: #dadada;
+  --c-grey-400: #a5a5a5;
+  --c-grey-500: #787878;
+  --c-grey-600: #545454;
+  --radius: 12px;
+  --radius-pill: 100px;
+  --topbar-height: 72px;
+  /* page grid (lifted container model: 6 cols → 12 cols ≥768, capped 1920) */
+  --page-max: 1920px;
+  --page-pad: 18px;
+  --col-gap: 16px;
+  --section-pad: 64px;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"News","url":"https://main--a1eef8ec--aemcoder.aem.page/us-en/news.html"}</script>
+<link rel="canonical" href="https://main--a1eef8ec--aemcoder.aem.page/us-en/news.html">
+<meta property="og:url" content="https://main--a1eef8ec--aemcoder.aem.page/us-en/news.html">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News</title>
+  <meta property="og:title" content="News">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/exo-2-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/alegreya-sans-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/canon.css">
+  <link rel="stylesheet" href="../assets/us-en-news.css">
+  <script src="../assets/canon.js" defer></script>
+  <script src="../assets/us-en-news.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="Topbar" id="topbar">
+    <div class="Topbar--barWrapper">
+      <div class="Topbar--content">
+        <a class="Topbar--logo" href="https://www.fairtrade.net/us-en.html" data-broken-link="true"><span class="Icon Topbar--logo--icon"><img src="../assets/media/fairtrade-america-logo-80.png" alt="" width="80" height="80"></span><span class="visuallyhidden">Back to Homepage</span></a>
+        <div class="Topbar--mainNavigation scrollend-left scrollend-right">
+          <div class="Topbar--mainNavigationScrollLeft"><button class="Button Topbar--mainNavigationScrollLeft--button variant-icon-primary color-skyblue size-small" type="button" tabindex="-1" aria-hidden="true"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-left"></use></svg></span></span></button></div>
+          <nav class="TopbarMainNavigation" aria-label="Main Navigation" id="main-nav">
+            <ul class="TopbarMainNavigation--list">
+            <li class="TopbarMainNavigation--list--item">
+              <button class="TopbarMainNavigation--button" type="button" aria-expanded="false" aria-controls="flyout-0">Why Fairtrade</button>
+              <div class="TopbarDesktopFlyout" id="flyout-0">
+                <div class="TopbarDesktopFlyout--grid">
+                  <div class="TopbarDesktopFlyout--groups">
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/why-fairtrade/what-we-do.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">What we do</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/what-we-do/what-is-fairtrade.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">What is Fairtrade?</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/what-we-do/how-fairtrade-works.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">How Fairtrade works</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/what-we-do/key-benefits.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Key benefits of Fairtrade</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Theory of Change</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">The Fairtrade Difference</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/why-fairtrade/why-we-do-it.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Why we do it</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/child-protection.html"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Child Protection</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Climate and the environment</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Decent Livelihoods</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/deforestation.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Deforestation</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Fairtrade and the Sustainable Development Goals</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/gender-equality.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Gender Equality</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/hredd.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">HREDD</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Smallholder Farmers</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/why-we-do-it/workers-rights.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Workers Rights</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/why-fairtrade/how-we-do-it.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">How we do it</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">How does the label work</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">How Fairtrade certification works</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Fairtrade products and ingredients</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Assuring integrity in checking compliance</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Traceability in Fairtrade supply chains</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Fairtrade standards</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Our projects and programs</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/why-fairtrade/impact.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Impact</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/impact/impact-stories.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Impact stories</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/impact/key-figures-at-a-glance.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Key figures at a glance</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/impact/how-we-measure-impact.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">How we measure impact</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/why-fairtrade/impact/reports-trends.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Reports &amp; Trends</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="TopbarMainNavigation--list--item">
+              <button class="TopbarMainNavigation--button" type="button" aria-expanded="false" aria-controls="flyout-1">Products</button>
+              <div class="TopbarDesktopFlyout" id="flyout-1">
+                <div class="TopbarDesktopFlyout--grid">
+                  <div class="TopbarDesktopFlyout--groups">
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/products/all-products.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Fairtrade products</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/bananas.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Bananas</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/cocoa.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Cocoa</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/chocolate.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Chocolate</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/coffee.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Coffee</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/cotton.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Cotton</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/herbs-spices.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Herbs and spices</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/nuts-oils.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Nuts and oils</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/sugar.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Sugar</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/wine.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Wine</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/gold.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Gold</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/fruits-juices.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Fruits and juices</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/products/all-products/honey.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Honey</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="TopbarMainNavigation--list--item">
+              <button class="TopbarMainNavigation--button" type="button" aria-expanded="false" aria-controls="flyout-2">For Business</button>
+              <div class="TopbarDesktopFlyout" id="flyout-2">
+                <div class="TopbarDesktopFlyout--grid">
+                  <div class="TopbarDesktopFlyout--groups">
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/for-business/benefits-of-being-certified.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Benefits of being certified</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/benefits-of-being-certified/business-success-stories.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Business success stories</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/benefits-of-being-certified/benefits-for-business.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Benefits for business</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/benefits-of-being-certified/benefits-for-producers.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Benefits for producers</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/benefits-of-being-certified/consumer-trends1.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Consumer Trends</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/for-business/get-certified.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Get Certified</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/get-certified/the-certification-process.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">The Certification Process</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/get-certified/resources-support.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Resources &amp; Support</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/get-certified/intro-to-fairtrade.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Intro to Fairtrade</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/get-certified/get-started.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Get Started</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/for-business/for-partners.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">For Partners</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/for-partners/communicate-your-commitment.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Marketing the Movement</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/for-partners/how-to-use-the-mark.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">How to Use the Mark</span></a></li>
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Mark Misuse Allegations or Complaints</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/for-business/for-retailers.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">For Retailers</span></a></div>
+                      <ul class="TopbarDesktopFlyout--groupList">
+                        <li class="TopbarDesktopFlyout--groupItem"><a class="TopbarDesktopFlyout--groupItem--link" href="../us-en/for-business/for-retailers/fairtrade-bananas.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupItem--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupItem--linkTitle">Fairtrade Bananas</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="TopbarMainNavigation--list--item">
+              <button class="TopbarMainNavigation--button" type="button" aria-expanded="false" aria-controls="flyout-3">Get Involved</button>
+              <div class="TopbarDesktopFlyout" id="flyout-3">
+                <div class="TopbarDesktopFlyout--grid">
+                  <div class="TopbarDesktopFlyout--groups">
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/get-involved/get-involved.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Get Involved</span></a></div>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/get-involved/how-to-shop-sustainably.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">How to Shop Sustainably</span></a></div>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/get-involved/where-to-buy.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Where to buy</span></a></div>
+                    </div>
+                    <div class="TopbarDesktopFlyout--group">
+                      <div class="TopbarDesktopFlyout--groupTitle"><a class="TopbarDesktopFlyout--groupTitle--link" href="../us-en/get-involved/activism.html" data-broken-link="true"><span class="Icon is-inline TopbarDesktopFlyout--groupTitle--linkIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarDesktopFlyout--groupTitle--linkTitle">Activism</span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            </ul>
+          </nav>
+          <div class="Topbar--mainNavigationScrollRight"><button class="Button Topbar--mainNavigationScrollRight--button variant-icon-primary color-skyblue size-small" type="button" tabindex="-1" aria-hidden="true"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span></span></button></div>
+        </div>
+        <div class="Topbar--meta">
+          <button class="Topbar--searchTrigger" type="button" aria-controls="topbar-search" aria-expanded="false"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#search"></use></svg></span><span class="Topbar--search--label">Search</span><span class="visuallyhidden">Open the search box</span></button>
+          <div class="Topbar--localeSelectorTrigger"><button class="LocaleSelectorTrigger Topbar--localeSelectorTrigger--button" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="locale-selector"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#globe"></use></svg></span><span class="LocaleSelectorTrigger--label">US • EN</span><span class="visuallyhidden">Open or close the locale selector. The currently selected locale is US-EN.</span></button></div>
+          <div class="TopbarMetaMenu">
+            <button class="TopbarMetaMenu--openButton" type="button" aria-controls="topbar-meta-menu" aria-expanded="false"><span class="Icon is-inline TopbarMetaMenu--iconOpen" aria-hidden="true"><svg><use href="../assets/icons.svg#menu"></use></svg></span><span class="TopbarMetaMenu--labelOpen">Open</span><span class="visuallyhidden">Open the meta menu</span></button>
+            <div class="TopbarMetaMenu--menu" id="topbar-meta-menu">
+              <div class="TopbarMetaMenu--menuHeader"><button class="TopbarMetaMenu--closeButton" type="button"><span class="Icon is-inline TopbarMetaMenu--iconClose" aria-hidden="true"><svg><use href="../assets/icons.svg#close"></use></svg></span><span class="TopbarMetaMenu--labelClose">close</span><span class="visuallyhidden">Close the meta menu</span></button></div>
+              <ul class="TopbarMetaMenu--menuContent">
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="../us-en/about.html"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">About</span></a></li>
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="../us-en/about/careers.html" data-broken-link="true"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">Careers</span></a></li>
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="../us-en/for-business/for-partners.html" data-broken-link="true"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">For partners</span></a></li>
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="../us-en/for-business/for-retailers.html" data-broken-link="true"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">For retailers</span></a></li>
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="../us-en/news.html"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">News</span></a></li>
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="https://www.fairtrade.net/us-en/contact.html" data-broken-link="true"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">Contact</span></a></li>
+              <li class="TopbarMetaMenu--menuItem"><a class="TopbarMetaMenu--menuLink" href="../en.html"><span class="Icon is-inline TopbarMetaMenu--menuLink--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span class="TopbarMetaMenu--menuLink--title">Fairtrade International</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="Topbar--mobileMenuTrigger"><button class="MobileMenuTrigger" type="button" aria-expanded="false" aria-controls="mobile-menu"><span class="Icon MobileMenuTrigger--openIcon"><svg aria-hidden="true"><use href="../assets/icons.svg#menu"></use></svg><span class="visuallyhidden">Open Mobile Menu</span></span><span class="Icon MobileMenuTrigger--closeIcon"><svg aria-hidden="true"><use href="../assets/icons.svg#close"></use></svg><span class="visuallyhidden">Close Mobile Menu</span></span></button></div>
+        </div>
+        <div class="Topbar--search">
+          <div class="TopbarSearch" id="topbar-search">
+            <form action="https://www.fairtrade.net/us-en/search-results.html" role="search">
+              <div class="Input TopbarSearch--input">
+                <div class="Input--fieldWrapper"><input class="Input--field" id="topbar-search-input" name="q" type="search" placeholder="Bananas, coffee, oranges ..."><button class="Input--clear" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#trash"></use></svg></span><span class="visuallyhidden">Clear the search value of the input</span></button>
+                  <div class="Input--submitWrapper"><button class="Button Input--submit variant-icon-primary color-skyblue" type="submit" disabled><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#search"></use></svg></span></span><span class="visuallyhidden">Submit the search form</span></button></div>
+                </div>
+              </div>
+            </form>
+            <button class="TopbarSearch--close" type="button"><span class="Icon TopbarSearch--closeIcon" aria-hidden="true"><svg><use href="../assets/icons.svg#close"></use></svg></span><span class="TopbarSearch--closeLabel">Close</span><span class="visuallyhidden">By clicking this element, the search box will disappear</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="MobileMenu" id="mobile-menu">
+    <div class="MobileMenu--inner">
+      <div class="MobileNavigation">
+        <nav class="MobileNavigation--main" aria-label="Main Navigation">
+          <ul>
+            <li class="MobileNavigation--main--list--item"><button class="MobileMenuButton" type="button" data-level="1" aria-controls="mobile-submenu-1-0" aria-expanded="false"><span>Why Fairtrade</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileNavigation--main--list--item"><button class="MobileMenuButton" type="button" data-level="1" aria-controls="mobile-submenu-1-1" aria-expanded="false"><span>Products</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileNavigation--main--list--item"><button class="MobileMenuButton" type="button" data-level="1" aria-controls="mobile-submenu-1-2" aria-expanded="false"><span>For Business</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileNavigation--main--list--item"><button class="MobileMenuButton" type="button" data-level="1" aria-controls="mobile-submenu-1-3" aria-expanded="false"><span>Get Involved</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+          </ul>
+        </nav>
+        <button class="LocaleSelectorTrigger variant-mobile-menu" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="locale-selector"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#globe"></use></svg></span><span class="LocaleSelectorTrigger--label">US • EN</span><span class="visuallyhidden">Open or close the locale selector. The currently selected locale is US-EN.</span></button>
+        <nav class="MobileNavigation--meta" aria-label="Meta navigation">
+          <ul class="MobileNavigation--meta--list">
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="../us-en/about.html"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>About</span></a></li>
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="../us-en/about/careers.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Careers</span></a></li>
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="../us-en/for-business/for-partners.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>For partners</span></a></li>
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="../us-en/for-business/for-retailers.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>For retailers</span></a></li>
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="../us-en/news.html"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>News</span></a></li>
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="https://www.fairtrade.net/us-en/contact.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Contact</span></a></li>
+            <li class="MobileNavigation--meta--list--item"><a class="MobileMenuLink" data-level="meta" href="../en.html"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fairtrade International</span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-1-0" data-mobile-menu-level="2">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <span class="MobileMenuLink"><span>Why Fairtrade</span></span>
+          <ul class="MobileSubMenu--list">
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-0-0" aria-expanded="false"><span>What we do</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-0-1" aria-expanded="false"><span>Why we do it</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-0-2" aria-expanded="false"><span>How we do it</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-0-3" aria-expanded="false"><span>Impact</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-0-0" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/why-fairtrade/what-we-do.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>What we do</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/what-we-do/what-is-fairtrade.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>What is Fairtrade?</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/what-we-do/how-fairtrade-works.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How Fairtrade works</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/what-we-do/key-benefits.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Key benefits of Fairtrade</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Theory of Change</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>The Fairtrade Difference</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-0-1" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/why-fairtrade/why-we-do-it.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Why we do it</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/child-protection.html"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Child Protection</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Climate and the environment</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Decent Livelihoods</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/deforestation.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Deforestation</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fairtrade and the Sustainable Development Goals</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/gender-equality.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Gender Equality</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/hredd.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>HREDD</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Smallholder Farmers</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/why-we-do-it/workers-rights.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Workers Rights</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-0-2" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/why-fairtrade/how-we-do-it.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How we do it</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How does the label work</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How Fairtrade certification works</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fairtrade products and ingredients</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Assuring integrity in checking compliance</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Traceability in Fairtrade supply chains</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fairtrade standards</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Our projects and programs</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-0-3" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/why-fairtrade/impact.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Impact</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/impact/impact-stories.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Impact stories</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/impact/key-figures-at-a-glance.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Key figures at a glance</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/impact/how-we-measure-impact.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How we measure impact</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/why-fairtrade/impact/reports-trends.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Reports &amp; Trends</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-1-1" data-mobile-menu-level="2">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <span class="MobileMenuLink"><span>Products</span></span>
+          <ul class="MobileSubMenu--list">
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-1-0" aria-expanded="false"><span>Fairtrade products</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-1-0" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/products/all-products.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fairtrade products</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/bananas.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Bananas</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/cocoa.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Cocoa</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/chocolate.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Chocolate</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/coffee.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Coffee</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/cotton.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Cotton</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/herbs-spices.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Herbs and spices</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/nuts-oils.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Nuts and oils</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/sugar.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Sugar</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/wine.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Wine</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/gold.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Gold</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/fruits-juices.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fruits and juices</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/products/all-products/honey.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Honey</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-1-2" data-mobile-menu-level="2">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <span class="MobileMenuLink"><span>For Business</span></span>
+          <ul class="MobileSubMenu--list">
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-2-0" aria-expanded="false"><span>Benefits of being certified</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-2-1" aria-expanded="false"><span>Get Certified</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-2-2" aria-expanded="false"><span>For Partners</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-2-3" aria-expanded="false"><span>For Retailers</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-2-0" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/for-business/benefits-of-being-certified.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Benefits of being certified</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/benefits-of-being-certified/business-success-stories.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Business success stories</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/benefits-of-being-certified/benefits-for-business.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Benefits for business</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/benefits-of-being-certified/benefits-for-producers.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Benefits for producers</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/benefits-of-being-certified/consumer-trends1.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Consumer Trends</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-2-1" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/for-business/get-certified.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Get Certified</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/get-certified/the-certification-process.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>The Certification Process</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/get-certified/resources-support.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Resources &amp; Support</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/get-certified/intro-to-fairtrade.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Intro to Fairtrade</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/get-certified/get-started.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Get Started</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-2-2" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/for-business/for-partners.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>For Partners</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/for-partners/communicate-your-commitment.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Marketing the Movement</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/for-partners/how-to-use-the-mark.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How to Use the Mark</span></a></li>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Mark Misuse Allegations or Complaints</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-2-3" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/for-business/for-retailers.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>For Retailers</span></a>
+          <ul>
+            <li class="MobileSubMenu--list--item"><a class="MobileMenuLink" data-level="last" href="../us-en/for-business/for-retailers/fairtrade-bananas.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Fairtrade Bananas</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-1-3" data-mobile-menu-level="2">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <span class="MobileMenuLink"><span>Get Involved</span></span>
+          <ul class="MobileSubMenu--list">
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-3-0" aria-expanded="false"><span>Get Involved</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-3-1" aria-expanded="false"><span>How to Shop Sustainably</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-3-2" aria-expanded="false"><span>Where to buy</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+            <li class="MobileSubMenu--list--item"><button class="MobileMenuButton" type="button" data-level="2" aria-controls="mobile-submenu-2-3-3" aria-expanded="false"><span>Activism</span><span class="Icon is-inline" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-right"></use></svg></span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-3-0" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/get-involved/get-involved.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Get Involved</span></a>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-3-1" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/get-involved/how-to-shop-sustainably.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>How to Shop Sustainably</span></a>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-3-2" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/get-involved/where-to-buy.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Where to buy</span></a>
+        </div>
+      </div>
+      <div class="MobileSubMenu" id="mobile-submenu-2-3-3" data-mobile-menu-level="3">
+        <div class="MobileSubMenu--back"><button class="MobileSubMenu--back--button" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#arrow-left"></use></svg></span><span>Go back</span></button></div>
+        <div class="MobileSubMenu--top">
+          <a class="MobileMenuLink" href="../us-en/get-involved/activism.html" data-broken-link="true"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><span>Activism</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="LocaleSelector" id="locale-selector" role="dialog" aria-modal="true" aria-labelledby="locale-selector-title">
+    <button class="Button LocaleSelector--close variant-icon-secondary color-skyblue size-small" type="button"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#close"></use></svg></span></span><span class="visuallyhidden">Close the locale selector.</span></button>
+    <div class="LocaleSelector--content">
+      <div class="LocaleSelector--lead">
+        <p class="LocaleSelector--leadTitle" id="locale-selector-title">Go to a local website</p>
+        <p class="LocaleSelector--leadText">Choose a country or region and a language</p>
+      </div>
+      <a class="Button LocaleSelector--restOfTheWorld variant-secondary color-skyblue" href="../en.html"><span class="Button--inner">Fairtrade International</span></a>
+      <div class="LocaleSelector--filter">
+        <div class="Input">
+          <label class="Input--label visuallyhidden" for="locale-selector-filter">Search for a country, region or language</label>
+          <div class="Input--fieldWrapper"><input class="Input--field" id="locale-selector-filter" type="search" placeholder="Search for a country, region or language" autocomplete="off"><button class="Input--clear" type="button"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#trash"></use></svg></span><span class="visuallyhidden">Clear the value of the input</span></button></div>
+        </div>
+      </div>
+      <p class="LocaleSelector--noMatchFound">Sorry, no match found!</p>
+      <ul class="LocaleSelector--regions">
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Africa</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../africa-en.html" data-broken-link="true">English</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Austria</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../at-de.html" data-broken-link="true">Deutsch</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Belgium</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../be-fr.html" data-broken-link="true">Français</a></li><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../be-nl.html" data-broken-link="true">Nederlands</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Bulgaria</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../bg-bg/bring-fairtrade-to-your-market.html" data-broken-link="true">Bulgarian</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Canada</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../ca-en.html" data-broken-link="true">English</a></li><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../ca-fr.html" data-broken-link="true">French</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">CLAC</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="https://clac-comerciojusto.org">Spanish</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Croatia</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../hr-hr/donesite-fairtrade-na-vase-trziste.html" data-broken-link="true">Croatian</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">France</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../maxhavelaarfrance-fr.html" data-broken-link="true">Français</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Germany</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../de-de.html" data-broken-link="true">Deutsch</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Greece</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../gr-el/bring-fairtrade-to-your-market.html" data-broken-link="true">Greek</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Hungary</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../hu-hu/hozza-el-a-fairtrade-et-az-on-piacara.html" data-broken-link="true">Hungarian</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Iberica</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../iberica-es.html" data-broken-link="true">Español</a></li><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../iberica-pt.html" data-broken-link="true">Português</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Ireland</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../ie-en.html" data-broken-link="true">Fairtrade Ireland</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Italy</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../it-it.html" data-broken-link="true">Italiano</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Japan</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../jp-jp.html" data-broken-link="true">日本語</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Korea</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../kr-ko.html" data-broken-link="true">한국어</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Malta</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../mt-en/bring-fairtrade-to-your-market.html" data-broken-link="true">English</a></li><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../mt-mt/iggib-fairtrade-fis-suq-tieg-ek.html" data-broken-link="true">Maltese</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">NAPP</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../napp-en.html" data-broken-link="true">English</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Netherlands</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../nl-nl.html" data-broken-link="true">Dutch</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Norway</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../no-no.html" data-broken-link="true">Norsk</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Poland</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../pl-pl.html" data-broken-link="true">Polski</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Romania</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html" data-broken-link="true">Romanian</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Slovenia</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../si-sl/prinesite-fairtrade-na-vas-trg.html" data-broken-link="true">Slovenian</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Sweden</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../se-sv.html" data-broken-link="true">Svensk</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Switzerland</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../ch-de.html" data-broken-link="true">Deutsch</a></li><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="https://www.fairtrade.net/ch-fr.html" data-broken-link="true">Français</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">United Kingdom</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="../uk-en.html" data-broken-link="true">English</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">United States</span>
+              <ul class="LocaleSelector--locales"><li class="LocaleSelector--locale"><a class="LocaleSelector--locale--link" href="https://www.fairtrade.net/us-en.html" data-broken-link="true">english</a></li></ul>
+            </li>
+            <li class="LocaleSelector--region"><span class="LocaleSelector--regionName">Cyprus</span>
+              <ul class="LocaleSelector--locales"></ul>
+            </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <main class="maincontainer" data-content-fader data-template="us-en-news">
+    <section class="PageLead theme-leafgreen" data-section="1">
+      <div class="PageLead--content">
+        <div class="PageLead--contentGrid">
+          <h1 class="PageLead--title">News</h1>
+          <p class="PageLead--lead">Read our latest news and stories about Fairtrade and how we are making a difference in live of farmers and workers throughout the world.</p>
+        </div>
+      </div>
+    </section>
+    <section class="FilteredTeaserGrid" data-filtered-teaser-grid data-section="2">
+      <div class="TeaserGrid small">
+          <div class="Wave color-leafgreen" aria-hidden="true">
+            <div class="Wave--mobile"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" fill="currentColor"><path d="M0 100 V138 H100 V22.22 C89.4722 10.3091 77.1944 3.5804 65.625 3.5804 C37.2325 3.5804 12.19 40.9839 0 100 Z"></path></svg></div>
+            <div class="Wave--tablet"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 768 40" preserveAspectRatio="none" fill="currentColor"><path d="M0 39.5566V40H768V6.70221C693.951 2.74354 610.938 0.525391 523.261 0.525391C286.805 0.525391 84.2704 16.6588 0 39.5566Z"></path></svg></div>
+            <div class="Wave--desktop"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 375 40" preserveAspectRatio="none" fill="currentColor"><path d="M0 39.4028V40H375V6.73263C338.773 2.75491 298.142 0.525391 255.221 0.525391C140.023 0.525391 41.3134 16.5866 0 39.4028Z"></path></svg></div>
+          </div>
+        <div class="TeaserGrid--inner">
+          <ul class="TeaserGrid--grid">
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html" id="article-when-communities-lead-the-cooperative-model-at-work-in-madagasc" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn1-4x3_640w.webp" srcset="../assets/media/usn1-4x3_375w.webp 375w, ../assets/media/usn1-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="" width="640" height="480"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">09.29.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title"> When Communities Lead: The Cooperative Model at Work in Madagascar </span></h3>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html" id="article-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn2-4x3_640w.webp" srcset="../assets/media/usn2-4x3_375w.webp 375w, ../assets/media/usn2-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="" width="640" height="480"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">09.24.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Silence isn’t a strategy: Why “greenshouting” matters for business growth</span></h3>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/fairtrade-stands-with-farmers-as-costs-increase.html" id="article-fairtrade-stands-with-farmers-as-costs-increase" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn3-4x3_640w.webp" srcset="../assets/media/usn3-4x3_375w.webp 375w, ../assets/media/usn3-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="" width="640" height="480"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">09.10.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Fairtrade stands with farmers as costs increase</span></h3>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/Real-Pay-Feeds-Real-Change.html" id="article-Real-Pay-Feeds-Real-Change" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn4-4x3_640w.webp" srcset="../assets/media/usn4-4x3_375w.webp 375w, ../assets/media/usn4-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="laborday" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">09.04.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Real Pay Feeds Real Change</span></h3>
+                  <div class="InfoTeaser--text"><p>Making work fairer and safer for farm laborers.</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/A-Spicy-Fair-Share-Giveaway-with-Frontier.html" id="article-A-Spicy-Fair-Share-Giveaway-with-Frontier" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn5-4x3_640w.webp" srcset="../assets/media/usn5-4x3_375w.webp 375w, ../assets/media/usn5-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="frontierspicesfairtrade" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">08.19.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">A Spicy Fair Share Giveaway with Frontier</span></h3>
+                  <div class="InfoTeaser--text"><p>Get 100% on this quiz for a chance to win a smorgasbord of fantastic Frontier spices. </p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/What-is-a-cooperative-or-co-op.html" id="article-What-is-a-cooperative-or-co-op" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn6-4x3_640w.webp" srcset="../assets/media/usn6-4x3_375w.webp 375w, ../assets/media/usn6-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="coopATAISIdeRL" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">08.06.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">What is a cooperative (or co-op)?</span></h3>
+                  <div class="InfoTeaser--text"><p>The what, how and why of cooperatives</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/sourcing-matters--understanding-deforestation-and-scope-3-emissi.html" id="article-sourcing-matters-understanding-deforestation-and-scope-3-emissi" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn7-4x3_640w.webp" srcset="../assets/media/usn7-4x3_375w.webp 375w, ../assets/media/usn7-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">08.05.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Sourcing matters: Understanding deforestation and scope 3 emissions</span></h3>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/How-Fairtrades-Climate-Disaster-Relief-and-resilience-Fund-Is-Supporting-Long-Term-Recovery-in-Indonesia-and-Sri-Lanka.html" id="article-How-Fairtrades-Climate-Disaster-Relief-and-resilience-Fund-Is-Supporting-Long-Term-Recovery-in-Indonesia-and-Sri-Lanka" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn8-4x3_640w.webp" srcset="../assets/media/usn8-4x3_375w.webp 375w, ../assets/media/usn8-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="disasterreliefindonesiafairtrade" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">07.23.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">How Fairtrade’s Climate Disaster Relief and Resilience Fund Is Supporting Long-Term Recovery in Indonesia and Sri Lanka</span></h3>
+                  <div class="InfoTeaser--text"><p>A Six Month Update</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/International_Co-ops_Day.html" id="article-International_Co-ops_Day" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn9-4x3_640w.webp" srcset="../assets/media/usn9-4x3_375w.webp 375w, ../assets/media/usn9-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="itlcoopday" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">07.08.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">International Day of Cooperatives</span></h3>
+                  <div class="InfoTeaser--text"><p>More than just working together.</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/its_giveaway_time.html" id="article-its_giveaway_time" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn10-4x3_640w.webp" srcset="../assets/media/usn10-4x3_375w.webp 375w, ../assets/media/usn10-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="fairtradegiveaway" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">06.30.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">It's Giveaway Time!</span></h3>
+                  <div class="InfoTeaser--text"><p>Are you (Fairtrade) smarter than a 5th grader? Prove you have the Fairtrade smarts to enter to win!</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/World-Day-Against-Child-Labor.html" id="article-World-Day-Against-Child-Labor" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn11-4x3_640w.webp" srcset="../assets/media/usn11-4x3_375w.webp 375w, ../assets/media/usn11-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">06.11.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">World Day Against Child Labor</span></h3>
+                  <div class="InfoTeaser--text"><p>Prevention and Remediation go beyond Certification</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/from-grassroots-to-global-system--.html" id="article-from-grassroots-to-global-system-" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn12-4x3_640w.webp" srcset="../assets/media/usn12-4x3_375w.webp 375w, ../assets/media/usn12-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="fairtrade_leaders" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">05.21.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">From Grassroots to Global System  </span></h3>
+                  <div class="InfoTeaser--text"><p>Merling Preza Ramos is a fair trade pioneer who has spent 30+ years fighting for small producers have a seat at the table.</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/International_Workers_Day.html" id="article-International_Workers_Day" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn13-4x3_640w.webp" srcset="../assets/media/usn13-4x3_375w.webp 375w, ../assets/media/usn13-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="sugarworkers_labor" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">04.30.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">International Workers' Day</span></h3>
+                  <div class="InfoTeaser--text"><p>And the smallholder sugar farmers worth celebrating</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/Earth_Day.html" id="article-Earth_Day" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn14-4x3_640w.webp" srcset="../assets/media/usn14-4x3_375w.webp 375w, ../assets/media/usn14-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="Dora_Atiiga" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">04.21.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Seedlings Planted in Ghana today mean a Brighter Future Tomorrow</span></h3>
+                  <div class="InfoTeaser--text"><p>This Earth Day, we're uplifting people and planet, the Fairtrade way.</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/marketplace_of_the_future.html" id="article-marketplace_of_the_future" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn15-4x3_640w.webp" srcset="../assets/media/usn15-4x3_375w.webp 375w, ../assets/media/usn15-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="motf2026" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">04.21.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">The Future is Fair</span></h3>
+                  <div class="InfoTeaser--text"><p>We'll see you at Marketplace of the Future, DC!  Because a fair future for our planet cannot exclude a fair future for its people.</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/The-History-of-Bananas.html" id="article-The-History-of-Bananas" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn16-4x3_640w.webp" srcset="../assets/media/usn16-4x3_375w.webp 375w, ../assets/media/usn16-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="bananarepublic" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">04.14.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">What is a Banana Republic?</span></h3>
+                  <div class="InfoTeaser--text"><p>And why Fairtrade cares.</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/Synthetic-Chocolate-Is-it-really-more-ethical.html" id="article-Synthetic-Chocolate-Is-it-really-more-ethical" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn17-4x3_640w.webp" srcset="../assets/media/usn17-4x3_375w.webp 375w, ../assets/media/usn17-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="easter" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">04.03.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Synthetic Chocolate: Is it really more ethical?</span></h3>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="TeaserGrid--item">
+            <a class="InfoTeaser" href="../us-en/news/Farm-to-Family-See-you-at-ReDelicious,-DCs-Food-Lab.html" id="article-Farm-to-Family-See-you-at-ReDelicious-DCs-Food-Lab" data-broken-link="true">
+              <div class="InfoTeaser--inner">
+                <div class="InfoTeaser--image rectangular"><div class="Image rectangular"><img src="../assets/media/usn18-4x3_640w.webp" srcset="../assets/media/usn18-4x3_375w.webp 375w, ../assets/media/usn18-4x3_640w.webp 640w" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" alt="redelicious_dc" width="640" height="480" loading="lazy"></div></div>
+                <div class="InfoTeaser--tags"><span class="Tag gray">03.26.26</span></div>
+                <div class="InfoTeaser--content">
+                  <h3 class="InfoTeaser--header"><span class="InfoTeaser--pretitle">Fairtrade news</span><span class="InfoTeaser--title">Farm to Family: ReDelicious, DC's Food Lab</span></h3>
+                  <div class="InfoTeaser--text"><p>Check out the incredible, local cooperative we’re partnering with to expand our impact in the nation’s capital. We had an incredible experience in March and can't wait for next time!</p></div>
+                  <span class="Button InfoTeaser--cta variant-tertiary"><span class="Button--inner">Read more</span></span>
+                </div>
+              </div>
+            </a>
+          </li>
+          </ul>
+        </div>
+      </div>
+      <script type="application/json" data-teaser-grid="data">[{"n":19,"href":"https://www.fairtrade.net/us-en/news/International-Womens-Day.html","id":"article-International-Womens-Day","alt":"drsusanlimisi","highlight":true,"tags":["03.08.26"],"pre":"Fairtrade news","title":"International Women's Day","text":"Women who Create Change: Dr. Limisi on how Uplifting Women Uplifts Entire Communities","cta":"Read more"},{"n":20,"href":"https://www.fairtrade.net/us-en/news/Why-are-sugarcane-growing-in-Bad-Bunnys-halftime-show.html","id":"article-Why-are-sugarcane-growing-in-Bad-Bunnys-halftime-show","alt":"sugarcane_fairtrade","highlight":false,"tags":["02.17.26"],"pre":"Fairtrade news","title":"Why is sugarcane growing in Bad Bunny's halftime show?","text":"Global artist Bad Bunny's performance at the 2026 Super Bowl celebrates Latin American culture and the historically significant cultivation of sugarcane.","cta":"Read more"},{"n":21,"href":"https://www.fairtrade.net/us-en/news/beyond-buzzwords--regenerative--organic--and-the-case-for-agroec.html","id":"article-beyond-buzzwords-regenerative-organic-and-the-case-for-agroec","alt":"soilhealth","highlight":false,"tags":["02.12.26"],"pre":"Fairtrade news","title":"Beyond Buzzwords: Regenerative, Organic, and the Case for Agroecology","text":null,"cta":"Read more"},{"n":22,"href":"https://www.fairtrade.net/us-en/news/Valentines_Gift_Guide.html","id":"article-Valentines_Gift_Guide","alt":"valentinesflowers","highlight":false,"tags":["02.09.26"],"pre":"Fairtrade news","title":"Valentine's Gift Guide","text":"Showing love isn’t just about who you buy for - it’s about who you buy from.","cta":"Read more"},{"n":23,"href":"https://www.fairtrade.net/us-en/news/international-year-of-the-woman-farmer.html","id":"article-international-year-of-the-woman-farmer","alt":"international year of the woman farmer","highlight":false,"tags":["02.04.26"],"pre":"Fairtrade news","title":"International Year of the Woman Farmer","text":null,"cta":"Read more"},{"n":24,"href":"https://www.fairtrade.net/us-en/news/healthy-habits-that-are-good-for-you--good-for-farmers--and-good.html","id":"article-healthy-habits-that-are-good-for-you-good-for-farmers-and-good","alt":"fairtradewellness","highlight":false,"tags":["01.20.26"],"pre":"Fairtrade news","title":"Healthy Habits that are Good for You, Good for Farmers, and Good for Planet","text":null,"cta":"Read more"},{"n":25,"href":"https://www.fairtrade.net/us-en/news/National-Cocoa-Day-Giveaway.html","id":"article-National-Cocoa-Day-Giveaway","alt":"","highlight":false,"tags":["01.20.26"],"pre":"Fairtrade news","title":"Valentine's Day Giveaway","text":null,"cta":"Read more"},{"n":26,"href":"https://www.fairtrade.net/us-en/news/fairtrade-america-s-2025-highlight-reel.html","id":"article-fairtrade-america-s-2025-highlight-reel","alt":"","highlight":false,"tags":["12.18.25"],"pre":"Fairtrade news","title":"Fairtrade America's 2025 Highlight Reel","text":null,"cta":"Read more"},{"n":27,"href":"https://www.fairtrade.net/us-en/news/tis-the-season-to-notice-behind-the-scenes.html","id":"article-tis-the-season-to-notice-behind-the-scenes","alt":"2025 Fairtrade Holiday Guide","highlight":false,"tags":["12.16.25"],"pre":"Fairtrade news","title":"Tis the Season to Notice Behind the Scenes","text":"This holiday season, we encourage you to take a moment and consider the people behind our everyday products.  By shopping Fairtrade, you can support and stand with farmers around the world.  ","cta":"Read more"},{"n":28,"href":"https://www.fairtrade.net/us-en/news/How-Fairtrade-and-Grace-Farms-are-Supporting-the-Cyclone-Response.html","id":"article-How-Fairtrade-and-Grace-Farms-are-Supporting-the-Cyclone-Response","alt":"Ketiara cooperative coffee farmers standing in front of a sign for the cooperative","highlight":false,"tags":["12.11.25"],"pre":"Fairtrade news","title":"Grounds for Recovery: How Fairtrade and Grace Farms are Supporting the Cyclone Response ","text":null,"cta":"Read more"},{"n":29,"href":"https://www.fairtrade.net/us-en/news/climate-week-2025--our-team-s-takeaways-from-nyc-.html","id":"article-climate-week-2025-our-team-s-takeaways-from-nyc-","alt":"","highlight":false,"tags":["09.30.25"],"pre":"Fairtrade news","title":"Climate Week 2025: Our team’s takeaways from NYC ","text":null,"cta":"Read more"},{"n":30,"href":"https://www.fairtrade.net/us-en/news/how-endangered-species-chocolate-delivers-on-its--abundant-givin.html","id":"article-how-endangered-species-chocolate-delivers-on-its-abundant-givin","alt":"","highlight":false,"tags":["08.15.25"],"pre":"Fairtrade news","title":"How Endangered Species Chocolate delivers on its \"abundant giving\" mission","text":null,"cta":"Read more"},{"n":31,"href":"https://www.fairtrade.net/us-en/news/the-future-of-coffee-is-cooperation---reflections-from-guatemala.html","id":"article-the-future-of-coffee-is-cooperation-reflections-from-guatemala","alt":"","highlight":false,"tags":["06.20.25"],"pre":"Fairtrade news","title":"The future of coffee is cooperation - reflections from Guatemala","text":null,"cta":"Read more"},{"n":32,"href":"https://www.fairtrade.net/us-en/news/banana-terminology.html","id":"article-banana-terminology","alt":"A shopper holds two Fairtrade, Equal Exchange bananas in her hand.","highlight":false,"tags":["06.04.25"],"pre":"Fairtrade news","title":"But is this *really* a bunch of bananas?","text":null,"cta":"Read more"},{"n":33,"href":"https://www.fairtrade.net/us-en/news/guided-meditations.html","id":"article-guided-meditations","alt":"A mosaic of banana trees, coffee cherries and cacao flowers.","highlight":false,"tags":["06.03.25"],"pre":"Fairtrade news","title":"Guided meditations inspired by Fairtrade bananas, cocoa and coffee","text":null,"cta":"Read more"},{"n":34,"href":"https://www.fairtrade.net/us-en/news/deforestation-free-chocolate.html","id":"article-deforestation-free-chocolate","alt":"A mosaic of Fairtrade chocolate bars.","highlight":false,"tags":["06.02.25"],"pre":"Fairtrade news","title":"So, you're looking for deforestation free chocolate?","text":null,"cta":"Read more"},{"n":35,"href":"https://www.fairtrade.net/us-en/news/partnership-means-power-sharing.html","id":"article-partnership-means-power-sharing","alt":"A Fairtrade icon of a handshake.","highlight":false,"tags":["05.30.25"],"pre":"Fairtrade news","title":"Partnership means power-sharing","text":null,"cta":"Read more"},{"n":36,"href":"https://www.fairtrade.net/us-en/news/fair-trade-single-origin-coffee.html","id":"article-fair-trade-single-origin-coffee","alt":"","highlight":false,"tags":["05.27.25"],"pre":"Fairtrade news","title":"Fair trade single origin coffee","text":null,"cta":"Read more"},{"n":37,"href":"https://www.fairtrade.net/us-en/news/independent-analysis-of-120-studies-asserts-fairtrade-certifications-effectiveness-in-advancing-sustainability.html","id":"article-independent-analysis-of-120-studies-asserts-fairtrade-certifications-effectiveness-in-advancing-sustainability","alt":"A mosaic of farmer photos and text that reads \"Fairtrade International Evidence Map 2021 to 2024: Evidencing the Theory of Change.\"","highlight":false,"tags":["05.27.25"],"pre":"Fairtrade news","title":"Independent Analysis of 120+ Studies Asserts Fairtrade Certification’s Effectiveness in Advancing Sustainability","text":null,"cta":"Read more"},{"n":38,"href":"https://www.fairtrade.net/us-en/news/fairtrade-fathers-day.html","id":"article-fairtrade-fathers-day","alt":"A mosaic of Fairtrade products including coffee, cashews, socks, chocolate and supplements","highlight":false,"tags":["05.22.25"],"pre":"Fairtrade news","title":"Make it a Fairtrade Father’s Day","text":null,"cta":"Read more"},{"n":39,"href":"https://www.fairtrade.net/us-en/news/price-pressure--more-than-tariffs-driving-dollar-signs-for-us-co.html","id":"article-price-pressure-more-than-tariffs-driving-dollar-signs-for-us-co","alt":"","highlight":false,"tags":["05.13.25"],"pre":"Fairtrade news","title":"Price Pressure: more than tariffs driving dollar signs for US consumers ","text":null,"cta":"Read more"},{"n":40,"href":"https://www.fairtrade.net/us-en/news/cacao-vs-cocoa.html","id":"article-cacao-vs-cocoa","alt":"","highlight":false,"tags":["05.12.25"],"pre":"Fairtrade news","title":"Cacao vs. cocoa: let’s talk temperature","text":null,"cta":"Read more"},{"n":41,"href":"https://www.fairtrade.net/us-en/news/why-does-fairtrade-matter-when-coffee-prices-are-skyrocketing.html","id":"article-why-does-fairtrade-matter-when-coffee-prices-are-skyrocketing","alt":"","highlight":false,"tags":["04.15.25"],"pre":"Fairtrade news","title":"Why does Fairtrade matter when coffee prices are skyrocketing?","text":null,"cta":"Read more"},{"n":42,"href":"https://www.fairtrade.net/us-en/news/Mothers-Day.html","id":"article-Mothers-Day","alt":"","highlight":false,"tags":["04.14.25"],"pre":"Fairtrade news","title":"This Mother’s Day, choose pancakes","text":null,"cta":"Read more"},{"n":43,"href":"https://www.fairtrade.net/us-en/news/Feastables-launch.html","id":"article-Feastables-launch","alt":"MrBeast poses alongside Feastables bars and the Fairtrade Mark.","highlight":false,"tags":["04.08.25"],"pre":"Fairtrade news","title":"100% of cocoa in Feastables' chocolate is Fairtrade certified","text":null,"cta":"Read more"},{"n":44,"href":"https://www.fairtrade.net/us-en/news/2025-SCA-sustainability-awards.html","id":"article-2025-SCA-sustainability-awards","alt":"SCA's 2025 Sustainability Awards in the Non-profit category","highlight":false,"tags":["04.03.25"],"pre":"Fairtrade news","title":"Presenting the Winners of the 2025 SCA Sustainability Awards","text":null,"cta":"Read more"},{"n":45,"href":"https://www.fairtrade.net/us-en/news/cacao-powder.html","id":"article-cacao-powder","alt":"","highlight":false,"tags":["04.02.25"],"pre":"Fairtrade news","title":"Fairtrade cacao powder: where global meets local","text":null,"cta":"Read more"},{"n":46,"href":"https://www.fairtrade.net/us-en/news/fairtrade-partners-heres-why-fairtrade-coffee-matters.html","id":"article-fairtrade-partners-heres-why-fairtrade-coffee-matters","alt":"Coffee farmer Ibu Rahmah and Adam from Grace Farm in Indonesia","highlight":false,"tags":["02.12.25"],"pre":"Fairtrade news","title":"Fairtrade Partners: Here’s why Fairtrade coffee matters","text":null,"cta":"Read more"},{"n":47,"href":"https://www.fairtrade.net/us-en/news/fair-trade-dark-chocolate.html","id":"article-fair-trade-dark-chocolate","alt":"","highlight":false,"tags":["01.23.25"],"pre":"Fairtrade news","title":"Fair trade dark chocolate is extra good for you—and for farmers, too!","text":null,"cta":"Read more"},{"n":48,"href":"https://www.fairtrade.net/us-en/news/mocha-cake.html","id":"article-mocha-cake","alt":"Caly holds a mocha pound cake.","highlight":false,"tags":["01.22.25"],"pre":"Fairtrade news","title":"A family recipe that has us thinking about climate change","text":null,"cta":"Read more"},{"n":49,"href":"https://www.fairtrade.net/us-en/news/frontier-co-op-knows-that-doing-the-right-thing-isnt-charity-its-just-good-business.html","id":"article-frontier-co-op-knows-that-doing-the-right-thing-isnt-charity-its-just-good-business","alt":"Frontier spices","highlight":false,"tags":["12.16.24"],"pre":"Fairtrade news","title":"Frontier Co-op knows that doing the right thing isn’t charity; it’s just good business","text":null,"cta":"Read more"},{"n":50,"href":"https://www.fairtrade.net/us-en/news/purecare-believes-that-when-we-sleep-well-we-rise-to-live-well-too.html","id":"article-purecare-believes-that-when-we-sleep-well-we-rise-to-live-well-too","alt":"Purecare sheets and bedding on a bed in a luxurious bedroom","highlight":false,"tags":["10.05.24"],"pre":"Fairtrade news","title":"Purecare believes that when we sleep well, we rise to live well, too.","text":null,"cta":"Read more"},{"n":51,"href":"https://www.fairtrade.net/us-en/news/listen-up-fairtrade-coffee-enthusiasts.html","id":"article-listen-up-fairtrade-coffee-enthusiasts","alt":"","highlight":false,"tags":["10.01.24"],"pre":"Fairtrade news","title":"Listen up Fairtrade coffee enthusiasts","text":"This year Fairtrade is celebrating the diversity, quality, and passion for coffee, but we are also raising awareness of the challenges coffee farmers are facing in today’s environment.","cta":"Read more"},{"n":52,"href":"https://www.fairtrade.net/us-en/news/fairtrade-statement-on-the-eu-deforestation-regulation.html","id":"article-fairtrade-statement-on-the-eu-deforestation-regulation","alt":"","highlight":false,"tags":["08.09.24"],"pre":"Fairtrade news","title":"Fairtrade statement on the EU Deforestation Regulation","text":null,"cta":"Read more"},{"n":53,"href":"https://www.fairtrade.net/us-en/news/temecula-coffee-roasters-doesnt-sell-coffee-they-provide-the-ability-to-sell-coffee.html","id":"article-temecula-coffee-roasters-doesnt-sell-coffee-they-provide-the-ability-to-sell-coffee","alt":"","highlight":false,"tags":["06.13.24"],"pre":"Fairtrade news","title":"Temecula Coffee Roasters doesn’t sell coffee–they provide the ability to sell coffee","text":null,"cta":"Read more"},{"n":54,"href":"https://www.fairtrade.net/us-en/news/fairtrade-easter-chocolate.html","id":"article-fairtrade-easter-chocolate","alt":"A white chocolate lamb from Favorina made with Fairtrade cocoa.","highlight":false,"tags":["04.02.24"],"pre":"Fairtrade news","title":"4 of our favorite Fairtrade Easter chocolates","text":null,"cta":"Read more"},{"n":55,"href":"https://www.fairtrade.net/us-en/news/make-this-easter-eggs-tra-special.html","id":"article-make-this-easter-eggs-tra-special","alt":"Chocolate desserts made from Divine chocolate","highlight":false,"tags":["03.15.24"],"pre":"Fairtrade news","title":"Buy these Fairtrade Easter chocolates, and have them shipped to your door","text":null,"cta":"Read more"},{"n":56,"href":"https://www.fairtrade.net/us-en/news/red-river-foods-is-invested-in-and-investing-in-sustainable-supply-chains-for-cashews.html","id":"article-red-river-foods-is-invested-in-and-investing-in-sustainable-supply-chains-for-cashews","alt":"","highlight":false,"tags":["03.01.24"],"pre":"Fairtrade news","title":"Red River Foods is invested in (and investing in!) sustainable supply chains for cashews","text":null,"cta":"Read more"},{"n":57,"href":"https://www.fairtrade.net/us-en/news/fairbruary-2024--how-to-participate-in-the-february-fairness-cha.html","id":"article-fairbruary-2024-how-to-participate-in-the-february-fairness-cha","alt":"","highlight":false,"tags":["01.25.24"],"pre":"Fairtrade news","title":"Fairbruary 2024: How to participate in the February fairness challenge","text":null,"cta":"Read more"},{"n":58,"href":"https://www.fairtrade.net/us-en/news/fairtrade-executive-director-looking-ahead-to-a-momentous-year.html","id":"article-fairtrade-executive-director-looking-ahead-to-a-momentous-year","alt":"Indonesian farmers","highlight":false,"tags":["01.22.24"],"pre":"Fairtrade news","title":"Fairtrade Executive Director: Looking ahead to a momentous year","text":null,"cta":"Read more"},{"n":59,"href":"https://www.fairtrade.net/us-en/news/fairtrade-impact-map--delivering-greater-impact-for-farmers--wor.html","id":"article-fairtrade-impact-map-delivering-greater-impact-for-farmers-wor","alt":"","highlight":false,"tags":["01.17.24"],"pre":"Fairtrade news","title":"Fairtrade Impact Map: delivering greater impact for farmers, workers, businesses and consumers","text":null,"cta":"Read more"},{"n":60,"href":"https://www.fairtrade.net/us-en/news/gria-is-grown-in-africa-but-also-shelled-peeled-roasted-and-packed-there-too.html","id":"article-gria-is-grown-in-africa-but-also-shelled-peeled-roasted-and-packed-there-too","alt":"Bags of GRIA cashews behind flatware and a bowl with cashews in them","highlight":false,"tags":["12.14.23"],"pre":"Fairtrade news","title":"GRIA is Grown in Africa—but also, shelled, peeled, roasted and packed there, too.","text":null,"cta":"Read more"},{"n":61,"href":"https://www.fairtrade.net/us-en/news/katie-kowalski-joins-fairtrade-america-as-new-director-of-commercial-partnerships.html","id":"article-katie-kowalski-joins-fairtrade-america-as-new-director-of-commercial-partnerships","alt":"Headshot of Katie Kowalski, Director of Commercial Partnerships of Fairtrade America","highlight":false,"tags":["12.14.23"],"pre":"Fairtrade news","title":"Katie Kowalski joins Fairtrade America as new Director of Commercial Partnerships","text":null,"cta":"Read more"},{"n":62,"href":"https://www.fairtrade.net/us-en/news/metropolis-coffee-company-wants-great-coffee-for-everyone.html","id":"article-metropolis-coffee-company-wants-great-coffee-for-everyone","alt":"A bag of Metropolis coffee on a desk with a French press and books","highlight":false,"tags":["12.06.23"],"pre":"Fairtrade news","title":"Metropolis Coffee Company wants “Great Coffee for Everyone”","text":null,"cta":"Read more"},{"n":63,"href":"https://www.fairtrade.net/us-en/news/fairtrade-producers-set-to-expand-deforestation-monitoring-through-new-partnership-with-satelligence.html","id":"article-fairtrade-producers-set-to-expand-deforestation-monitoring-through-new-partnership-with-satelligence","alt":"","highlight":false,"tags":["11.07.23"],"pre":"Fairtrade news","title":"Fairtrade producers set to expand deforestation monitoring through new partnership with Satelligence","text":null,"cta":"Read more"},{"n":64,"href":"https://www.fairtrade.net/us-en/news/new-guide-by-fairtrade-and-b-lab-supports-responsible-business-practices-in-small-companies.html","id":"article-new-guide-by-fairtrade-and-b-lab-supports-responsible-business-practices-in-small-companies","alt":"Coffee farmer, Miriam Yaneth, holding a coffee tree sapling","highlight":false,"tags":["08.22.23"],"pre":"Fairtrade news","title":"New guide by Fairtrade and B Lab supports responsible business practices in small companies","text":null,"cta":"Read more"},{"n":65,"href":"https://www.fairtrade.net/us-en/news/realistic-and-fair-prices-for-coffee-farmers-are-a-non-negotiabl.html","id":"article-realistic-and-fair-prices-for-coffee-farmers-are-a-non-negotiabl","alt":"","highlight":false,"tags":["08.01.23"],"pre":"Fairtrade news","title":"Realistic and fair prices for coffee farmers are a non-negotiable for the future of coffee","text":"“The situation coffee farmers are enduring globally due to financial hardships and climate change is unsustainable and, quite frankly, puts the entire future of coffee at risk.” ","cta":"Read more"},{"n":66,"href":"https://www.fairtrade.net/us-en/news/fairtrade-coffee-from-bubs-naturals-carries-a-legacy-of-adventure-impact.html","id":"article-fairtrade-coffee-from-bubs-naturals-carries-a-legacy-of-adventure-impact","alt":"A close up of a bag of Bubs' coffee","highlight":false,"tags":["04.21.23"],"pre":"Fairtrade news","title":"Fairtrade coffee from BUBS Naturals carries a legacy of adventure, impact","text":null,"cta":"Read more"},{"n":67,"href":"https://www.fairtrade.net/us-en/news/twiga-coffee-is-on-a-mission-to-source-coffee-that-tastes-and-does-good.html","id":"article-twiga-coffee-is-on-a-mission-to-source-coffee-that-tastes-and-does-good","alt":"A bag of Twiga coffee with a hot water kettle and a drip coffee maker","highlight":false,"tags":["01.27.23"],"pre":"Fairtrade news","title":"Twiga Coffee is on a mission to source coffee that tastes and does good","text":null,"cta":"Read more"},{"n":68,"href":"https://www.fairtrade.net/us-en/news/a-glimmer-of-light-in-the-pacific.html","id":"article-a-glimmer-of-light-in-the-pacific","alt":"A group of eight women in matching tranditional dress pose for a photo","highlight":false,"tags":["12.15.22","Gender equality"],"pre":"Fairtrade news","title":"A glimmer of light in the Pacific","text":"The Women’s School of Leadership has been rolled out in the Pacific – Timor-Leste and Papua New Guinea for the first time ever in 2022.","cta":"Read more"},{"n":69,"href":"https://www.fairtrade.net/us-en/news/what-is-fair-trade-certification.html","id":"article-what-is-fair-trade-certification","alt":"","highlight":false,"tags":["05.13.22"],"pre":"Fairtrade news","title":"What is fair trade certification?","text":null,"cta":"Read more"}]</script>
+      <div class="CTASection" data-teaser-grid="cta-section"><button class="Button variant-secondary color-skyblue" type="button" data-teaser-grid="load-more"><span class="Button--inner">Load more</span></button></div>
+    </section>
+  </main>
+<footer class="site-footer">
+  <div class="footer-fragment"><div class="footer"><div class="Footer">
+    <div class="Footer--grid">
+      <div class="Footer--meta">
+        <div class="Footer--logo"></div>
+        <div class="Footer--localeSelectorTrigger"><button class="LocaleSelectorTrigger color-white" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="locale-selector"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#globe"></use></svg></span><span class="LocaleSelectorTrigger--label">US • EN</span><span class="visuallyhidden">Open or close the locale selector. The currently selected locale is US-EN.</span></button></div>
+      </div>
+      <ul class="Footer--linkLists">
+          <li class="Footer--linkList">
+            <div class="FooterLinkList">
+              <div class="FooterLinkList--title"><span class="Icon FooterLinkList--title--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--title--link" href="../us-en/about.html">About</a></div>
+              <ul class="FooterLinkList--list">
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/why-fairtrade/what-we-do/how-fairtrade-works.html" data-broken-link="true">How Fairtrade Works</a></li>
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/about/careers.html" data-broken-link="true">Careers</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="Footer--linkList">
+            <div class="FooterLinkList">
+              <div class="FooterLinkList--title"><span class="Icon FooterLinkList--title--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--title--link" href="../us-en/get-involved/get-involved.html" data-broken-link="true">How to Get Involved</a></div>
+              <ul class="FooterLinkList--list">
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/for-business.html" data-broken-link="true">For Businesses</a></li>
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/for-media.html" data-broken-link="true">For Media</a></li>
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/for-business/for-retailers.html" data-broken-link="true">For Retailers</a></li>
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/for-business/for-partners.html" data-broken-link="true">For Partners</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="Footer--linkList">
+            <div class="FooterLinkList">
+              <div class="FooterLinkList--title"><span class="Icon FooterLinkList--title--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--title--link" href="https://www.fairtrade.net/us-en/contact.html" data-broken-link="true">Contact</a></div>
+              <ul class="FooterLinkList--list">
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/terms-of-use.html" data-broken-link="true">Terms of Use</a></li>
+                <li class="FooterLinkList--item"><span class="Icon FooterLinkList--item--icon" aria-hidden="true"><svg><use href="../assets/icons.svg#chevron-right"></use></svg></span><a class="FooterLinkList--link" href="../us-en/privacy-policy.html" data-broken-link="true">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </li>
+      </ul>
+      <div class="Footer--leads">
+        <div class="Footer--social">
+          <div class="FooterSocialMediaLinks">
+            <div class="FooterSocialMediaLinks--title">Social Links</div>
+            <ul class="FooterSocialMediaLinks--list">
+                <li class="FooterSocialMediaLinks--item"><a class="Button variant-icon-primary color-leafgreen" href="https://www.facebook.com/FairtradeMarkUS" target="_blank" rel="noopener"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#facebook"></use></svg></span></span><span class="visuallyhidden">Facebook</span></a></li>
+                <li class="FooterSocialMediaLinks--item"><a class="Button variant-icon-primary color-leafgreen" href="https://www.instagram.com/FairtradeMarkUS" target="_blank" rel="noopener"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#instagram"></use></svg></span></span><span class="visuallyhidden">Instagram</span></a></li>
+                <li class="FooterSocialMediaLinks--item"><a class="Button variant-icon-primary color-leafgreen" href="https://www.linkedin.com/company/fairtrade-america" target="_blank" rel="noopener"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#linkedin"></use></svg></span></span><span class="visuallyhidden">LinkedIn</span></a></li>
+                <li class="FooterSocialMediaLinks--item"><a class="Button variant-icon-primary color-leafgreen" href="https://www.youtube.com/@FairtradeMarkus" target="_blank" rel="noopener"><span class="Button--icon"><span class="Icon" aria-hidden="true"><svg><use href="../assets/icons.svg#youtube"></use></svg></span></span><span class="visuallyhidden">YouTube</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="Footer--newsletter">
+          <div class="Footer--newsletter--title">Newsletter</div>
+          <a class="Button Footer--newsletter--button variant-secondary color-leafgreen theme-dark" href="../us-en/fairtrade-newsletter.html" data-broken-link="true"><span class="Button--inner">Click to sign up</span></a>
+        </div>
+      </div>
+    </div>
+  </div></div></div>
+</footer>
+</body>
+</html>

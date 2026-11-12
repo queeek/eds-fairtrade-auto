@@ -1,0 +1,35 @@
+/* us-en-news (listing) — page-specific modules on top of canon.css. Values lifted from clientlib-site.css. */
+
+/* --- PageLead (lime title band) --- */
+.PageLead { --background-color: var(--c-leafgreen); --color: var(--c-ink); }
+.PageLead:not(.no-gap) { padding-bottom: 64px; }
+.PageLead.theme-skyblue { --background-color: var(--c-skyblue); }
+.PageLead.theme-nightsky { --background-color: var(--c-nightsky); --color: #fff; }
+.PageLead.theme-white { --background-color: #fff; }
+.PageLead--content { background-color: var(--background-color); }
+.PageLead--contentGrid {
+  color: var(--color); column-gap: var(--col-gap); display: grid; grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto; padding: 80px var(--page-pad) 48px; place-items: center; width: min(100%, var(--page-max));
+}
+.PageLead--contentGrid > * { grid-column: 1 / -1; min-width: 0; }
+.PageLead--title { font-family: var(--font-head); font-size: 48px; font-weight: 900; line-height: 1.1; text-align: center; }
+.PageLead--lead { font-size: 20px; font-weight: 600; line-height: 1.6; margin-top: 28px; }
+@media (width >= 768px) {
+  .PageLead--contentGrid { grid-template-columns: repeat(12, 1fr); }
+  .PageLead--contentGrid > * { grid-column: 2 / -2; }
+  .PageLead--lead { text-align: center; }
+}
+@media (width >= 1024px) {
+  .PageLead:not(.no-gap) { padding-bottom: 80px; }
+  .PageLead--contentGrid { padding-bottom: 64px; padding-top: 120px; }
+  .PageLead--contentGrid > * { grid-column: 3 / -3; }
+  .PageLead--title { font-size: 72px; }
+  .PageLead--lead { font-size: 24px; margin-top: 32px; }
+}
+
+/* --- FilteredTeaserGrid (grid + "Load more" CTA; filter select wrapper is empty on this page) --- */
+.FilteredTeaserGrid .CTASection.is-hidden { display: none; }
+
+/* --- us-en footer: list titles are links with a chevron (canon renders a span; canon-requests.md) --- */
+.FooterLinkList--title:has(a) { column-gap: 4px; display: grid; grid-template-columns: auto 1fr; place-items: start; transition: color .2s ease-in-out; }
+.FooterLinkList--title:has(a):is(:hover, :focus-within) { color: hsla(0, 0%, 100%, .75); }

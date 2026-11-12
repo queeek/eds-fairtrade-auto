@@ -1,0 +1,15 @@
+import fs from 'fs'; import * as cheerio from 'cheerio';
+const f=process.argv[2]; const $=cheerio.load(fs.readFileSync(f,'utf8'));
+const t=s=>$(s).text().replace(/\s+/g,' ').trim();
+const out={nav:[],meta:[],footer:{}};
+$('.TopbarMainNavigation--list--item').each((i,li)=>{const m={title:t($(li).find('.TopbarMainNavigation--button').first()),groups:[]};
+ $(li).find('.TopbarDesktopFlyout--group').each((j,g)=>{const gt=$(g).find('.TopbarDesktopFlyout--groupTitle--link').first();m.groups.push({title:t(gt),href:gt.attr('href'),links:$(g).find('.TopbarDesktopFlyout--groupList a').map((k,a)=>({t:t(a),h:$(a).attr('href')})).get()})});
+ const ov=$(li).find('.TopbarDesktopFlyout a').filter((k,a)=>!$(a).closest('.TopbarDesktopFlyout--group').length).map((k,a)=>({t:t(a),h:$(a).attr('href')})).get(); if(ov.length)m.other=ov; out.nav.push(m)});
+$('.TopbarMetaMenu--menuItem').each((i,li)=>{const a=$(li).find('a,button').first();out.meta.push({t:t(a),h:a.attr('href')||null,tag:a.prop('tagName')})});
+out.topbarOther=$('.Topbar--content > *').map((i,e)=>$(e).attr('class')).get();
+const ft=$('footer, .cmp-experiencefragment--footer').first();
+out.footer.lists=ft.find('.FooterLinkList').map((i,l)=>({title:t($(l).find('h2,h3,h4,strong,.FooterLinkList--title').first()),links:$(l).find('a').map((k,a)=>({t:t(a),h:$(a).attr('href')})).get()})).get();
+out.footer.social=ft.find('.FooterSocialMediaLinks a').map((k,a)=>({t:t(a)||$(a).attr('aria-label')||$(a).attr('title'),h:$(a).attr('href')})).get();
+out.footer.classes=[...new Set(ft.find('[class]').map((i,e)=>($(e).attr('class')||'').split(' ').filter(c=>/^Footer/.test(c))).get())];
+out.footer.text=t(ft).slice(0,1500);
+console.log(JSON.stringify(out,null,1));

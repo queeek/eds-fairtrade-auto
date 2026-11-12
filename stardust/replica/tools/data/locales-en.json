@@ -1,0 +1,310 @@
+{
+ "lead": "Go to a local website",
+ "text": "Choose a country or region and a language",
+ "rest": {
+  "t": "Fairtrade International",
+  "h": "/en.html"
+ },
+ "filterLabel": "Search for a country, region or language",
+ "regions": [
+  {
+   "name": "Africa",
+   "locales": [
+    {
+     "t": "English",
+     "h": "/africa-en.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Austria",
+   "locales": [
+    {
+     "t": "Deutsch",
+     "h": "/at-de.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Belgium",
+   "locales": [
+    {
+     "t": "Français",
+     "h": "/be-fr.html",
+     "lang": ""
+    },
+    {
+     "t": "Nederlands",
+     "h": "/be-nl.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Bulgaria",
+   "locales": [
+    {
+     "t": "Bulgarian",
+     "h": "/bg-bg/bring-fairtrade-to-your-market.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Canada",
+   "locales": [
+    {
+     "t": "English",
+     "h": "/ca-en.html",
+     "lang": ""
+    },
+    {
+     "t": "French",
+     "h": "/ca-fr.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "CLAC",
+   "locales": [
+    {
+     "t": "Spanish",
+     "h": "https://clac-comerciojusto.org",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Croatia",
+   "locales": [
+    {
+     "t": "Croatian",
+     "h": "/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "France",
+   "locales": [
+    {
+     "t": "Français",
+     "h": "/maxhavelaarfrance-fr.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Germany",
+   "locales": [
+    {
+     "t": "Deutsch",
+     "h": "/de-de.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Greece",
+   "locales": [
+    {
+     "t": "Greek",
+     "h": "/gr-el/bring-fairtrade-to-your-market.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Hungary",
+   "locales": [
+    {
+     "t": "Hungarian",
+     "h": "/hu-hu/hozza-el-a-fairtrade-et-az-on-piacara.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Iberica",
+   "locales": [
+    {
+     "t": "Español",
+     "h": "/iberica-es.html",
+     "lang": ""
+    },
+    {
+     "t": "Português",
+     "h": "/iberica-pt.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Ireland",
+   "locales": [
+    {
+     "t": "Fairtrade Ireland",
+     "h": "/ie-en.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Italy",
+   "locales": [
+    {
+     "t": "Italiano",
+     "h": "/it-it.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "locales": [
+    {
+     "t": "日本語",
+     "h": "/jp-jp.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "locales": [
+    {
+     "t": "한국어",
+     "h": "/kr-ko.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Malta",
+   "locales": [
+    {
+     "t": "English",
+     "h": "/mt-en/bring-fairtrade-to-your-market.html",
+     "lang": ""
+    },
+    {
+     "t": "Maltese",
+     "h": "/mt-mt/iggib-fairtrade-fis-suq-tieg-ek.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "NAPP",
+   "locales": [
+    {
+     "t": "English",
+     "h": "/napp-en.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Netherlands",
+   "locales": [
+    {
+     "t": "Dutch",
+     "h": "/nl-nl.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Norway",
+   "locales": [
+    {
+     "t": "Norsk",
+     "h": "/no-no.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Poland",
+   "locales": [
+    {
+     "t": "Polski",
+     "h": "/pl-pl.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Romania",
+   "locales": [
+    {
+     "t": "Romanian",
+     "h": "/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Slovenia",
+   "locales": [
+    {
+     "t": "Slovenian",
+     "h": "/si-sl/prinesite-fairtrade-na-vas-trg.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Sweden",
+   "locales": [
+    {
+     "t": "Svensk",
+     "h": "/se-sv.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Switzerland",
+   "locales": [
+    {
+     "t": "Deutsch",
+     "h": "/ch-de.html",
+     "lang": ""
+    },
+    {
+     "t": "Français",
+     "h": "/ch-fr.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "United Kingdom",
+   "locales": [
+    {
+     "t": "English",
+     "h": "/uk-en.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "United States",
+   "locales": [
+    {
+     "t": "english",
+     "h": "/us-en.html",
+     "lang": ""
+    }
+   ]
+  },
+  {
+   "name": "Cyprus",
+   "locales": []
+  }
+ ]
+}

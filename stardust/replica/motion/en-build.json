@@ -1,0 +1,984 @@
+{
+  "url": "http://localhost:8791/en-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6468,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4968,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "relative",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".PageHeroCarousel--control-next",
+      "frames": [
+        {
+          "t": 11699.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11902.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12105.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12309,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".Accordion--toggle",
+      "frames": [
+        {
+          "t": 13317.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13521.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13724.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13928.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".TopbarMainNavigation--button",
+      "frames": [
+        {
+          "t": 14936.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15140,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15343.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15546.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".InfoTeaser",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "scale 0.3s ease-in-out"
+          },
+          {
+            "el": "h3.InfoTeaser--header",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "scale 0.3s ease-in-out"
+          },
+          {
+            "el": "h3.InfoTeaser--header",
+            "transform": "none",
+            "color": "rgb(30, 30, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".TopbarMainNavigation--button",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(30, 30, 30)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.2s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(3, 94, 124)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.2s ease-in-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "visibility",
+        "el": "section.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls",
+        "y": 400,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls",
+        "y": 400,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 1600,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 1600,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.TeaserGrid.small.is-visible",
+        "y": 2000,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.TeaserGrid.small.is-visible",
+        "y": 2000,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 2800,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 2800,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 2800,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 2800,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 4000,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 4000,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 4400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 4400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 6000,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 6000,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 6400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 6400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > main.maincontainer > section.AccordionSection.is-visible",
+        "y": 6800,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main.maincontainer > section.AccordionSection.is-visible",
+        "y": 6800,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar",
+        "y": 6468,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "section.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "section.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls",
+        "y": 66,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls",
+        "y": 66,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-before > div.PageHeroSlide--inner > div.PageHeroSlide--content",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-before > div.PageHeroSlide--inner > div.PageHeroSlide--media",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-active > div.PageHeroSlide--inner > div.PageHeroSlide--media",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-before",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-active",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls > button.Button.PageHeroCarousel--control-previous.variant-icon-primary",
+        "y": 66,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--controls > button.Button.PageHeroCarousel--control-previous.variant-icon-primary",
+        "y": 66,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-active > div.PageHeroSlide--inner > div.PageHeroSlide--content",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-next",
+        "y": 66,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 7079,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "rotate",
+        "el": "ul.AccordionSection--list > li.AccordionSection--item > div.Accordion.is-open > div.Accordion--header > div.Button.Accordion--button.variant-icon-primary",
+        "y": 7079,
+        "dur": "0.3s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "ul.AccordionSection--list > li.AccordionSection--item > div.Accordion.is-open > div.ActionItem--content > div.Accordion--content--wrapper",
+        "y": 7079,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "grid-template-rows",
+        "el": "section.AccordionSection.is-visible > ul.AccordionSection--list > li.AccordionSection--item > div.Accordion.is-open > div.ActionItem--content",
+        "y": 7079,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > header.site-header > div.Topbar.is-darkened",
+        "y": 7079,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "translate",
+        "el": "html > body > header.site-header > div.Topbar.is-darkened",
+        "y": 7079,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 7079,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 7079,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 7079,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 7079,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--barWrapper > div.Topbar--content > div.Topbar--mainNavigation.scrollend-left.scrollend-right > div.Topbar--mainNavigationScrollLeft > button.Button.Topbar--mainNavigationScrollLeft--button.variant-icon-primary",
+        "y": 7079,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Topbar--barWrapper > div.Topbar--content > div.Topbar--mainNavigation.scrollend-left.scrollend-right > div.Topbar--mainNavigationScrollRight > button.Button.Topbar--mainNavigationScrollRight--button.variant-icon-primary",
+        "y": 7079,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 2544,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.TeaserGrid.small.is-visible",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.TeaserGrid.small.is-visible",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.TextImage--wrapper.is-visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.NumberFactTeaser.is-visible",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.RichtextSection.is-visible",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 6400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > div.CTASection.is-visible",
+        "y": 6400
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.AccordionSection.is-visible",
+        "y": 6800
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main.maincontainer > section.AccordionSection.is-visible",
+        "y": 6800
+      },
+      {
+        "added": [
+          "is-before"
+        ],
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-before",
+        "y": 66
+      },
+      {
+        "added": [
+          "is-before"
+        ],
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-before",
+        "y": 66
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-active",
+        "y": 66
+      },
+      {
+        "added": [
+          "is-next"
+        ],
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--track > div.PageHeroSlide.is-next",
+        "y": 66
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.PageHeroCarousel--grid > div.PageHeroCarousel--inner > div.PageHeroCarousel--carousel > div.PageHeroCarousel--pagination > span.PageHeroCarousel--bullet.is-active",
+        "y": 66
+      },
+      {
+        "added": [
+          "is-hidden"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-hidden",
+        "y": 7079
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "main.maincontainer > section.AccordionSection.is-visible > ul.AccordionSection--list > li.AccordionSection--item > div.Accordion.is-open",
+        "y": 7079
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button.is-active",
+        "y": 7079
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.Topbar--mainNavigation.scrollend-left.scrollend-right > nav.TopbarMainNavigation > ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > div.TopbarDesktopFlyout.is-open",
+        "y": 7079
+      },
+      {
+        "added": [
+          "is-darkened"
+        ],
+        "el": "html > body > header.site-header > div.Topbar.is-darkened",
+        "y": 7079
+      }
+    ]
+  }
+}
