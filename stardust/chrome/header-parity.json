@@ -1,0 +1,53 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-05T12:29:29.707Z",
+ "source": "https://www.fairtrade.net/en.html",
+ "build": "https://main--a1eef8ec--aemcoder.aem.page/drafts/foundation-shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 1,
+  "warn": 3,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@390 (build)",
+   "width": 390,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 4 at Open Mobile Menu Close Mobile Menu > Why Fairtrade > What we do > Go back"
+  },
+  {
+   "key": "motion@1440 Search Open the search box [click]",
+   "width": 1440,
+   "path": "Search Open the search box",
+   "action": "click",
+   "id": "motion",
+   "severity": "error",
+   "detail": "opacity: 200ms on the source, 300ms on the build"
+  },
+  {
+   "key": "link-href@1440 GLOBAL • EN Open or close the locale selector. The currently selected locale is  [click]",
+   "width": 1440,
+   "path": "GLOBAL • EN Open or close the locale selector. The currently selected locale is ",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "9 link(s) point elsewhere: English: /africa-en → /us-en; Deutsch: /at-de → /ch-de; Français: /be-fr → /ch-fr; English: /ca-en → /us-en"
+  }
+ ]
+}

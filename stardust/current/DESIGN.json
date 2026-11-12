@@ -1,0 +1,707 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-05T10:29:54.568Z",
+    "stardustVersion": "0.36.6",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/clientlib-site.css"
+    ]
+  },
+  "name": "Fairtrade International (current state)",
+  "colors": {
+    "text": "#1e1e1e",
+    "primary": "#0fc0fc",
+    "secondary": "#d4ff47",
+    "accent": "#7b1dab",
+    "border": "#dadada",
+    "primary-tint": "#0fc0fc40",
+    "surface": "#001b6e",
+    "background": "#ffffff",
+    "muted": "#787878"
+  },
+  "typography": {
+    "body": {
+      "fontFamily": "\"Exo 2\", system-ui",
+      "fontSize": "18px",
+      "lineHeight": 1.6,
+      "fontWeight": 400
+    },
+    "heading": {
+      "fontFamily": "\"Alegreya Sans\", sans-serif"
+    },
+    "h1": {
+      "fontSize": "72px",
+      "fontWeight": 900
+    },
+    "h2": {
+      "fontSize": "48px",
+      "fontWeight": 900
+    },
+    "h3": {
+      "fontSize": "20px",
+      "fontWeight": 800
+    },
+    "sizes": [
+      72,
+      64,
+      48,
+      40,
+      32,
+      24,
+      20,
+      18,
+      17
+    ]
+  },
+  "rounded": {
+    "default": "12px",
+    "pill": "100px"
+  },
+  "spacing": {},
+  "components": {
+    "button": {
+      "radius": "100px",
+      "fontFamily": "Exo 2",
+      "fontSize": "18px",
+      "variants": [
+        "primary (sky blue fill)",
+        "secondary (lime outline)",
+        "tertiary (text link with arrow)"
+      ]
+    }
+  },
+  "extensions": {
+    "componentStyle": {
+      "shadow": "rgba(30, 30, 30, 0.1) 0px 4px 8px 0px"
+    },
+    "motifs": [
+      "blob-shaped stat bubbles (NumberFact/Bubble)",
+      "wave dividers (Wave)",
+      "lime title band (PageLead)",
+      "rounded 12px image cards"
+    ],
+    "voice": {},
+    "fonts": {
+      "files": [
+        "alegreya-sans-latin-400-normal.woff2",
+        "alegreya-sans-latin-500-normal.woff2",
+        "alegreya-sans-latin-700-normal.woff2",
+        "alegreya-sans-latin-800-normal.woff2",
+        "alegreya-sans-latin-900-normal.woff2",
+        "alegreya-sans-latin-ext-700-normal.woff2",
+        "alegreya-sans-latin-ext-800-normal.woff2",
+        "alegreya-sans-latin-ext-900-normal.woff2",
+        "exo-2-latin-ext-wght-normal.woff2",
+        "exo-2-latin-wght-italic.woff2",
+        "exo-2-latin-wght-normal.woff2"
+      ],
+      "licence": "SIL OFL (Exo 2, Alegreya Sans — fontsource builds self-hosted by the source)"
+    },
+    "sourceComponents": [
+      "PageHeroCarousel",
+      "PageLead",
+      "Breadcrumbs",
+      "TextImage",
+      "NumberFactTeaser",
+      "Bubble",
+      "TeaserGrid/InfoTeaser",
+      "FilteredTeaserGrid",
+      "CTASection",
+      "AccordionSection",
+      "SingleImage",
+      "IframeSection",
+      "Wave",
+      "ProductTeaserCarousel",
+      "NavigationTeasers"
+    ],
+    "modules": [
+      {
+        "id": "candidate-page-hero-carousel",
+        "sourceComponent": "PageHeroCarousel",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".PageHeroCarousel"
+          },
+          {
+            "slug": "us-en",
+            "selector": ".PageHeroCarousel"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".PageHeroCarousel"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-page-lead",
+        "sourceComponent": "PageLead",
+        "instances": [
+          {
+            "slug": "ch-fr",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-about",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-news",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-contact",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-why-fairtrade",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+            "selector": ".PageLead"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-breadcrumbs",
+        "sourceComponent": "Breadcrumbs",
+        "instances": [
+          {
+            "slug": "us-en-why-fairtrade",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+            "selector": ".Breadcrumbs"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-text-image",
+        "sourceComponent": "TextImage",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "us-en",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "us-en-about",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "us-en-contact",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "us-en-why-fairtrade",
+            "selector": ".TextImage"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-number-fact-teaser",
+        "sourceComponent": "NumberFactTeaser",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".NumberFactTeaser"
+          },
+          {
+            "slug": "us-en",
+            "selector": ".NumberFactTeaser"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".NumberFactTeaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+            "selector": ".NumberFactTeaser"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-teaser-grid",
+        "sourceComponent": "TeaserGrid",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".TeaserGrid"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".TeaserGrid"
+          },
+          {
+            "slug": "us-en-news",
+            "selector": ".TeaserGrid"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-filtered-teaser-grid",
+        "sourceComponent": "FilteredTeaserGrid",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".FilteredTeaserGrid"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".FilteredTeaserGrid"
+          },
+          {
+            "slug": "us-en-news",
+            "selector": ".FilteredTeaserGrid"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-ctasection",
+        "sourceComponent": "CTASection",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "us-en-about",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "us-en-news",
+            "selector": ".CTASection"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-accordion-section",
+        "sourceComponent": "AccordionSection",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".AccordionSection"
+          },
+          {
+            "slug": "us-en",
+            "selector": ".AccordionSection"
+          },
+          {
+            "slug": "us-en-contact",
+            "selector": ".AccordionSection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+            "selector": ".AccordionSection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+            "selector": ".AccordionSection"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-single-image",
+        "sourceComponent": "SingleImage",
+        "instances": [
+          {
+            "slug": "us-en-about",
+            "selector": ".SingleImage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+            "selector": ".SingleImage"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-iframe-section",
+        "sourceComponent": "IframeSection",
+        "instances": [
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+            "selector": ".IframeSection"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-wave",
+        "sourceComponent": "Wave",
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "us-en",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "ch-fr",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "us-en-news",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "us-en-why-fairtrade",
+            "selector": ".Wave"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-product-teaser-carousel",
+        "sourceComponent": "ProductTeaserCarousel",
+        "instances": [
+          {
+            "slug": "ch-fr",
+            "selector": ".ProductTeaserCarousel"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-navigation-teasers",
+        "sourceComponent": "NavigationTeasers",
+        "instances": [
+          {
+            "slug": "ch-fr",
+            "selector": ".NavigationTeasers"
+          }
+        ],
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1920px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1920,
+          "via": "other",
+          "selector": "div.FilteredTeaserGrid > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "other",
+          "selector": "#maincontainer-0aa6dbea62 > div.pageherocarousel.is-visible > div.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/about.html",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 612,
+          "via": "max-width",
+          "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-flower",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 482,
+          "via": "fixed",
+          "selector": "div.PageHeroSlide--inner > div.PageHeroSlide--content > div.PageHeroSlide--content-inner > h2.PageHeroSlide--title",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/us-en/about.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 437,
+          "via": "fixed",
+          "selector": "#maincontainer-0aa6dbea62 > div.numberfactteaser.is-visible > div.NumberFactTeaser > div.NumberFactTeaser--content",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 399,
+          "via": "fixed",
+          "selector": "#article-World-Day-Against-Child-Labor > div.InfoTeaser--inner > div.InfoTeaser--content > h3.InfoTeaser--header",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 362,
+          "via": "fixed",
+          "selector": "#article-Real-Pay-Feeds-Real-Change > div.InfoTeaser--inner > div.InfoTeaser--content > h3.InfoTeaser--header",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/about.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 323,
+          "via": "fixed",
+          "selector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 267,
+          "via": "fixed",
+          "selector": "#article-International_Co-ops_Day > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/about.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 0,
+          "selector": "#maincontainer-0aa6dbea62 > div.pageherocarousel.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 1,
+          "selector": "#maincontainer-0aa6dbea62 > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 2,
+          "selector": "#maincontainer-0aa6dbea62 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 3,
+          "selector": "#maincontainer-0aa6dbea62 > div.teasergrid.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 4,
+          "selector": "#maincontainer-0aa6dbea62 > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 5,
+          "selector": "#maincontainer-0aa6dbea62 > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 6,
+          "selector": "#maincontainer-0aa6dbea62 > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 7,
+          "selector": "#maincontainer-0aa6dbea62 > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 8,
+          "selector": "#maincontainer-0aa6dbea62 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 9,
+          "selector": "#maincontainer-0aa6dbea62 > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 10,
+          "selector": "#maincontainer-0aa6dbea62 > div.accordion.panelcontainer",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.teasergrid.is-visible",
+          "px": 418
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 2,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.ctasection.is-visible",
+          "px": 478
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 3,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.singleimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 4,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 5,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 6,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/about.html",
+          "section": 7,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 0,
+          "selector": "#maincontainer-2c42df24e4 > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 1,
+          "selector": "#maincontainer-2c42df24e4 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 2,
+          "selector": "#maincontainer-2c42df24e4 > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 3,
+          "selector": "#maincontainer-2c42df24e4 > div.accordion.panelcontainer",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 4,
+          "selector": "#maincontainer-2c42df24e4 > div.singleimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 5,
+          "selector": "#maincontainer-2c42df24e4 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 6,
+          "selector": "#maincontainer-2c42df24e4 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+          "section": 7,
+          "selector": "#maincontainer-2c42df24e4 > div.richtextsection.is-visible",
+          "px": 1920
+        }
+      ],
+      "capRegister": [
+        "shellMaxWidth differs between archetypes: fluid (https://www.fairtrade.net/en.html), 1920 (https://www.fairtrade.net/us-en/news.html), fluid (https://www.fairtrade.net/us-en/about.html), fluid (https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html)",
+        "module cap 399px on a single section (#article-World-Day-Against-Child-Labor > div.InfoTeaser--inner > div.InfoTeaser--content > h3.InfoTeaser--header, https://www.fairtrade.net/us-en/news.html) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-05T10:35:33.223Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.fairtrade.net/en.html",
+          "https://www.fairtrade.net/us-en/news.html",
+          "https://www.fairtrade.net/us-en/about.html",
+          "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+        ]
+      }
+    }
+  }
+}

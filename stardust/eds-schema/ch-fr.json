@@ -1,0 +1,816 @@
+{
+ "source": "http://localhost:8741/ch-fr.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade relie"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade relie le commerce équitable, de meilleurs prix et des conditions de travail dignes. Nous nous engageons pour un avenir juste – pour les productrices et producteurs, les travailleuses et travailleurs et pour toi."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Pourquoi équitable."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Un travail équitable mérite des conditions équitables. Le commerce équitable garantit de meilleurs revenus, une plus grande participation aux décision"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "En savoir plus",
+     "href": "./ch-fr/participe/activites/campagnes/pourquoi-equitable.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Chute de prix du cacao en Côte d'Ivoire"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Suite à une chute de 57% par rapport à l’année précédente Fairtrade appelle l'industrie suisse du chocolat de prendre responsabilité."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Lire cet article",
+     "href": "./ch-fr/participe/actualite/chute-du-prix-du-cacao-en-cdi.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "TARZAN x Fairtrade Max Havelaar Schweiz"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Découvrez Fair Vibes",
+     "href": "./ch-fr/participe/activites/campagnes/fair-vibes-merch.html"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Rapport annuel 2025"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Fairtrade Max Havelaar continue sa progression malgré la turbulence sur les marchés des matières premières"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "En savoir plus",
+     "href": "./ch-fr/participe/actualite/rapport-annuel-2025-fairtrade-max-havelaar-continue-sa-progression.html"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Qu'est-ce que le Fairtrade ?"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Fairtrade est le label éthique le plus reconnu au monde."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "En savoir plus",
+     "href": "./ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/quest-ce-que-le-fairtrade.html"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Devenir Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Le label Fairtrade apposé sur votre produit rend visible votre engagement en faveur du commerce équitable."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Vos possibilités",
+     "href": "./ch-fr/entreprises/devenir-fairtrade.html"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Les filières Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Découvrez la large gamme de filières Fairtrade disponibles et trouvez vos favoris."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Découvrir le choix",
+     "href": "./ch-fr/produits/produits-fairtrade.html"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Ton engagement pour le commerce équitable compte."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Il existe de nombreuses possibilités de s'engager en faveur du commerce équitable."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Participe",
+     "href": "./ch-fr/participe.html"
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Nouveau standard Fairtrade usine textile"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "des salaires plus élevés et une participation renforcée des travailleuses et travailleurs"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "En savoir plus",
+     "href": "./ch-fr/participe/actualite/nouveau-standard-fairtrade-textile-factory.html"
+    }
+   ],
+   "imgCount": 16,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.PageHeroSlide",
+     "count": 9,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "1'930"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "organisations de producteur dans 70 pays"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": ">37'000"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "produits vendus avec le label Fairtrade dans plus de 140 pays"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Aller au fait précédent"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Aller au fait suivant"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Bon pour les femmes, les hommes et la planète"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Les avantages du commerce équitable Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "La consommation et la production durables sont devenues une exigence plutôt qu’une exception. Le mouvement Fairtrade propose des solutions aux entreprises et aux producteurs pour mettre l’équité au cœur de leurs activités."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Principaux avantages",
+     "href": "./ch-de/was-ist-fairtrade/fairtrade-ansatz.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "11.09.26"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Chute du prix du cacao en Côte d’Ivoire : la branche suisse du chocolat doit prendre ses responsabilités"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Le prix du cacao fixé par l’État en Côte d’Ivoire chute de 57% par rapport à l’année précédente au début de la nouvelle campagne principale de récolte. Pour de nombreuses familles de cacaoculteurs et cacaocultrices, cette baisse menace les moyens de subsistance. Fairtrade appelle donc la branche suisse du chocolat à prendre ses responsabilités et à payer volontairement davantage pour le cacao."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Lire la suite"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "02.09.26"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Système Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Nouveau Standard Fairtrade Textile : des salaires plus élevés et une participation renforcée des travailleuses et travailleurs"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Fairtrade a profondément remanié son précédent Standard Textile. Désormais, l’accent est mis sur la phase dite de coupe, confection et finition/couture, ainsi que sur un nouveau mécanisme visant à augmenter les salaires."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Lire la suite"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "31.08.26"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Travail des enfants"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Le programme Fairtrade de prévention et de remédiation du travail des enfants touche 5000 enfants"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Le programme Fairtrade de prévention et de remédiation du travail des enfants et du travail forcé poursuit son développement. Pour sa troisième année, il accompagne douze coopératives cacaoyères en Afrique de l’Ouest dans la mise en œuvre de leurs propres projets, qui touchent environ 5000 enfants."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Lire la suite"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Toutes les actualités",
+     "href": "./ch-fr/participe/actualite.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "6",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vivre de manière équitable est une question d'attitude - mais pas seulement. En Suisse, il existe plus de 3'700 produits Fairtrade."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Produits du commerce équitable Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Nussmix Honig & Salz"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Pumpkin Flavour Kaffee (10 Kapseln)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Migros"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Yogourt vanille s. sucre"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Snack Mix Chili Nuts"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Milky & Dark Fusion Choco-Cubes"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Oro de Cacao"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Napolitains dark, 100 Pzt Cacao Fruit, 1kg"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Original Tafel"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Hiestand"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Cailler-Branche Gipfel Kleinkarton"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Barista Bohnen"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Crema Classico Bohnen, Honduras"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Merry Christmas Box"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Adobe Sauvignon Blanc 2026"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Adobe Chardonnay 2026"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Himbeere (5 x 22g)"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Munz"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Munz Glückskäfer Bottle 150g"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Original Bottle 150g"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Halba"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Napolitains, assortiert"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "FAIR SQUARED Hand Cream Sensitive Almond"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "FAIR SQUARED Shampoo Apricot"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "FAIR SQUARED Hand Cream Intensive Olive"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "FAIR SQUARED Body Butter Shea"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "FAIR SQUARED Body Lotion Lime"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "FAIR SQUARED After Care Tattoo Cream"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "FAIR SQUARED Shower Gel Lime"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "En savoir plus"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Découvrir tous les produits",
+     "href": "./ch-fr/produits/index-des-produits.html"
+    }
+   ],
+   "imgCount": 24,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ProductTeaserCarousel--grid",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.Carousel--item",
+     "count": 24,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Pourquoi acheter des produits Fairtrade ?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Nous voulons créer un monde dans lequel chacun profite de produits de qualité et jouit d'une qualité de vie. Des droits de l'homme et de l'environnement à la protection des enfants en passant par des revenus suffisants pour vivre - voici nos priorités."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "En savoir plus",
+     "href": "./ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

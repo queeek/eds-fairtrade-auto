@@ -1,0 +1,141 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-05T11:42:09.041Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-05T16:47:18.335Z",
+  "templates": [
+    {
+      "id": "article",
+      "representativeSlug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "pages": [
+        "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+        "us-en-why-fairtrade-what-we-do-theory-of-change"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en",
+      "representativeSlug": "en",
+      "pages": [
+        "en"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "number-fact-teaser",
+        "page-hero-carousel",
+        "teaser-grid",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "ch-fr",
+      "pages": [
+        "ch-fr",
+        "us-en"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "static",
+      "representativeSlug": "us-en-contact",
+      "pages": [
+        "us-en-contact",
+        "us-en-why-fairtrade"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-about",
+      "representativeSlug": "us-en-about",
+      "pages": [
+        "us-en-about"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "page-lead",
+        "single-image",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-news",
+      "representativeSlug": "us-en-news",
+      "pages": [
+        "us-en-news"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "filtered-teaser-grid",
+        "page-lead"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "representativeSlug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "pages": [
+        "us-en-why-fairtrade-why-we-do-it-child-protection"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "breadcrumbs",
+        "number-fact-teaser",
+        "page-lead",
+        "single-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

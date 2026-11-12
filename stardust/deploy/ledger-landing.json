@@ -1,0 +1,20 @@
+{
+  "/us-en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T14:19:32.478Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch-fr": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T14:33:07.729Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

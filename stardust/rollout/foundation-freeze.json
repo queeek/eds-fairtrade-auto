@@ -1,0 +1,41 @@
+{
+  "frozenAt": "2026-11-05T16:38:53.417Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "9286a714f8302784947aa4c05ff027b4cfcdb19275258c370ef538eff5f027a1",
+    "blocks/footer/footer.js": "cbe4887629b6f465992a722cdc6f4f2f389d30ceb4fe96dfe861d87c95d5e2a9",
+    "blocks/header/header.css": "946998dd4fed30d5c8978edd280d8e0a5c596120e64307f36d1e8d521f6e6422",
+    "blocks/header/header.js": "89a0bce95a773871a5bdf0110004286e571bbb4b3bf31807a7f53117aed838d3",
+    "fonts/alegreya-sans-latin-400-normal.woff2": "efc0ba5184e11b9496b0263a1051f778bb1a77c74705a604b9fbd9d58dcffcbb",
+    "fonts/alegreya-sans-latin-500-normal.woff2": "2092327606b188b3910b4e7711c9d510a5b00e7cf69a554502c71f14603863fb",
+    "fonts/alegreya-sans-latin-700-italic.woff2": "8d09497607ede232b577602bb052ef9bc1b33934df6ece72bfff670f841c09c8",
+    "fonts/alegreya-sans-latin-700-normal.woff2": "a41d23387ab51efbcf75c14cfb801c235b541a0668f9f882b3ff0fd0537f1628",
+    "fonts/alegreya-sans-latin-800-italic.woff2": "ffa9372b1002bd4332372e5317a9022bb266dd0d83f79e876fca8e6cd07fb74e",
+    "fonts/alegreya-sans-latin-800-normal.woff2": "4d2c347f536ecca039e15d9baf7b3217c7f5772386e8e42f2dc76c723a071f65",
+    "fonts/alegreya-sans-latin-900-italic.woff2": "6110deed7e78cc5aafb44ee6557e6b871c678fb754d17068b3672e278ea261aa",
+    "fonts/alegreya-sans-latin-900-normal.woff2": "14292c5daaee11d695531ca6484963d3c98226fa31a579e1534da95792300bca",
+    "fonts/alegreya-sans-latin-ext-700-normal.woff2": "fd1c64c4e46a45d4f38a1c629f94af53bfa30624a98f54bdf39572a152f01bec",
+    "fonts/alegreya-sans-latin-ext-800-normal.woff2": "eebf512e6cea12666d02756c5080486fb62110cfde369e6846620201100ba6eb",
+    "fonts/alegreya-sans-latin-ext-900-normal.woff2": "73a461179bb94a9f6d4311279e6acf5638233a5e021793ea32b75e1f6bfeabf3",
+    "fonts/exo-2-latin-ext-wght-normal.woff2": "a3b66800e9aa36bd8f3cc59f29024c9e063a2ac607d955dd27e149c29cac8410",
+    "fonts/exo-2-latin-wght-italic.woff2": "1ee6f39098704cadd8255a8bf57e4ce8241179ff381a3747343af50871e20645",
+    "fonts/exo-2-latin-wght-normal.woff2": "c9c1caceee24c82513919d61734ad3ccb66800fa0a92f71da617c49b8a872fb1",
+    "head.html": "0d82659b0131bfba224348233f48f5a9dc3562e9bdfd229d5ec7039e2b4b93f5",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "1b36305352e901beb46147fef57badd489de307a580bd55b31ddc496360dce8c",
+    "scripts/scripts.js": "9fc620a7d8225a5b196c0804870395ad7ac0731f064cd0307a6be816b5885d4c",
+    "styles/fonts.css": "38749aad54feb37bdc6a482cd9a059f1193ab2dd88f0203231ea51c1114b686b",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "38ba4ac70371c5851c009be1538f025bb2e4ed6f238fccdd1df06102afe6372a"
+  }
+}

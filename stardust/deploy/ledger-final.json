@@ -1,0 +1,11 @@
+{
+  "/us-en/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T15:48:55.549Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

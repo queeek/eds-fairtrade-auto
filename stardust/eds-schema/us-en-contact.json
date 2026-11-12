@@ -1,0 +1,537 @@
+{
+ "source": "http://localhost:8792/us-en/contact.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Contact Us"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade America is part of the most recognized ethical label, Fairtrade International, working with over 2 million farmers and workers and over 2,000 businesses worldwide. Our dedicated team in the US works to create a more equitable world by supporting businesses to implement better trading terms and working conditions for producers in the Global South, as well as by teaching consumers how to shop ethically."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Email Us",
+     "href": "mailto:questions@fairtradeamerica.org"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Reach out"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Our helpful team is typically based in Washington, DC and is happy to answer your questions."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Email:"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "questions@fairtradeamerica.org",
+     "href": "mailto:questions@fairtradeamerica.org"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Phone: 202.221.5231"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Mailing Address: 1101 Vermont Ave NW, Suite 350, Washington, DC 20005"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Media Inquiries: press@fairtradeamerica.org or 202.930.4349"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Find us on: /"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Instagram",
+     "href": "https://www.instagram.com/fairtrademarkus/"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "LinkedIn",
+     "href": "http://linkedin.com/company/fairtrade-america"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fair trade basics"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Looking for the basics about Fairtrade? We recommend starting with these resources."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What is Fairtrade?"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "../us-en/why-fairtrade/what-we-do.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How does fair trade work?"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "../us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The Fairtrade Four"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "../us-en/for-media/fairtrade-four.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "I work at a business in the US. How do I get certified?"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "I work at a business in the US. How do I get certified?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "We would be happy to walk you through the process. Please fill out our form and someone will be in touch shortly."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Get Started",
+     "href": "../us-en/for-business/get-certified.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "I am not ready to get certified, but I want to learn more."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "I am not ready to get certified, but I want to learn more."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "We recommend you start with our and pages. You can also stay up to date by following us on or signing up for our newsletter."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "For Businesses",
+     "href": "../us-en/for-business.html"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Get Certified",
+     "href": "../us-en/for-business/get-certified.html"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Linkedin",
+     "href": "https://www.linkedin.com/company/fairtrade-america"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "My business is outside of the US. How do I get certified?"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "My business is outside of the US. How do I get certified?"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "We focus specifically on businesses in the US and have offices in over 20 countries. We recommend that you connect with the Fairtrade office near you. You can find a on the Fairtrade International website."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "full list",
+     "href": "../about/fairtrade-organizations/index.html"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "I am a producer/I run a farm. How do I get certified?"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "I am a producer/I run a farm. How do I get certified?"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Fairtrade America focuses specifically on supporting businesses in the US, but you’re in luck! We are part of an international system of fair trade certification and licensing, so we know the people that can support your efforts. I recommend that you visit the , specifically the ."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Fairtrade International website",
+     "href": "../index.html"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "page for producers",
+     "href": "../act/fairtrade-for-producers/index.html"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Do you certify handicrafts?"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Do you certify handicrafts?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "We work with businesses in the US to comply with our rigorous standards that enable farmers and workers to get a better deal. We typically work with commodities that are mainly grown in the Global South—like coffee, cocoa and bananas."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Unfortunately, we do not work with artisans and as such are unable to provide assistance regarding your specific needs. We suggest you contact our friends at the , a different US organization that works with artisans."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Fair Trade Federation",
+     "href": "http://www.fairtradefederation.org/"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "I am a content creator that cares about ethical and sustainably sourced goods. Do you collaborate with folks like me?"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "I am a content creator that cares about ethical and sustainably sourced goods. Do you collaborate with folks like me?"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "We do! You can find some helpful tools in our to share with your followers. If you are interested in deeper collaboration, please reach out to our Sr. Manager of Marketing & Campaigns, , to learn more."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "media kit",
+     "href": "https://www.fairtradeamerica.org/for-media/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Pete Tantisunthorn",
+     "href": "mailto:%20ptantisunthorn@fairtradeamerica.org"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "I am a member of the press. How can I learn more?"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "I am a member of the press. How can I learn more?"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Thank you for your interest in Fairtrade. We recommend you check out our . If you have any additional questions, don’t hesitate to reach out to our press team at or 202.930.4349"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "For Media section",
+     "href": "https://www.fairtradeamerica.org/for-media/"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "press@fairtradeamerica.org",
+     "href": "mailto:press@fairtradeamerica.org"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "I want to spread the word about fair trade in my community. Do you have resources?"
+    },
+    {
+     "role": "heading",
+     "order": 36,
+     "text": "I want to spread the word about fair trade in my community. Do you have resources?"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Thank you for your commitment to fair trade! We would be happy to help you if we have the resources and capacity to do so. Email us at with the size and details of your event."
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "questions@fairtradeamerica.org",
+     "href": "mailto:questions@fairtradeamerica.org"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "I am a teacher and I want to teach my class about fair trade. Do you have resources?"
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "I am a teacher and I want to teach my class about fair trade. Do you have resources?"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "You inspire us! Check out these learning tools developed our colleagues in the UK. If you need one-pagers or other resources, please let us know at ."
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "questions@fairtradeamerica.org",
+     "href": "mailto:questions@fairtradeamerica.org"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "I am a student looking for research support. Can you help me?"
+    },
+    {
+     "role": "heading",
+     "order": 44,
+     "text": "I am a student looking for research support. Can you help me?"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Due to the high volume of emails, we receive from students, unfortunately, we can’t respond to each individual email. But—we have plenty of resources to support your research and we will keep you in the loop as news around Fairtrade comes up!"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "We recommend you start by watching the . Then about how Fairtrade not only affects trade but also relates to other human rights issues like fighting poverty, pushing for gender equality, improving labor practices and fighting child labor."
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "“What is Fairtrade?” video",
+     "href": "https://www.youtube.com/watch?v=rBLr4ivCGDQ"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "learn more",
+     "href": "https://www.fairtradeamerica.org/why-fairtrade/explore-the-issues/"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Connect with the people who grow our food— or about individual farmers. If you are interested in learning more about our standards relating to a specific commodity (ie: coffee, cocoa, tea, cotton, produce)—check out the or sections of our website."
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "read stories",
+     "href": "https://www.fairtradeamerica.org/why-fairtrade/global-impact/impact-stories/"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "watch videos",
+     "href": "https://www.youtube.com/watch?v=c9R-5OjUPT4&list=PLzLa0SDeo2dkFnvRWgivB8Wv6d33NkJw6"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "reports",
+     "href": "https://www.fairtradeamerica.org/why-fairtrade/global-impact/reports-trends/"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "standards",
+     "href": "https://www.fairtradeamerica.org/the-standards/"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "How do I use my purchasing power to support farmers around the world?"
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "How do I use my purchasing power to support farmers around the world?"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Check out a and some tips on ."
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "full list of Fairtrade products available in the US",
+     "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "how to shop sustainably",
+     "href": "https://www.fairtradeamerica.org/shop-fairtrade/get-involved/how-to-shop-sustainably/"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Would you like to report a misuse of the Fairtrade Mark?"
+    },
+    {
+     "role": "heading",
+     "order": 60,
+     "text": "Would you like to report a misuse of the Fairtrade Mark?"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Fairtrade’s approach relies on rigorous standards and responsiveness. For farmers, workers, consumers and businesses to continue to trust Fairtrade, we take allegations of misuse of our brand seriously."
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Learn how to report mark misuse.",
+     "href": "https://www.fairtradeamerica.org/for-partners/how-to-use-the-mark/mark-misuse-allegations-or-complaints/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 12,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

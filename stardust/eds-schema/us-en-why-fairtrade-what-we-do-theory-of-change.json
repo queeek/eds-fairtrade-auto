@@ -1,0 +1,91 @@
+{
+ "source": "http://localhost:8793/us-en-why-fairtrade-what-we-do-theory-of-change.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Theory of Change"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade’s theory of change maps out what we do and why."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Fairtrade’s theory of change maps out what we do and why. It provides the basis to measure the results of our work and progress towards our goals."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In this interactive version, you can explore how Fairtrade’s activities (on the left) lead to impact for farmers and workers (on the right). For the full screen experience ."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "please visit this page",
+     "href": "https://toc.fairtrade.net/"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "A one-page summary overview is available ."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "here",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/global/Fairtrade-Theory-of-Change-infographic-2023.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "IframeSection",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

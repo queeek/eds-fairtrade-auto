@@ -1,0 +1,14 @@
+# source root 302 → /us-en.html; .html source paths → extensionless EDS paths
+Source	Destination
+/	/us-en
+/index.html	/us-en
+/ch-fr.html	/ch-fr
+/en.html	/en
+/us-en.html	/us-en
+/us-en/about.html	/us-en/about
+/us-en/contact.html	/us-en/contact
+/us-en/news.html	/us-en/news
+/us-en/why-fairtrade.html	/us-en/why-fairtrade
+/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html	/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance
+/us-en/why-fairtrade/what-we-do/theory-of-change.html	/us-en/why-fairtrade/what-we-do/theory-of-change
+/us-en/why-fairtrade/why-we-do-it/child-protection.html	/us-en/why-fairtrade/why-we-do-it/child-protection

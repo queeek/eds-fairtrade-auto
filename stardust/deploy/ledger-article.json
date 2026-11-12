@@ -1,0 +1,20 @@
+{
+  "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T15:14:10.927Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/why-fairtrade/what-we-do/theory-of-change": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T15:14:10.927Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

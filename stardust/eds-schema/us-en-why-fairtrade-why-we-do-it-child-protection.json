@@ -1,0 +1,454 @@
+{
+ "source": "http://localhost:8765/us-en-why-fairtrade-why-we-do-it-child-protection-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade’s approach to child protection"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "At Fairtrade, we are committed to fighting the root causes of child labour and preventing abuse and exploitation of children."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Child protection is a key issue for Fairtrade, as child labor unfortunately remains commonplace in the agricultural sector, especially in communities who hardly earn a living income."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "that 160 million children around the world are engaged in work that threatens their health and safety or interrupts schooling – 70 percent of them in the agricultural sector."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "UNICEF estimates",
+     "href": "https://www.unicef.org/turkiye/en/press-releases/unicef-t%C3%BCrkiye-remains-committed-support-and-strengthen-national-strategies"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Child labor refers to work – paid or unpaid – which harms a child’s health and wellbeing, their education, leisure or development. It involves both boys and girls, and in some regions such as sub-Saharan Africa, . The causes are multi-faceted and complex, but poverty remains the key driver."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "more than one child in four aged five to 17 are engaged in child labour",
+     "href": "https://data.unicef.org/topic/child-protection/child-labour/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The Fairtrade approach to child protection is human rights-based and inclusive, and targets direct root causes."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "NumberFactTeaser",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "9M"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "additional working children after the Covid-19 pandemic and the subsequent global economic downturn, UNICEF estimates."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "1.5M"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "children aged five to 17 are working on cocoa farms in Côte d’Ivoire and Ghana alone."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Go to the previous fact"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Go to the next fact"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Child labour"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Fast facts"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Here are a few facts about this critical systemic issue."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "AccordionSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How Fairtrade supports child protection"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Strong Standards"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Strong Standards"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Strong standards: Fairtrade Standards prohibit . That includes tackling root causes of child labor such as poverty and lack of access to education. Children under 15 must not be employed by Fairtrade organisations; under-18s cannot do work that jeopardizes their schooling or their development. Children are only allowed to help on family farms under strict conditions, including outside school hours or during holidays."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "child labor as defined by the International Labour Organization (ILO)",
+     "href": "https://www.ilo.org/international-programme-elimination-child-labour-ipec/what-child-labour/ilo-conventions-child-labour"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Targeted projects and programs"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Targeted projects and programs"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The has an initial €450,000 budget to help cocoa cooperatives in West Africa invest in generating additional household income so they don’t have to put children to work. Grants are also be available for children’s education and for community projects that address household poverty."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fairtrade Child Labour and Forced Labour Prevention and Remediation Programme"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Community-based monitoring"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Community-based monitoring"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Since 2016, (YICBMR) system has been deployed in 18 countries, covering various Fairtrade producers. An found that Fairtrade’s YICBMR system was more relevant, stronger, more effective in awareness raising and capacity building, prevention, monitoring, and remediation than existing Internal Control Systems."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Fairtrade’s Youth-Inclusive Community-Based Monitoring and Remediation",
+     "href": "https://www.fairtrade.org.uk/media-centre/blog/how-fairtrade-is-tackling-child-labour/"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "independent report",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/global/why-we-do-it/child-protection/Child-labour-monitoring-and-remediation-systems-study-dec2021-summary.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "SingleImage",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "“The level of exploitation of children in cocoa growing areas has been a stumbling block to their education and the result has been the cyclical nature of poverty in these communities. Children can open up to you and discuss anything that troubles them if they feel safe with you. Community participation and active involvement eliminates the defensive position and enhances ownership and cooperation.”"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Anthony Badu, Fairtrade YICBMR monitor, Ghana"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Child protection through mitigation and remediation"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "If Fairtrade finds breaches of our child protection requirements in any Fairtrade certified organisation, we will take immediate action to protect the impacted child or children:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We work with national child protection agencies, local authorities and child rights organisations to ensure children’s safe remediation and long-term wellbeing."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fairtrade connects companies with producers to tackle child labour - for example through the voluntary best practice section of Fairtrade’s ."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Trader Standard",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/who-we-have-standards-for/trader-standard.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Ending child labor needs everyone – farmers, consumers, businesses and governments to play their part."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "By purchasing Fairtrade products you are not only supporting producers to earn a better living and send their children to school, but to also tackle the underlying causes of child labor in their communities."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "RESOURCES"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "(PDF)"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Fairtrade's Child Labour and Forced Labour guidelines",
+     "href": "https://www.fairtrade.net/content/dam/fairtrade/global/why-we-do-it/child-protection/2015_FairtradeChildForcedLabourGuidelines.pdf"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fairtrade: Comparative Assessment of Monitoring and Remediation Systems on Child Labour as implemented by Fairtrade Small-scale Producer Organizations (2021)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Global Deal: (Nov 2021)"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "New Good Practice case: Eliminating Child Labour: Lessons learned from Belize",
+     "href": "https://www.theglobaldeal.com/news/new-good-practice-case-fairtrade-belize.htm"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "US Department of Labor:"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "List of goods produced by child labor or forced labor",
+     "href": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "New Good Practice case: Eliminating Child Labour: Lessons learned from Belize",
+     "href": "https://www.theglobaldeal.com/news/new-good-practice-case-fairtrade-belize.htm"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "(PDF)"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "International Labour Organization (ILO) definition of child labour",
+     "href": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@asia/@ro-bangkok/@ilo-yangon/documents/publication/wcms_531953.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-11-05T16:47:57.333Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.fairtrade.net/",
+    "liveHost": "main--a1eef8ec--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 6
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 4,
+    "optimised": 6
+  },
+  "pages": [
+    {
+      "slug": "ch-fr",
+      "path": "/ch-fr",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "stage": "deployed",
+      "templateId": "en",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en",
+      "path": "/us-en",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-about",
+      "path": "/us-en/about",
+      "stage": "deployed",
+      "templateId": "us-en-about",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-contact",
+      "path": "/us-en/contact",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-news",
+      "path": "/us-en/news",
+      "stage": "deployed",
+      "templateId": "us-en-news",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-why-fairtrade",
+      "path": "/us-en/why-fairtrade",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "path": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+      "path": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "path": "/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "stage": "optimised",
+      "templateId": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "article",
+      "archetype": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "en",
+      "archetype": "en",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "ch-fr",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "us-en-contact",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "us-en-about",
+      "archetype": "us-en-about",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-news",
+      "archetype": "us-en-news",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "archetype": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 9,
+    "converted": 9
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      50,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 4
+    },
+    "byAutofix": {}
+  }
+}

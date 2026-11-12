@@ -1,0 +1,475 @@
+{
+ "source": "http://localhost:8771/us-en-news-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Read our latest news and stories about Fairtrade and how we are making a difference in live of farmers and workers throughout the world."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "FilteredTeaserGrid",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "09.29.26"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "When Communities Lead: The Cooperative Model at Work in Madagascar"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "09.24.26"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Silence isn’t a strategy: Why “greenshouting” matters for business growth"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "09.10.26"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Fairtrade stands with farmers as costs increase"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "09.04.26"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Real Pay Feeds Real Change"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Making work fairer and safer for farm laborers."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "08.19.26"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "A Spicy Fair Share Giveaway with Frontier"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Get 100% on this quiz for a chance to win a smorgasbord of fantastic Frontier spices."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "08.06.26"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "What is a cooperative (or co-op)?"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "The what, how and why of cooperatives"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "08.05.26"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Sourcing matters: Understanding deforestation and scope 3 emissions"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "07.23.26"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "How Fairtrade’s Climate Disaster Relief and Resilience Fund Is Supporting Long-Term Recovery in Indonesia and Sri Lanka"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "A Six Month Update"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "07.08.26"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "International Day of Cooperatives"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "More than just working together."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "06.30.26"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "It's Giveaway Time!"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Are you (Fairtrade) smarter than a 5th grader? Prove you have the Fairtrade smarts to enter to win!"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "06.11.26"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "World Day Against Child Labor"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Prevention and Remediation go beyond Certification"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "05.21.26"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "From Grassroots to Global System"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Merling Preza Ramos is a fair trade pioneer who has spent 30+ years fighting for small producers have a seat at the table."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "04.30.26"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "International Workers' Day"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "And the smallholder sugar farmers worth celebrating"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "04.21.26"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Seedlings Planted in Ghana today mean a Brighter Future Tomorrow"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "This Earth Day, we're uplifting people and planet, the Fairtrade way."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "04.21.26"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "The Future is Fair"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "We'll see you at Marketplace of the Future, DC! Because a fair future for our planet cannot exclude a fair future for its people."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "04.14.26"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "What is a Banana Republic?"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "And why Fairtrade cares."
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "04.03.26"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Synthetic Chocolate: Is it really more ethical?"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "03.26.26"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Fairtrade news"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Farm to Family: ReDelicious, DC's Food Lab"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Check out the incredible, local cooperative we’re partnering with to expand our impact in the nation’s capital. We had an incredible experience in March and can't wait for next time!"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Load more"
+    }
+   ],
+   "imgCount": 18,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 18,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

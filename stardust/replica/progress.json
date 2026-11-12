@@ -1,0 +1,231 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "en",
+      "url": "https://www.fairtrade.net/en.html",
+      "prototype": "stardust/prototypes/en-proposed.html",
+      "status": "passed",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 0.74,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        },
+        "1440": {
+          "pixel": 0.26,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "hero prev/next arrows hover-only per source CSS (live capture shows them)",
+        "third-party consent fingerprint button not reproduced (martech)",
+        "stray literal > text node in live hero image box reproduced as spacer height"
+      ],
+      "motion": {
+        "observed": [
+          "header hide/show on scroll",
+          "nav flyouts click+escape",
+          "search overlay",
+          "meta menu",
+          "locale dialog+filter",
+          "mobile drawer",
+          "hero carousel prev/next/bullets",
+          "fact slider (mobile)",
+          "accordion",
+          "scroll fade-in",
+          "nav hover colour"
+        ],
+        "implemented": [
+          "header hide/show on scroll",
+          "nav flyouts click+escape",
+          "search overlay",
+          "meta menu",
+          "locale dialog+filter",
+          "mobile drawer",
+          "hero carousel prev/next/bullets",
+          "fact slider (mobile)",
+          "accordion",
+          "scroll fade-in",
+          "nav hover colour"
+        ],
+        "dead": [
+          "news card hover",
+          "header scroll morph"
+        ]
+      },
+      "approvedBy": "hands-off",
+      "at": "2026-11-05T11:09:05.753Z"
+    },
+    "static": {
+      "archetype": "us-en-about",
+      "url": "https://www.fairtrade.net/us-en/about.html",
+      "prototype": "stardust/prototypes/us-en-about-proposed.html",
+      "status": "passed",
+      "iterations": {
+        "360": 1,
+        "1440": 1
+      },
+      "gates": {
+        "360": {
+          "pixel": 0.1,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        },
+        "1440": {
+          "pixel": 0.03,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [],
+      "motion": {
+        "observed": [
+          "header flyouts",
+          "content-fader reveal",
+          "transitions"
+        ],
+        "implemented": [
+          "header flyouts",
+          "content-fader reveal",
+          "transitions"
+        ],
+        "dead": [
+          "header scroll morph",
+          "button/link/footer-title hover"
+        ]
+      },
+      "approvedBy": "hands-off",
+      "at": "2026-11-05T11:17:38.657Z"
+    },
+    "article": {
+      "archetype": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "prototype": "stardust/prototypes/us-en-why-fairtrade-why-we-do-it-child-protection-proposed.html",
+      "status": "passed",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": 0,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        },
+        "1440": {
+          "pixel": 0,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "advisory font-fork flags on 1.5M (build) and header For Business at 360 (live side); pixels identical",
+        "empty h4 / empty trailing links in live accordion not reproduced"
+      ],
+      "motion": {
+        "observed": [
+          "accordion",
+          "header flyout",
+          "scroll fade-in"
+        ],
+        "implemented": [
+          "accordion",
+          "header flyout",
+          "scroll fade-in"
+        ],
+        "dead": [
+          "header scroll morph",
+          "breadcrumb/richtext/footer-title hover"
+        ]
+      },
+      "approvedBy": "hands-off",
+      "at": "2026-11-05T11:20:03.875Z"
+    },
+    "listing": {
+      "archetype": "us-en-news",
+      "url": "https://www.fairtrade.net/us-en/news.html",
+      "prototype": "stardust/prototypes/us-en-news-proposed.html",
+      "status": "passed",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 1.99,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        },
+        "1440": {
+          "pixel": 1.96,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "ok"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "Load more data (51 extra articles) inline from capture — needs a data source at delivery",
+        "card hover from canon not detected on live (advisory)"
+      ],
+      "motion": {
+        "observed": [
+          "load more",
+          "nav",
+          "search",
+          "meta menu"
+        ],
+        "implemented": [
+          "load more",
+          "nav",
+          "search",
+          "meta menu"
+        ],
+        "dead": [
+          "header scroll morph"
+        ]
+      },
+      "approvedBy": "hands-off",
+      "at": "2026-11-05T11:21:35.635Z"
+    }
+  }
+}

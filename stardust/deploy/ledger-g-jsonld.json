@@ -1,0 +1,92 @@
+{
+  "/en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:14.258Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch-fr": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:31.583Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/about": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:31.584Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/contact": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:37.770Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/news": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:38.940Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:42.627Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/why-fairtrade/what-we-do/theory-of-change": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:46.226Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/why-fairtrade/why-we-do-it/child-protection": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:47.691Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/why-fairtrade": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:51.332Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T16:46:56.459Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

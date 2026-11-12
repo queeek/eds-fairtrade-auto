@@ -1,0 +1,325 @@
+/* page-lead — PageLead band (stardust/prototypes/us-en-about.css, clientlib PageLead) */
+.page-lead {
+  --background-color: var(--c-leafgreen);
+  --color: #1e1e1e;
+
+  padding-bottom: 64px;
+}
+
+.page-lead.skyblue {
+  --background-color: var(--c-skyblue);
+}
+
+.page-lead.nightsky {
+  --background-color: var(--c-nightsky);
+  --color: #fff;
+}
+
+.page-lead.white {
+  --background-color: #fff;
+}
+
+/* no-gap (clientlib `.PageLead:not(.no-gap)` alone carries the bottom spacing; the band's
+   grid gets padding-bottom 64 / 80 instead) */
+.page-lead.no-gap {
+  padding-bottom: 0;
+}
+
+.page-lead .page-lead-content {
+  background-color: var(--background-color);
+}
+
+.page-lead .page-lead-grid {
+  color: var(--color);
+  padding-bottom: 48px;
+  padding-top: 80px;
+  place-items: center;
+}
+
+.page-lead.no-gap .page-lead-grid {
+  padding-bottom: 64px;
+}
+
+.page-lead .page-lead-title {
+  color: var(--color);
+  font-family: var(--font-head);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.page-lead .page-lead-title :is(h1, h2, h3) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.page-lead .page-lead-eyebrow {
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.page-lead .page-lead-lead {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 28px;
+}
+
+.page-lead .page-lead-lead :is(p, ul, ol) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.page-lead .page-lead-lead :is(p, ul, ol) + :is(p, ul, ol) {
+  margin-top: 1em;
+}
+
+.page-lead .page-lead-lead a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.page-lead .page-lead-lead p.button-wrapper {
+  justify-content: center;
+}
+
+/* optional CTA (PageLead--cta): canon primary skyblue size-large pill below the lead */
+.page-lead .page-lead-cta {
+  margin-top: 32px;
+}
+
+.page-lead .page-lead-cta p.button-wrapper {
+  justify-content: center;
+}
+
+.page-lead .page-lead-cta a.button {
+  height: 60px;
+}
+
+/* optional lead image (article template): page-grid row on the band-colour → white gradient */
+.page-lead .page-lead-image {
+  background-image: linear-gradient(to bottom, var(--background-color) 33.3333%, #fff 33.3333%);
+}
+
+.page-lead .page-lead-image-grid > * {
+  grid-column: 1 / -1;
+}
+
+.page-lead .page-lead-image-box picture {
+  inset: 0;
+  position: absolute;
+}
+
+.page-lead .page-lead-image-box img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.page-lead .page-lead-image-box.desktop {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .page-lead .page-lead-grid > * {
+    grid-column: 2 / -2;
+  }
+
+  .page-lead .page-lead-lead {
+    text-align: center;
+  }
+
+  .page-lead .page-lead-image-box.desktop {
+    display: block;
+  }
+
+  .page-lead .page-lead-image-box.mobile {
+    display: none;
+  }
+}
+
+@media (width >= 1024px) {
+  .page-lead {
+    padding-bottom: 80px;
+  }
+
+  .page-lead .page-lead-grid {
+    padding-bottom: 64px;
+    padding-top: 120px;
+  }
+
+  .page-lead .page-lead-grid > * {
+    grid-column: 3 / -3;
+  }
+
+  .page-lead .page-lead-title {
+    font-size: 72px;
+  }
+
+  .page-lead .page-lead-lead {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .page-lead .page-lead-cta {
+    margin-top: 40px;
+  }
+
+  .page-lead.no-gap .page-lead-grid {
+    padding-bottom: 80px;
+  }
+}
+
+/* Default content on page-lead pages = canon RichtextSection / CTASection (narrow column,
+   padding-block 32/40, lone button paragraph centred, 60px). Scoped to the page-lead section
+   and every section after it except an accordion section, whose title the accordion block
+   styles (foundation request: no default-content treatment in C0). */
+/* stylelint-disable no-descending-specificity -- one nested scope, canon order kept */
+main > :is(
+  .page-lead-container,
+  .page-lead-container ~ .section:not(:where(.accordion-container))
+) > .default-content-wrapper {
+  --richtext-offset: 0px;
+
+  padding-bottom: 8px;
+  padding-inline: calc(var(--page-pad) + var(--richtext-offset));
+  padding-top: 32px;
+
+  h2 {
+    font-family: var(--font-head);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    font-family: var(--font-head);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
+  :is(p, ul, ol) {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  :is(ul, ol) {
+    display: grid;
+    gap: 12px;
+  }
+
+  li {
+    padding-left: 16px;
+    position: relative;
+  }
+
+  ul li::before {
+    background-color: var(--c-skyblue);
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    translate: 0 135%;
+    width: 8px;
+  }
+
+  :is(b, strong) {
+    font-weight: 700;
+  }
+
+  a:any-link:not(.button) {
+    color: var(--c-eggplant);
+    text-decoration: underline;
+    transition: color .2s ease-in-out;
+  }
+
+  a:not(.button):is(:hover, :focus-visible) {
+    color: var(--c-ocean);
+  }
+
+  /* CTASection spans the full page width (a long label may run edge to edge at 360) */
+  p.button-wrapper {
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-inline: calc(-1 * (var(--page-pad) + var(--richtext-offset)));
+  }
+
+  /* block margins collapse: 64 = RichtextSection 32 + CTASection 32 */
+  * + p.button-wrapper,
+  p.button-wrapper + * {
+    margin-top: 64px;
+  }
+
+  a.button {
+    height: 60px;
+  }
+
+  --richtext-col: calc((min(100%, var(--page-max)) - 2 * var(--page-pad) + var(--col-gap)) / 12);
+
+  @media (width >= 768px) {
+    --richtext-offset: var(--richtext-col);
+  }
+
+  @media (width >= 1024px) {
+    --richtext-offset: calc(3 * var(--richtext-col));
+
+    padding-top: 40px;
+
+    h2 {
+      font-size: 48px;
+      margin-bottom: 32px;
+    }
+
+    h3 {
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+
+    :is(p, ul, ol) {
+      font-size: 18px;
+      margin-bottom: 32px;
+    }
+
+    p.button-wrapper {
+      margin-bottom: 32px;
+    }
+
+    * + p.button-wrapper,
+    p.button-wrapper + * {
+      margin-top: 80px;
+    }
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* Source spacer: an authored empty paragraph closing a Richtext (dropped by the delivery
+   pipeline) is rebuilt as section spacing — section-metadata style `space-after`. */
+main > .page-lead-container ~ .section.space-after > .default-content-wrapper::after {
+  content: "";
+  display: block;
+  height: calc(17px * 1.6);
+  margin-bottom: 24px;
+}
+
+@media (width >= 1024px) {
+  main > .page-lead-container ~ .section.space-after > .default-content-wrapper::after {
+    height: calc(18px * 1.6);
+    margin-bottom: 32px;
+  }
+}
+
+/* Centred RichtextSection (source inline `text-align: center` on its h2/p) — section-metadata
+   style `align-center`, scoped to page-lead pages. */
+main > .page-lead-container ~ .section.align-center > .default-content-wrapper {
+  text-align: center;
+}

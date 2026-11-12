@@ -1,0 +1,11 @@
+{
+  "/us-en/news": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T14:32:01.497Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "/us-en/contact": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T15:11:58.137Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us-en/why-fairtrade": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-05T15:11:58.137Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

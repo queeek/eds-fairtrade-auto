@@ -1,0 +1,133 @@
+{
+ "source": "http://localhost:8792/us-en/why-fairtrade.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade changes the way trade works through better prices, decent working conditions and a fairer deal for farmers and workers."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What is Fairtrade?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "For more than three decades, Fairtrade has been making an impact on the way trade works. As a leader in the global movement to make trade fair, Fairtrade supports and challenges businesses and governments and connects farmers and workers with the people who buy their products."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Find out more",
+     "href": "../us-en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why we do it"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We want to build a world where everyone benefits from quality products, and enjoys quality of life. From human and environmental rights to child protection and living incomes, here are our areas of focus."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read more",
+     "href": "../us-en/why-fairtrade/why-we-do-it.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How Fairtrade works"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade is known for its distinctive blue and green FAIRTRADE Mark but we’re more than just a label. Fairtrade supports farmers and workers through a unique pricing model, sets rigorous standards across the supply chain, and fosters strong producer communities through local and regional networks."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Find out how",
+     "href": "../us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More than a label"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We don’t just label products as ethical—we create real sustainable change by more equitably distributing resources to the beginning of the supply chain, leveraging local and regional agricultural expertise and creating standards that protect people and the environment."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Fairtrade's Impact",
+     "href": "../us-en/why-fairtrade/impact.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

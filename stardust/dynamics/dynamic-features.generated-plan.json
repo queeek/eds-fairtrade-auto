@@ -1,0 +1,581 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-05T11:42:51.298Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--a1eef8ec--aemcoder.aem.page",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
+ },
+ "rows": [
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-v5-b75ccb2b73c54aa4a5098ab7f85336",
+   "class": "A",
+   "feature": "unknown third-party host v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 10,
+    "of": 10
+   },
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "i18n-locale-variants-bg-bg-hr-hr-gr-el-hu-hu-mt-en",
+   "class": "I18N",
+   "feature": "locale variants bg-bg,hr-hr,gr-el,hu-hu,mt-en",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+    "https://www.fairtrade.net/gr-el/bring-fairtrade-to-your-market.html"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-bg-bg-hr-hr-gr-el-hu-hu-it-it",
+   "class": "I18N",
+   "feature": "locale variants bg-bg,hr-hr,gr-el,hu-hu,it-it",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+    "https://www.fairtrade.net/gr-el/bring-fairtrade-to-your-market.html"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-bg-bg-ca-en-hr-hr-gr-el",
+   "class": "I18N",
+   "feature": "locale variants en,bg-bg,ca-en,hr-hr,gr-el",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "https://www.fairtrade.net/en/about.html",
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ca-en/about.html"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-at-de-bg-bg-ca-en-ca-fr",
+   "class": "I18N",
+   "feature": "locale variants en,at-de,bg-bg,ca-en,ca-fr",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/child-protection.html",
+    "https://www.fairtrade.net/at-de/was-ist-fairtrade/arbeitsschwerpunkte/kinderrechte.html",
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "l-listing-candidate-swiper-wrapper-3-cards",
+   "class": "L",
+   "feature": "listing candidate swiper-wrapper (3 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-teasergrid-grid-18-cards",
+   "class": "L",
+   "feature": "listing candidate TeaserGrid--grid (18 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-dialog-form",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → dialog:form",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 30,
+    "of": 10
+   },
+   "evidence": [
+    "GLOBAL • EN Open or close the locale selector. The currently",
+    "US • EN Open or close the locale selector. The currently sel"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 0,
+    "of": 10
+   },
+   "evidence": [
+    "search:input-name"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.google-analytics.com",
+    "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "connect.facebook.net",
+    "snap.licdn.com",
+    "ad.doubleclick.net",
+    "bat.bing.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "c.clarity.ms",
+    "n.clarity.ms"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids",
+   "alreadyDelivered": "output already carries \"www.facebook.com\""
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids",
+   "alreadyDelivered": "output already carries \"www.linkedin.com\""
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www2-fairtradeamerica-org",
+   "class": "T",
+   "feature": "unknown third-party host www2.fairtradeamerica.org",
+   "pages": 2,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www2.fairtradeamerica.org"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-consent-usercentrics",
+   "class": "T",
+   "feature": "consent: Usercentrics",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "app.usercentrics.eu",
+    "api.usercentrics.eu",
+    "aggregator.service.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "v-video-vimeo",
+   "class": "V",
+   "feature": "video: Vimeo",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "extend.vimeocdn.com"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.youtube.com"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "delivered-by-capture",
+   "phase": "media",
+   "decision": "none (player ids are public)",
+   "alreadyDelivered": "output already carries \"www.youtube.com\""
+  },
+  {
+   "id": "chrome-search",
+   "source": "header-contract",
+   "class": "S",
+   "feature": "header search: Open the search box, Search Open the search box (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key",
+    "1440 click/key"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (results from the query index; overlay and typeahead per the contract)"
+  },
+  {
+   "id": "chrome-drawer",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header drawer: Open Mobile Menu Close Mobile Menu, Open Open the meta menu (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key",
+    "1440 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "chrome-menu",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header menu: Why Fairtrade, Products, For Business, Get Involved (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "1440 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "chrome-locale",
+   "source": "header-contract",
+   "class": "I18N",
+   "feature": "header locale: GLOBAL • EN Open or close the locale selector. The currently selected locale is  (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "1440 click/key"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "which locales the switcher lists"
+  }
+ ]
+}

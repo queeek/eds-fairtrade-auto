@@ -1,0 +1,183 @@
+{
+ "source": "http://localhost:8771/us-en-about-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "About Us"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade is a global movement reshaping the way the world does business. We challenge the status quo of exploitative trade and support a system rooted in dignity, equity and shared prosperity so that the people who grow our food and goods have a voice, receive a fairer price and have the power to shape their own futures."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade Brings People Together"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Many of the products we enjoy every day – , , – have traveled over thousands of miles of oceans and through countless hands to land in stores in the United States. Fairtrade brings together all of these people - the farmers and the brands, the schools and the champions of advocacy, the retailers and the shoppers - to create a more equitable world through trade."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "coffee",
+     "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/coffee/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "chocolate",
+     "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/chocolate/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "bananas",
+     "href": "https://www.fairtradeamerica.org/shop-fairtrade/fairtrade-products/bananas-produce/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "farmers and workers worldwide are Fairtrade certified"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Over 2 million"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "of the voting members at our General Assembly are Fairtrade farmers and workers."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "50%"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "brands offer 36,000 Fairtrade certified products globally."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2,500+"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "SingleImage",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade is Complex, the Solution is Simple"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade recognizes that generations of exploitative trade systems have disadvantaged farmers, producers and creators around the world. While we aim to ensure that all farmers can enjoy secure, sustainable livelihoods - the problem is complex. Poverty exacerbates child labor, deforestation challenges climate resilience and lack of access to education exacerbates gender inequality. While our work exists in the context of complex global trade systems, the solution can be remarkably straightforward. Farmers who are fairly compensated produce more sustainable products. When the farmers and farmworkers we work with receive a better deal for their labor, they re-invest in climate resilient practices. When alleviated from the pressure of always needing to grow more just to earn enough money to survive, they grow better instead."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read about Our Holistic Approach",
+     "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our People"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade America is powered by a talented team of values-driven individuals working to create a fairer global trade system. We're coffee drinkers, dog lovers, outdoor explorers, crocheters, potters, yoga teachers, tea enthusiasts, co-op shoppers and so much more. At our core, we are a team of humans dedicated to fair trade practices and uplifting the dignity of farmers. Together, we collaborate with brands, educate consumers, support disaster relief projects and advocate for policy that uplifts farmers' rights and helps build trade systems rooted in equity and sustainability."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn about Our Incredible Team",
+     "href": "https://www.fairtrade.net/us-en/about/fairtrade-america-staff.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "We are an independent non-profit 501(c)3 organization."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

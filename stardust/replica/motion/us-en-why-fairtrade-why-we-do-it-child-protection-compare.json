@@ -1,0 +1,152 @@
+{
+  "live": "stardust/replica/motion/us-en-why-fairtrade-why-we-do-it-child-protection.json",
+  "build": "stardust/replica/motion/us-en-why-fairtrade-why-we-do-it-child-protection-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 0,
+  "counts": {
+    "behaviors": 19,
+    "parity": 11,
+    "missing": 0,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 6,
+    "advisory": 2
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".Accordion--toggle",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .Accordion--toggle: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".TopbarMainNavigation--button",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .TopbarMainNavigation--button: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".Breadcrumbs--breadcrumb--link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .Breadcrumbs--breadcrumb--link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".Richtext a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .Richtext a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".FooterLinkList--title--link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .FooterLinkList--title--link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "grid-template-rows",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition grid-template-rows: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "10 event(s) on live, 22 on build, 500ms",
+      "line": "motion transition opacity: parity (10 event(s) on live, 22 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "rotate",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition rotate: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "scale",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 200ms",
+      "line": "motion transition scale: parity (1 event(s) on live, 1 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "translate",
+      "state": "parity",
+      "note": "4 event(s) on live, 6 on build, 300ms",
+      "line": "motion transition translate: parity (4 event(s) on live, 6 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 300ms",
+      "line": "motion transition visibility: parity (2 event(s) on live, 2 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "advisory",
+      "note": "4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition color: extra on build — advisory (4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "advisory",
+      "note": "7 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition transform: extra on build — advisory (7 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class is-active: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-darkened",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class is-darkened: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-hidden",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class is-hidden: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-open",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class is-open: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-visible",
+      "state": "parity",
+      "note": "added 7× on live, 14× on build",
+      "line": "motion class is-visible: parity (added 7× on live, 14× on build)"
+    }
+  ]
+}

@@ -10,6 +10,7 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
@@ -35,6 +36,31 @@ if (window.trustedTypes && window.trustedTypes.createPolicy) {
     createScriptURL: (input) => input,
     createScript: (input) => input,
   });
+}
+
+/* locale folders (first path segment, e.g. /us-en/..., /ch-fr/...) -> document language */
+const LOCALE_LANGS = { 'us-en': 'en-US', 'ch-fr': 'fr' };
+
+/**
+ * The locale folder of the current page ('' for the global /en site and root pages).
+ * @returns {string} e.g. 'us-en', 'ch-fr' or ''
+ */
+export function getLocale() {
+  const [first] = window.location.pathname.split('/').filter(Boolean);
+  return first && /^[a-z]{2}-[a-z]{2}$/.test(first) ? first : '';
+}
+
+/**
+ * Resolves the chrome document for the page: `nav`/`footer` metadata wins, otherwise
+ * `/<locale>/<kind>` inside a locale folder, otherwise `/<kind>`.
+ * @param {string} kind 'nav' or 'footer'
+ * @returns {string} root-relative document path
+ */
+export function getChromePath(kind) {
+  const meta = getMetadata(kind);
+  if (meta) return new URL(meta, window.location).pathname;
+  const locale = getLocale();
+  return locale ? `/${locale}/${kind}` : `/${kind}`;
 }
 
 /**
@@ -160,7 +186,9 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  const locale = getLocale();
+  document.documentElement.lang = LOCALE_LANGS[locale] || (locale ? locale.split('-')[1] : 'en');
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -204,6 +232,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

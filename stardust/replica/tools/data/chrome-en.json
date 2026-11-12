@@ -1,0 +1,454 @@
+{
+ "nav": [
+  {
+   "title": "Why Fairtrade",
+   "groups": [
+    {
+     "title": "What we do",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/what-we-do.html",
+     "links": [
+      {
+       "t": "What is Fairtrade?",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+      },
+      {
+       "t": "How Fairtrade works",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/how-fairtrade-works-.html"
+      },
+      {
+       "t": "Key benefits of Fairtrade",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html"
+      },
+      {
+       "t": "Theory of Change",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/theory-of-change.html"
+      }
+     ]
+    },
+    {
+     "title": "Why we do it",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it.html",
+     "links": [
+      {
+       "t": "Deforestation",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/deforestation.html"
+      },
+      {
+       "t": "Workers' rights",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/workers-rights.html"
+      },
+      {
+       "t": "Mitigating risks",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/mitigating-risks.html"
+      },
+      {
+       "t": "Forced labour",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/forced-labour.html"
+      },
+      {
+       "t": "Child protection",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/child-protection.html"
+      },
+      {
+       "t": "Climate and the environment",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/climate-and-the-environment.html"
+      },
+      {
+       "t": "Decent livelihoods",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/decent-livelihoods.html"
+      },
+      {
+       "t": "Gender equality",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/gender-equality.html"
+      },
+      {
+       "t": "HREDD",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/hredd.html"
+      },
+      {
+       "t": "Smallholder farmers",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/smallholder-farmers.html"
+      },
+      {
+       "t": "Fairtrade and the Sustainable Development Goals",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html"
+      }
+     ]
+    },
+    {
+     "title": "How we do it",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it.html",
+     "links": [
+      {
+       "t": "How does the label work",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/how-does-the-label-work.html"
+      },
+      {
+       "t": "Fairtrade Standards",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards.html"
+      },
+      {
+       "t": "Advocacy",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/advocacy.html"
+      },
+      {
+       "t": "Our projects and programmes",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/our-projects-and-programmes.html"
+      }
+     ]
+    },
+    {
+     "title": "Impact",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact.html",
+     "links": [
+      {
+       "t": "Impact stories",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-.html"
+      },
+      {
+       "t": "Key figures at a glance",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/impact/key-figures-at-a-glance.html"
+      },
+      {
+       "t": "How we measure impact",
+       "h": "https://www.fairtrade.net/en/why-fairtrade/impact/how-we-measure-impact-.html"
+      },
+      {
+       "t": "Impact Platform",
+       "h": "https://impactmap.fairtrade.net/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Products",
+   "groups": [
+    {
+     "title": "Fairtrade products",
+     "href": "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+     "links": [
+      {
+       "t": "Bananas",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Bananas.html"
+      },
+      {
+       "t": "Gold",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/gold.html"
+      },
+      {
+       "t": "Cocoa",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+      },
+      {
+       "t": "Coffee",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee.html"
+      },
+      {
+       "t": "Cotton",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Cotton.html"
+      },
+      {
+       "t": "Flowers and plants",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Flowers.html"
+      },
+      {
+       "t": "Fruits and juices",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Fruits-juices.html"
+      },
+      {
+       "t": "Herbs and spices",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Herbs-spices.html"
+      },
+      {
+       "t": "Honey",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Honey.html"
+      },
+      {
+       "t": "Nuts and oils",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/Nuts-oils.html"
+      },
+      {
+       "t": "Wine",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/wine.html"
+      },
+      {
+       "t": "Vegetables",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/vegetables.html"
+      },
+      {
+       "t": "Tea",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/tea.html"
+      },
+      {
+       "t": "Sugar",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/sugar.html"
+      },
+      {
+       "t": "Textiles",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/textiles.html"
+      },
+      {
+       "t": "Sports Balls",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/sports-balls.html"
+      },
+      {
+       "t": "Rice",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/rice.html"
+      },
+      {
+       "t": "Quinoa",
+       "h": "https://www.fairtrade.net/en/products/Fairtrade_products/quinoa.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "For Business",
+   "groups": [
+    {
+     "title": "Benefits of being certified",
+     "href": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified.html",
+     "links": [
+      {
+       "t": "Consumer trends",
+       "h": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/consumer-trends.html"
+      },
+      {
+       "t": "Fairtrade and the EU Empowering Consumers Directive",
+       "h": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/fairtrade-and-the-eu-empowering-consumers-directive.html"
+      },
+      {
+       "t": "Business success stories",
+       "h": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/business-success-stories.html"
+      },
+      {
+       "t": "Benefits for business",
+       "h": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/benefits-for-business.html"
+      },
+      {
+       "t": "Benefits for producers",
+       "h": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/benefits-for-producers.html"
+      }
+     ]
+    },
+    {
+     "title": "How to get involved",
+     "href": "https://www.fairtrade.net/en/for-business/how-to-get-involved.html",
+     "links": [
+      {
+       "t": "Get certified",
+       "h": "https://www.fairtrade.net/en/for-business/how-to-get-involved/get-certified.html"
+      },
+      {
+       "t": "Get licensed",
+       "h": "https://www.fairtrade.net/en/for-business/how-to-get-involved/Get-licensed.html"
+      },
+      {
+       "t": "Apply now",
+       "h": "https://www.fairtrade.net/en/for-business/how-to-get-involved/apply-to-become-a-licensee.html"
+      },
+      {
+       "t": "Licensee resources",
+       "h": "https://www.fairtrade.net/en/for-business/how-to-get-involved/licensee-resources.html"
+      },
+      {
+       "t": "Get certified as a producer",
+       "h": "https://www.fairtrade.net/en/for-business/how-to-get-involved/get-certified-as-a-producer.html"
+      }
+     ]
+    },
+    {
+     "title": "EUDR support for small and medium-sized enterprises",
+     "href": "https://www.fairtrade.net/en/for-business/eudr-support-for-smes.html",
+     "links": []
+    }
+   ]
+  },
+  {
+   "title": "Get Involved",
+   "groups": [
+    {
+     "title": "News",
+     "href": "https://www.fairtrade.net/en/get-involved/news.html",
+     "links": []
+    },
+    {
+     "title": "Library",
+     "href": "https://www.fairtrade.net/en/get-involved/library.html",
+     "links": []
+    },
+    {
+     "title": "Press centre",
+     "href": "https://www.fairtrade.net/en/get-involved/Press-centre.html",
+     "links": []
+    },
+    {
+     "title": "Fairtrade Ambassadors",
+     "href": "https://www.fairtrade.net/en/get-involved/fairtrade-ambassadors.html",
+     "links": []
+    }
+   ]
+  }
+ ],
+ "meta": [
+  {
+   "t": "News",
+   "h": "https://www.fairtrade.net/en/get-involved/news.html",
+   "tag": "A"
+  },
+  {
+   "t": "Opportunities",
+   "h": "https://www.fairtrade.net/en/about/opportunities.html",
+   "tag": "A"
+  },
+  {
+   "t": "Library",
+   "h": "https://www.fairtrade.net/en/get-involved/library.html",
+   "tag": "A"
+  },
+  {
+   "t": "Fairtrade Minimum Prices and Premiums",
+   "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html",
+   "tag": "A"
+  },
+  {
+   "t": "Overview of Fairtrade producers and traders",
+   "h": "https://www.fairtrade.net/en/about/overview-of-fairtrade-producers.html",
+   "tag": "A"
+  }
+ ],
+ "footer": {
+  "lists": [
+   {
+    "title": "About Fairtrade International",
+    "links": [
+     {
+      "t": "About us",
+      "h": "https://www.fairtrade.net/en/about/about-fairtrade-international.html"
+     },
+     {
+      "t": "Our strategy",
+      "h": "https://www.fairtrade.net/en/about/our-strategy.html"
+     },
+     {
+      "t": "Annual Report",
+      "h": "https://www.fairtrade.net/en/get-involved/library/2025-annual-report.html"
+     },
+     {
+      "t": "Governance & Board",
+      "h": "https://www.fairtrade.net/en/about/governance-and-board.html"
+     },
+     {
+      "t": "Opportunities",
+      "h": "https://www.fairtrade.net/en/about/opportunities.html"
+     },
+     {
+      "t": "Human Rights Remediation Policy",
+      "h": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/library/Fairtrade-intl-human-rights-remediation-policy-2026.pdf"
+     }
+    ]
+   },
+   {
+    "title": "How we operate globally",
+    "links": [
+     {
+      "t": "Fairtrade global network",
+      "h": "https://www.fairtrade.net/en/about/fairtrade-global-network.html"
+     },
+     {
+      "t": "Fairtrade organisations around the world",
+      "h": "https://www.fairtrade.net/en/about/fairtrade-global-network/fairtrade-organisations.html"
+     },
+     {
+      "t": "Producer networks",
+      "h": "https://www.fairtrade.net/en/about/fairtrade-global-network/producer-networks.html"
+     },
+     {
+      "t": "Contact us",
+      "h": "https://www.fairtrade.net/en/about/fairtrade-global-network/fairtrade-organisations.html"
+     }
+    ]
+   },
+   {
+    "title": "Other information",
+    "links": [
+     {
+      "t": "Marks misuse",
+      "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/how-does-the-label-work/report-misuse-of--the-fairtrade-mark.html"
+     },
+     {
+      "t": "Fairtrade sourcing",
+      "h": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/fairtrade-sourcing.html"
+     },
+     {
+      "t": "FAQs",
+      "h": "https://www.fairtrade.net/en/about/faq.html"
+     },
+     {
+      "t": "Compliance at Fairtrade",
+      "h": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/how-fairtrade-works-/Compliance-at-fairtrade.html"
+     },
+     {
+      "t": "Whistleblower portal",
+      "h": "https://fairtrade.integrityline.com/"
+     },
+     {
+      "t": "Privacy policy",
+      "h": "https://www.fairtrade.net/en/about/governance-and-board/privacy-policy.html"
+     },
+     {
+      "t": "Impressum",
+      "h": "https://www.fairtrade.net/en/about/governance-and-board/impressum.html"
+     }
+    ]
+   }
+  ],
+  "social": [
+   {
+    "t": "Social Links",
+    "h": "https://www.facebook.com/fairtrade"
+   },
+   {
+    "t": "Instagram",
+    "h": "https://www.instagram.com/fairtradeofficial/"
+   },
+   {
+    "t": "LinkedIn",
+    "h": "https://www.linkedin.com/company/fairtrade-international-flo-/?originalSubdomain=de"
+   }
+  ],
+  "classes": [
+   "Footer",
+   "Footer--grid",
+   "Footer--meta",
+   "Footer--logo",
+   "Footer--localeSelectorTrigger",
+   "Footer--linkLists",
+   "Footer--linkList",
+   "FooterLinkList",
+   "FooterLinkList--title",
+   "FooterLinkList--list",
+   "FooterLinkList--item",
+   "FooterLinkList--item--icon",
+   "FooterLinkList--link",
+   "Footer--leads",
+   "Footer--social",
+   "FooterSocialMediaLinks",
+   "FooterSocialMediaLinks--title",
+   "FooterSocialMediaLinks--list",
+   "FooterSocialMediaLinks--item",
+   "Footer--newsletter",
+   "Footer--newsletter--title",
+   "Footer--newsletter--button"
+  ],
+  "text": "GLOBAL • EN Open or close the locale selector. The currently selected locale is GLOBAL-EN. About Fairtrade International About us Our strategy Annual Report Governance & Board Opportunities Human Rights Remediation Policy How we operate globally Fairtrade global network Fairtrade organisations around the world Producer networks Contact us Other information Marks misuse Fairtrade sourcing FAQs Compliance at Fairtrade Whistleblower portal Privacy policy Impressum Social Links Social Links Instagram LinkedIn Newsletter Click here"
+ },
+ "topbarOther": [
+  "Topbar--logo",
+  "Topbar--mainNavigation scrollend-left scrollend-right",
+  "Topbar--meta",
+  "Topbar--search"
+ ]
+}

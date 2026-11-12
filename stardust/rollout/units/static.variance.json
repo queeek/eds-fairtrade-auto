@@ -1,0 +1,375 @@
+{
+  "archetype": "https://www.fairtrade.net/us-en/about.html",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "pagelead": ".PageLead",
+    "richtext": ".RichtextSection",
+    "cta": ".CTASection",
+    "singleimage": ".SingleImage",
+    "textimage": ".TextImage"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "pagelead": {
+        "sel": ".PageLead",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 567
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "About Us Fairtrade is a global movement reshaping the way th"
+      },
+      "richtext": {
+        "sel": ".RichtextSection",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 480
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "40px 48px 40px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Fairtrade Brings People Together Many of the products we enj"
+      },
+      "cta": {
+        "sel": ".CTASection",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 140
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "40px 0px 40px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Read Stories from Fairtrade Farmers and Brands"
+      },
+      "singleimage": {
+        "sel": ".SingleImage",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 788
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 48px 80px 48px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 1116,
+            "h": 628
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      },
+      "textimage": {
+        "sel": ".TextImage",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 830
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": {
+            "w": 538,
+            "h": 538
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Fairtrade is Complex, the Solution is Simple Fairtrade recog"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.fairtrade.net/us-en/contact.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "pagelead",
+          "msg": "rect{h 567 → 706}"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "richtext",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "richtext",
+          "msg": "rect{h 480 → 446}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cta",
+          "msg": "\".CTASection\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "singleimage",
+          "msg": "\".SingleImage\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textimage",
+          "msg": "2 → 3 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textimage",
+          "msg": "rect{h 830 → 698}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "pagelead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 706
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Contact Us Fairtrade America is part of the most recognized "
+          },
+          "richtext": {
+            "sel": ".RichtextSection",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 446
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "40px 48px 40px 48px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Reach out Our helpful team is typically based in Washington,"
+          },
+          "cta": {
+            "sel": ".CTASection",
+            "count": 0
+          },
+          "singleimage": {
+            "sel": ".SingleImage",
+            "count": 0
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 698
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "What is Fairtrade? Learn More"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "pagelead",
+          "msg": "rect{h 567 → 1028}; image null → [object Object]"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "richtext",
+          "msg": "\".RichtextSection\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cta",
+          "msg": "\".CTASection\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "singleimage",
+          "msg": "\".SingleImage\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textimage",
+          "msg": "2 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textimage",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textimage",
+          "msg": "rect{h 830 → 698}; backgroundColor rgba(0, 0, 0, 0) → rgb(244, 244, 244)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "pagelead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1028
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Why Fairtrade Fairtrade changes the way trade works through "
+          },
+          "richtext": {
+            "sel": ".RichtextSection",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".CTASection",
+            "count": 0
+          },
+          "singleimage": {
+            "sel": ".SingleImage",
+            "count": 0
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 698
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(244, 244, 244)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "What is Fairtrade? For more than three decades, Fairtrade ha"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "pagelead",
+      "richtext",
+      "cta",
+      "singleimage",
+      "textimage"
+    ]
+  }
+}

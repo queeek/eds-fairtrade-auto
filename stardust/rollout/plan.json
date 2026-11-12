@@ -1,0 +1,189 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-05T11:42:23.300Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-05T11:42:23.300Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+    "us-en-why-fairtrade-what-we-do-theory-of-change",
+    "ch-fr",
+    "us-en",
+    "us-en-contact",
+    "us-en-why-fairtrade",
+    "en",
+    "us-en-about",
+    "us-en-news",
+    "us-en-why-fairtrade-why-we-do-it-child-protection"
+  ],
+  "steps": [
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+      "path": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+      "path": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ch-fr",
+      "path": "/ch-fr",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en",
+      "path": "/us-en",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-contact",
+      "path": "/us-en/contact",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-why-fairtrade",
+      "path": "/us-en/why-fairtrade",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "templateId": "en",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-hero-carousel",
+          "edsBlockName": "page-hero-carousel"
+        },
+        {
+          "id": "number-fact-teaser",
+          "edsBlockName": "number-fact-teaser"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid"
+        },
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-about",
+      "path": "/us-en/about",
+      "templateId": "us-en-about",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-lead",
+          "edsBlockName": "page-lead"
+        },
+        {
+          "id": "single-image",
+          "edsBlockName": "single-image"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-news",
+      "path": "/us-en/news",
+      "templateId": "us-en-news",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "filtered-teaser-grid",
+          "edsBlockName": "filtered-teaser-grid"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "page-lead",
+          "edsBlockName": "page-lead",
+          "convertedBy": "us-en-about"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "path": "/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "templateId": "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "page-lead",
+          "edsBlockName": "page-lead",
+          "convertedBy": "us-en-about"
+        },
+        {
+          "id": "number-fact-teaser",
+          "edsBlockName": "number-fact-teaser",
+          "convertedBy": "en"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion",
+          "convertedBy": "en"
+        },
+        {
+          "id": "single-image",
+          "edsBlockName": "single-image",
+          "convertedBy": "us-en-about"
+        }
+      ]
+    }
+  ]
+}

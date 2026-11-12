@@ -1,0 +1,119 @@
+{
+  "info-teaser-card": {
+    "origin": ".TeaserGrid--item",
+    "build": ":is(.teaser-grid, .filtered-teaser-grid) .teaser-grid-item:not(.is-hidden)",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en",
+      "us-en-news"
+    ],
+    "templates": [
+      "landing",
+      "listing"
+    ]
+  },
+  "number-fact-bubble": {
+    "origin": ".NumberFactTeaser--item",
+    "build": ".number-fact-teaser .number-fact-teaser-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en",
+      "us-en-why-fairtrade-why-we-do-it-child-protection"
+    ],
+    "templates": [
+      "landing",
+      "article"
+    ]
+  },
+  "accordion-row": {
+    "origin": ".AccordionSection--item",
+    "build": ".accordion .accordion-item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "en"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "footer-link-row": {
+    "origin": ".FooterLinkList--item",
+    "build": ".footer-link-list-item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "en",
+      "us-en-news",
+      "us-en-why-fairtrade-why-we-do-it-child-protection",
+      "us-en-about"
+    ],
+    "templates": [
+      "landing",
+      "article",
+      "static"
+    ]
+  },
+  "news-listing-card": {
+    "origin": ".FilteredTeaserGrid .TeaserGrid--item",
+    "build": ".filtered-teaser-grid .teaser-grid-item:not(.is-hidden)",
+    "n": 18,
+    "required": true,
+    "pages": [
+      "us-en-news"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "article-accordion-row": {
+    "origin": ".AccordionSection--item",
+    "build": ".accordion .accordion-item",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "us-en-why-fairtrade-why-we-do-it-child-protection"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "richtext-resource-item": {
+    "origin": ".RichtextSection .Richtext ul li",
+    "build": "main .default-content-wrapper ul li",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "us-en-why-fairtrade-why-we-do-it-child-protection"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "text-image-row": {
+    "origin": ".TextImage",
+    "build": ".text-image",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "us-en-about"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "about-stat-bullet": {
+    "origin": ".RichtextSection .Richtext ul li",
+    "build": "main .default-content-wrapper ul li",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "us-en-about"
+    ],
+    "templates": [
+      "static"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+/* text-image — canon TextImage (+ themed wrapper with wave) (stardust/prototypes/canon.css) */
+.text-image.grey {
+  padding-block: 64px;
+}
+
+.text-image .text-image-panel {
+  padding-block: 64px;
+  position: relative;
+}
+
+.text-image.grey .text-image-panel {
+  background: var(--c-grey-100);
+}
+
+.text-image .text-image-grid > .text-image-inner {
+  display: grid;
+  gap: 24px;
+  grid-template-areas: "image" "content";
+  position: relative;
+}
+
+.text-image .text-image-content {
+  grid-area: content;
+}
+
+.text-image .text-image-image {
+  grid-area: image;
+}
+
+.text-image .ft-image picture {
+  inset: 0;
+  position: absolute;
+}
+
+.text-image .ft-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.text-image .text-image-title {
+  font-family: var(--font-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.text-image .text-image-title :is(h2, h3) {
+  font: inherit;
+}
+
+.text-image .text-image-text {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-top: 24px;
+}
+
+/* source renders its paragraphs pre-line with one blank line between them */
+.text-image .text-image-text p + p {
+  margin-top: 1.6em;
+}
+
+.text-image .text-image-cta {
+  margin-top: 32px;
+}
+
+/* text-less TextImage (static cluster, /us-en/contact): the source keeps an empty
+   TextImage--text div whose 24px top margin still spaces the CTA (24 + 32) */
+.text-image .text-image-title + .text-image-cta {
+  margin-top: 56px;
+}
+
+@media (width >= 768px) {
+  .text-image .text-image-grid > .text-image-inner {
+    align-items: center;
+    gap: 32px;
+    grid-template-areas: "content image";
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text-image.reverse .text-image-grid > .text-image-inner {
+    grid-template-areas: "image content";
+  }
+}
+
+@media (width >= 1024px) {
+  .text-image.grey {
+    padding-block: 80px;
+  }
+
+  .text-image .text-image-panel {
+    padding-block: 80px;
+  }
+
+  .text-image .text-image-title {
+    font-size: 48px;
+  }
+
+  .text-image .text-image-text {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1280px) {
+  .text-image .text-image-grid > .text-image-inner {
+    gap: 40px;
+    grid-column: 2 / span 10;
+  }
+}

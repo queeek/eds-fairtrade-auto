@@ -1,0 +1,52 @@
+/* us-en-about (static) — modules new to this archetype, on top of canon.css.
+   Values lifted from clientlib-site.css (.work/css/PageLead.txt, SingleImage.txt, Footer-all.txt). */
+
+/* --- PageLead (lime band) --- */
+.PageLead { --background-color: #d4ff47; --color: #1e1e1e; padding-bottom: 64px; }
+.PageLead.theme-skyblue { --background-color: #0fc0fc; }
+.PageLead.theme-nightsky { --background-color: #001b6e; --color: #fff; }
+.PageLead.theme-white { --background-color: #fff; }
+.PageLead--content { background-color: var(--background-color); }
+.PageLead--contentGrid {
+  color: var(--color); column-gap: var(--col-gap); display: grid; grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto; padding-inline: var(--page-pad); padding-bottom: 48px; padding-top: 80px;
+  place-items: center; width: min(100%, var(--page-max));
+}
+.PageLead--contentGrid > * { grid-column: 1 / -1; min-width: 0; }
+.PageLead--title { font-family: var(--font-head); font-size: 48px; font-weight: 900; line-height: 1.1; text-align: center; }
+.PageLead--lead { font-size: 20px; font-weight: 600; line-height: 1.6; margin-top: 28px; }
+@media (width >= 768px) {
+  .PageLead--contentGrid { grid-template-columns: repeat(12, 1fr); }
+  .PageLead--contentGrid > * { grid-column: 2 / -2; }
+  .PageLead--lead { text-align: center; }
+}
+@media (width >= 1024px) {
+  .PageLead { padding-bottom: 80px; }
+  .PageLead--contentGrid { padding-bottom: 64px; padding-top: 120px; }
+  .PageLead--contentGrid > * { grid-column: 3 / -3; }
+  .PageLead--title { font-size: 72px; }
+  .PageLead--lead { font-size: 24px; margin-top: 32px; }
+}
+
+/* --- SingleImage (size-content) --- */
+.SingleImage { padding-block: 64px; }
+.SingleImage.size-content {
+  column-gap: var(--col-gap); display: grid; grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto; padding-inline: var(--page-pad); width: min(100%, var(--page-max));
+}
+.SingleImage.size-content > * { grid-column: 1 / -1; min-width: 0; }
+.SingleImage--image.desktop { display: none; }
+.SingleImage--image.mobile { display: block; }
+@media (width >= 768px) {
+  .SingleImage.size-content { grid-template-columns: repeat(12, 1fr); }
+  .SingleImage--image.desktop { display: block; }
+  .SingleImage--image.mobile { display: none; }
+}
+@media (width >= 1024px) {
+  .SingleImage { padding-block: 80px; }
+  .size-content .SingleImage--figure { grid-column: 2 / -2; }
+}
+
+/* --- us-en footer: list titles are links (canon request: chrome-html title-link support) --- */
+.FooterLinkList--title:has(a) { column-gap: 4px; display: grid; grid-template-columns: auto 1fr; place-items: start; transition: color .2s ease-in-out; }
+.FooterLinkList--title:has(a):is(:hover, :focus-within) { color: hsla(0, 0%, 100%, .75); }
