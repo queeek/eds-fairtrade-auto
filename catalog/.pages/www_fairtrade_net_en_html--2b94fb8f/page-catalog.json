@@ -1,0 +1,137 @@
+{
+  "url": "https://www.fairtrade.net/en.html",
+  "title": "English",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-hero-carousel",
+      "type": "carousel",
+      "name": "page-hero-carousel",
+      "variantId": "v_c155e5e69efe",
+      "selector": null,
+      "screenshot": "blocks/b01-page-hero-carousel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 824
+      },
+      "description": "Top-of-page hero carousel on landing pages. Used on 1 page (global-home template).",
+      "visualChars": {
+        "purpose": "Page hero carousel",
+        "structure": "Page hero carousel block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-number-fact-teaser",
+      "type": "columns",
+      "name": "number-fact-teaser",
+      "variantId": "v_19cd46f9304a",
+      "selector": null,
+      "screenshot": "blocks/b02-number-fact-teaser.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 928,
+        "width": 1440,
+        "height": 1502
+      },
+      "description": "Key figures / impact statistics next to an explanatory text. Used on 2 pages (global-home and topic-article templates).",
+      "visualChars": {
+        "purpose": "Number fact teaser",
+        "structure": "Number fact teaser block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-teaser-grid",
+      "type": "cards",
+      "name": "teaser-grid",
+      "variantId": "v_07499b44ec61",
+      "selector": null,
+      "screenshot": "blocks/b03-teaser-grid.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 2563,
+        "width": 1440,
+        "height": 875
+      },
+      "description": "Related articles, news or story teasers. Used on 1 page (global-home template).",
+      "visualChars": {
+        "purpose": "Teaser grid",
+        "structure": "Teaser grid block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-text-image",
+      "type": "columns",
+      "name": "text-image",
+      "variantId": "v_ba4fbf28b1c5",
+      "selector": null,
+      "screenshot": "blocks/b04-text-image.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 3578,
+        "width": 1440,
+        "height": 946
+      },
+      "description": "Editorial text and image split sections. Used on 2 pages (global-home and about templates).",
+      "visualChars": {
+        "purpose": "Text image",
+        "structure": "Text image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-accordion",
+      "type": "accordion",
+      "name": "accordion",
+      "variantId": "v_ec555aa5d559",
+      "selector": null,
+      "screenshot": "blocks/b05-accordion.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 7497,
+        "width": 1440,
+        "height": 336
+      },
+      "description": "FAQs and expandable detail lists. Used on 2 pages (global-home and topic-article templates).",
+      "visualChars": {
+        "purpose": "Accordion",
+        "structure": "Accordion block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "en",
+    "path": "/en",
+    "templateId": "en",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/en",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/en",
+    "screenshotCapturedAt": "2026-11-12T11:01:29.711Z"
+  }
+}

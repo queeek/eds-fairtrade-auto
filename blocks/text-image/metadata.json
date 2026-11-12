@@ -1,0 +1,22 @@
+{
+  "variantName": "text-image",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Heading, text and primary pill CTA beside a square image; optional grey panel with a wave top edge; optional reversed order.",
+  "contentPattern": {
+    "structure": "h2 title, text paragraphs, bold CTA link, image"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey panel"
+    },
+    {
+      "class": "reverse",
+      "label": "Image first"
+    }
+  ],
+  "usage": "Editorial text and image split sections.",
+  "reuseGuidance": "Use for one text + image pair; combine grey and reverse as needed.",
+  "memberVariantIds": []
+}

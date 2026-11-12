@@ -1,0 +1,47 @@
+{
+  "id": "v_ee3c6b324b9b",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-12T11:01:08.152Z",
+  "sourceContext": {
+    "originUrl": "https://www.fairtrade.net/us-en/about.html",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Page lead",
+    "structure": "Page lead block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.fairtrade.net/us-en/about.html",
+        "instanceId": "b01-page-lead",
+        "instanceIds": [
+          "b01-page-lead"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_about_html--60b695b7/blocks/b01-page-lead.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/news.html",
+        "instanceId": "b01-page-lead",
+        "instanceIds": [
+          "b01-page-lead"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_news_html--d00aee76/blocks/b01-page-lead.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "instanceId": "b02-page-lead",
+        "instanceIds": [
+          "b02-page-lead"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b02-page-lead.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

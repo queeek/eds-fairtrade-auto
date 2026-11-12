@@ -1,0 +1,18 @@
+{
+  "variantName": "breadcrumbs",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Breadcrumb trail above the page lead with chevrons on desktop; below 1024px only the parent step with a back chevron.",
+  "contentPattern": {
+    "structure": "a list, one item per step, home first and current page last; linked items are links, plain items are labels"
+  },
+  "options": [
+    {
+      "class": "dark",
+      "label": "Dark (light text)"
+    }
+  ],
+  "usage": "Article pages, above the page lead.",
+  "reuseGuidance": "Use on deep pages; dark applies automatically on a nightsky page-lead page.",
+  "memberVariantIds": []
+}

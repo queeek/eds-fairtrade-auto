@@ -1,0 +1,45 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-11-12T11:01:08.152Z",
+    "totalUrls": 10,
+    "totalDocuments": 0,
+    "method": "user-provided-list",
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "Pages imported from a stardust auto-migration run; no site discovery was performed.",
+    "confidence": "100%",
+    "urls": [
+      {
+        "url": "https://www.fairtrade.net/ch-fr.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/en.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/about.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/contact.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/news.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+      }
+    ],
+    "documents": []
+  }
+}

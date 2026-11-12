@@ -1,0 +1,29 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.fairtrade.net",
+      "siteName": "www.fairtrade.net",
+      "analysisDate": "2026-11-12",
+      "rootPageTitle": "Fairtrade Max Havelaar Suisse"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "user-provided-list",
+      "totalPages": 10,
+      "localeCount": 0,
+      "locales": [],
+      "totalTemplates": 7,
+      "totalBlockTypes": 9,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 9,
+      "pagesAnalyzed": 10,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 0
+    }
+  }
+}

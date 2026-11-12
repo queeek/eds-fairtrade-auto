@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "eds-fairtrade-auto": {
+      "previewOrg": "queeek",
+      "previewSite": "eds-fairtrade-auto",
+      "contentHostUrl": "https://content.da.live/queeek/eds-fairtrade-auto/"
+    }
+  },
+  "type": "da"
+}

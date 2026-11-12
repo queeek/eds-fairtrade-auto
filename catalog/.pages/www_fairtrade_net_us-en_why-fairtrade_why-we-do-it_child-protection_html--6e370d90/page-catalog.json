@@ -1,0 +1,137 @@
+{
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+  "title": "Child Protection",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_0de49b56b328",
+      "selector": null,
+      "screenshot": "blocks/b01-breadcrumbs.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 56
+      },
+      "description": "Article pages, above the page lead. Used on 1 page (topic-article template).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-page-lead",
+      "type": "hero",
+      "name": "page-lead",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 1107
+      },
+      "description": "Page title band for static, listing and article pages. Used on 3 pages (about, news-listing and topic-article templates).",
+      "visualChars": {
+        "purpose": "Page lead",
+        "structure": "Page lead block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-number-fact-teaser",
+      "type": "columns",
+      "name": "number-fact-teaser",
+      "variantId": "v_19cd46f9304a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 1762,
+        "width": 1440,
+        "height": 1502
+      },
+      "description": "Key figures / impact statistics next to an explanatory text. Used on 2 pages (global-home and topic-article templates).",
+      "visualChars": {
+        "purpose": "Number fact teaser",
+        "structure": "Number fact teaser block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-accordion",
+      "type": "accordion",
+      "name": "accordion",
+      "variantId": "v_ec555aa5d559",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 3411,
+        "width": 1440,
+        "height": 272
+      },
+      "description": "FAQs and expandable detail lists. Used on 2 pages (global-home and topic-article templates).",
+      "visualChars": {
+        "purpose": "Accordion",
+        "structure": "Accordion block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-single-image",
+      "type": "custom",
+      "name": "single-image",
+      "variantId": "v_f11ac02870bc",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 3683,
+        "width": 1440,
+        "height": 788
+      },
+      "description": "Standalone editorial images within page content. Used on 2 pages (about and topic-article templates).",
+      "visualChars": {
+        "purpose": "Single image",
+        "structure": "Single image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-why-fairtrade-why-we-do-it-child-protection",
+    "path": "/us-en/why-fairtrade/why-we-do-it/child-protection",
+    "templateId": "us-en-why-fairtrade-why-we-do-it-child-protection",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection",
+    "screenshotCapturedAt": "2026-11-12T11:02:00.199Z"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+  "title": "Theory of Change",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-why-fairtrade-what-we-do-theory-of-change",
+    "path": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+    "templateId": "article",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change",
+    "screenshotCapturedAt": "2026-11-12T11:01:55.847Z"
+  }
+}

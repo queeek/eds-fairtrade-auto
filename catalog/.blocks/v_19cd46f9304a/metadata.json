@@ -1,0 +1,39 @@
+{
+  "id": "v_19cd46f9304a",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-12T11:01:08.152Z",
+  "sourceContext": {
+    "originUrl": "https://www.fairtrade.net/en.html",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Number fact teaser",
+    "structure": "Number fact teaser block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.fairtrade.net/en.html",
+        "instanceId": "b02-number-fact-teaser",
+        "instanceIds": [
+          "b02-number-fact-teaser"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b02-number-fact-teaser.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "instanceId": "b03-number-fact-teaser",
+        "instanceIds": [
+          "b03-number-fact-teaser"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b03-number-fact-teaser.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

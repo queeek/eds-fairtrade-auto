@@ -1,0 +1,26 @@
+{
+  "url": "https://www.fairtrade.net/us-en/contact.html",
+  "title": "Contact",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-contact",
+    "path": "/us-en/contact",
+    "templateId": "static",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/contact",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/contact",
+    "screenshotCapturedAt": "2026-11-12T11:01:37.340Z"
+  }
+}

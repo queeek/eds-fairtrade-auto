@@ -1,0 +1,30 @@
+{
+  "variantName": "number-fact-teaser",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Column of big number facts on coloured bubbles (scroll-snap slider with prev/next on mobile) beside a sticky text panel with eyebrow, heading, text and outline CTA.",
+  "contentPattern": {
+    "structure": "fact rows: a number paragraph and a fact text paragraph; one text row with bold eyebrow, h2, text and a CTA link"
+  },
+  "options": [
+    {
+      "class": "flower",
+      "label": "Flower"
+    },
+    {
+      "class": "eggplant",
+      "label": "Eggplant"
+    },
+    {
+      "class": "skyblue",
+      "label": "Sky blue"
+    },
+    {
+      "class": "leafgreen",
+      "label": "Leaf green"
+    }
+  ],
+  "usage": "Key figures / impact statistics next to an explanatory text.",
+  "reuseGuidance": "Use for 2+ headline numbers with a short explanation; bubble colour via option.",
+  "memberVariantIds": []
+}

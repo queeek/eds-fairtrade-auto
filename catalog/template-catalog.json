@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "name": "country-home",
+      "description": "Country/national organisation home pages (Switzerland FR, America).",
+      "urls": [
+        "https://www.fairtrade.net/ch-fr.html",
+        "https://www.fairtrade.net/us-en.html"
+      ]
+    },
+    {
+      "name": "global-home",
+      "description": "Global English home page with hero carousel, number facts, teasers and FAQ.",
+      "urls": [
+        "https://www.fairtrade.net/en.html"
+      ]
+    },
+    {
+      "name": "about",
+      "description": "About page with page lead, editorial image and text-image sections.",
+      "urls": [
+        "https://www.fairtrade.net/us-en/about.html"
+      ]
+    },
+    {
+      "name": "static",
+      "description": "Static content pages such as Contact and Why Fairtrade.",
+      "urls": [
+        "https://www.fairtrade.net/us-en/contact.html",
+        "https://www.fairtrade.net/us-en/why-fairtrade.html"
+      ]
+    },
+    {
+      "name": "news-listing",
+      "description": "News listing page with page lead and a teaser grid with Load more.",
+      "urls": [
+        "https://www.fairtrade.net/us-en/news.html"
+      ]
+    },
+    {
+      "name": "article",
+      "description": "Long-form article pages under Why Fairtrade.",
+      "urls": [
+        "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+        "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+      ]
+    },
+    {
+      "name": "topic-article",
+      "description": "Topic article with breadcrumbs, page lead, number facts, accordion and images.",
+      "urls": [
+        "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+      ]
+    }
+  ]
+}

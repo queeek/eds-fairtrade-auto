@@ -1,0 +1,179 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-12T11:01:08.152Z",
+    "totalBlockVariants": 9,
+    "totalBlocksProcessed": 15,
+    "newVariantsCreated": 0,
+    "variantsReused": 0,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 10,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_c155e5e69efe": {
+        "id": "v_c155e5e69efe",
+        "name": "page-hero-carousel",
+        "type": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Top-of-page hero carousel on landing pages. Used on 1 page (global-home template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b01-page-hero-carousel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "page-hero-carousel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_19cd46f9304a": {
+        "id": "v_19cd46f9304a",
+        "name": "number-fact-teaser",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Key figures / impact statistics next to an explanatory text. Used on 2 pages (global-home and topic-article templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b02-number-fact-teaser.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "number-fact-teaser",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_07499b44ec61": {
+        "id": "v_07499b44ec61",
+        "name": "teaser-grid",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Related articles, news or story teasers. Used on 1 page (global-home template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b03-teaser-grid.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "teaser-grid",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ba4fbf28b1c5": {
+        "id": "v_ba4fbf28b1c5",
+        "name": "text-image",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Editorial text and image split sections. Used on 2 pages (global-home and about templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b04-text-image.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "text-image",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ec555aa5d559": {
+        "id": "v_ec555aa5d559",
+        "name": "accordion",
+        "type": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "FAQs and expandable detail lists. Used on 2 pages (global-home and topic-article templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b05-accordion.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "accordion",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ee3c6b324b9b": {
+        "id": "v_ee3c6b324b9b",
+        "name": "page-lead",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Page title band for static, listing and article pages. Used on 3 pages (about, news-listing and topic-article templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_us-en_about_html--60b695b7/blocks/b01-page-lead.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "page-lead",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_f11ac02870bc": {
+        "id": "v_f11ac02870bc",
+        "name": "single-image",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Standalone editorial images within page content. Used on 2 pages (about and topic-article templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_us-en_about_html--60b695b7/blocks/b02-single-image.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "single-image",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_7b81c3ec50ef": {
+        "id": "v_7b81c3ec50ef",
+        "name": "filtered-teaser-grid",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "News and article listing pages. Used on 1 page (news-listing template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_us-en_news_html--d00aee76/blocks/b02-filtered-teaser-grid.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "filtered-teaser-grid",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_0de49b56b328": {
+        "id": "v_0de49b56b328",
+        "name": "breadcrumbs",
+        "type": "breadcrumbs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Article pages, above the page lead. Used on 1 page (topic-article template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b01-breadcrumbs.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "breadcrumbs",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      }
+    }
+  }
+}

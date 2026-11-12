@@ -1,0 +1,93 @@
+{
+  "url": "https://www.fairtrade.net/us-en/about.html",
+  "title": "About",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-lead",
+      "type": "hero",
+      "name": "page-lead",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": null,
+      "screenshot": "blocks/b01-page-lead.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 567
+      },
+      "description": "Page title band for static, listing and article pages. Used on 3 pages (about, news-listing and topic-article templates).",
+      "visualChars": {
+        "purpose": "Page lead",
+        "structure": "Page lead block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-single-image",
+      "type": "custom",
+      "name": "single-image",
+      "variantId": "v_f11ac02870bc",
+      "selector": null,
+      "screenshot": "blocks/b02-single-image.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 1291,
+        "width": 1440,
+        "height": 788
+      },
+      "description": "Standalone editorial images within page content. Used on 2 pages (about and topic-article templates).",
+      "visualChars": {
+        "purpose": "Single image",
+        "structure": "Single image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-text-image",
+      "type": "columns",
+      "name": "text-image",
+      "variantId": "v_ba4fbf28b1c5",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 2079,
+        "width": 1440,
+        "height": 830
+      },
+      "description": "Editorial text and image split sections. Used on 2 pages (global-home and about templates).",
+      "visualChars": {
+        "purpose": "Text image",
+        "structure": "Text image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-about",
+    "path": "/us-en/about",
+    "templateId": "us-en-about",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/about",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/about",
+    "screenshotCapturedAt": "2026-11-12T11:01:34.008Z"
+  }
+}

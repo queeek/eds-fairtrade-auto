@@ -1,0 +1,26 @@
+{
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+  "title": "Assuring integrity in checking compliance",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance",
+    "path": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+    "templateId": "article",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+    "screenshotCapturedAt": "2026-11-12T11:01:49.155Z"
+  }
+}

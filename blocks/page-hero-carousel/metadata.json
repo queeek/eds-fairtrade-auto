@@ -1,0 +1,22 @@
+{
+  "variantName": "page-hero-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Full-bleed themed hero (leafgreen by default) with a sliding track of slides, prev/next controls shown on hover on desktop and pagination bullets.",
+  "contentPattern": {
+    "structure": "mobile image (square), optional desktop image (wide), then heading (h1 on the first slide, h2 after), text and a CTA link"
+  },
+  "options": [
+    {
+      "class": "skyblue",
+      "label": "Sky blue"
+    },
+    {
+      "class": "nightsky",
+      "label": "Night sky"
+    }
+  ],
+  "usage": "Top-of-page hero carousel on landing pages.",
+  "reuseGuidance": "Use for a landing-page hero with one or more slides; for a single title band use page-lead.",
+  "memberVariantIds": []
+}

@@ -1,0 +1,26 @@
+{
+  "url": "https://www.fairtrade.net/us-en.html",
+  "title": "Fairtrade America - the Future is Fair",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [],
+  "replicaAdapter": {
+    "stardustSlug": "us-en",
+    "path": "/us-en",
+    "templateId": "landing",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en",
+    "screenshotCapturedAt": "2026-11-12T11:01:40.833Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v_ba4fbf28b1c5",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-12T11:01:08.152Z",
+  "sourceContext": {
+    "originUrl": "https://www.fairtrade.net/en.html",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Text image",
+    "structure": "Text image block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.fairtrade.net/en.html",
+        "instanceId": "b04-text-image",
+        "instanceIds": [
+          "b04-text-image"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b04-text-image.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/about.html",
+        "instanceId": "b03-text-image",
+        "instanceIds": [
+          "b03-text-image"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_about_html--60b695b7/blocks/b03-text-image.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

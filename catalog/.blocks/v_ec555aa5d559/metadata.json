@@ -1,0 +1,39 @@
+{
+  "id": "v_ec555aa5d559",
+  "type": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-12T11:01:08.152Z",
+  "sourceContext": {
+    "originUrl": "https://www.fairtrade.net/en.html",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Accordion",
+    "structure": "Accordion block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.fairtrade.net/en.html",
+        "instanceId": "b05-accordion",
+        "instanceIds": [
+          "b05-accordion"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_en_html--2b94fb8f/blocks/b05-accordion.jpg"
+      },
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "instanceId": "b04-accordion",
+        "instanceIds": [
+          "b04-accordion"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b04-accordion.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

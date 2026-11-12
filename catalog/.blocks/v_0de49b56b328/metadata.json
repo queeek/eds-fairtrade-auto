@@ -1,0 +1,31 @@
+{
+  "id": "v_0de49b56b328",
+  "type": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-12T11:01:08.152Z",
+  "sourceContext": {
+    "originUrl": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Breadcrumbs",
+    "structure": "Breadcrumbs block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "instanceId": "b01-breadcrumbs",
+        "instanceIds": [
+          "b01-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b01-breadcrumbs.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

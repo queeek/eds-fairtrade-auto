@@ -1,0 +1,18 @@
+{
+  "variantName": "filtered-teaser-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "News listing grid of linked teaser cards; first 18 shown, a Load more button reveals 6 more per click.",
+  "contentPattern": {
+    "structure": "image, optional date tag paragraph, h3 with bold pretitle and title, text paragraph, link paragraph; optional last text-only row is the Load more label"
+  },
+  "options": [
+    {
+      "class": "small",
+      "label": "Small (3-up)"
+    }
+  ],
+  "usage": "News and article listing pages.",
+  "reuseGuidance": "Use for long teaser lists that need Load more; for a few cards use teaser-grid.",
+  "memberVariantIds": []
+}

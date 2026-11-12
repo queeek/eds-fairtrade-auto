@@ -1,0 +1,18 @@
+{
+  "variantName": "teaser-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Grid of linked teaser cards: image with date tag, pretitle + title heading, clamped text and a tertiary read-more label.",
+  "contentPattern": {
+    "structure": "image, optional date tag paragraph, h3 with bold pretitle and title, text paragraph, link paragraph (card link)"
+  },
+  "options": [
+    {
+      "class": "small",
+      "label": "Small (3-up)"
+    }
+  ],
+  "usage": "Related articles, news or story teasers.",
+  "reuseGuidance": "Use for a static set of linked cards; for a long news list with Load more use filtered-teaser-grid.",
+  "memberVariantIds": []
+}

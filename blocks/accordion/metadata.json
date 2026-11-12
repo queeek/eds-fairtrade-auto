@@ -1,0 +1,13 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "List of collapsible items with question headers and round chevron buttons; answers with text and tertiary links, height-animated.",
+  "contentPattern": {
+    "structure": "question (h3) in the first cell, answer paragraphs and links in the second"
+  },
+  "options": [],
+  "usage": "FAQs and expandable detail lists.",
+  "reuseGuidance": "Section title goes as default content before the block.",
+  "memberVariantIds": []
+}

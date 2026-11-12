@@ -1,0 +1,31 @@
+{
+  "id": "v_7b81c3ec50ef",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-12T11:01:08.152Z",
+  "sourceContext": {
+    "originUrl": "https://www.fairtrade.net/us-en/news.html",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "dense",
+    "imagePattern": "multiple",
+    "purpose": "Filtered teaser grid",
+    "structure": "18 repeated items and 18 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.fairtrade.net/us-en/news.html",
+        "instanceId": "b02-filtered-teaser-grid",
+        "instanceIds": [
+          "b02-filtered-teaser-grid"
+        ],
+        "screenshot": ".pages/www_fairtrade_net_us-en_news_html--d00aee76/blocks/b02-filtered-teaser-grid.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

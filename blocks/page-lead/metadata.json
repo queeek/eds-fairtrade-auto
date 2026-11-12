@@ -1,0 +1,30 @@
+{
+  "variantName": "page-lead",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Coloured band (leafgreen by default) with the page h1 and a lead paragraph centred in the page grid, optional CTA and optional lead image below on a band-to-white gradient.",
+  "contentPattern": {
+    "structure": "optional short eyebrow paragraph, h1 title, lead paragraphs, optional bold CTA link, optional desktop and mobile pictures"
+  },
+  "options": [
+    {
+      "class": "skyblue",
+      "label": "Sky blue"
+    },
+    {
+      "class": "nightsky",
+      "label": "Night sky"
+    },
+    {
+      "class": "white",
+      "label": "White"
+    },
+    {
+      "class": "no-gap",
+      "label": "No bottom gap"
+    }
+  ],
+  "usage": "Page title band for static, listing and article pages.",
+  "reuseGuidance": "Use at the top of non-landing pages; for a slide hero use page-hero-carousel.",
+  "memberVariantIds": []
+}

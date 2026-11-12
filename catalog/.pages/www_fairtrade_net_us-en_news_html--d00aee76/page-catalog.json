@@ -1,0 +1,71 @@
+{
+  "url": "https://www.fairtrade.net/us-en/news.html",
+  "title": "News",
+  "timestamp": "2026-11-12T11:01:08.152Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-lead",
+      "type": "hero",
+      "name": "page-lead",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 452
+      },
+      "description": "Page title band for static, listing and article pages. Used on 3 pages (about, news-listing and topic-article templates).",
+      "visualChars": {
+        "purpose": "Page lead",
+        "structure": "Page lead block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-filtered-teaser-grid",
+      "type": "cards",
+      "name": "filtered-teaser-grid",
+      "variantId": "v_7b81c3ec50ef",
+      "selector": null,
+      "screenshot": "blocks/b02-filtered-teaser-grid.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 556,
+        "width": 1440,
+        "height": 4003
+      },
+      "description": "News and article listing pages. Used on 1 page (news-listing template).",
+      "visualChars": {
+        "purpose": "Filtered teaser grid",
+        "structure": "18 repeated items and 18 images",
+        "density": "dense",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-news",
+    "path": "/us-en/news",
+    "templateId": "us-en-news",
+    "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/news",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/news",
+    "screenshotCapturedAt": "2026-11-12T11:01:45.659Z"
+  }
+}

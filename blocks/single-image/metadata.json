@@ -1,0 +1,22 @@
+{
+  "variantName": "single-image",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "One editorial image in a figure with optional mobile crop and optional caption, content width by default.",
+  "contentPattern": {
+    "structure": "desktop picture (16:9), optional mobile picture (4:3), optional caption paragraph"
+  },
+  "options": [
+    {
+      "class": "thumbnail",
+      "label": "Thumbnail"
+    },
+    {
+      "class": "full-bleed",
+      "label": "Full bleed"
+    }
+  ],
+  "usage": "Standalone editorial images within page content.",
+  "reuseGuidance": "Use for a single image with caption; for image beside text use text-image.",
+  "memberVariantIds": []
+}
