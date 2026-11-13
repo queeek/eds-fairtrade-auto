@@ -1,9 +1,10 @@
 {
   "analysis-urls-checklist": {
     "captured": "2026-11-12T13:49:19.144Z",
-    "totalPages": 12,
+    "totalPages": 13,
     "statusBreakdown": {
-      "analyzed": 12
+      "analyzed": 12,
+      "failed": 1
     },
     "pages": {
       "https://www.fairtrade.net/ch-fr.html": {
@@ -12,7 +13,8 @@
         "slug": "www_fairtrade_net_ch-fr_html--d5faee46",
         "title": "Fairtrade Max Havelaar Suisse",
         "blockCount": 0,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 0
       },
       "https://www.fairtrade.net/en.html": {
         "url": "https://www.fairtrade.net/en.html",
@@ -20,7 +22,8 @@
         "slug": "www_fairtrade_net_en_html--2b94fb8f",
         "title": "English",
         "blockCount": 5,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 5
       },
       "https://www.fairtrade.net/us-en/about.html": {
         "url": "https://www.fairtrade.net/us-en/about.html",
@@ -28,7 +31,8 @@
         "slug": "www_fairtrade_net_us-en_about_html--60b695b7",
         "title": "About",
         "blockCount": 3,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 3
       },
       "https://www.fairtrade.net/us-en/contact.html": {
         "url": "https://www.fairtrade.net/us-en/contact.html",
@@ -36,7 +40,8 @@
         "slug": "www_fairtrade_net_us-en_contact_html--c0deb13c",
         "title": "Contact",
         "blockCount": 0,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 0
       },
       "https://www.fairtrade.net/us-en.html": {
         "url": "https://www.fairtrade.net/us-en.html",
@@ -44,7 +49,8 @@
         "slug": "www_fairtrade_net_us-en_html--9000a891",
         "title": "Fairtrade America - the Future is Fair",
         "blockCount": 0,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 0
       },
       "https://www.fairtrade.net/us-en/news.html": {
         "url": "https://www.fairtrade.net/us-en/news.html",
@@ -52,7 +58,8 @@
         "slug": "www_fairtrade_net_us-en_news_html--d00aee76",
         "title": "News",
         "blockCount": 2,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 2
       },
       "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html": {
         "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
@@ -60,7 +67,8 @@
         "slug": "www_fairtrade_net_us-en_why-fairtrade_how-we-do-it_assuring-integrity-in-checking-compliance_html--6016dfd2",
         "title": "Assuring integrity in checking compliance",
         "blockCount": 0,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 0
       },
       "https://www.fairtrade.net/us-en/why-fairtrade.html": {
         "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
@@ -68,7 +76,8 @@
         "slug": "www_fairtrade_net_us-en_why-fairtrade_html--b72b18fe",
         "title": "Why Fairtrade",
         "blockCount": 0,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 0
       },
       "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html": {
         "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
@@ -76,7 +85,8 @@
         "slug": "www_fairtrade_net_us-en_why-fairtrade_what-we-do_theory-of-change_html--6a8b287a",
         "title": "Theory of Change",
         "blockCount": 0,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 0
       },
       "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html": {
         "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
@@ -84,7 +94,8 @@
         "slug": "www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90",
         "title": "Child Protection",
         "blockCount": 5,
-        "analyzedAt": "2026-11-12T13:49:37.027Z"
+        "analyzedAt": "2026-11-12T13:49:37.027Z",
+        "componentBlockCount": 5
       },
       "https://www.fairtrade.net/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry.html": {
         "url": "https://www.fairtrade.net/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry.html",
@@ -92,7 +103,8 @@
         "analyzedAt": "2026-11-12T13:49:28.308Z",
         "slug": "www_fairtrade_net_en_get-involved_news_from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry_html--1a850576",
         "title": "From Casual Worker to Supervisor: Jacqueline Chepsergon’s 25-year journey in Kenya’s flower Industry",
-        "blockCount": 2
+        "blockCount": 2,
+        "componentBlockCount": 2
       },
       "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers.html": {
         "url": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers.html",
@@ -100,7 +112,14 @@
         "analyzedAt": "2026-11-12T13:49:29.332Z",
         "slug": "www_fairtrade_net_en_get-involved_Press-centre_fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers_html--04c94c56",
         "title": "Fairtrade raises Minimum Price for bananas amid soaring costs for farmers",
-        "blockCount": 2
+        "blockCount": 2,
+        "componentBlockCount": 2
+      },
+      "https://www.fairtrade.net/en/get-involved/news/coffee-is-like-raising-a-child-how-mrs-rizkani-nurtures-her-crops-and-her-community.html": {
+        "url": "https://www.fairtrade.net/en/get-involved/news/coffee-is-like-raising-a-child-how-mrs-rizkani-nurtures-her-crops-and-her-community.html",
+        "status": "failed",
+        "slug": null,
+        "error": "not analyzed"
       }
     }
   }

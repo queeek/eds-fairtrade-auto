@@ -1,7 +1,7 @@
 {
   "analysis-urls-all": {
     "captured": "2026-11-12T11:01:08.152Z",
-    "totalUrls": 12,
+    "totalUrls": 13,
     "totalDocuments": 0,
     "method": "user-provided-list",
     "robotsTxtFound": false,
@@ -44,6 +44,9 @@
       },
       {
         "url": "https://www.fairtrade.net/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/en/get-involved/news/coffee-is-like-raising-a-child-how-mrs-rizkani-nurtures-her-crops-and-her-community.html"
       }
     ],
     "documents": []

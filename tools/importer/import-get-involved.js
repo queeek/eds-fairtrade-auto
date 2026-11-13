@@ -152,7 +152,12 @@ export default {
     executeTransformers("afterTransform", main, payload);
 
     main.appendChild(document.createElement("hr"));
-    WebImporter.rules.createMetadata(main, document);
+    // Page metadata, plus Tags from the source keywords (the article label, e.g. "Fairtrade news"
+    // or "Press releases"), which teaser-grid shows above the title on linked cards.
+    const meta = WebImporter.Blocks.getMetadata(document);
+    const keywords = document.head?.querySelector('meta[name="keywords"]')?.content?.trim();
+    if (keywords) meta.Tags = keywords;
+    if (Object.keys(meta).length) main.append(WebImporter.Blocks.getMetadataBlock(document, meta));
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
 

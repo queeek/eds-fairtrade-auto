@@ -9,7 +9,7 @@
     "layoutKeyThreshold": 0.85,
     "completionStatus": {
       "analyzed": 12,
-      "failed": 0
+      "failed": 1
     },
     "blockVariants": {
       "v_c155e5e69efe": {
@@ -147,9 +147,7 @@
         "canonicalModel": "standalone",
         "pagesFound": 1,
         "description": "News and article listing pages. Used on 1 page (news-listing template).",
-        "screenshots": [
-          ".pages/www_fairtrade_net_us-en_news_html--d00aee76/blocks/b02-filtered-teaser-grid.jpg"
-        ],
+        "screenshots": [],
         "source": {
           "producer": "excat-replica-adapter",
           "stardustBlockId": "filtered-teaser-grid",

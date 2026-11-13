@@ -42,13 +42,8 @@
       "name": "filtered-teaser-grid",
       "variantId": "v_7b81c3ec50ef",
       "selector": null,
-      "screenshot": "blocks/b02-filtered-teaser-grid.jpg",
-      "bounds": {
-        "x": 0,
-        "y": 556,
-        "width": 1440,
-        "height": 4003
-      },
+      "screenshot": null,
+      "bounds": null,
       "description": "News and article listing pages. Used on 1 page (news-listing template).",
       "visualChars": {
         "purpose": "Filtered teaser grid",
@@ -65,7 +60,7 @@
     "templateId": "us-en-news",
     "liveUrl": "https://main--a1eef8ec--aemcoder.aem.live/us-en/news",
     "fullPageScreenshot": "full-page.jpg",
-    "screenshotSource": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/news",
-    "screenshotCapturedAt": "2026-11-12T14:01:51.529Z"
+    "screenshotSource": "https://migrate-get-involved-articles--eds-fairtrade-auto--queeek.aem.page/us-en/news",
+    "screenshotCapturedAt": "2026-11-13T13:01:36.122Z"
   }
 }
