@@ -1,0 +1,14 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-11-12T17:25:18.779Z",
+  "visualCharacteristics": {
+    "purpose": "page hero",
+    "imagePattern": "background image"
+  },
+  "contentPattern": {
+    "structure": "single cell: picture, h1, text",
+    "imageCount": 1
+  }
+}
