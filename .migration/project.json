@@ -3,7 +3,8 @@
     "eds-fairtrade-auto": {
       "previewOrg": "queeek",
       "previewSite": "eds-fairtrade-auto",
-      "contentHostUrl": "https://content.da.live/queeek/eds-fairtrade-auto/"
+      "contentHostUrl": "https://content.da.live/queeek/eds-fairtrade-auto/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
     }
   },
   "type": "da"

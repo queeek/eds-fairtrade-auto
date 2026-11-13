@@ -20,7 +20,7 @@
       "name": "page-lead",
       "variantId": "v_ee3c6b324b9b",
       "selector": null,
-      "screenshot": "blocks/b01-page-lead.jpg",
+      "screenshot": null,
       "bounds": {
         "x": 0,
         "y": 104,
@@ -87,7 +87,7 @@
     "templateId": "us-en-about",
     "liveUrl": "https://main--a1eef8ec--aemcoder.aem.page/us-en/about",
     "fullPageScreenshot": "full-page.jpg",
-    "screenshotSource": "https://aem-20261112--eds-fairtrade-auto--queeek.aem.page/us-en/about",
-    "screenshotCapturedAt": "2026-11-12T11:01:34.008Z"
+    "screenshotSource": "https://main--eds-fairtrade-auto--queeek.aem.page/us-en/about",
+    "screenshotCapturedAt": "2026-11-12T14:01:39.671Z"
   }
 }

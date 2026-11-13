@@ -24,7 +24,14 @@
       "label": "No bottom gap"
     }
   ],
-  "usage": "Page title band for static, listing and article pages.",
+  "usage": {
+    "description": "Page title band for static, listing and article pages.",
+    "pagesUsing": [
+      "/en/get-involved/press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-12"
+  },
   "reuseGuidance": "Use at the top of non-landing pages; for a slide hero use page-hero-carousel.",
   "memberVariantIds": []
 }

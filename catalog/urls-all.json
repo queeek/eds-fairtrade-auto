@@ -1,7 +1,7 @@
 {
   "analysis-urls-all": {
     "captured": "2026-11-12T11:01:08.152Z",
-    "totalUrls": 10,
+    "totalUrls": 12,
     "totalDocuments": 0,
     "method": "user-provided-list",
     "robotsTxtFound": false,
@@ -38,6 +38,12 @@
       },
       {
         "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers.html"
+      },
+      {
+        "url": "https://www.fairtrade.net/en/get-involved/news/from-casual-worker-to-supervisor-jacqueline-chepsergon-25-year-journey-in-kenya-flower-industry.html"
       }
     ],
     "documents": []

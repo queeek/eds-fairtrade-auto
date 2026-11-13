@@ -3,12 +3,12 @@
     "schemaVersion": 2,
     "captured": "2026-11-12T11:01:08.152Z",
     "totalBlockVariants": 9,
-    "totalBlocksProcessed": 15,
+    "totalBlocksProcessed": 19,
     "newVariantsCreated": 0,
     "variantsReused": 0,
     "layoutKeyThreshold": 0.85,
     "completionStatus": {
-      "analyzed": 10,
+      "analyzed": 12,
       "failed": 0
     },
     "blockVariants": {
@@ -107,10 +107,10 @@
         "name": "page-lead",
         "type": "hero",
         "canonicalModel": "standalone",
-        "pagesFound": 3,
+        "pagesFound": 5,
         "description": "Page title band for static, listing and article pages. Used on 3 pages (about, news-listing and topic-article templates).",
         "screenshots": [
-          ".pages/www_fairtrade_net_us-en_about_html--60b695b7/blocks/b01-page-lead.jpg"
+          ".pages/www_fairtrade_net_en_get-involved_Press-centre_fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers_html--04c94c56/blocks/b02-page-lead.jpg"
         ],
         "source": {
           "producer": "excat-replica-adapter",
@@ -164,10 +164,10 @@
         "name": "breadcrumbs",
         "type": "breadcrumbs",
         "canonicalModel": "standalone",
-        "pagesFound": 1,
+        "pagesFound": 3,
         "description": "Article pages, above the page lead. Used on 1 page (topic-article template).",
         "screenshots": [
-          ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_child-protection_html--6e370d90/blocks/b01-breadcrumbs.jpg"
+          ".pages/www_fairtrade_net_en_get-involved_Press-centre_fairtrade-raises-minimum-price-for-bananas-amid-soaring-costs-for-farmers_html--04c94c56/blocks/b01-breadcrumbs.jpg"
         ],
         "source": {
           "producer": "excat-replica-adapter",

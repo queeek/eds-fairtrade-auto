@@ -9,3 +9,4 @@ sync-block-collection.sh
 stardust/
 content/
 catalog/
+tools/importer/
