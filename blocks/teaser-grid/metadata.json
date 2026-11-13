@@ -17,7 +17,7 @@
     }
   ],
   "usage": "Related articles, news or story teasers.",
-  "reuseGuidance": "Use for a static set of linked cards; for a long news list with Load more use filtered-teaser-grid.",
+  "reuseGuidance": "Use for a static set of linked cards; for a long news list with Load more use the listing option (teaser-grid listing).",
   "memberVariantIds": [
     "v_07499b44ec61",
     "v_7b81c3ec50ef"
