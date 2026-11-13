@@ -9,6 +9,12 @@
  *   <h3><strong>pretitle</strong> title</h3> · <p> text · <p><a href>label</a></p> (card link)
  * The flattened single-cell shape is segmented on the card heading (#52).
  *
+ * Linked cards: a row holding only a link (<p><a href="/path">Read more</a></p>, no picture or
+ * heading) is filled from the linked page on this site: the page-lead image (4:3 crop when
+ * there are two) and date (first tag), the page-lead h1 as title, the page's Tags metadata as
+ * pretitle and its first body paragraph as text. The authored link stays the card link and
+ * label. Links to other sites, and pages that fail to load, keep the plain link card.
+ *
  * listing option (news/article listing pages, ported from filtered-teaser-grid): the first
  * 18 cards show, "Load more" reveals the next 6 authored rows per click (inside a root view
  * transition when supported) and hides itself when none are left. Optional last row without
@@ -16,6 +22,8 @@
  *
  * @variants block: small (3-up ≥1024) | listing (Load more) | (default 2/3-up)
  */
+
+import { createOptimizedPicture } from '../../scripts/aem.js';
 
 const LISTING_INITIAL = 18;
 const LISTING_PAGE = 6;
@@ -150,6 +158,79 @@ function buildCard(nodes) {
   return li;
 }
 
+/* linked cards: read the teaser fields from a fetched page of this site */
+function readTeaser(doc, pageUrl) {
+  const meta = (sel) => doc.head.querySelector(sel)?.getAttribute('content')?.trim() || '';
+  const lead = doc.querySelector('main .page-lead');
+  const pics = lead ? [...lead.querySelectorAll('picture')] : [];
+  const img = (pics[1] || pics[0])?.querySelector('img');
+  const bodyText = [...doc.querySelectorAll('main > div > p')]
+    .find((p) => p.textContent.trim() && !p.querySelector('picture, img') && !isLinkOnly(p));
+  const src = img?.getAttribute('src') || meta('meta[property="og:image"]');
+  return {
+    title: lead?.querySelector('h1')?.textContent.trim() || meta('meta[property="og:title"]'),
+    date: lead?.querySelector('li')?.textContent.trim() || '',
+    label: meta('meta[property="article:tag"]') || meta('meta[name="tags"]'),
+    text: bodyText?.textContent.trim() || meta('meta[name="description"]'),
+    image: src ? new URL(src, pageUrl) : null,
+    alt: img?.getAttribute('alt') || meta('meta[property="og:image:alt"]'),
+  };
+}
+
+function teaserPicture(url, alt) {
+  // createOptimizedPicture only for same-origin, non-SVG images
+  if (url.origin === window.location.origin && !url.pathname.endsWith('.svg')) {
+    return createOptimizedPicture(url.pathname, alt, false, [{ width: '750' }]);
+  }
+  const pic = el('picture');
+  pic.append(el('img', '', { src: url.href, alt, loading: 'lazy' }));
+  return pic;
+}
+
+/* linked cards: replace a link-only row with the linked page's teaser (authored link kept) */
+async function expandLinkedRow(row) {
+  const nodes = [...row.children].flatMap(cellNodes);
+  if (nodes.length !== 1 || !isLinkOnly(nodes[0]) || isMedia(nodes[0])) return;
+  const link = nodes[0].matches('a') ? nodes[0] : nodes[0].querySelector('a');
+  const pageUrl = new URL(link.getAttribute('href'), window.location.href);
+  if (pageUrl.origin !== window.location.origin) return;
+
+  let doc;
+  try {
+    const resp = await fetch(pageUrl.pathname);
+    if (!resp.ok) return;
+    doc = new DOMParser().parseFromString(await resp.text(), 'text/html');
+  } catch (e) {
+    return;
+  }
+  const t = readTeaser(doc, pageUrl);
+  if (!t.title) return;
+
+  const filled = [];
+  if (t.image) filled.push(teaserPicture(t.image, t.alt));
+  if (t.date) {
+    const date = el('p');
+    date.textContent = t.date;
+    filled.push(date);
+  }
+  const h3 = el('h3');
+  if (t.label) {
+    const strong = el('strong');
+    strong.textContent = t.label;
+    h3.append(strong, ' ');
+  }
+  h3.append(t.title);
+  filled.push(h3);
+  if (t.text) {
+    const p = el('p');
+    p.textContent = t.text;
+    filled.push(p);
+  }
+  const cell = el('div');
+  cell.append(...filled, nodes[0]);
+  row.replaceChildren(cell);
+}
+
 /* listing: the trailing label row — no heading, no media, no link; its text is the button label */
 function takeLabelRow(rows) {
   const last = rows[rows.length - 1];
@@ -202,6 +283,7 @@ export default async function decorate(block) {
   const listing = block.classList.contains('listing');
   const rows = [...block.children];
   const labelRow = listing ? takeLabelRow(rows) : null;
+  await Promise.all(rows.map(expandLinkedRow));
   const cards = collectCards(rows);
   const wrap = el('div', 'teaser-grid-inner');
   const list = el('ul', 'teaser-grid-grid');
