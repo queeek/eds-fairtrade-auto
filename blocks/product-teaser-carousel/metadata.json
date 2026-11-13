@@ -1,0 +1,22 @@
+{
+  "variantName": "product-teaser-carousel",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-11-12T17:25:18.779Z",
+  "visualCharacteristics": {
+    "purpose": "scrolling carousel of product teaser cards",
+    "colorScheme": "skyblue panel on white"
+  },
+  "contentPattern": {
+    "structure": "heading row (subtitle p + h2), product rows (picture, merchant p, title p, link p), CTA row (em link)",
+    "imageCount": 1,
+    "buttonCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "ch-fr"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-12T17:25:18.779Z"
+  }
+}

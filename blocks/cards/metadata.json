@@ -1,0 +1,21 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-11-12T17:25:18.779Z",
+  "visualCharacteristics": {
+    "purpose": "card grid",
+    "imagePattern": "image-top"
+  },
+  "contentPattern": {
+    "structure": "repeating rows: image cell + text cell (heading, text, link)",
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-12T17:25:18.779Z"
+  }
+}

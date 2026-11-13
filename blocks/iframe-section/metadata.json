@@ -1,0 +1,21 @@
+{
+  "variantName": "iframe-section",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-11-12T17:25:18.779Z",
+  "visualCharacteristics": {
+    "purpose": "embedded external page in a bordered 16:9 frame",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "single cell: a link (href = embedded page URL, text = iframe title)",
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      "us-en/why-fairtrade/what-we-do/theory-of-change"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-12T17:25:18.779Z"
+  }
+}

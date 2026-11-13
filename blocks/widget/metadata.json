@@ -1,0 +1,12 @@
+{
+  "variantName": "widget",
+  "baseBlock": "widget",
+  "version": "1.0.0",
+  "created": "2026-11-12T17:25:18.779Z",
+  "visualCharacteristics": {
+    "purpose": "load a scripted widget from the widgets folder"
+  },
+  "contentPattern": {
+    "structure": "single cell: a link to a widget html file under widgets"
+  }
+}
